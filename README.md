@@ -17,10 +17,11 @@ The repository contains three workflow files, each optimized for different GPU V
  2. **"simple_zimage-GGUFSMALL.json"**  : For GPUs with less than 8GB VRAM.
  3. **"simple_zimage-SAFETENSORS.json"**: Based directly on the ComfyUI example.
 
-## Workflow Files and Checkpoints
+## Required Checkpoints Files
 > [!NOTE]
-> All workflows requires the custom "rgthree" nodes. \
-> The GGUF workflows also require the additional custom "ComfyUI-GGUF" nodes.
+> All workflows require the custom "rgthree" nodes. \
+> The GGUF workflows also need the additional custom "ComfyUI-GGUF" nodes. \
+> (See below for more details)
 
 ### "simple_zimage-GGUF.json"
 Works smoothly with 12GB of VRAM or less, it may handle around 8GB as well. \
@@ -55,6 +56,12 @@ Checkpoints used:
   - __[ae.safetensors](https://huggingface.co/Comfy-Org/z_image_turbo/blob/main/split_files/vae/ae.safetensors)__ <sub>(335 MB)</sub>\
     Local Directory: __`ComfyUI/models/vae/`__
 
+## Required Custom Nodes
+The workflows require the following custom nodes: \
+(which can be installed via [ComfyUI-Manager](https://github.com/Comfy-Org/ComfyUI-Manager) or downloaded from their respective repositories)
+
+ - **rgthree** : __https://github.com/rgthree/rgthree-comfy__
+ - **ComfyUI-GGUF**: __https://github.com/city96/ComfyUI-GGUF__
 
 ## License
 
