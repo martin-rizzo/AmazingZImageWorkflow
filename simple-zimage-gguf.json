@@ -16,7 +16,8 @@
         200
       ],
       "flags": {
-        "collapsed": true
+        "collapsed": true,
+        "pinned": true
       },
       "order": 0,
       "mode": 0,
@@ -57,7 +58,8 @@
         106
       ],
       "flags": {
-        "collapsed": true
+        "collapsed": true,
+        "pinned": true
       },
       "order": 1,
       "mode": 0,
@@ -93,7 +95,9 @@
         304.748046875,
         334
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 38,
       "mode": 0,
       "inputs": [
@@ -171,7 +175,8 @@
         90
       ],
       "flags": {
-        "collapsed": true
+        "collapsed": true,
+        "pinned": true
       },
       "order": 29,
       "mode": 0,
@@ -221,7 +226,9 @@
         450,
         180
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 2,
       "mode": 0,
       "inputs": [],
@@ -256,7 +263,9 @@
         450,
         180
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 3,
       "mode": 2,
       "inputs": [],
@@ -291,7 +300,9 @@
         450,
         180
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 4,
       "mode": 2,
       "inputs": [],
@@ -326,7 +337,9 @@
         450,
         180
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 5,
       "mode": 2,
       "inputs": [],
@@ -361,7 +374,9 @@
         450,
         180
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 6,
       "mode": 2,
       "inputs": [],
@@ -396,7 +411,9 @@
         450,
         180
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 7,
       "mode": 2,
       "inputs": [],
@@ -430,7 +447,9 @@
         450,
         180
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 8,
       "mode": 2,
       "inputs": [],
@@ -465,7 +484,9 @@
         450,
         180
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 9,
       "mode": 2,
       "inputs": [],
@@ -500,7 +521,9 @@
         250,
         580
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 43,
       "mode": 0,
       "inputs": [
@@ -580,7 +603,9 @@
         220,
         50
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 44,
       "mode": 0,
       "inputs": [
@@ -623,7 +648,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 30,
       "mode": 0,
       "inputs": [
@@ -658,7 +685,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 32,
       "mode": 0,
       "inputs": [
@@ -693,7 +722,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 42,
       "mode": 0,
       "inputs": [
@@ -728,7 +759,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 39,
       "mode": 0,
       "inputs": [
@@ -763,7 +796,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 34,
       "mode": 0,
       "inputs": [
@@ -798,7 +833,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 37,
       "mode": 0,
       "inputs": [
@@ -833,7 +870,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 33,
       "mode": 0,
       "inputs": [
@@ -868,7 +907,9 @@
         250,
         130
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 10,
       "mode": 0,
       "inputs": [],
@@ -908,7 +949,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 20,
       "mode": 0,
       "inputs": [
@@ -944,7 +987,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 24,
       "mode": 0,
       "inputs": [
@@ -980,7 +1025,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 25,
       "mode": 0,
       "inputs": [
@@ -1016,7 +1063,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 26,
       "mode": 0,
       "inputs": [
@@ -1052,7 +1101,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 27,
       "mode": 0,
       "inputs": [
@@ -1088,7 +1139,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 21,
       "mode": 0,
       "inputs": [
@@ -1124,7 +1177,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 22,
       "mode": 0,
       "inputs": [
@@ -1160,7 +1215,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 23,
       "mode": 0,
       "inputs": [
@@ -1196,7 +1253,9 @@
         340,
         206
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 35,
       "mode": 0,
       "inputs": [
@@ -1289,7 +1348,9 @@
         480,
         220
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 40,
       "mode": 0,
       "inputs": [
@@ -1342,7 +1403,9 @@
         680,
         970
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 45,
       "mode": 0,
       "inputs": [
@@ -1374,7 +1437,9 @@
         520,
         440
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 11,
       "mode": 0,
       "inputs": [],
@@ -1391,6 +1456,7 @@
           ]
         }
       ],
+      "title": "PROMPT",
       "properties": {
         "Run widget replace on values": false
       },
@@ -1412,7 +1478,9 @@
         440,
         440
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 36,
       "mode": 0,
       "inputs": [
@@ -1499,7 +1567,8 @@
         58
       ],
       "flags": {
-        "collapsed": true
+        "collapsed": true,
+        "pinned": true
       },
       "order": 12,
       "mode": 0,
@@ -1534,7 +1603,9 @@
         380,
         100
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 13,
       "mode": 0,
       "inputs": [],
@@ -1570,7 +1641,9 @@
         380,
         110
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 14,
       "mode": 0,
       "inputs": [],
@@ -1608,7 +1681,9 @@
         380,
         90
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 15,
       "mode": 0,
       "inputs": [],
@@ -1644,7 +1719,9 @@
         280,
         110
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 16,
       "mode": 0,
       "inputs": [],
@@ -1680,7 +1757,9 @@
         280,
         130
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 28,
       "mode": 0,
       "inputs": [
@@ -1725,7 +1804,9 @@
         280,
         60
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 17,
       "mode": 0,
       "inputs": [],
@@ -1759,7 +1840,8 @@
         180.6060791015625
       ],
       "flags": {
-        "collapsed": true
+        "collapsed": true,
+        "pinned": true
       },
       "order": 31,
       "mode": 0,
@@ -1802,7 +1884,8 @@
         350
       ],
       "flags": {
-        "collapsed": true
+        "collapsed": true,
+        "pinned": true
       },
       "order": 41,
       "mode": 0,
@@ -1852,7 +1935,9 @@
         250,
         130
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 18,
       "mode": 0,
       "inputs": [],
@@ -1892,7 +1977,9 @@
         690,
         490
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 19,
       "mode": 0,
       "inputs": [],
@@ -2398,10 +2485,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 1.1167815779425527,
+      "scale": 0.6934334949441808,
       "offset": [
-        958.8068202888811,
-        111.25636598768568
+        -81.01839844530579,
+        -29.93125633537133
       ]
     },
     "frontendVersion": "1.30.6"
