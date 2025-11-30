@@ -1547,9 +1547,9 @@
           "links": null
         }
       ],
-      "title": "The first enabled style in the list will be the only one active",
+      "title": "STYLE SELECTOR",
       "properties": {
-        "toggleRestriction": "default"
+        "toggleRestriction": "max one"
       },
       "color": "#232",
       "bgcolor": "#353",
@@ -2487,8 +2487,8 @@
     "ds": {
       "scale": 0.9229599817707048,
       "offset": [
-        -232.00125775250729,
-        -350.7077994830639
+        -218.77228833221275,
+        -349.0971311429016
       ]
     },
     "frontendVersion": "1.30.6"

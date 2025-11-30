@@ -1547,9 +1547,9 @@
           "links": null
         }
       ],
-      "title": "The first enabled style in the list will be the only one active",
+      "title": "STYLE SELECTOR",
       "properties": {
-        "toggleRestriction": "default"
+        "toggleRestriction": "max one"
       },
       "color": "#232",
       "bgcolor": "#353",
