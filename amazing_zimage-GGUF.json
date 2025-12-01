@@ -1,8 +1,8 @@
 {
   "id": "92112d97-bb64-4b44-86f2-ea5691ef8f6e",
   "revision": 0,
-  "last_node_id": 91,
-  "last_link_id": 243,
+  "last_node_id": 102,
+  "last_link_id": 269,
   "nodes": [
     {
       "id": 60,
@@ -98,7 +98,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 37,
+      "order": 43,
       "mode": 0,
       "inputs": [
         {
@@ -178,7 +178,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 33,
+      "order": 36,
       "mode": 0,
       "inputs": [
         {
@@ -212,266 +212,8 @@
         "Node name for S&R": "CLIPTextEncode"
       },
       "widgets_values": [
-        "A woman with short, spiky blonde hair is depicted from the chest up, aiming a large, dark gray firearm. Her hair is tousled and appears to be catching the light. She has blue eyes and shadow on her cheeks. She is wearing a white tank top with one strap visibly off her right shoulder. The firearm she holds is dark gray and appears to be a heavy weapon. A dark ancient castle is visible in the background on the right side. Her attire includes dark, torn shorts and ripped, dark stockings or tights on her legs"
+        "A woman with short, spiky blonde hair is depicted from the chest up, aiming a large, dark gray firearm. Her hair is tousled and appears to be catching the light. She has blue eyes and shadow on her cheeks. She is wearing a white tank top with one strap visibly off her right shoulder. The firearm she holds is dark gray and appears to be a heavy weapon. A dark ancient castle is visible in the background on the right side. Her attire includes dark, torn shorts and ripped, dark stockings or tights on her legs."
       ]
-    },
-    {
-      "id": 45,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1480,
-        1330
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 2,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            144
-          ]
-        }
-      ],
-      "title": "STYLE: Retro Pixel Art",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "A detailed retro pixel art illustration in the style of Commodore 64 graphics, featuring {$@}. Chunky, low-resolution details, often with dithering techniques"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 43,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1480,
-        1550
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 3,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            145
-          ]
-        }
-      ],
-      "title": "STYLE: Minimalist Sketchwash",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "A minimalist pencil sketch and watercolor painting, rendered with rough drawing style and pastel colors on a white background, featuring: {$@}. "
-      ],
-      "shape": 1
-    },
-    {
-      "id": 63,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1480,
-        1770
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 4,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            146
-          ]
-        }
-      ],
-      "title": "STYLE: Simplified Vector Illustration",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "A stylized digital illustration with a graphic design aesthetic, featuring flat, solid colors, no defined outlines, and a minimalist approach to composition, featuring: {$@}. Iconography style."
-      ],
-      "shape": 1
-    },
-    {
-      "id": 47,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1480,
-        450
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 5,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            140
-          ]
-        }
-      ],
-      "title": "STYLE: Lo-fi Documentary",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "A raw documentary photograph taken with an old Android phone. This casual, low quality, amateur shot showcases {$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 38,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1480,
-        670
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 6,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            141
-          ]
-        }
-      ],
-      "title": "STYLE: Monochrome Darkroom",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "A b&w darkroom photo with no color, including dark vignette, and grainy texture, featuring: {$@}\n"
-      ]
-    },
-    {
-      "id": 41,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1480,
-        890
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 7,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            142
-          ]
-        }
-      ],
-      "title": "STYLE: Cyberpunk Neon",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "Black cyberpunk landscape photograph with dark atmosphere and glowing neon lights with satured colors, featuring {$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 37,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1480,
-        1110
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 8,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            143
-          ]
-        }
-      ],
-      "title": "STYLE: Vintage Comic Panel",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "An old sheet of paper with a vintage erotic comic strip from 1950 painted in white, red, blue and black with freehand outlines, a detailed and dirty image featuring: {$@}"
-      ],
-      "shape": 1
     },
     {
       "id": 67,
@@ -487,7 +229,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 43,
+      "order": 50,
       "mode": 0,
       "inputs": [
         {
@@ -569,7 +311,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 44,
+      "order": 51,
       "mode": 0,
       "inputs": [
         {
@@ -614,7 +356,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 28,
+      "order": 24,
       "mode": 0,
       "inputs": [
         {
@@ -651,7 +393,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 30,
+      "order": 26,
       "mode": 0,
       "inputs": [
         {
@@ -688,7 +430,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 42,
+      "order": 49,
       "mode": 0,
       "inputs": [
         {
@@ -725,7 +467,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 36,
+      "order": 42,
       "mode": 0,
       "inputs": [
         {
@@ -762,13 +504,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 32,
+      "order": 44,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 203
+          "link": 257
         }
       ],
       "outputs": [
@@ -799,7 +541,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 35,
+      "order": 41,
       "mode": 0,
       "inputs": [
         {
@@ -836,7 +578,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 31,
+      "order": 27,
       "mode": 0,
       "inputs": [
         {
@@ -873,7 +615,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 9,
+      "order": 2,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -915,13 +657,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 34,
+      "order": 28,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 139
+          "link": 248
         }
       ],
       "outputs": [
@@ -953,13 +695,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 23,
+      "order": 37,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 140
+          "link": 249
         }
       ],
       "outputs": [
@@ -991,13 +733,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 24,
+      "order": 35,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 141
+          "link": 250
         }
       ],
       "outputs": [
@@ -1029,13 +771,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 25,
+      "order": 29,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 142
+          "link": 251
         }
       ],
       "outputs": [
@@ -1067,13 +809,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 26,
+      "order": 30,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 143
+          "link": 252
         }
       ],
       "outputs": [
@@ -1105,13 +847,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 20,
+      "order": 31,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 144
+          "link": 253
         }
       ],
       "outputs": [
@@ -1143,13 +885,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 21,
+      "order": 32,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 145
+          "link": 254
         }
       ],
       "outputs": [
@@ -1181,13 +923,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 22,
+      "order": 33,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 146
+          "link": 255
         }
       ],
       "outputs": [
@@ -1196,7 +938,7 @@
           "type": "STRING",
           "links": [
             231,
-            240
+            244
           ]
         }
       ],
@@ -1214,12 +956,12 @@
       ],
       "size": [
         340,
-        206
+        246
       ],
       "flags": {
         "pinned": true
       },
-      "order": 38,
+      "order": 45,
       "mode": 0,
       "inputs": [
         {
@@ -1274,10 +1016,23 @@
           "dir": 3,
           "name": "any_09",
           "type": "STRING",
-          "link": 243
+          "link": 246
         },
         {
+          "dir": 3,
           "name": "any_10",
+          "type": "STRING",
+          "link": 266
+        },
+        {
+          "dir": 3,
+          "name": "any_11",
+          "type": "STRING",
+          "link": 268
+        },
+        {
+          "dir": 3,
+          "name": "any_12",
           "type": "STRING",
           "link": null
         }
@@ -1314,7 +1069,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 40,
+      "order": 47,
       "mode": 0,
       "inputs": [
         {
@@ -1352,7 +1107,7 @@
       "widgets_values": [
         "",
         "{$@}",
-        "A woman with short, spiky blonde hair is depicted from the chest up, aiming a large, dark gray firearm. Her hair is tousled and appears to be catching the light. She has blue eyes and shadow on her cheeks. She is wearing a white tank top with one strap visibly off her right shoulder. The firearm she holds is dark gray and appears to be a heavy weapon. A dark ancient castle is visible in the background on the right side. Her attire includes dark, torn shorts and ripped, dark stockings or tights on her legs"
+        "A woman with short, spiky blonde hair is depicted from the chest up, aiming a large, dark gray firearm. Her hair is tousled and appears to be catching the light. She has blue eyes and shadow on her cheeks. She is wearing a white tank top with one strap visibly off her right shoulder. The firearm she holds is dark gray and appears to be a heavy weapon. A dark ancient castle is visible in the background on the right side. Her attire includes dark, torn shorts and ripped, dark stockings or tights on her legs."
       ]
     },
     {
@@ -1369,7 +1124,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 45,
+      "order": 52,
       "mode": 0,
       "inputs": [
         {
@@ -1398,12 +1153,12 @@
       ],
       "size": [
         440,
-        440
+        474
       ],
       "flags": {
         "pinned": true
       },
-      "order": 39,
+      "order": 46,
       "mode": 0,
       "inputs": [
         {
@@ -1414,45 +1169,57 @@
         },
         {
           "dir": 3,
-          "name": "STYLE: Lo-fi Documentary",
+          "name": "STYLE: Old Smartphone",
           "type": "*",
           "link": 234
         },
         {
           "dir": 3,
-          "name": "STYLE: Monochrome Darkroom",
+          "name": "STYLE: Lo-fi Documentary",
           "type": "*",
           "link": 235
         },
         {
           "dir": 3,
-          "name": "STYLE: Cyberpunk Neon",
+          "name": "STYLE: Monochrome Darkroom",
           "type": "*",
           "link": 236
         },
         {
           "dir": 3,
-          "name": "STYLE: Vintage Comic Panel",
+          "name": "STYLE: Cyberpunk Neon",
           "type": "*",
           "link": 237
         },
         {
           "dir": 3,
-          "name": "STYLE: Retro Pixel Art",
+          "name": "STYLE: Vintage Comic Panel",
           "type": "*",
           "link": 238
         },
         {
           "dir": 3,
-          "name": "STYLE: Minimalist Sketchwash",
+          "name": "STYLE: Retro Pixel Art",
           "type": "*",
           "link": 239
         },
         {
           "dir": 3,
+          "name": "STYLE: Minimalist Sketchwash",
+          "type": "*",
+          "link": 244
+        },
+        {
+          "dir": 3,
           "name": "STYLE: Simplified Vector Illustration",
           "type": "*",
-          "link": 240
+          "link": 245
+        },
+        {
+          "dir": 3,
+          "name": "STYLE: Simplified Vector Illustration",
+          "type": "*",
+          "link": 269
         },
         {
           "dir": 3,
@@ -1478,43 +1245,6 @@
       "shape": 1
     },
     {
-      "id": 90,
-      "type": "PrimitiveString",
-      "pos": [
-        -510,
-        1600
-      ],
-      "size": [
-        270,
-        58
-      ],
-      "flags": {
-        "collapsed": true,
-        "pinned": true
-      },
-      "order": 10,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            243
-          ]
-        }
-      ],
-      "title": "No Style",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveString"
-      },
-      "widgets_values": [
-        "{$@}"
-      ]
-    },
-    {
       "id": 28,
       "type": "UnetLoaderGGUF",
       "pos": [
@@ -1528,7 +1258,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 11,
+      "order": 3,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1566,7 +1296,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 12,
+      "order": 4,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1606,7 +1336,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 13,
+      "order": 5,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1644,7 +1374,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 14,
+      "order": 6,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1682,7 +1412,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 27,
+      "order": 23,
       "mode": 0,
       "inputs": [
         {
@@ -1716,41 +1446,6 @@
       ]
     },
     {
-      "id": 68,
-      "type": "KSamplerSelect",
-      "pos": [
-        430,
-        380
-      ],
-      "size": [
-        280,
-        60
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 15,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "SAMPLER",
-          "type": "SAMPLER",
-          "links": [
-            203
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "KSamplerSelect"
-      },
-      "widgets_values": [
-        "euler_ancestral"
-      ]
-    },
-    {
       "id": 7,
       "type": "CLIPTextEncode",
       "pos": [
@@ -1765,7 +1460,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 29,
+      "order": 25,
       "mode": 0,
       "inputs": [
         {
@@ -1809,7 +1504,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 41,
+      "order": 48,
       "mode": 0,
       "inputs": [
         {
@@ -1860,7 +1555,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 16,
+      "order": 7,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1902,7 +1597,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 17,
+      "order": 8,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -1913,6 +1608,285 @@
       ],
       "color": "#222",
       "bgcolor": "#000",
+      "shape": 1
+    },
+    {
+      "id": 92,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1480,
+        230
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            248
+          ]
+        }
+      ],
+      "title": "STYLE: Vintage Candid",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "A gritty, candid vintage photograph from a disposable camera, dark shadows and vibrant warm colors, featuring: {$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 38,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1480,
+        890
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            251
+          ]
+        }
+      ],
+      "title": "STYLE: Monochrome Darkroom",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "A b&w darkroom photo with no color, including dark vignette, and grainy texture, featuring: {$@}\n"
+      ]
+    },
+    {
+      "id": 41,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1480,
+        1110
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {},
+      "order": 11,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            252
+          ]
+        }
+      ],
+      "title": "STYLE: Cyberpunk Neon",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "Black cyberpunk landscape photograph with dark atmosphere and glowing neon lights with satured colors, featuring {$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 37,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1480,
+        1330
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {},
+      "order": 12,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            253
+          ]
+        }
+      ],
+      "title": "STYLE: Vintage Comic Panel",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "An old sheet of paper with a vintage erotic comic strip from 1950 painted in white, red, blue and black with freehand outlines, a detailed and dirty image featuring: {$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 45,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1480,
+        1550
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {},
+      "order": 13,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            254
+          ]
+        }
+      ],
+      "title": "STYLE: Retro Pixel Art",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "A detailed retro pixel art illustration in the style of Commodore 64 graphics, featuring {$@}. Chunky, low-resolution details, often with dithering techniques"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 43,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1480,
+        1770
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {},
+      "order": 14,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            255
+          ]
+        }
+      ],
+      "title": "STYLE: Minimalist Sketchwash",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "A minimalist pencil sketch and watercolor painting, rendered with rough drawing style and pastel colors on a white background, featuring: {$@}. "
+      ],
+      "shape": 1
+    },
+    {
+      "id": 63,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1480,
+        1990
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {},
+      "order": 15,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            256
+          ]
+        }
+      ],
+      "title": "STYLE: Simplified Vector Illustration",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "A stylized digital illustration with a graphic design aesthetic, featuring flat, solid colors, no defined outlines, and a minimalist approach to composition, featuring: {$@}. Iconography style."
+      ],
+      "shape": 1
+    },
+    {
+      "id": 47,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1480,
+        670
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {},
+      "order": 16,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            250
+          ]
+        }
+      ],
+      "title": "STYLE: Lo-fi Documentary",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "A raw documentary photograph taken with an old Android phone. This casual, low quality, amateur shot showcases {$@}"
+      ],
       "shape": 1
     },
     {
@@ -1929,7 +1903,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 18,
+      "order": 17,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1950,27 +1924,313 @@
         "Run widget replace on values": false
       },
       "widgets_values": [
-        "A woman with short, spiky blonde hair is depicted from the chest up, aiming a large, dark gray firearm. Her hair is tousled and appears to be catching the light. She has blue eyes and shadow on her cheeks. She is wearing a white tank top with one strap visibly off her right shoulder. The firearm she holds is dark gray and appears to be a heavy weapon. A dark ancient castle is visible in the background on the right side. Her attire includes dark, torn shorts and ripped, dark stockings or tights on her legs"
+        "A woman with short, spiky blonde hair is depicted from the chest up, aiming a large, dark gray firearm. Her hair is tousled and appears to be catching the light. She has blue eyes and shadow on her cheeks. She is wearing a white tank top with one strap visibly off her right shoulder. The firearm she holds is dark gray and appears to be a heavy weapon. A dark ancient castle is visible in the background on the right side. Her attire includes dark, torn shorts and ripped, dark stockings or tights on her legs."
       ],
       "color": "#232",
       "bgcolor": "#353",
       "shape": 1
     },
     {
-      "id": 40,
+      "id": 93,
       "type": "PrimitiveStringMultiline",
       "pos": [
         -1480,
-        230
+        450
       ],
       "size": [
         450,
         180
       ],
-      "flags": {
-        "pinned": true
+      "flags": {},
+      "order": 18,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            249
+          ]
+        }
+      ],
+      "title": "STYLE: Old Smartphone",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
       },
+      "widgets_values": [
+        "A high contrast photograph from instagram. This detailed casual shot showcases {$@}\n"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 96,
+      "type": "Any Switch (rgthree)",
+      "pos": [
+        140,
+        650
+      ],
+      "size": [
+        250.08046875000002,
+        106
+      ],
+      "flags": {},
+      "order": 38,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "name": "any_01",
+          "type": "SAMPLER",
+          "link": 258
+        },
+        {
+          "dir": 3,
+          "name": "any_02",
+          "type": "SAMPLER",
+          "link": 259
+        },
+        {
+          "dir": 3,
+          "name": "any_03",
+          "type": "SAMPLER",
+          "link": null
+        },
+        {
+          "dir": 3,
+          "name": "any_04",
+          "type": "SAMPLER",
+          "link": null
+        },
+        {
+          "dir": 3,
+          "name": "any_05",
+          "type": "SAMPLER",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 4,
+          "label": "SAMPLER",
+          "name": "*",
+          "shape": 3,
+          "type": "SAMPLER",
+          "links": [
+            257
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "rgthree-comfy",
+        "ver": "1.0.2511270846"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 95,
+      "type": "KSamplerSelect",
+      "pos": [
+        -170,
+        730
+      ],
+      "size": [
+        270,
+        58
+      ],
+      "flags": {},
       "order": 19,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "SAMPLER",
+          "type": "SAMPLER",
+          "links": [
+            259,
+            264
+          ]
+        }
+      ],
+      "title": "SAMPLER: Soft",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "KSamplerSelect"
+      },
+      "widgets_values": [
+        "euler_ancestral"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "KSamplerSelect",
+      "pos": [
+        -190,
+        630
+      ],
+      "size": [
+        280,
+        60
+      ],
+      "flags": {},
+      "order": 20,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "SAMPLER",
+          "type": "SAMPLER",
+          "links": [
+            258,
+            265
+          ]
+        }
+      ],
+      "title": "SAMPLER: Noisy",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "KSamplerSelect"
+      },
+      "widgets_values": [
+        "euler"
+      ]
+    },
+    {
+      "id": 97,
+      "type": "Fast Muter (rgthree)",
+      "pos": [
+        640,
+        1320
+      ],
+      "size": [
+        320,
+        130
+      ],
+      "flags": {},
+      "order": 39,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "name": "SAMPLER: Soft",
+          "type": "*",
+          "link": 264
+        },
+        {
+          "dir": 3,
+          "name": "SAMPLER: Noisy",
+          "type": "*",
+          "link": 265
+        },
+        {
+          "dir": 3,
+          "name": "",
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 4,
+          "name": "OPT_CONNECTION",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "properties": {
+        "toggleRestriction": "always one"
+      }
+    },
+    {
+      "id": 94,
+      "type": "Reroute",
+      "pos": [
+        -840,
+        1090
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 34,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 256
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "STRING",
+          "links": [
+            245,
+            246
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 101,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1480,
+        2210
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {},
+      "order": 21,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            267
+          ]
+        }
+      ],
+      "title": "STYLE: Simplified Vector Illustration",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "A stylized digital illustration with a graphic design aesthetic, featuring flat, solid colors, no defined outlines, and a minimalist approach to composition, featuring: {$@}. Iconography style."
+      ],
+      "shape": 1
+    },
+    {
+      "id": 90,
+      "type": "PrimitiveString",
+      "pos": [
+        -530,
+        1640
+      ],
+      "size": [
+        270,
+        58
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 22,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1978,20 +2238,55 @@
           "name": "STRING",
           "type": "STRING",
           "links": [
-            139
+            268
           ]
         }
       ],
-      "title": "STYLE: Vintage Candid",
+      "title": "No Style",
       "properties": {
         "cnr_id": "comfy-core",
         "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
+        "Node name for S&R": "PrimitiveString"
       },
       "widgets_values": [
-        "A gritty, candid photograph with dark shadows and vibrant warm colors, captured with a vintage disposable camera, featuring: {$@}"
+        "{$@}"
+      ]
+    },
+    {
+      "id": 102,
+      "type": "Reroute",
+      "pos": [
+        -840,
+        1130
       ],
-      "shape": 1
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 40,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 267
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "STRING",
+          "links": [
+            266,
+            269
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
     }
   ],
   "links": [
@@ -2066,70 +2361,6 @@
       54,
       1,
       "STRING"
-    ],
-    [
-      139,
-      40,
-      0,
-      34,
-      0,
-      "*"
-    ],
-    [
-      140,
-      47,
-      0,
-      35,
-      0,
-      "*"
-    ],
-    [
-      141,
-      38,
-      0,
-      36,
-      0,
-      "*"
-    ],
-    [
-      142,
-      41,
-      0,
-      42,
-      0,
-      "*"
-    ],
-    [
-      143,
-      37,
-      0,
-      44,
-      0,
-      "*"
-    ],
-    [
-      144,
-      45,
-      0,
-      46,
-      0,
-      "*"
-    ],
-    [
-      145,
-      43,
-      0,
-      48,
-      0,
-      "*"
-    ],
-    [
-      146,
-      63,
-      0,
-      64,
-      0,
-      "*"
     ],
     [
       189,
@@ -2218,14 +2449,6 @@
       67,
       2,
       "CONDITIONING"
-    ],
-    [
-      203,
-      68,
-      0,
-      75,
-      0,
-      "*"
     ],
     [
       204,
@@ -2396,14 +2619,6 @@
       "*"
     ],
     [
-      240,
-      64,
-      0,
-      88,
-      7,
-      "*"
-    ],
-    [
       241,
       89,
       0,
@@ -2420,12 +2635,172 @@
       "CLIP"
     ],
     [
-      243,
-      90,
+      244,
+      64,
+      0,
+      88,
+      7,
+      "*"
+    ],
+    [
+      245,
+      94,
+      0,
+      88,
+      8,
+      "*"
+    ],
+    [
+      246,
+      94,
       0,
       87,
       8,
       "STRING"
+    ],
+    [
+      248,
+      92,
+      0,
+      34,
+      0,
+      "*"
+    ],
+    [
+      249,
+      93,
+      0,
+      35,
+      0,
+      "*"
+    ],
+    [
+      250,
+      47,
+      0,
+      36,
+      0,
+      "*"
+    ],
+    [
+      251,
+      38,
+      0,
+      42,
+      0,
+      "*"
+    ],
+    [
+      252,
+      41,
+      0,
+      44,
+      0,
+      "*"
+    ],
+    [
+      253,
+      37,
+      0,
+      46,
+      0,
+      "*"
+    ],
+    [
+      254,
+      45,
+      0,
+      48,
+      0,
+      "*"
+    ],
+    [
+      255,
+      43,
+      0,
+      64,
+      0,
+      "*"
+    ],
+    [
+      256,
+      63,
+      0,
+      94,
+      0,
+      "*"
+    ],
+    [
+      257,
+      96,
+      0,
+      75,
+      0,
+      "*"
+    ],
+    [
+      258,
+      68,
+      0,
+      96,
+      0,
+      "SAMPLER"
+    ],
+    [
+      259,
+      95,
+      0,
+      96,
+      1,
+      "SAMPLER"
+    ],
+    [
+      264,
+      95,
+      0,
+      97,
+      0,
+      "*"
+    ],
+    [
+      265,
+      68,
+      0,
+      97,
+      1,
+      "*"
+    ],
+    [
+      266,
+      102,
+      0,
+      87,
+      9,
+      "STRING"
+    ],
+    [
+      267,
+      101,
+      0,
+      102,
+      0,
+      "*"
+    ],
+    [
+      268,
+      90,
+      0,
+      87,
+      10,
+      "STRING"
+    ],
+    [
+      269,
+      102,
+      0,
+      88,
+      9,
+      "*"
     ]
   ],
   "groups": [
@@ -2449,7 +2824,7 @@
         -1490,
         150,
         470,
-        1810
+        2250
       ],
       "color": "#b58b2a",
       "font_size": 24,
@@ -2485,10 +2860,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.9229599817707048,
+      "scale": 0.5730855330117204,
       "offset": [
-        -204.4366458639304,
-        -351.20797948338594
+        1267.0520032643963,
+        -121.22616480411759
       ]
     },
     "frontendVersion": "1.30.6"
