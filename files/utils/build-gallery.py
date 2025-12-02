@@ -317,6 +317,76 @@ def save_image(filepath        : str,
 
 #-------------------------------- BOX CLASS --------------------------------#
 class Box(tuple):
+    """
+    A class representing a bounding box defined by its left, top, right, and bottom coordinates.
+
+    The Box class is built on top of Python's tuple type to provide additional methods for manipulating 
+    and accessing the bounding box properties. It allows for easy creation, modification, and querying of
+    2D rectangular regions in an image or graphics context.
+
+    Instance Creation:
+        Box(left, top, right, bottom): Creates a new Box instance with specified coordinates.
+
+    Attributes:
+        left   (int|float): The x-coordinate of the left edge.
+        top    (int|float): The y-coordinate of the top edge.
+        right  (int|float): The x-coordinate of the right edge.
+        bottom (int|float): The y-coordinate of the bottom edge.
+
+    Properties:
+        left   (int|float)       : Returns the x-coordinate of the left edge.
+        top    (int|float)       : Returns the y-coordinate of the top edge.
+        right  (int|float)       : Returns the x-coordinate of the right edge.
+        bottom (int|float)       : Returns the y-coordinate of the bottom edge.
+        width  (int|float)       : Returns the width of the box, calculated as right - left.
+        height (int|float)       : Returns the height of the box, calculated as bottom - top.
+        center (tuple[int|float]): Returns the x and y coordinates of the center point.
+
+    Factory Methods:
+
+        Box.bounding_for_text(cls, text: str, font: ImageFont) -> Box:
+            Creates a Box instance from the bounding box of a given text rendered with a specified font.
+
+        Box.multiline_textbbox(cls, draw: ImageDraw, xy: tuple[float, float], text: str, font: ImageFont, anchor: str | None = None, spacing: float = 4, align: str = "left") -> Box:
+            Creates a Box instance from the bounding box of multi-line text.
+
+        Box.container_for_text(cls, text: str, font) -> Box:
+            Creates a Box that can contain single line of given text rendered with specified font.
+
+    Methods:
+
+        get_size() -> tuple[int|float]:
+            Returns a tuple representing the width and height of the Box instance.
+
+        get_pos(anchor: str | None = None) -> tuple[int|float]:
+            Returns the position based on anchor. Default is top-left corner ('lt').
+
+        with_size(width, height) -> Box:
+            Creates a new Box instance with the specified size while maintaining the current position.
+
+        with_pos(left, top) -> Box: 
+            Creates a new Box instance at the specified (left, top) coordinates while maintaining the current size.
+
+        moved_to(x, y=None, anchor=None) -> Box:
+            Moves the box to the specified x and y coordinates based on the provided anchor point. If an anchor
+            is not given, it defaults to moving based on the top-left corner ('lt').
+
+        moved_by(dx, dy) -> Box:
+            Returns a new Box instance that has been shifted by dx in the horizontal direction and dy in the vertical direction.
+
+        centered_in(container_box) -> Box:
+            Centers this Box within the provided container box while maintaining its size.
+
+        shrunken(dx: float, dy: float) -> Box:
+            Creates a new Box instance with reduced width and height by moving its edges inward.
+
+    Usage example:
+        >>> my_box = Box(10, 20, 30, 40)
+        >>> print(my_box.left)
+        10
+        >>> print(my_box.width)
+        20
+    """
     def __new__(cls, left, top=None, right=None, bottom=None):
         if isinstance(left,tuple) and len(left)==4:
             left, top, right, bottom = left[0], left[1], left[2], left[3]
@@ -337,10 +407,6 @@ class Box(tuple):
                            align  : str        = "left"
                            ):
         return cls( draw.multiline_textbbox( xy, text, font=font, anchor=anchor, spacing=spacing, align=align ) )
-
-    # @classmethod
-    # def multiline_bbox(cls, text: str, font: ImageFont, draw: ImageDraw):
-    #     draw.multiline_bbox((0,0))
 
     @classmethod
     def container_for_text(cls, text: str, font):
