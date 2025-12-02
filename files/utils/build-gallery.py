@@ -14,6 +14,7 @@ import os
 import sys
 import json
 import argparse
+from typing import List, Tuple
 from PIL import Image, ImageDraw, ImageFont
 from PIL.PngImagePlugin import PngInfo
 
@@ -90,13 +91,27 @@ def fatal_error(message: str, *info_messages: str) -> None:
 
 #--------------------------------- HELPERS ---------------------------------#
 
-def find_images_in_dir(directory: str) -> list[str]:
-    """Find all PNG image files in a given directory.
+def is_valid_png_image(path: str, valid_prefix: str = "") -> bool:
+    """Check if a given path is a PNG image file with a valid prefix.
+    """
+    if not os.path.isfile(path):
+        return False
+    lower_filename = os.path.basename(path).lower()
+    if not lower_filename.endswith(".png"):
+        return False
+    if not lower_filename.startswith(valid_prefix.lower()):
+        return False
+    return True
+
+
+
+def find_valid_png_images_in_dir(directory: str, valid_prefix: str = "") -> list[str]:
+    """Find all PNG image files with a valid prefix in a directory.
     """
     images = []
     for file_name in os.listdir(directory):
         file_path = os.path.join(directory, file_name)
-        if os.path.isfile(file_path) and file_name.lower().endswith('.png'):
+        if is_valid_png_image(file_path, valid_prefix):
             images.append(file_path)
     return images
 
@@ -842,6 +857,74 @@ def add_prompt_to_image(image : Image,
 #////////////////////////////////// MAIN ///////////////////////////////////#
 #===========================================================================#
 
+def build_gallery(image_paths: List[str],
+                  grid_size : Tuple[int, int],
+                  scale     : float
+                  ) -> Image.Image:
+    """
+    Creates a large image containing multiple PNG images arranged in a grid.
+
+    Args:
+        image_paths  (list): List of file paths to PNG images
+        grid_size   (tuple): Grid dimensions as (columns, rows)
+        scale       (float): Scale factor for the images
+    Returns:
+        A PIL.Image containing all input images arranged in a grid
+    """
+    number_of_images = len(image_paths)
+
+    # validate grid size
+    if len(grid_size) != 2:
+        raise ValueError("grid_size must be a tuple with 2 elements (columns, rows)")
+    columns, rows = grid_size
+    if columns <= 0 or rows <= 0:
+        raise ValueError("Grid dimensions must be positive")
+
+    # determine the size of each cell in the grid
+    cell_width  = 0
+    cell_height = 0
+    for path in image_paths:
+        img = Image.open(path)
+        if img.width > 0 and img.height > 0:
+            cell_width  = int(scale*img.width )
+            cell_height = int(scale*img.height)
+            break
+    if cell_width <= 0 or cell_height <= 0:
+        raise ValueError("No valid image found")
+
+    # determine how many complete columns are in the last row
+    images_in_last_row = columns
+    if number_of_images < (columns*rows):
+        images_in_last_row = number_of_images % columns
+    xoffset_in_last_row = int( ( columns - images_in_last_row ) * cell_width / 2. )
+
+    # create a new image with black background
+    gallery_width   = cell_width  * columns
+    gallery_height  = cell_height * rows
+    gallery_image = Image.new('RGB', (gallery_width, gallery_height), color='black')
+
+
+    # place images in grid
+    for i, path in enumerate(image_paths):
+
+        # load and resize the image to fit the cell size
+        img      = Image.open(path)
+        cell_img = img.resize((cell_width, cell_height), Image.LANCZOS)
+
+        # calculate the position of the cell within the grid
+        row, col, xoffset = i // columns, i % columns, 0
+        if i >=  (number_of_images - images_in_last_row):
+            xoffset = xoffset_in_last_row
+        if row >= rows:
+            break
+
+        # paste image into the gallery
+        gallery_image.paste(cell_img, (cell_width*col+xoffset, cell_height*row))
+
+    return gallery_image
+
+
+
 def process_image(image         : Image,
                   workflow_json : str,
                   font_size     : int   = DEFAULT_FONT_SIZE,
@@ -899,99 +982,6 @@ def process_image(image         : Image,
     return output_image
 
 
-def process_all_images(image_paths      : list,
-                       font_size        : int,
-                       write_prompt     : bool  = False,
-                       write_label      : bool  = True,
-                       label_text       : str   = None,
-                       output_scale     : float = None,
-                       output_dir       : str   = None,
-                       output_prefix    : str   = None,
-                       output_format    : str   = None,
-                       keep_original_dir: bool  = False,
-                       ) -> None:
-    """Process multiple images by adding labels and saving them with a new prefix.
-
-    Args:
-        image_paths    (list): A list with the paths of the images to process.
-        font_size      (int) : Approximate font size used to label the images.
-        write_prompt   (bool): If True, writes the original prompt on each image. Defaults to False.
-        write_label    (bool): If True, draws a label on each image. Defaults to True.
-        label_text     (str) : If provided, this text will be used as the label.
-                               Otherwise, the workflow name extracted from the image will be used.
-        output_scale  (float): Scaling factor for resizing the processed images after labeling;
-                               a value of 1.0 (or None) means no scaling, defaults to None.
-        output_dir     (str) : Directory where the labeled images will be saved.
-                               If not provided, the current working directory will be used.
-        output_prefix  (str) : A string that prefixes each new filename denoting processing details;
-                               defaults to 'labeled' if no scaling is applied and 'scaled' otherwise.
-        output_format  (str) : Specifies the format for saving the processed image. Supports "jpeg" or "png".
-                               If not specified, the same format as the original image will be used.
-        keep_original_dir (bool): If True, the images will be saved in the same dir as the original
-                                  image. Otherwise, they will be stored in the current working dir.
-    """
-    if not isinstance(image_paths,list):
-        image_paths = [image_paths]
-
-    # set output_scale to None if it's exactly 1.0
-    # since this means no scaling should be applied
-    if output_scale == 1.0:
-        output_scale = None
-
-    # determine the output file prefix based on scaling and
-    # ensure prefix always ends with an underscore
-    if not output_prefix:
-        output_prefix = 'labeled' if not output_scale else 'scaled'
-    if not output_prefix.endswith('_'):
-        output_prefix += '_'
-
-    # create new directories only if a specific output_dir is provided
-    should_make_dirs = True if output_dir else False
-
-    for image_path in image_paths:
-        #try:
-
-            original_dir, filename  = os.path.split(image_path)
-            name, extension         = os.path.splitext(filename)
-
-            # skip images that were previously labeled
-            if filename.startswith(output_prefix):
-                continue
-
-            # change extension based on output_format
-            if output_format == 'jpeg':
-                extension = '.jpg'
-            elif output_format == 'png':
-                extension = '.png'
-
-            # generate the new path
-            new_image_path  = f"{output_prefix}{name}{extension}"
-            if keep_original_dir:
-                new_image_path = os.path.join(original_dir, new_image_path)
-            if output_dir:
-                new_image_path = os.path.join(output_dir, new_image_path)
-                if new_image_path != os.path.normpath(new_image_path):
-                    continue
-
-            # open the image and process it
-            with Image.open(image_path) as image:
-                text_chunks = image.text if hasattr(image,'text') else []
-                workflow    = text_chunks.get('workflow')
-                if not workflow:
-                    warning(f"The image {image_path} does not seem to contain any workflow.")
-                    continue
-                output_image = process_image(image, workflow, font_size, write_prompt, write_label, label_text, output_scale)
-
-            save_image(new_image_path,
-                       output_image  ,
-                       text_chunks      = text_chunks,
-                       should_make_dirs = should_make_dirs)
-            print(f" Labeled: {new_image_path}")
-
-        #except Exception as e:
-        #    print(f"Error processing {image_path}: {str(e)}")
-
-
 
 #===========================================================================#
 #////////////////////////////////// MAIN ///////////////////////////////////#
@@ -1008,47 +998,46 @@ def main(args=None, parent_script=None):
         formatter_class=argparse.RawTextHelpFormatter
         )
     parser.add_argument('images'              , nargs="+",           help="Image files (or directories containing .png) to include in the gallery")
-    parser.add_argument('-p', '--write-prompt', action='store_true', help="Display the prompt of the first image in the gallery")
-    parser.add_argument('-t', '--text'        ,                      help="Text to write on the header of the gallery")
-    parser.add_argument('-n', '--no-label'    , action='store_true', help="Prevents labels from being added to any image.")
     parser.add_argument('-s', '--scale'       , type=float,          help="Scaling factor (max 1.0) to scale down the gallery images")
-    # parser.add_argument('-o', '--output-dir'  ,                      help="Directory where the labeled images will be saved")
     parser.add_argument('-j', '--jpeg'        , action='store_true', help="Save gallery as JPEG instead of PNG")
-    parser.add_argument(      '--prefix'      ,                      help="Prefix for generated gallery files")
-    parser.add_argument(      '--font'        ,                      help="Path to font file")
-    parser.add_argument(      '--font-size'   , type=int,            help="Font size for the label")
+    # parser.add_argument('-p', '--write-prompt', action='store_true', help="Display the prompt of the first image in the gallery")
+    # parser.add_argument('-t', '--text'        ,                      help="Text to write on the header of the gallery")
+    # parser.add_argument('-n', '--no-label'    , action='store_true', help="Prevents labels from being added to any image.")
+    # parser.add_argument('-o', '--output-dir'  ,                      help="Directory where builded galleries will be saved")
+    # parser.add_argument(      '--prefix'      ,                      help="Prefix for generated gallery files")
+    # parser.add_argument(      '--font'        ,                      help="Path to font file")
+    # parser.add_argument(      '--font-size'   , type=int,            help="Font size for the label")
 
     args  = parser.parse_args()
 
-    scale = None
+    # default values
+    scale              = 0.5
+    extension          = '.png'
+    valid_input_prefix = 'ZI'
+
+    # change scale if requested by user
     if args.scale:
         scale = 0.01 if args.scale<=0.01 else 1.0 if args.scale>=1.0 else args.scale
+
+    # change extension if requested by user
+    if args.jpeg:
+        extension = '.jpg'
 
     # find all images from the provided arguments (files or directories)
     images = []
     for image in args.images:
-        if os.path.isfile(image):
+        if is_valid_png_image(image, valid_input_prefix):
             images.append(image)
-        elif os.path.isdir(image):
-            images.extend(find_images_in_dir(image))
+        #elif os.path.isdir(image):
+        #    images.extend(find_images_in_dir(image, valid_input_prefix))
 
-    # imprimir el listado de imagenes para verificar que todo funcione correctamente
-    print("Found the following images:")
-    for image in images:
-        print(f" - {image}")
-    
+    if not images:
+        fatal_error("No images found.")
 
-    # process_all_images(images,
-    #                    font_size     = args.font_size or DEFAULT_FONT_SIZE,
-    #                    write_prompt  = args.write_prompt,
-    #                    write_label   = False if args.no_label else True,
-    #                    label_text    = args.text,
-    #                    output_scale  = scale,
-    #                    output_dir    = args.output_dir,
-    #                    output_prefix = args.prefix,
-    #                    output_format = 'jpeg' if args.jpeg else None,
-    #                    keep_original_dir = args.keep_dir
-    #                    )
+    # generate the gallery image and save it
+    gallery_image = build_gallery(images, (4,3), scale)
+    gallery_image.save( f"gallery{extension}", quality=95)
+
 
 
 if __name__ == "__main__":
