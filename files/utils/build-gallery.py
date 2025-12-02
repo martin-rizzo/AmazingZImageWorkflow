@@ -116,19 +116,24 @@ def find_valid_png_images_in_dir(directory: str, valid_prefix: str = "") -> list
     return images
 
 
-def get_node(workflow: dict,
-             /,*,
-             name: str = None,
-             type: str = None
+def get_node(workflow: dict, /,*, title: str = None, type : str = None
              ) -> dict[str, any] | None:
     nodes = workflow.get('nodes', [])
     for node in nodes:
-        if name and node.get('title','') == name:
+        if title and node.get('title','') == title:
             return node
         if type and node.get('type','') == type:
             return node
     return None
 
+def is_node_enabled(workflow: dict, /,*, title: str = None, type : str = None
+                    ) -> bool | None:
+    node = get_node(workflow, title=title, type=type)
+    if not isinstance(node, dict):
+        return None
+    if not "mode" in node:
+        return None
+    return node["mode"] == 0
 
 
 def get_workflow_from_image(image_path: str) -> dict[str, any] | None:
@@ -172,8 +177,7 @@ def extract_style_list(image_paths: list[str]) -> list[str] | None:
         for input in input_list:
             name = input.get('name', '')
             if not name: continue
-            if name.startswith("STYLE:"): name = name[6:]
-            style_list.append( name.strip() )
+            style_list.append( name )
 
         # return if any styles were found
         if len(style_list)>0:
@@ -181,6 +185,60 @@ def extract_style_list(image_paths: list[str]) -> list[str] | None:
 
     # no styles were found at this point
     return None
+
+def group_images_by_prompt_and_style(image_paths: list[str],
+                                     style_list: list[str]
+                                     ) -> dict[str, list[str]]:
+    """
+    Groups images by their prompt and style.
+
+    Args:
+        image_paths (list[str]): A list of file paths to the images.
+        style_list (list[str]) : A list with the names of the available styles.
+
+    Returns:
+        dict[str, list[str]]: A dictionary where keys are prompts and values
+                              are lists containing image paths.
+    """
+    image_styles_by_prompt = { }
+
+    for image_path in image_paths:
+        if not os.path.isfile(image_path):
+            continue
+
+        # check if the image has a workflow associated with it
+        workflow = get_workflow_from_image(image_path)
+        if not workflow: continue
+
+        # TODO: get the prompt of the image
+        image_prompt = "???"
+        style_index  = -1
+
+        prompt_node = get_node(workflow, title="PROMPT")
+        if isinstance(prompt_node, dict):
+            values = prompt_node.get('widgets_values')
+            if isinstance(values, list) and len(values)>0:
+                image_prompt = values[0]
+
+        for i, style_name in enumerate(style_list):
+            if is_node_enabled(workflow, title=style_name):
+                style_index = i
+                break
+
+        # if no style was found for this image, continue with next one
+        if style_index<0:
+            continue
+
+        # add the path of the current image to 'image_styles_by_prompt'
+        # but first, check if there's an entry for the current prompt.
+        # If not, create a new entry with empty strings equal to the number of styles
+        if not image_prompt in image_styles_by_prompt:
+            image_styles_by_prompt[image_prompt] = [""] * len(style_list)
+
+        # assign the image path to its corresponding prompt and style index
+        image_styles_by_prompt[image_prompt][style_index] = image_path
+
+    return image_styles_by_prompt
 
 
 
@@ -888,6 +946,7 @@ def add_label_to_image(image: Image,
 def build_gallery(image_paths: list[str],
                   grid_size  : tuple[int, int],
                   scale      : float,
+                  prompt     : str,
                   style_list : list[str],
                   font_size  : int = DEFAULT_FONT_SIZE
                   ) -> Image.Image:
@@ -941,11 +1000,19 @@ def build_gallery(image_paths: list[str],
     # place images in grid
     for i, path in enumerate(image_paths):
 
+        # if the image for this style was not found then skip to the next one
+        if not path or not os.path.isfile(path):
+            continue
+
         # load and resize the image to fit the cell size
         img = Image.open(path)
         if i < len(style_list):
-            print(f"Labeling style: {style_list[i]}")
-            add_label_to_image(img, text=style_list[i], font=label_font, scale=1)
+            style_name = style_list[i]
+            if style_name.startswith("STYLE:"):
+                style_name = style_name[6:]
+            style_name = style_name.strip()
+            print(f" - {style_name}")
+            add_label_to_image(img, text=style_name, font=label_font, scale=1)
 
         cell_img = img.resize((cell_width, cell_height), Image.LANCZOS)
 
@@ -1072,12 +1139,18 @@ def main(args=None, parent_script=None):
     if not images:
         fatal_error("No images found.")
 
-    style_list = extract_style_list(images);
+    # get the list of styles directly from the workflow
+    # and use that to group all images
+    style_list     = extract_style_list(images)
+    grouped_images = group_images_by_prompt_and_style(images, style_list)
 
     # generate the gallery image and save it
-    gallery_image = build_gallery(images, (4,3), scale, style_list=style_list)
-    gallery_image.save( f"gallery{extension}", quality=95)
-
+    gallery_index = 0
+    for prompt, image_paths in grouped_images.items():
+        print(f"\nPrompt: \"{prompt[:40]}...\"")
+        gallery_image = build_gallery(image_paths, (4,3), scale, prompt=prompt, style_list=style_list)
+        gallery_image.save( f"gallery{gallery_index}{extension}", quality=95)
+        gallery_index += 1
 
 
 if __name__ == "__main__":
