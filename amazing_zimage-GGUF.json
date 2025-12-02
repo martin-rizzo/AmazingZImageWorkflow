@@ -130,7 +130,7 @@
         "Node name for S&R": "CLIPTextEncode"
       },
       "widgets_values": [
-        "A woman wearing a dress with a sexy cleavage smiling on the dance floor of a dimly lit nightclub, while male xenomorphs dance in the background."
+        "A woman with short, spiky blonde hair is depicted from the chest up, aiming a large, dark gray firearm. Her hair is tousled and appears to be catching the light. She has blue eyes and shadow on her cheeks. She is wearing a white tank top with one strap visibly off her right shoulder. The firearm she holds is dark gray and appears to be a heavy weapon. A dark ancient castle is visible in the background on the right side. Her attire includes dark, torn shorts and ripped, dark stockings or tights on her legs."
       ]
     },
     {
@@ -875,7 +875,7 @@
       ],
       "flags": {},
       "order": 12,
-      "mode": 2,
+      "mode": 0,
       "inputs": [],
       "outputs": [
         {
@@ -945,7 +945,7 @@
       ],
       "flags": {},
       "order": 14,
-      "mode": 0,
+      "mode": 2,
       "inputs": [],
       "outputs": [
         {
@@ -1344,7 +1344,6 @@
           "link": 268
         },
         {
-          "dir": 3,
           "name": "any_12",
           "type": "STRING",
           "link": null
@@ -1737,7 +1736,6 @@
           "link": null
         },
         {
-          "dir": 3,
           "name": "any_05",
           "type": "SAMPLER",
           "link": null
@@ -2123,7 +2121,7 @@
         "Node name for S&R": "PrimitiveStringMultiline"
       },
       "widgets_values": [
-        "A woman wearing a dress with a sexy cleavage smiling on the dance floor of a dimly lit nightclub, while male xenomorphs dance in the background."
+        "A woman with short, spiky blonde hair is depicted from the chest up, aiming a large, dark gray firearm. Her hair is tousled and appears to be catching the light. She has blue eyes and shadow on her cheeks. She is wearing a white tank top with one strap visibly off her right shoulder. The firearm she holds is dark gray and appears to be a heavy weapon. A dark ancient castle is visible in the background on the right side. Her attire includes dark, torn shorts and ripped, dark stockings or tights on her legs."
       ]
     },
     {
@@ -2306,50 +2304,6 @@
       "shape": 1
     },
     {
-      "id": 88,
-      "type": "Fast Muter (rgthree)",
-      "pos": [
-        1280,
-        840
-      ],
-      "size": [
-        350,
-        340
-      ],
-      "flags": {},
-      "order": 53,
-      "mode": 0,
-      "inputs": [
-        {
-          "dir": 3,
-          "name": "STYLE: Lo-fi Mobile Photo",
-          "type": "*",
-          "link": 287
-        },
-        {
-          "dir": 3,
-          "name": "",
-          "type": "*",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "dir": 4,
-          "name": "OPT_CONNECTION",
-          "type": "*",
-          "links": null
-        }
-      ],
-      "title": "STYLE SELECTOR",
-      "properties": {
-        "toggleRestriction": "max one"
-      },
-      "color": "#232",
-      "bgcolor": "#353",
-      "shape": 1
-    },
-    {
       "id": 9,
       "type": "SaveImage",
       "pos": [
@@ -2414,8 +2368,52 @@
         "Run widget replace on values": false
       },
       "widgets_values": [
-        "A woman wearing a dress with a sexy cleavage smiling on the dance floor of a dimly lit nightclub, while male xenomorphs dance in the background."
+        "A woman with short, spiky blonde hair is depicted from the chest up, aiming a large, dark gray firearm. Her hair is tousled and appears to be catching the light. She has blue eyes and shadow on her cheeks. She is wearing a white tank top with one strap visibly off her right shoulder. The firearm she holds is dark gray and appears to be a heavy weapon. A dark ancient castle is visible in the background on the right side. Her attire includes dark, torn shorts and ripped, dark stockings or tights on her legs."
       ],
+      "color": "#232",
+      "bgcolor": "#353",
+      "shape": 1
+    },
+    {
+      "id": 88,
+      "type": "Fast Muter (rgthree)",
+      "pos": [
+        1280,
+        840
+      ],
+      "size": [
+        350,
+        340
+      ],
+      "flags": {},
+      "order": 53,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "name": "STYLE: Lo-fi Mobile Photo",
+          "type": "*",
+          "link": 287
+        },
+        {
+          "dir": 3,
+          "name": "",
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 4,
+          "name": "OPT_CONNECTION",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "title": "STYLE SELECTOR",
+      "properties": {
+        "toggleRestriction": "max one"
+      },
       "color": "#232",
       "bgcolor": "#353",
       "shape": 1
@@ -3034,8 +3032,8 @@
     "ds": {
       "scale": 0.9510416666666667,
       "offset": [
-        -961.7579408543264,
-        -460
+        -1044.5317634173052,
+        -437.7423329682365
       ]
     },
     "frontendVersion": "1.30.6"
