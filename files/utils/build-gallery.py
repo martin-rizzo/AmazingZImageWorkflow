@@ -862,11 +862,14 @@ def draw_label(image: Image, /,*,
 #////////////////////////////////// MAIN ///////////////////////////////////#
 #===========================================================================#
 
-def build_gallery(image_paths: list[str],
-                  style_list : list[str],
-                  grid_size  : tuple[int, int],
-                  scale      : float = 1.,
-                  prompt     : str   = "",
+def build_gallery(image_paths : list[str],
+                  style_list  : list[str],
+                  grid_size   : tuple[int, int],
+                  image_scale : float =  1,
+                  font_scale  : float =  1,
+                  border      : float = 30, # margins around the gallery
+                  gap         : float = 24, # separation between images
+                  prompt      : str   = "",
                   ) -> tuple[Image.Image, dict]:
     """
     Creates a large image containing multiple PNG images arranged in a grid.
@@ -879,11 +882,11 @@ def build_gallery(image_paths: list[str],
         A tuple containing the generated image and its PNG metadata.
     """
     number_of_images = len(image_paths)
-
-    # TODO: calculate scale based on the cell size
+    border = int(border * image_scale) # apply scale to border width
+    gap    = int(gap    * image_scale) # apply scale to gap between images
 
     # get the appropriate fonts based on the calculated scale
-    label_font, prompt_fonts = get_required_fonts(DEFAULT_FONT_SIZE, scale=1)
+    label_font, prompt_fonts = get_required_fonts(DEFAULT_FONT_SIZE, scale=font_scale)
 
     # validate grid size
     if len(grid_size) != 2:
@@ -898,21 +901,24 @@ def build_gallery(image_paths: list[str],
     for path in image_paths:
         img = Image.open(path)
         if img.width > 0 and img.height > 0:
-            cell_width  = int(scale*img.width )
-            cell_height = int(scale*img.height)
+            cell_width  = int(image_scale*img.width )
+            cell_height = int(image_scale*img.height)
             break
     if cell_width <= 0 or cell_height <= 0:
         raise ValueError("No valid image found")
 
-    # determine how many complete columns are in the last row
-    images_in_last_row = columns
-    if number_of_images < (columns*rows):
-        images_in_last_row = number_of_images % columns
-    xoffset_in_last_row = int( ( columns - images_in_last_row ) * cell_width / 2. )
+    # determine how many full complete rows there are
+    number_of_complete_rows = (number_of_images-1) // columns
 
-    # create a new image with black background
-    gallery_width   = cell_width  * columns
-    gallery_height  = cell_height * rows
+    # calculate the empty space for missing images at last row
+    empty_space_in_last_row = 0
+    if number_of_complete_rows < rows:
+        _columns_in_last_row = number_of_images - (number_of_complete_rows * columns)
+        empty_space_in_last_row = (columns - _columns_in_last_row) * (cell_width+gap)
+
+    # create a big empty black image for the gallery
+    gallery_width   = (border*2) + (gap * (columns-1)) + (cell_width  * columns)
+    gallery_height  = (border*2) + (gap * (rows   -1)) + (cell_height * rows   )
     gallery_image = Image.new('RGB', (gallery_width, gallery_height), color='black')
 
     # draw each image in a grid
@@ -942,14 +948,17 @@ def build_gallery(image_paths: list[str],
         cell_img = img.resize((cell_width, cell_height), Image.LANCZOS)
 
         # calculate the position of the cell within the grid
-        row, col, xoffset = i // columns, i % columns, 0
-        if i >=  (number_of_images - images_in_last_row):
-            xoffset = xoffset_in_last_row
+        row = i // columns
+        col = i %  columns
+        xoffset = border + (cell_width +gap)*col
+        yoffset = border + (cell_height+gap)*row
+        if row >= number_of_complete_rows:
+            xoffset += empty_space_in_last_row // 2
         if row >= rows:
             break
 
         # paste image into the gallery
-        gallery_image.paste(cell_img, (cell_width*col+xoffset, cell_height*row))
+        gallery_image.paste(cell_img, (xoffset,yoffset) )
 
     return gallery_image, metadata
 
@@ -1013,9 +1022,9 @@ def main(args=None, parent_script=None):
         print(f"\nPrompt: \"{prompt[:40]}...\"")
         gallery_image, metadata = build_gallery(image_paths,
                                                 style_list,
-                                                grid_size  = (4,3),
-                                                scale      = scale,
-                                                prompt     = prompt
+                                                grid_size   = (4,4),
+                                                image_scale = scale,
+                                                prompt      = prompt
                                                 )
         filename=f"gallery{gallery_index}{extension}"
         save_image( filename, gallery_image, metadata, should_make_dirs=False)
