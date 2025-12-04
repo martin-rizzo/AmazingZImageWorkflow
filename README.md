@@ -15,11 +15,11 @@ A workflow developed while experimenting with [Z-Image-Turbo](https://github.com
 ## Table of Contents
 1. [Features](#features)
 2. [Workflow Overview](#workflow-overview)
-3. [Required Checkpoints Files](#required-checkpoints-files)
-   - [For "amazing_zimage-GGUF.json"](#)
-   - [For "amazing_zimage-SAFETENSORS.json"](#)
-   - [For Low-VRAM Systems](#)
-4. [Required Custom Nodes](#)
+3. [Required Custom Nodes](#required-custom-nodes)
+4. [Required Checkpoints Files]([#required-checkpoints-files)
+   - [For "amazing_zimage-GGUF.json"](#for-amazing_zimage-ggufjson)
+   - [For "amazing_zimage-SAFETENSORS.json"](#for-amazing_zimage-safetensorsjson)
+   - [For Low-VRAM Systems](#for-low-vram-systems)
 5. [License](#license)
 
 ## Features
@@ -72,6 +72,12 @@ Based directly on the official ComfyUI example. \
     Local Directory: __`ComfyUI/models/text_encoders/`__
   - __[ae.safetensors](https://huggingface.co/Comfy-Org/z_image_turbo/blob/main/split_files/vae/ae.safetensors)__ <sub>(335 MB)</sub>\
     Local Directory: __`ComfyUI/models/vae/`__
+
+### For Low-VRAM Systems
+
+If neither of the two versions nor their checkpoints function adequately on your system, you can find below links to several checkpoint files in GGUF and SafeTensors formats. Feel free to try these alternatives and see which one works best for you.
+
+- Links will be provided soon.
 
 ## License
 
