@@ -10,33 +10,35 @@
 
 </div>
 
-A workflow developed while experimenting with [Z-Image-Turbo](https://github.com/Tongyi-MAI/Z-Image), incorporating additional features beyond the base ComfyUI workflow. Three versions utilizing different checkpoints optimized for varying GPU VRAM capacities are included.
+A workflow developed while experimenting with [Z-Image-Turbo](https://github.com/Tongyi-MAI/Z-Image), extending the ComfyUI base workflow with additional features. This repository includes pre-configured workflows for GGUF and SAFETENSORS formats.
 
 ## Table of Contents
 1. [Features](#features)
-1. [Workflow Overview](#workflow-overview)
-2. [Required Checkpoints Files](#required-checkpoints-files)
+2. [Workflow Overview](#workflow-overview)
+3. [Required Checkpoints Files](#required-checkpoints-files)
    - [For "amazing_zimage-GGUF.json"](#)
    - [For "amazing_zimage-SAFETENSORS.json"](#)
    - [For Low-VRAM Systems](#)
-3. [Required Custom Nodes](#)
-4. [License](#license)
+4. [Required Custom Nodes](#)
+5. [License](#license)
 
 ## Features
 
-- Eight configurable image styles for testing and experimentation.
-- Versions in both .safetensors and .gguf formats to support a range of GPUs.
-- Custom sigma values adjusted to my preference (subjectively better prompt adherence).
-- Generated images are stored within the "ZImage" folder, organized by date.
-- Includes a trick to enable CivitAI automatic prompt detection.
+- **Style Selector:** Choose from fourteen customizable image styles for experimentation.
+- **Sampler Selector:** Easily pick between the two optimal samplers.
+- Preconfigured workflows for each checkpoint formats (GGUF / Safetensors).
+- Custom sigma values subjectively adjusted.
+- Generated images are saved in the "ZImage" folder, organized by date.
+- Includes a trick to enable automatic CivitAI prompt detection.
 
 ## Workflow Overview
 
-The repository contains three workflow files, each optimized for different GPU VRAM capacities:
+The repository contains two workflow files:
 
  1. **"amazing_zimage-GGUF.json"**       : Recommended for GPUs with 12GB or less VRAM.
- 2. **"amazing_zimage-GGUFSMALL.json"**  : For GPUs with less than 8GB VRAM.
- 3. **"amazing_zimage-SAFETENSORS.json"**: Based directly on the ComfyUI example.
+ 2. **"amazing_zimage-SAFETENSORS.json"**: Based directly on the ComfyUI example.
+
+<sub>You'll often come across discussions about the best file format for ComfyUI. Based on my experience, GGUF quantized models offer a better balance between compactness and maintaining good prompt response compared to SafeTensors versions. However, it's also true that ComfyUI has internal speed enhancements that work more effectively with SafeTensors, which might lead you to prefer larger SafeTensors files. The reality is that this depends on several factors: your ComfyUI version, PyTorch setup, CUDA configuration, GPU type, and available VRAM and RAM. To help you out, I've included links below to various checkpoint versions so you can determine what works best for your specific system.</sub>
 
 ## Required Checkpoints Files
 > [!NOTE]
