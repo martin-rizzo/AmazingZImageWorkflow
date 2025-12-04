@@ -99,7 +99,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 46,
+      "order": 50,
       "mode": 0,
       "inputs": [
         {
@@ -133,7 +133,7 @@
         "Node name for S&R": "CLIPTextEncode"
       },
       "widgets_values": [
-        "A woman with fair skin and dark, tousled hair pulled back from her face, is depicted holding a large, ornate sword across her shoulders, looking directly at the camera with a sexy expression and a sarcastic smile. Her eyes are wide and appear to be a light color, framed by dark, dramatic eye makeup. Her lips are painted black. Her right arm is visibly robotic, composed of metallic segments, wires, and tubing, with a metallic hand. Her left arm is partially obscured by the sword's hilt and shoulder strap of her vest, but also shows similar mechanical elements emerging from her shoulder and extending down her arm.\n\nShe wears a black, sleeveless tactical vest with multiple straps and buckles. A rectangular patch with the word \"Z-IMAGE\" in gold lettering is attached to the front of the vest, and beneath it, another patch displays \"Q5_K_S\" in red lettering. Beneath the vest, her torso is encased in a complex assembly of black tubes and metallic joints, suggesting a cybernetic torso. She wears dark, loose-fitting cargo pants cinched at the waist with a black belt. The pants have multiple pockets and straps. The sword she holds is large and appears to be made of dark metal with intricate, gold-colored detailing on the hilt and guard."
+        "A woman with short, spiky blonde hair is depicted from the chest up, aiming a large, dark gray firearm. Her hair is tousled and appears to be catching the light. She has blue eyes and shadow on her cheeks. She is wearing a white tank top with one strap visibly off her right shoulder. The firearm she holds is dark gray and appears to be a heavy weapon. A dark ancient castle is visible in the background on the right side. Her attire includes dark, torn shorts and ripped, dark stockings or tights on her legs."
       ]
     },
     {
@@ -150,7 +150,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 57,
+      "order": 56,
       "mode": 0,
       "inputs": [
         {
@@ -187,7 +187,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 58,
+      "order": 57,
       "mode": 0,
       "inputs": [
         {
@@ -335,7 +335,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 56,
+      "order": 55,
       "mode": 0,
       "inputs": [
         {
@@ -509,7 +509,7 @@
       },
       "widgets_values": [
         true,
-        2,
+        1,
         "fixed",
         1
       ]
@@ -528,7 +528,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 55,
+      "order": 59,
       "mode": 0,
       "inputs": [
         {
@@ -582,7 +582,7 @@
       },
       "widgets_values": [
         "enable",
-        2,
+        1,
         "randomize",
         8,
         1,
@@ -608,7 +608,7 @@
         "pinned": true
       },
       "order": 3,
-      "mode": 0,
+      "mode": 2,
       "inputs": [],
       "outputs": [
         {
@@ -682,7 +682,7 @@
         "pinned": true
       },
       "order": 5,
-      "mode": 2,
+      "mode": 0,
       "inputs": [],
       "outputs": [
         {
@@ -771,7 +771,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 59,
+      "order": 58,
       "mode": 0,
       "inputs": [
         {
@@ -2119,7 +2119,6 @@
           "link": 335
         },
         {
-          "dir": 3,
           "name": "any_16",
           "type": "STRING",
           "link": null
@@ -2250,7 +2249,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 47,
+      "order": 45,
       "mode": 0,
       "inputs": [
         {
@@ -2364,7 +2363,7 @@
         "pinned": true
       },
       "order": 18,
-      "mode": 2,
+      "mode": 0,
       "inputs": [],
       "outputs": [
         {
@@ -2401,7 +2400,7 @@
         "pinned": true
       },
       "order": 19,
-      "mode": 0,
+      "mode": 2,
       "inputs": [],
       "outputs": [
         {
@@ -2486,7 +2485,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 45,
+      "order": 49,
       "mode": 0,
       "inputs": [
         {
@@ -2514,7 +2513,7 @@
         "Node name for S&R": "PrimitiveStringMultiline"
       },
       "widgets_values": [
-        "A woman with fair skin and dark, tousled hair pulled back from her face, is depicted holding a large, ornate sword across her shoulders, looking directly at the camera with a sexy expression and a sarcastic smile. Her eyes are wide and appear to be a light color, framed by dark, dramatic eye makeup. Her lips are painted black. Her right arm is visibly robotic, composed of metallic segments, wires, and tubing, with a metallic hand. Her left arm is partially obscured by the sword's hilt and shoulder strap of her vest, but also shows similar mechanical elements emerging from her shoulder and extending down her arm.\n\nShe wears a black, sleeveless tactical vest with multiple straps and buckles. A rectangular patch with the word \"Z-IMAGE\" in gold lettering is attached to the front of the vest, and beneath it, another patch displays \"Q5_K_S\" in red lettering. Beneath the vest, her torso is encased in a complex assembly of black tubes and metallic joints, suggesting a cybernetic torso. She wears dark, loose-fitting cargo pants cinched at the waist with a black belt. The pants have multiple pockets and straps. The sword she holds is large and appears to be made of dark metal with intricate, gold-colored detailing on the hilt and guard."
+        "A woman with short, spiky blonde hair is depicted from the chest up, aiming a large, dark gray firearm. Her hair is tousled and appears to be catching the light. She has blue eyes and shadow on her cheeks. She is wearing a white tank top with one strap visibly off her right shoulder. The firearm she holds is dark gray and appears to be a heavy weapon. A dark ancient castle is visible in the background on the right side. Her attire includes dark, torn shorts and ripped, dark stockings or tights on her legs."
       ]
     },
     {
@@ -2610,47 +2609,6 @@
       "shape": 1
     },
     {
-      "id": 57,
-      "type": "PrimitiveNode",
-      "pos": [
-        1640,
-        840
-      ],
-      "size": [
-        510,
-        570
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 20,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "widget": {
-            "name": "value"
-          },
-          "links": [
-            295,
-            296
-          ]
-        }
-      ],
-      "title": "PROMPT",
-      "properties": {
-        "Run widget replace on values": false
-      },
-      "widgets_values": [
-        "A woman with fair skin and dark, tousled hair pulled back from her face, is depicted holding a large, ornate sword across her shoulders, looking directly at the camera with a sexy expression and a sarcastic smile. Her eyes are wide and appear to be a light color, framed by dark, dramatic eye makeup. Her lips are painted black. Her right arm is visibly robotic, composed of metallic segments, wires, and tubing, with a metallic hand. Her left arm is partially obscured by the sword's hilt and shoulder strap of her vest, but also shows similar mechanical elements emerging from her shoulder and extending down her arm.\n\nShe wears a black, sleeveless tactical vest with multiple straps and buckles. A rectangular patch with the word \"Z-IMAGE\" in gold lettering is attached to the front of the vest, and beneath it, another patch displays \"Q5_K_S\" in red lettering. Beneath the vest, her torso is encased in a complex assembly of black tubes and metallic joints, suggesting a cybernetic torso. She wears dark, loose-fitting cargo pants cinched at the waist with a black belt. The pants have multiple pockets and straps. The sword she holds is large and appears to be made of dark metal with intricate, gold-colored detailing on the hilt and guard."
-      ],
-      "color": "#232",
-      "bgcolor": "#353",
-      "shape": 1
-    },
-    {
       "id": 58,
       "type": "PrimitiveNode",
       "pos": [
@@ -2664,7 +2622,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 21,
+      "order": 20,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2685,7 +2643,7 @@
         "Run widget replace on values": false
       },
       "widgets_values": [
-        2,
+        1,
         "fixed"
       ],
       "color": "#432",
@@ -2706,7 +2664,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 22,
+      "order": 21,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2748,7 +2706,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 23,
+      "order": 22,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -2773,7 +2731,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 24,
+      "order": 23,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2812,7 +2770,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 25,
+      "order": 24,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2850,7 +2808,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 26,
+      "order": 25,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2890,7 +2848,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 48,
+      "order": 46,
       "mode": 0,
       "inputs": [
         {
@@ -2927,7 +2885,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 49,
+      "order": 47,
       "mode": 0,
       "inputs": [
         {
@@ -2964,7 +2922,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 50,
+      "order": 48,
       "mode": 0,
       "inputs": [
         {
@@ -3002,7 +2960,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 27,
+      "order": 26,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -3013,6 +2971,47 @@
       ],
       "color": "#322",
       "bgcolor": "#533",
+      "shape": 1
+    },
+    {
+      "id": 57,
+      "type": "PrimitiveNode",
+      "pos": [
+        1640,
+        840
+      ],
+      "size": [
+        510,
+        570
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 27,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "widget": {
+            "name": "value"
+          },
+          "links": [
+            295,
+            296
+          ]
+        }
+      ],
+      "title": "PROMPT",
+      "properties": {
+        "Run widget replace on values": false
+      },
+      "widgets_values": [
+        "A woman with short, spiky blonde hair is depicted from the chest up, aiming a large, dark gray firearm. Her hair is tousled and appears to be catching the light. She has blue eyes and shadow on her cheeks. She is wearing a white tank top with one strap visibly off her right shoulder. The firearm she holds is dark gray and appears to be a heavy weapon. A dark ancient castle is visible in the background on the right side. Her attire includes dark, torn shorts and ripped, dark stockings or tights on her legs."
+      ],
+      "color": "#232",
+      "bgcolor": "#353",
       "shape": 1
     }
   ],
