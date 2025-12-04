@@ -4,7 +4,8 @@
 [![Platform](https://img.shields.io/badge/platform%3A-ComfyUI-007BFF)](#)
 [![License](https://img.shields.io/github/license/martin-rizzo/AmazingZImageWorkflow?label=license%3A&color=28A745)](#)
 [![Version](https://img.shields.io/github/v/tag/martin-rizzo/AmazingZImageWorkflow?label=version%3A&color=D07250)](#)
-[![Last](https://img.shields.io/github/last-commit/martin-rizzo/AmazingZImageWorkflow?label=last%20commit%3A)](#)  
+[![Last](https://img.shields.io/github/last-commit/martin-rizzo/AmazingZImageWorkflow?label=last%20commit%3A)](#) |
+[<img src="https://img.shields.io/badge/CivitAI%3A-AmazingZImageWorkflow-EEE?labelColor=1971C2&logo=c%2B%2B&logoColor=white" height="22">](https://civitai.com/models/2181458/amazing-z-image-workflow)  
 <img src="files/banner.png" width="75%"></img>
 
 </div>
