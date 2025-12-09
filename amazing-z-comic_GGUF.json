@@ -1,8 +1,8 @@
 {
   "id": "95418ce2-5b62-4729-894f-ed7422bb5ec0",
   "revision": 0,
-  "last_node_id": 157,
-  "last_link_id": 454,
+  "last_node_id": 159,
+  "last_link_id": 458,
   "nodes": [
     {
       "id": 60,
@@ -99,7 +99,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 52,
+      "order": 47,
       "mode": 0,
       "inputs": [
         {
@@ -150,7 +150,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 53,
+      "order": 58,
       "mode": 0,
       "inputs": [
         {
@@ -187,7 +187,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 55,
+      "order": 59,
       "mode": 0,
       "inputs": [
         {
@@ -224,7 +224,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 77,
+      "order": 79,
       "mode": 0,
       "inputs": [
         {
@@ -261,7 +261,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 62,
+      "order": 65,
       "mode": 0,
       "inputs": [
         {
@@ -298,7 +298,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 57,
+      "order": 62,
       "mode": 0,
       "inputs": [
         {
@@ -335,7 +335,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 56,
+      "order": 54,
       "mode": 0,
       "inputs": [
         {
@@ -372,7 +372,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 58,
+      "order": 66,
       "mode": 0,
       "inputs": [
         {
@@ -396,121 +396,6 @@
       }
     },
     {
-      "id": 28,
-      "type": "UnetLoaderGGUF",
-      "pos": [
-        -180,
-        140
-      ],
-      "size": [
-        380,
-        100
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 2,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [
-            307
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui-gguf",
-        "ver": "1.1.8",
-        "Node name for S&R": "UnetLoaderGGUF"
-      },
-      "widgets_values": [
-        "z_image_turbo-Q5_K_S.gguf"
-      ],
-      "color": "#322",
-      "bgcolor": "#533",
-      "shape": 1
-    },
-    {
-      "id": 89,
-      "type": "CLIPLoaderGGUF",
-      "pos": [
-        -180,
-        410
-      ],
-      "size": [
-        380,
-        110
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 3,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "CLIP",
-          "type": "CLIP",
-          "links": [
-            306
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui-gguf",
-        "ver": "1.1.8",
-        "Node name for S&R": "CLIPLoaderGGUF"
-      },
-      "widgets_values": [
-        "Qwen3-4B.i1-Q5_K_S.gguf",
-        "lumina2"
-      ],
-      "color": "#322",
-      "bgcolor": "#533",
-      "shape": 1
-    },
-    {
-      "id": 17,
-      "type": "VAELoader",
-      "pos": [
-        -180,
-        280
-      ],
-      "size": [
-        380,
-        90
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 4,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "VAE",
-          "type": "VAE",
-          "links": [
-            329
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "VAELoader"
-      },
-      "widgets_values": [
-        "ae.safetensors"
-      ],
-      "color": "#322",
-      "bgcolor": "#533",
-      "shape": 1
-    },
-    {
       "id": 67,
       "type": "SamplerCustom",
       "pos": [
@@ -524,7 +409,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 78,
+      "order": 80,
       "mode": 0,
       "inputs": [
         {
@@ -606,7 +491,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 61,
+      "order": 57,
       "mode": 0,
       "inputs": [
         {
@@ -685,7 +570,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 30,
+      "order": 48,
       "mode": 0,
       "inputs": [
         {
@@ -722,7 +607,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 32,
+      "order": 49,
       "mode": 0,
       "inputs": [
         {
@@ -746,50 +631,6 @@
       }
     },
     {
-      "id": 7,
-      "type": "CLIPTextEncode",
-      "pos": [
-        430,
-        320
-      ],
-      "size": [
-        425.27801513671875,
-        180.6060791015625
-      ],
-      "flags": {
-        "collapsed": true,
-        "pinned": true
-      },
-      "order": 54,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "clip",
-          "type": "CLIP",
-          "link": 301
-        }
-      ],
-      "outputs": [
-        {
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
-          "slot_index": 0,
-          "links": [
-            201
-          ]
-        }
-      ],
-      "title": "CLIP Text Encode (Negative Prompt)",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "CLIPTextEncode"
-      },
-      "widgets_values": [
-        ""
-      ]
-    },
-    {
       "id": 115,
       "type": "Reroute",
       "pos": [
@@ -803,7 +644,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 31,
+      "order": 50,
       "mode": 0,
       "inputs": [
         {
@@ -841,7 +682,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 79,
+      "order": 81,
       "mode": 0,
       "inputs": [
         {
@@ -923,7 +764,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 37,
+      "order": 32,
       "mode": 0,
       "inputs": [
         {
@@ -961,7 +802,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 38,
+      "order": 33,
       "mode": 0,
       "inputs": [
         {
@@ -999,7 +840,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 39,
+      "order": 34,
       "mode": 0,
       "inputs": [
         {
@@ -1037,7 +878,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 40,
+      "order": 35,
       "mode": 0,
       "inputs": [
         {
@@ -1075,7 +916,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 41,
+      "order": 36,
       "mode": 0,
       "inputs": [
         {
@@ -1113,7 +954,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 42,
+      "order": 37,
       "mode": 0,
       "inputs": [
         {
@@ -1151,7 +992,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 43,
+      "order": 38,
       "mode": 0,
       "inputs": [
         {
@@ -1189,7 +1030,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 49,
+      "order": 44,
       "mode": 0,
       "inputs": [
         {
@@ -1227,7 +1068,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 45,
+      "order": 40,
       "mode": 0,
       "inputs": [
         {
@@ -1265,7 +1106,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 46,
+      "order": 41,
       "mode": 0,
       "inputs": [
         {
@@ -1303,7 +1144,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 47,
+      "order": 42,
       "mode": 0,
       "inputs": [
         {
@@ -1341,7 +1182,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 44,
+      "order": 39,
       "mode": 0,
       "inputs": [
         {
@@ -1379,7 +1220,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 50,
+      "order": 45,
       "mode": 0,
       "inputs": [
         {
@@ -1417,7 +1258,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 48,
+      "order": 43,
       "mode": 0,
       "inputs": [
         {
@@ -1455,7 +1296,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 59,
+      "order": 55,
       "mode": 0,
       "inputs": [
         {
@@ -1581,7 +1422,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 60,
+      "order": 56,
       "mode": 0,
       "inputs": [
         {
@@ -1719,7 +1560,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 33,
+      "order": 30,
       "mode": 0,
       "inputs": [
         {
@@ -1766,7 +1607,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 34,
+      "order": 53,
       "mode": 0,
       "inputs": [
         {
@@ -1819,33 +1660,6 @@
       "widgets_values": []
     },
     {
-      "id": 91,
-      "type": "Note",
-      "pos": [
-        -920,
-        90
-      ],
-      "size": [
-        710,
-        540
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 5,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "title": "README",
-      "properties": {},
-      "widgets_values": [
-        "Amazing Z-Image Workflow v2\n\n## Workflow Prerequisites ##\n\n This workflow requires the following custom nodes, which can be obtained via ComfyUI-Manager or from:\n\n  * rgthree     : https://github.com/rgthree/rgthree-comfy\n  * ComfyUI-GGUF: https://github.com/city96/ComfyUI-GGUF\n\n Additionally, ensure you have the following three models downloaded and placed in their respective\n directories within your ComfyUI installation:\n\n  z_image_turbo-Q5_K_S.gguf\n    * Download: https://huggingface.co/jayn7/Z-Image-Turbo-GGUF/blob/main/z_image_turbo-Q5_K_S.gguf\n    * Local Directory: `ComfyUI/models/diffusion_models/`\n\n  Qwen3-4B.i1-Q5_K_S.gguf\n    * Download: https://huggingface.co/mradermacher/Qwen3-4B-i1-GGUF/blob/main/Qwen3-4B.i1-Q5_K_S.gguf\n    * Local Directory: `ComfyUI/models/text_encoders/`\n\n  ae.safetensors\n    * Download: https://huggingface.co/Comfy-Org/z_image_turbo/blob/main/split_files/vae/ae.safetensors\n    * Local Directory: `Comfyui/models/vae/`\n\n## More Info ##\n   - https://github.com/martin-rizzo/AmazingZImageWorkflow\n   - https://civitai.com/models/2181458/amazing-z-image-workflow\n\n\nCreated by Martin Rizzo  \n  GitHub : https://github.com/martin-rizzo\n  CivitAI: https://civitai.com/user/Photographer\n  Reddit : https://www.reddit.com/user/FotografoVirtual\n"
-      ],
-      "color": "#322",
-      "bgcolor": "#533",
-      "shape": 1
-    },
-    {
       "id": 58,
       "type": "PrimitiveNode",
       "pos": [
@@ -1859,7 +1673,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 6,
+      "order": 2,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1901,7 +1715,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 7,
+      "order": 3,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1943,7 +1757,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 8,
+      "order": 4,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -1968,7 +1782,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 35,
+      "order": 31,
       "mode": 0,
       "inputs": [
         {
@@ -1993,152 +1807,6 @@
       }
     },
     {
-      "id": 90,
-      "type": "PrimitiveString",
-      "pos": [
-        -910,
-        1750
-      ],
-      "size": [
-        270,
-        58
-      ],
-      "flags": {
-        "collapsed": true
-      },
-      "order": 9,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            365
-          ]
-        }
-      ],
-      "title": "No Style",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveString"
-      },
-      "widgets_values": [
-        "{$@}"
-      ]
-    },
-    {
-      "id": 95,
-      "type": "KSamplerSelect",
-      "pos": [
-        430,
-        370
-      ],
-      "size": [
-        270,
-        80
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 10,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "SAMPLER",
-          "type": "SAMPLER",
-          "links": [
-            372,
-            448
-          ]
-        }
-      ],
-      "title": "Alternative Sampler",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "KSamplerSelect"
-      },
-      "widgets_values": [
-        "euler_ancestral"
-      ]
-    },
-    {
-      "id": 68,
-      "type": "KSamplerSelect",
-      "pos": [
-        430,
-        490
-      ],
-      "size": [
-        270,
-        70
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 11,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "SAMPLER",
-          "type": "SAMPLER",
-          "links": [
-            373
-          ]
-        }
-      ],
-      "title": "Default Euler Sampler",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "KSamplerSelect"
-      },
-      "widgets_values": [
-        "euler"
-      ]
-    },
-    {
-      "id": 13,
-      "type": "EmptySD3LatentImage",
-      "pos": [
-        450,
-        860
-      ],
-      "size": [
-        260,
-        120
-      ],
-      "flags": {},
-      "order": 12,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "LATENT",
-          "type": "LATENT",
-          "slot_index": 0,
-          "links": [
-            375
-          ]
-        }
-      ],
-      "title": "Default Portrait Orientation",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "EmptySD3LatentImage"
-      },
-      "widgets_values": [
-        944,
-        1408,
-        1
-      ]
-    },
-    {
       "id": 101,
       "type": "PrimitiveStringMultiline",
       "pos": [
@@ -2152,7 +1820,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 13,
+      "order": 5,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2189,7 +1857,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 36,
+      "order": 61,
       "mode": 0,
       "inputs": [
         {
@@ -2242,46 +1910,6 @@
       "widgets_values": []
     },
     {
-      "id": 134,
-      "type": "EmptySD3LatentImage",
-      "pos": [
-        450,
-        690
-      ],
-      "size": [
-        260,
-        120
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 14,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "LATENT",
-          "type": "LATENT",
-          "slot_index": 0,
-          "links": [
-            374,
-            450
-          ]
-        }
-      ],
-      "title": "Landscape Orientation",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "EmptySD3LatentImage"
-      },
-      "widgets_values": [
-        1408,
-        944,
-        1
-      ]
-    },
-    {
       "id": 88,
       "type": "Fast Muter (rgthree)",
       "pos": [
@@ -2295,7 +1923,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 65,
+      "order": 67,
       "mode": 0,
       "inputs": [
         {
@@ -2341,7 +1969,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 80,
+      "order": 82,
       "mode": 0,
       "inputs": [
         {
@@ -2363,58 +1991,6 @@
       "shape": 1
     },
     {
-      "id": 6,
-      "type": "CLIPTextEncode",
-      "pos": [
-        430,
-        280
-      ],
-      "size": [
-        470,
-        350
-      ],
-      "flags": {
-        "collapsed": true,
-        "pinned": true
-      },
-      "order": 76,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "clip",
-          "type": "CLIP",
-          "link": 300
-        },
-        {
-          "name": "text",
-          "type": "STRING",
-          "widget": {
-            "name": "text"
-          },
-          "link": 429
-        }
-      ],
-      "outputs": [
-        {
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
-          "slot_index": 0,
-          "links": [
-            199
-          ]
-        }
-      ],
-      "title": "CLIP Text Encode (Positive Prompt)",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "CLIPTextEncode"
-      },
-      "widgets_values": [
-        ""
-      ]
-    },
-    {
       "id": 97,
       "type": "Fast Muter (rgthree)",
       "pos": [
@@ -2428,7 +2004,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 74,
+      "order": 76,
       "mode": 0,
       "inputs": [
         {
@@ -2474,7 +2050,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 72,
+      "order": 74,
       "mode": 0,
       "inputs": [
         {
@@ -2515,6 +2091,1045 @@
       "properties": {}
     },
     {
+      "id": 125,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1660,
+        -140
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 6,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            381
+          ]
+        }
+      ],
+      "title": "STYLE: Comic",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "Illustration with intense colors and {$erotic} comic book style, {$with-adult-content}. Action scene featuring: {$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 47,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1660,
+        80
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 7,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            382
+          ]
+        }
+      ],
+      "title": "STYLE: European Comic",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "Italian {$erotic} comic book, hand-drawn with bold colors and sinuous lines, featuring realistic characters in hypersaturated imagery with high-contrast ballpoint hatching and intricate cross-hatch patterns. A seamless complete full page illustration {$with-adult-content}, using red, green and blue. Featuring: {$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 37,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1660,
+        300
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 8,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            384
+          ]
+        }
+      ],
+      "title": "STYLE: Vintage Comic",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "An old sheet of paper with a vintage {$erotic} comic strip from 1950 {$with-adult-content}, painted in white, red, blue and black with freehand outlines. A detailed and dirty image featuring: {$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 38,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1660,
+        520
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 9,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            421
+          ]
+        }
+      ],
+      "title": "STYLE: Pop-Art",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "Image in {$erotic} Pop Art style characterized by bold, vibrant colors that stand out vividly, and thick black outlines defining each form with clarity and contrast. The surface is executed using a pointillist technique, where dots of color come together to create the overall picture. Dazzling patterns and comic style characters {$with-adult-content}. The scene has a flat, two-dimensional appearance typical of pop art aesthetics, featuring {$@}"
+      ]
+    },
+    {
+      "id": 117,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1660,
+        740
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 10,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            387
+          ]
+        }
+      ],
+      "title": "STYLE: Studio Anime",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "Epic hand-drawn Japanese {$erotic} animation from Studio Ghibli {$with-adult-content}. This shot features: {$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 41,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1660,
+        960
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 11,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            423
+          ]
+        }
+      ],
+      "title": "STYLE: Anime",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "An image in {$erotic} anime style {$with-adult-content}, featuring an ominous atmosphere, clean lines, and dramatic facial expressions. The artwork uses cool and dark tones along with dramatic lighting and shadows that emphasize the central figure and create a somber, intense mood. The dynamic shot has a black background and features: {$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 124,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1660,
+        1180
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 12,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            424
+          ]
+        }
+      ],
+      "title": "STYLE: Manga",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "Black and white {$erotic} manga-style illustration {$with-adult-content}, including explicit and violent content. The illustration features: {$@}."
+      ],
+      "shape": 1
+    },
+    {
+      "id": 93,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1660,
+        1400
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 13,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            414
+          ]
+        }
+      ],
+      "title": "STYLE: Digital Illustration",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "A detailed {$erotic} illustration in stylized line art {$with-adult-content}, rendered with vector graphics aesthetics. With black solid shadows and big negative space creating enigmatic stillness. Saturated highlights with glowing accents, emphasizing contrasts between obscurity and luminous for a vivid impact. Featuring: {$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 43,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1660,
+        1620
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 14,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            402
+          ]
+        }
+      ],
+      "title": "STYLE: Minimalist Sketchwash",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "A minimalist and simple {$erotic} pencil sketch {$with-adult-content}, featuring large empty areas and a white background. Painted in watercolors. Featuring: {$@}."
+      ],
+      "shape": 1
+    },
+    {
+      "id": 130,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1660,
+        1840
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 15,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            404
+          ]
+        }
+      ],
+      "title": "STYLE: Ink Draw",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "A realistically rendered {$erotic} ink drawing {$with-adult-content}, featuring fine cross-hatching and stippling techniques. These methods create deep shadows and highlights using a monochromatic color scheme. The image includes large areas of white space and high contrast due to varying line densities. Featuring: {$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 92,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1660,
+        2060
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 16,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            403
+          ]
+        }
+      ],
+      "title": "STYLE: Hand-Drawn Illustration",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "A realistically rendered {$erotic} concept-art {$with-adult-content}, done in ink. Like a very sharp photograph, but drawn. This colorful concept-art features large white areas and high contrast thanks to the varying density of the lines. Featuring: {$@}\n"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 45,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1660,
+        2280
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 17,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            410
+          ]
+        }
+      ],
+      "title": "STYLE: LowRes Pixel Art",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "Pixel art in low resolution for {$erotic} japanese videogame {$with-adult-content}. 2D image with pixelated background and pixelated characteres in low resolution. 320x200 sharp image featuring {$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 122,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1660,
+        2500
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 18,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            420
+          ]
+        }
+      ],
+      "title": "STYLE: Unsettling",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "An {$erotic} illustration {$with-adult-content}; the illustration includes stippling textures and intense side lighting with deep shadows, and hard edges; low key atmosphere with high contrast and minimal highlights; cinematic chiaroscuro; horror graphic novel with dynamic composition, featuring: {$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 63,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1660,
+        2720
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 19,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            409
+          ]
+        }
+      ],
+      "title": "STYLE: Simple Vector Illustration",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "A stylized {$erotic} digital illustration {$with-adult-content} in iconography style. The illustration has a graphic design aesthetic, featuring flat, solid colors, no defined outlines, and a minimalist approach to composition, featuring: {$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 57,
+      "type": "PrimitiveNode",
+      "pos": [
+        1640,
+        840
+      ],
+      "size": [
+        510,
+        610
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 20,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "widget": {
+            "name": "value"
+          },
+          "links": [
+            295,
+            296
+          ]
+        }
+      ],
+      "title": "PROMPT",
+      "properties": {
+        "Run widget replace on values": false
+      },
+      "widgets_values": [
+        "There are many magenta Minions in the playground."
+      ],
+      "color": "#232",
+      "bgcolor": "#353",
+      "shape": 1
+    },
+    {
+      "id": 28,
+      "type": "UnetLoaderGGUF",
+      "pos": [
+        -190,
+        140
+      ],
+      "size": [
+        380,
+        100
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 21,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            307
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-gguf",
+        "ver": "1.1.8",
+        "Node name for S&R": "UnetLoaderGGUF"
+      },
+      "widgets_values": [
+        "z_image_turbo-Q5_K_S.gguf"
+      ],
+      "color": "#322",
+      "bgcolor": "#533",
+      "shape": 1
+    },
+    {
+      "id": 17,
+      "type": "VAELoader",
+      "pos": [
+        -190,
+        280
+      ],
+      "size": [
+        380,
+        90
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 22,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [
+            329
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "VAELoader"
+      },
+      "widgets_values": [
+        "ae.safetensors"
+      ],
+      "color": "#322",
+      "bgcolor": "#533",
+      "shape": 1
+    },
+    {
+      "id": 89,
+      "type": "CLIPLoaderGGUF",
+      "pos": [
+        -190,
+        410
+      ],
+      "size": [
+        380,
+        110
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 23,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            306
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-gguf",
+        "ver": "1.1.8",
+        "Node name for S&R": "CLIPLoaderGGUF"
+      },
+      "widgets_values": [
+        "Qwen3-4B.i1-Q5_K_S.gguf",
+        "lumina2"
+      ],
+      "color": "#322",
+      "bgcolor": "#533",
+      "shape": 1
+    },
+    {
+      "id": 158,
+      "type": "PrimitiveNode",
+      "pos": [
+        -120,
+        610
+      ],
+      "size": [
+        240,
+        90
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 24,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "widget": {
+            "name": "width"
+          },
+          "links": [
+            455,
+            456
+          ]
+        }
+      ],
+      "title": "Width",
+      "properties": {
+        "Run widget replace on values": false
+      },
+      "widgets_values": [
+        944,
+        "fixed"
+      ],
+      "color": "#432",
+      "bgcolor": "#653",
+      "shape": 1
+    },
+    {
+      "id": 159,
+      "type": "PrimitiveNode",
+      "pos": [
+        -120,
+        740
+      ],
+      "size": [
+        240,
+        90
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 25,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "widget": {
+            "name": "height"
+          },
+          "links": [
+            457,
+            458
+          ]
+        }
+      ],
+      "title": "Height",
+      "properties": {
+        "Run widget replace on values": false
+      },
+      "widgets_values": [
+        1408,
+        "fixed"
+      ],
+      "color": "#432",
+      "bgcolor": "#653",
+      "shape": 1
+    },
+    {
+      "id": 6,
+      "type": "CLIPTextEncode",
+      "pos": [
+        390,
+        270
+      ],
+      "size": [
+        470,
+        350
+      ],
+      "flags": {
+        "collapsed": true,
+        "pinned": true
+      },
+      "order": 78,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 300
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "widget": {
+            "name": "text"
+          },
+          "link": 429
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "slot_index": 0,
+          "links": [
+            199
+          ]
+        }
+      ],
+      "title": "CLIP Text Encode (Positive Prompt)",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
+      "id": 7,
+      "type": "CLIPTextEncode",
+      "pos": [
+        390,
+        310
+      ],
+      "size": [
+        425.27801513671875,
+        180.6060791015625
+      ],
+      "flags": {
+        "collapsed": true,
+        "pinned": true
+      },
+      "order": 60,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 301
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "slot_index": 0,
+          "links": [
+            201
+          ]
+        }
+      ],
+      "title": "CLIP Text Encode (Negative Prompt)",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
+      "id": 95,
+      "type": "KSamplerSelect",
+      "pos": [
+        390,
+        350
+      ],
+      "size": [
+        270,
+        80
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 26,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "SAMPLER",
+          "type": "SAMPLER",
+          "links": [
+            372,
+            448
+          ]
+        }
+      ],
+      "title": "Alternative Sampler",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "KSamplerSelect"
+      },
+      "widgets_values": [
+        "euler_ancestral"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "KSamplerSelect",
+      "pos": [
+        390,
+        470
+      ],
+      "size": [
+        270,
+        70
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 27,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "SAMPLER",
+          "type": "SAMPLER",
+          "links": [
+            373
+          ]
+        }
+      ],
+      "title": "Default Euler Sampler",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "KSamplerSelect"
+      },
+      "widgets_values": [
+        "euler"
+      ]
+    },
+    {
+      "id": 134,
+      "type": "EmptySD3LatentImage",
+      "pos": [
+        390,
+        580
+      ],
+      "size": [
+        270,
+        120
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 52,
+      "mode": 2,
+      "inputs": [
+        {
+          "name": "width",
+          "type": "INT",
+          "widget": {
+            "name": "width"
+          },
+          "link": 458
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "widget": {
+            "name": "height"
+          },
+          "link": 456
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "slot_index": 0,
+          "links": [
+            374,
+            450
+          ]
+        }
+      ],
+      "title": "Landscape Orientation",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "EmptySD3LatentImage"
+      },
+      "widgets_values": [
+        1408,
+        944,
+        1
+      ]
+    },
+    {
+      "id": 13,
+      "type": "EmptySD3LatentImage",
+      "pos": [
+        390,
+        740
+      ],
+      "size": [
+        270,
+        120
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 51,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "width",
+          "type": "INT",
+          "widget": {
+            "name": "width"
+          },
+          "link": 455
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "widget": {
+            "name": "height"
+          },
+          "link": 457
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "slot_index": 0,
+          "links": [
+            375
+          ]
+        }
+      ],
+      "title": "Default Portrait Orientation",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "EmptySD3LatentImage"
+      },
+      "widgets_values": [
+        944,
+        1408,
+        1
+      ]
+    },
+    {
       "id": 144,
       "type": "StringReplace",
       "pos": [
@@ -2525,8 +3140,10 @@
         310,
         196.00000000000014
       ],
-      "flags": {},
-      "order": 66,
+      "flags": {
+        "pinned": true
+      },
+      "order": 68,
       "mode": 0,
       "inputs": [
         {
@@ -2559,18 +3176,20 @@
       ]
     },
     {
-      "id": 147,
+      "id": 145,
       "type": "StringReplace",
       "pos": [
         660,
-        2260
+        2020
       ],
       "size": [
         310,
-        196
+        196.00000000000006
       ],
-      "flags": {},
-      "order": 69,
+      "flags": {
+        "pinned": true
+      },
+      "order": 70,
       "mode": 0,
       "inputs": [
         {
@@ -2579,7 +3198,7 @@
           "widget": {
             "name": "string"
           },
-          "link": 426
+          "link": 425
         }
       ],
       "outputs": [
@@ -2587,11 +3206,12 @@
           "name": "STRING",
           "type": "STRING",
           "links": [
-            435
+            434,
+            453
           ]
         }
       ],
-      "title": "Default: No Adult Content",
+      "title": "Adult Content Inducer",
       "properties": {
         "cnr_id": "comfy-core",
         "ver": "0.3.77",
@@ -2600,51 +3220,7 @@
       "widgets_values": [
         "",
         "{$with-adult-content}",
-        ""
-      ]
-    },
-    {
-      "id": 146,
-      "type": "StringReplace",
-      "pos": [
-        340,
-        2260
-      ],
-      "size": [
-        310,
-        196
-      ],
-      "flags": {},
-      "order": 67,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "string",
-          "type": "STRING",
-          "widget": {
-            "name": "string"
-          },
-          "link": 431
-        }
-      ],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            426
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.77",
-        "Node name for S&R": "StringReplace"
-      },
-      "widgets_values": [
-        "",
-        "{$erotic}",
-        ""
+        "with adult content and sexual provocation"
       ]
     },
     {
@@ -2658,8 +3234,10 @@
         210,
         106
       ],
-      "flags": {},
-      "order": 71,
+      "flags": {
+        "pinned": true
+      },
+      "order": 73,
       "mode": 0,
       "inputs": [
         {
@@ -2712,6 +3290,99 @@
       "widgets_values": []
     },
     {
+      "id": 147,
+      "type": "StringReplace",
+      "pos": [
+        660,
+        2260
+      ],
+      "size": [
+        310,
+        196
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 71,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "string",
+          "type": "STRING",
+          "widget": {
+            "name": "string"
+          },
+          "link": 426
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            435
+          ]
+        }
+      ],
+      "title": "Default: No Adult Content",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.77",
+        "Node name for S&R": "StringReplace"
+      },
+      "widgets_values": [
+        "",
+        "{$with-adult-content}",
+        ""
+      ]
+    },
+    {
+      "id": 146,
+      "type": "StringReplace",
+      "pos": [
+        340,
+        2260
+      ],
+      "size": [
+        310,
+        196
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 69,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "string",
+          "type": "STRING",
+          "widget": {
+            "name": "string"
+          },
+          "link": 431
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            426
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.77",
+        "Node name for S&R": "StringReplace"
+      },
+      "widgets_values": [
+        "",
+        "{$erotic}",
+        ""
+      ]
+    },
+    {
       "id": 110,
       "type": "PrimitiveStringMultiline",
       "pos": [
@@ -2723,9 +3394,10 @@
         200
       ],
       "flags": {
-        "collapsed": true
+        "collapsed": true,
+        "pinned": true
       },
-      "order": 51,
+      "order": 46,
       "mode": 0,
       "inputs": [
         {
@@ -2757,17 +3429,96 @@
       ]
     },
     {
+      "id": 156,
+      "type": "Reroute",
+      "pos": [
+        1280,
+        2020
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 72,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 453
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "STRING",
+          "links": [
+            454
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 155,
+      "type": "Reroute",
+      "pos": [
+        1280,
+        2110
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 75,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "widget": {
+            "name": "value"
+          },
+          "link": 451
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "STRING",
+          "links": [
+            452
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
       "id": 31,
       "type": "StringReplace",
       "pos": [
-        -230,
+        30,
         2290
       ],
       "size": [
-        450,
+        230,
         280
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 64,
       "mode": 0,
       "inputs": [
@@ -2811,6 +3562,43 @@
       ]
     },
     {
+      "id": 90,
+      "type": "PrimitiveString",
+      "pos": [
+        -900,
+        1750
+      ],
+      "size": [
+        270,
+        58
+      ],
+      "flags": {
+        "collapsed": true,
+        "pinned": true
+      },
+      "order": 28,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            365
+          ]
+        }
+      ],
+      "title": "No Style",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveString"
+      },
+      "widgets_values": [
+        "{$@}"
+      ]
+    },
+    {
       "id": 149,
       "type": "Reroute",
       "pos": [
@@ -2821,8 +3609,10 @@
         75,
         26
       ],
-      "flags": {},
-      "order": 75,
+      "flags": {
+        "pinned": true
+      },
+      "order": 77,
       "mode": 0,
       "inputs": [
         {
@@ -2849,651 +3639,15 @@
       }
     },
     {
-      "id": 145,
-      "type": "StringReplace",
+      "id": 91,
+      "type": "Note",
       "pos": [
-        660,
-        2020
+        -920,
+        90
       ],
       "size": [
-        310,
-        196.00000000000006
-      ],
-      "flags": {},
-      "order": 68,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "string",
-          "type": "STRING",
-          "widget": {
-            "name": "string"
-          },
-          "link": 425
-        }
-      ],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            434,
-            453
-          ]
-        }
-      ],
-      "title": "Adult Content Inducer",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.77",
-        "Node name for S&R": "StringReplace"
-      },
-      "widgets_values": [
-        "",
-        "{$with-adult-content}",
-        "with adult content and sexual provocation"
-      ]
-    },
-    {
-      "id": 155,
-      "type": "Reroute",
-      "pos": [
-        1280,
-        2110
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 73,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "widget": {
-            "name": "value"
-          },
-          "link": 451
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "STRING",
-          "links": [
-            452
-          ]
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 156,
-      "type": "Reroute",
-      "pos": [
-        1280,
-        2020
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 70,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 453
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "STRING",
-          "links": [
-            454
-          ]
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 125,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1660,
-        -140
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 15,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            381
-          ]
-        }
-      ],
-      "title": "STYLE: Comic",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "Illustration with intense colors and {$erotic} comic book style, {$with-adult-content}. Action scene featuring: {$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 47,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1660,
-        80
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 16,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            382
-          ]
-        }
-      ],
-      "title": "STYLE: European Comic",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "Italian {$erotic} comic book, hand-drawn with bold colors and sinuous lines, featuring realistic characters in hypersaturated imagery with high-contrast ballpoint hatching and intricate cross-hatch patterns. A seamless complete full page illustration {$with-adult-content}, using red, green and blue. Featuring: {$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 37,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1660,
-        300
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 17,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            384
-          ]
-        }
-      ],
-      "title": "STYLE: Vintage Comic",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "An old sheet of paper with a vintage {$erotic} comic strip from 1950 {$with-adult-content}, painted in white, red, blue and black with freehand outlines. A detailed and dirty image featuring: {$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 38,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1660,
-        520
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 18,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            421
-          ]
-        }
-      ],
-      "title": "STYLE: Pop-Art",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "Image in {$erotic} Pop Art style characterized by bold, vibrant colors that stand out vividly, and thick black outlines defining each form with clarity and contrast. The surface is executed using a pointillist technique, where dots of color come together to create the overall picture. Dazzling patterns and comic style characters {$with-adult-content}. The scene has a flat, two-dimensional appearance typical of pop art aesthetics, featuring {$@}"
-      ]
-    },
-    {
-      "id": 117,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1660,
-        740
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 19,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            387
-          ]
-        }
-      ],
-      "title": "STYLE: Studio Anime",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "Epic hand-drawn Japanese {$erotic} animation from Studio Ghibli {$with-adult-content}. This shot features: {$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 41,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1660,
-        960
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 20,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            423
-          ]
-        }
-      ],
-      "title": "STYLE: Anime",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "An image in {$erotic} anime style {$with-adult-content}, featuring an ominous atmosphere, clean lines, and dramatic facial expressions. The artwork uses cool and dark tones along with dramatic lighting and shadows that emphasize the central figure and create a somber, intense mood. The dynamic shot has a black background and features: {$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 124,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1660,
-        1180
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 21,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            424
-          ]
-        }
-      ],
-      "title": "STYLE: Manga",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "Black and white {$erotic} manga-style illustration {$with-adult-content}, including explicit and violent content. The illustration features: {$@}."
-      ],
-      "shape": 1
-    },
-    {
-      "id": 93,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1660,
-        1400
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 22,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            414
-          ]
-        }
-      ],
-      "title": "STYLE: Digital Illustration",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "A detailed {$erotic} illustration in stylized line art {$with-adult-content}, rendered with vector graphics aesthetics. With black solid shadows and big negative space creating enigmatic stillness. Saturated highlights with glowing accents, emphasizing contrasts between obscurity and luminous for a vivid impact. Featuring: {$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 43,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1660,
-        1620
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 23,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            402
-          ]
-        }
-      ],
-      "title": "STYLE: Minimalist Sketchwash",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "A minimalist and simple {$erotic} pencil sketch {$with-adult-content}, featuring large empty areas and a white background. Painted in watercolors. Featuring: {$@}."
-      ],
-      "shape": 1
-    },
-    {
-      "id": 130,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1660,
-        1840
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 24,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            404
-          ]
-        }
-      ],
-      "title": "STYLE: Ink Draw",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "A realistically rendered {$erotic} ink drawing {$with-adult-content}, featuring fine cross-hatching and stippling techniques. These methods create deep shadows and highlights using a monochromatic color scheme. The image includes large areas of white space and high contrast due to varying line densities. Featuring: {$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 92,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1660,
-        2060
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 25,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            403
-          ]
-        }
-      ],
-      "title": "STYLE: Hand-Drawn Illustration",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "A realistically rendered {$erotic} concept-art {$with-adult-content}, done in ink. Like a very sharp photograph, but drawn. This colorful concept-art features large white areas and high contrast thanks to the varying density of the lines. Featuring: {$@}\n"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 45,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1660,
-        2280
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 26,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            410
-          ]
-        }
-      ],
-      "title": "STYLE: LowRes Pixel Art",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "Pixel art in low resolution for {$erotic} japanese videogame {$with-adult-content}. 2D image with pixelated background and pixelated characteres in low resolution. 320x200 sharp image featuring {$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 122,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1660,
-        2500
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 27,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            420
-          ]
-        }
-      ],
-      "title": "STYLE: Unsettling",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "An {$erotic} illustration {$with-adult-content}; the illustration includes stippling textures and intense side lighting with deep shadows, and hard edges; low key atmosphere with high contrast and minimal highlights; cinematic chiaroscuro; horror graphic novel with dynamic composition, featuring: {$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 63,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1660,
-        2720
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 28,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            409
-          ]
-        }
-      ],
-      "title": "STYLE: Simple Vector Illustration",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "A stylized {$erotic} digital illustration {$with-adult-content} in iconography style. The illustration has a graphic design aesthetic, featuring flat, solid colors, no defined outlines, and a minimalist approach to composition, featuring: {$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 57,
-      "type": "PrimitiveNode",
-      "pos": [
-        1640,
-        840
-      ],
-      "size": [
-        510,
-        610
+        710,
+        540
       ],
       "flags": {
         "pinned": true
@@ -3501,28 +3655,14 @@
       "order": 29,
       "mode": 0,
       "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "widget": {
-            "name": "value"
-          },
-          "links": [
-            295,
-            296
-          ]
-        }
-      ],
-      "title": "PROMPT",
-      "properties": {
-        "Run widget replace on values": false
-      },
+      "outputs": [],
+      "title": "README",
+      "properties": {},
       "widgets_values": [
-        "There are many magenta Minions in the playground."
+        "Amazing Z-Image Workflow v2.1\n\n## Workflow Prerequisites ##\n\n This workflow requires the following custom nodes, which can be obtained via ComfyUI-Manager or from:\n\n  * rgthree     : https://github.com/rgthree/rgthree-comfy\n  * ComfyUI-GGUF: https://github.com/city96/ComfyUI-GGUF\n\n Additionally, ensure you have the following three models downloaded and placed in their respective\n directories within your ComfyUI installation:\n\n  z_image_turbo-Q5_K_S.gguf\n    * Download: https://huggingface.co/jayn7/Z-Image-Turbo-GGUF/blob/main/z_image_turbo-Q5_K_S.gguf\n    * Local Directory: `ComfyUI/models/diffusion_models/`\n\n  Qwen3-4B.i1-Q5_K_S.gguf\n    * Download: https://huggingface.co/mradermacher/Qwen3-4B-i1-GGUF/blob/main/Qwen3-4B.i1-Q5_K_S.gguf\n    * Local Directory: `ComfyUI/models/text_encoders/`\n\n  ae.safetensors\n    * Download: https://huggingface.co/Comfy-Org/z_image_turbo/blob/main/split_files/vae/ae.safetensors\n    * Local Directory: `Comfyui/models/vae/`\n\n## More Info ##\n   - https://github.com/martin-rizzo/AmazingZImageWorkflow\n   - https://civitai.com/models/2181458/amazing-z-image-workflow\n\n\nCreated by Martin Rizzo  \n  GitHub : https://github.com/martin-rizzo\n  CivitAI: https://civitai.com/user/Photographer\n  Reddit : https://www.reddit.com/user/FotografoVirtual\n"
       ],
-      "color": "#232",
-      "bgcolor": "#353",
+      "color": "#322",
+      "bgcolor": "#533",
       "shape": 1
     }
   ],
@@ -4310,6 +4450,38 @@
       136,
       1,
       "*"
+    ],
+    [
+      455,
+      158,
+      0,
+      13,
+      0,
+      "INT"
+    ],
+    [
+      456,
+      158,
+      0,
+      134,
+      1,
+      "INT"
+    ],
+    [
+      457,
+      159,
+      0,
+      13,
+      1,
+      "INT"
+    ],
+    [
+      458,
+      159,
+      0,
+      134,
+      0,
+      "INT"
     ]
   ],
   "groups": [
@@ -4319,8 +4491,8 @@
       "bounding": [
         -200,
         60,
-        420,
-        570
+        400,
+        470
       ],
       "color": "#A88",
       "font_size": 24,
@@ -4382,9 +4554,26 @@
         1000,
         520
       ],
-      "color": "#3f789e",
+      "color": "#444",
       "font_size": 24,
-      "flags": {}
+      "flags": {
+        "pinned": true
+      }
+    },
+    {
+      "id": 6,
+      "title": "IMAGE SIZE",
+      "bounding": [
+        -200,
+        540,
+        400,
+        300
+      ],
+      "color": "#A88",
+      "font_size": 24,
+      "flags": {
+        "pinned": true
+      }
     }
   ],
   "config": {},
@@ -4392,7 +4581,7 @@
     "ds": {
       "scale": 0.9129999999999999,
       "offset": [
-        -934.9561883899232,
+        -934.9561883899233,
         -455
       ]
     },
