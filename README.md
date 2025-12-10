@@ -10,7 +10,8 @@
 
 </div>
 
-A workflow developed while experimenting with [Z-Image-Turbo](https://github.com/Tongyi-MAI/Z-Image), extending the ComfyUI base workflow with additional features. This repository includes pre-configured workflows for GGUF and SAFETENSORS formats.
+A workflow for [Z-Image-Turbo](https://github.com/Tongyi-MAI/Z-Image) extending the ComfyUI base workflow with additional features, particularly focused on high-quality image styles and ease of use. The repository includes pre-configured workflows for GGUF and SAFETENSORS formats.
+
 
 ## Table of Contents
 1. [Features](#features)
