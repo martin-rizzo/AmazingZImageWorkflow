@@ -13,12 +13,15 @@
 
 zip_z_comics() {
     local VERSION=${1:-v1.2.3}
+    local OUTPUT_DIR=$2
     local MAJOR MINOR
     MAJOR=$(echo "${VERSION##v}" | cut -d '.' -f1)
     MINOR=$(echo "${VERSION##v}" | cut -d '.' -f2)
 
-    local ZCOMICS_ZIP="$2/amazingZComics_v${MAJOR}${MINOR}.zip"
-    local ZIMAGE_ZIP="$2/amazingZImage_v${MAJOR}${MINOR}.zip"
+    local ZCOMICS_ZIP="$OUTPUT_DIR/amazingZComics_v${MAJOR}${MINOR}.zip"
+    local ZIMAGE_ZIP="$OUTPUT_DIR/amazingZImage_v${MAJOR}${MINOR}.zip"
+
+    cp files/amazing-z-readme.txt README.TXT
 
     # busca amazing-z-comics_GGUF.json y amazin-z-comics_SAFETENSORS.json en el directorio actual
     # y los empaquete en un zip en el directorio OUTPUT_DIR
@@ -26,6 +29,7 @@ zip_z_comics() {
         "amazing-z-comics_GGUF.json" \
         "amazing-z-comics_SAFETENSORS.json" \
         "LICENSE" \
+        "README.TXT" \
         "amazing-z-comics_GGUF.png"
 
 
@@ -33,7 +37,10 @@ zip_z_comics() {
         "amazing-z-image_GGUF.json" \
         "amazing-z-image_SAFETENSORS.json" \
         "LICENSE" \
+        "README.TXT" \
         "amazing-z-image_GGUF.png"
+
+    rm README.TXT
 }
 
 #===========================================================================#
