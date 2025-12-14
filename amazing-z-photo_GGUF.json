@@ -133,7 +133,7 @@
         "Node name for S&R": "CLIPTextEncode"
       },
       "widgets_values": [
-        "In a steampunk workshop, a cute redhead inventor wearing overalls is working on a mechanical spider. She has a glowing tattoo on the left arm."
+        "A woman stands on the right side of the image on a path leading through a forest, in a fighting stance. Yellow balls are scattered along the dirt path. In the distance, through the mist, a yellow, Pac-Man-like monster is visible. The monster is spherical, with large black eyes and very sharp metal teeth. The woman has short, wavy, light brown hair and fair skin. She wears a fitted red hooded robe with a short skirt. The forest is dark with strange lights peeking through the tall trees. The path is dirt and lined with small plants."
       ]
     },
     {
@@ -802,7 +802,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 42,
+      "order": 49,
       "mode": 0,
       "inputs": [
         {
@@ -954,7 +954,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 43,
+      "order": 42,
       "mode": 0,
       "inputs": [
         {
@@ -992,7 +992,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 44,
+      "order": 43,
       "mode": 0,
       "inputs": [
         {
@@ -1030,7 +1030,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 45,
+      "order": 44,
       "mode": 0,
       "inputs": [
         {
@@ -1068,7 +1068,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 46,
+      "order": 50,
       "mode": 0,
       "inputs": [
         {
@@ -1106,7 +1106,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 47,
+      "order": 45,
       "mode": 0,
       "inputs": [
         {
@@ -1144,7 +1144,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 48,
+      "order": 51,
       "mode": 0,
       "inputs": [
         {
@@ -1182,7 +1182,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 49,
+      "order": 46,
       "mode": 0,
       "inputs": [
         {
@@ -1220,7 +1220,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 50,
+      "order": 47,
       "mode": 0,
       "inputs": [
         {
@@ -1258,7 +1258,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 51,
+      "order": 48,
       "mode": 0,
       "inputs": [
         {
@@ -1586,7 +1586,7 @@
         "Node name for S&R": "PrimitiveStringMultiline"
       },
       "widgets_values": [
-        "In a steampunk workshop, a cute redhead inventor wearing overalls is working on a mechanical spider. She has a glowing tattoo on the left arm."
+        "A woman stands on the right side of the image on a path leading through a forest, in a fighting stance. Yellow balls are scattered along the dirt path. In the distance, through the mist, a yellow, Pac-Man-like monster is visible. The monster is spherical, with large black eyes and very sharp metal teeth. The woman has short, wavy, light brown hair and fair skin. She wears a fitted red hooded robe with a short skirt. The forest is dark with strange lights peeking through the tall trees. The path is dirt and lined with small plants."
       ]
     },
     {
@@ -1705,7 +1705,7 @@
         },
         {
           "dir": 3,
-          "name": "STYLE: GameBoy Screen",
+          "name": "STYLE: Noir Photo",
           "type": "*",
           "link": 308
         },
@@ -2300,6 +2300,7 @@
           "link": null
         },
         {
+          "dir": 3,
           "name": "any_05",
           "type": "STRING",
           "link": null
@@ -3086,7 +3087,7 @@
         "pinned": true
       },
       "order": 14,
-      "mode": 0,
+      "mode": 2,
       "inputs": [],
       "outputs": [
         {
@@ -3256,43 +3257,6 @@
       "shape": 1
     },
     {
-      "id": 47,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1990,
-        90
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 19,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            382
-          ]
-        }
-      ],
-      "title": "STYLE: Cinematic",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "You are a professional filmmaker who enjoys taking high-end DSLR images in full-frame mode, usually with a 24mm lens and shallow depth of field.\nYour tastes encompass dramatic, high contrast, highly professional shots.\n---\nCreate the following image:\n{$@}"
-      ],
-      "shape": 1
-    },
-    {
       "id": 41,
       "type": "PrimitiveStringMultiline",
       "pos": [
@@ -3306,7 +3270,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 20,
+      "order": 19,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -3343,7 +3307,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 21,
+      "order": 20,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -3380,7 +3344,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 22,
+      "order": 21,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -3404,43 +3368,6 @@
       "shape": 1
     },
     {
-      "id": 43,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1990,
-        1630
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 23,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            402
-          ]
-        }
-      ],
-      "title": "STYLE: Minimalist Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "You are a contemporary visual artist who prefers shooting with a full‑frame mirrorless camera, at a wide aperture to highlight negative space.  \nYour tastes encompass clean, minimalist compositions that emphasize empty space while removing any distracting elements.\n---\nTake the following photograph:\n{$@}"
-      ],
-      "shape": 1
-    },
-    {
       "id": 130,
       "type": "PrimitiveStringMultiline",
       "pos": [
@@ -3454,7 +3381,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 24,
+      "order": 22,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -3478,43 +3405,6 @@
       "shape": 1
     },
     {
-      "id": 92,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1990,
-        2070
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 25,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            403
-          ]
-        }
-      ],
-      "title": "STYLE: GameBoy Screen",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "You're a Game Boy game developer, and you always keep in mind that the graphics are gray-scaled and pixelated. You must present the Game Boy with the latest image you created.\n\nThe Game Boy is made of plastic and has the \"RETROBOY\" logo on the front.\n\nCreate the following, using pixel-art inside the gameboy screen:\n{$@}\n"
-      ],
-      "shape": 1
-    },
-    {
       "id": 93,
       "type": "PrimitiveStringMultiline",
       "pos": [
@@ -3528,7 +3418,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 26,
+      "order": 23,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -3565,7 +3455,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 27,
+      "order": 24,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -3602,7 +3492,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 28,
+      "order": 25,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -3622,6 +3512,117 @@
       },
       "widgets_values": [
         "You are an amateur filmmaker who captures violent scenes with a shallow depth of field.  \nYour tastes encompass neon‑saturated, atmospheric shots that emphasize intense red, green, blue colors, glowing signage, and selective focus.\n---\nTake the following photograph:\n{$@}\n"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 47,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        90
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 26,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            382
+          ]
+        }
+      ],
+      "title": "STYLE: Cinematic",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "You are a professional filmmaker who enjoys capturing striking images in full-frame mode, with a 24mm lens and shallow depth of field.\nYour tastes range from dramatic cinematic shots to spontaneous moments.\n---\nCreate the following movie capture:\n{$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 43,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        1630
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 27,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            402
+          ]
+        }
+      ],
+      "title": "STYLE: Minimalist Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "You are a contemporary visual artist who prefers shooting with a full‑frame mirrorless camera, at a wide aperture to highlight negative space.  \nYour tastes encompass clean, minimalist compositions that emphasize empty space while removing any distracting elements.\n---\nTake the following photograph:\n{$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 92,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        2070
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 28,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            403
+          ]
+        }
+      ],
+      "title": "STYLE: Noir Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "You are a seasoned cinematographer who works with mirrorless camera favoring intense side lighting and gobo‑crafted patterns to sculpt deep, sharply defined shadows.\n\nYour aesthetic embraces a low‑key, high‑contrast chiaroscuro look: dramatic contrasts rendered in a muted‑yet‑vibrant Ektachrome‑inspired palette with a subtle warm tint, and a slightly desaturated finish that evokes timeless, cinematic noir.\n\n---\nTake the following indoors photo:\n{$@}\n"
       ],
       "shape": 1
     },
@@ -3660,7 +3661,7 @@
         "Run widget replace on values": false
       },
       "widgets_values": [
-        "In a steampunk workshop, a cute redhead inventor wearing overalls is working on a mechanical spider. She has a glowing tattoo on the left arm."
+        "A woman stands on the right side of the image on a path leading through a forest, in a fighting stance. Yellow balls are scattered along the dirt path. In the distance, through the mist, a yellow, Pac-Man-like monster is visible. The monster is spherical, with large black eyes and very sharp metal teeth. The woman has short, wavy, light brown hair and fair skin. She wears a fitted red hooded robe with a short skirt. The forest is dark with strange lights peeking through the tall trees. The path is dirt and lined with small plants."
       ],
       "color": "#232",
       "bgcolor": "#353",
@@ -4503,7 +4504,7 @@
     },
     {
       "id": 3,
-      "title": "EDITING AREA [v2.1]",
+      "title": "EDITING AREA [v2.2]",
       "bounding": [
         1220,
         590,
@@ -4580,10 +4581,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 1,
+      "scale": 0.8264462809917354,
       "offset": [
-        2316.305610288489,
-        -640.930170535061
+        -870.6365157463052,
+        -205.26132616596468
       ]
     },
     "frontendVersion": "1.32.10"
