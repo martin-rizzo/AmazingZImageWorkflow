@@ -1,0 +1,27 @@
+------------------------------------------------------------------------
+DISCARDED STYLES
+
+---
+STYLE: Technical Isometrix
+
+A detailed image with technical isometric vector bold lines, solid colors and white background. The image shows a square platform on which there is: {$@}
+
+---
+STYLE: GameBoy Screen
+
+You're a Game Boy game developer, and you always keep in mind that the graphics are gray-scaled and pixelated. You must present the Game Boy with the latest image you created.
+The Game Boy is made of plastic and has the "RETROBOY" logo on the front.
+Create the following, using pixel-art inside the gameboy screen:
+{$@}
+
+---
+STYLE: CGA Cyan-Magenta Monitor
+
+On a wooden table sits an old white CRT PC monitor, reflecting light from a window. The monitor displays the following:
+only black, intense cyan, intense magenta, and intense white.
+Everything should be replaced with those 4 colors, for example, skin should be magenta, plants should be cyan.
+The background must always be black.
+Pixel-Art 2D image from 1980 with solid colors and CGA Graphics using only black, cyan and magenta palette. Featuring: {$@}
+
+---
+
