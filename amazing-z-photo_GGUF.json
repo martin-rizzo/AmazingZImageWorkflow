@@ -99,7 +99,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 51,
+      "order": 52,
       "mode": 0,
       "inputs": [
         {
@@ -133,7 +133,7 @@
         "Node name for S&R": "CLIPTextEncode"
       },
       "widgets_values": [
-        "A young nurse stands beside a blue demon in a hospital setting, her facial expression one of surprise with her eyes wide open. She has fair and smooth skin, and her hair is short and straight, although it was initially described as long blue hair. She wears a fitted, sleeveless black and red dress with distinctive red trim that accentuates her figure. The blue demon, with a ferocious expression, features long, pointed red horns and sharp teeth. It wears a loose, red and black robe and has one hand firmly grasping the nurse's waist, pulling her close to its side. The atmosphere of the image is dark and mysterious, with the nurse and demon positioned prominently against the backdrop of a hospital."
+        "The image shows a woman lying on her side on a bed with a blue-gray bedsheet. She has long, dark hair pulled back into a high ponytail secured with a black hair tie. She is wearing a light gray sleeveless tank top and a sheer, high-waisted white undergarment that extends to mid-thigh. Her body is prominently displayed, with a large, rounded abdomen and full thighs resting on the bed. The bed features a white pillow with the handwritten text \"SIN\" in black marker and a small black heart symbol. Scattered around her are crumpled white tissues, an open red box of tissues, and a few white cotton balls. In the background, there is a small wooden desk with a small religious statue placed on it, alongside a stack of books on a shelf. The room is softly lit."
       ]
     },
     {
@@ -472,7 +472,7 @@
       },
       "widgets_values": [
         true,
-        3,
+        1,
         "fixed",
         1
       ],
@@ -547,7 +547,7 @@
       },
       "widgets_values": [
         "enable",
-        3,
+        1,
         "randomize",
         8,
         1,
@@ -766,7 +766,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 45,
+      "order": 44,
       "mode": 0,
       "inputs": [
         {
@@ -804,7 +804,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 47,
+      "order": 46,
       "mode": 0,
       "inputs": [
         {
@@ -918,7 +918,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 48,
+      "order": 47,
       "mode": 0,
       "inputs": [
         {
@@ -956,7 +956,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 52,
+      "order": 49,
       "mode": 0,
       "inputs": [
         {
@@ -994,7 +994,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 49,
+      "order": 48,
       "mode": 0,
       "inputs": [
         {
@@ -1032,7 +1032,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 43,
+      "order": 42,
       "mode": 0,
       "inputs": [
         {
@@ -1070,7 +1070,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 46,
+      "order": 45,
       "mode": 0,
       "inputs": [
         {
@@ -1146,7 +1146,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 42,
+      "order": 41,
       "mode": 0,
       "inputs": [
         {
@@ -1184,7 +1184,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 40,
+      "order": 53,
       "mode": 0,
       "inputs": [
         {
@@ -1222,7 +1222,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 53,
+      "order": 50,
       "mode": 0,
       "inputs": [
         {
@@ -1260,7 +1260,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 41,
+      "order": 40,
       "mode": 0,
       "inputs": [
         {
@@ -1298,7 +1298,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 44,
+      "order": 43,
       "mode": 0,
       "inputs": [
         {
@@ -1559,7 +1559,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 50,
+      "order": 51,
       "mode": 0,
       "inputs": [
         {
@@ -1587,7 +1587,7 @@
         "Node name for S&R": "PrimitiveStringMultiline"
       },
       "widgets_values": [
-        "A young nurse stands beside a blue demon in a hospital setting, her facial expression one of surprise with her eyes wide open. She has fair and smooth skin, and her hair is short and straight, although it was initially described as long blue hair. She wears a fitted, sleeveless black and red dress with distinctive red trim that accentuates her figure. The blue demon, with a ferocious expression, features long, pointed red horns and sharp teeth. It wears a loose, red and black robe and has one hand firmly grasping the nurse's waist, pulling her close to its side. The atmosphere of the image is dark and mysterious, with the nurse and demon positioned prominently against the backdrop of a hospital."
+        "The image shows a woman lying on her side on a bed with a blue-gray bedsheet. She has long, dark hair pulled back into a high ponytail secured with a black hair tie. She is wearing a light gray sleeveless tank top and a sheer, high-waisted white undergarment that extends to mid-thigh. Her body is prominently displayed, with a large, rounded abdomen and full thighs resting on the bed. The bed features a white pillow with the handwritten text \"SIN\" in black marker and a small black heart symbol. Scattered around her are crumpled white tissues, an open red box of tissues, and a few white cotton balls. In the background, there is a small wooden desk with a small religious statue placed on it, alongside a stack of books on a shelf. The room is softly lit."
       ]
     },
     {
@@ -1712,7 +1712,7 @@
         },
         {
           "dir": 3,
-          "name": "STYLE: Silhouette Photo",
+          "name": "STYLE: Pop Photo",
           "type": "*",
           "link": 313
         },
@@ -2144,7 +2144,7 @@
         "Run widget replace on values": false
       },
       "widgets_values": [
-        3,
+        1,
         "fixed"
       ],
       "color": "#432",
@@ -2894,43 +2894,6 @@
       "shape": 1
     },
     {
-      "id": 93,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1990,
-        2290
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 17,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            414
-          ]
-        }
-      ],
-      "title": "STYLE: Silhouette Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "\nYou are a visual artist who loves creating silhouette images, positioning the subject against a powerful back‑light so it appears as a crisp black shape.  \n\nYour tastes encompass high contrast, minimal interior detail, and bold outlines that define form against a bright background.\n\nTake the following photograph:\n{$@}\n"
-      ],
-      "shape": 1
-    },
-    {
       "id": 45,
       "type": "PrimitiveStringMultiline",
       "pos": [
@@ -2944,7 +2907,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 18,
+      "order": 17,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -2981,7 +2944,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 19,
+      "order": 18,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -3018,7 +2981,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 20,
+      "order": 19,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -3055,7 +3018,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 21,
+      "order": 20,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -3092,7 +3055,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 22,
+      "order": 21,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -3129,7 +3092,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 23,
+      "order": 22,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -3166,7 +3129,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 24,
+      "order": 23,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -3203,7 +3166,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 25,
+      "order": 24,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -3240,7 +3203,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 26,
+      "order": 25,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -3310,47 +3273,6 @@
       ]
     },
     {
-      "id": 57,
-      "type": "PrimitiveNode",
-      "pos": [
-        1640,
-        840
-      ],
-      "size": [
-        510,
-        610
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 27,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "widget": {
-            "name": "value"
-          },
-          "links": [
-            295,
-            296
-          ]
-        }
-      ],
-      "title": "PROMPT",
-      "properties": {
-        "Run widget replace on values": false
-      },
-      "widgets_values": [
-        "A young nurse stands beside a blue demon in a hospital setting, her facial expression one of surprise with her eyes wide open. She has fair and smooth skin, and her hair is short and straight, although it was initially described as long blue hair. She wears a fitted, sleeveless black and red dress with distinctive red trim that accentuates her figure. The blue demon, with a ferocious expression, features long, pointed red horns and sharp teeth. It wears a loose, red and black robe and has one hand firmly grasping the nurse's waist, pulling her close to its side. The atmosphere of the image is dark and mysterious, with the nurse and demon positioned prominently against the backdrop of a hospital."
-      ],
-      "color": "#232",
-      "bgcolor": "#353",
-      "shape": 1
-    },
-    {
       "id": 145,
       "type": "StringReplace",
       "pos": [
@@ -3412,7 +3334,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 28,
+      "order": 26,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -3449,8 +3371,8 @@
       "flags": {
         "pinned": true
       },
-      "order": 29,
-      "mode": 0,
+      "order": 27,
+      "mode": 2,
       "inputs": [],
       "outputs": [
         {
@@ -3712,10 +3634,88 @@
         "Node name for S&R": "Display Any (rgthree)"
       },
       "widgets_values": [
-        "You are a master photographer who specializes in chiaroscuro, using a single intense hard white light source to generate dramatic light and shadow.\nYour tastes encompass brilliant glowing whites, with sharp black shadows, and extreme contrast with white burned areas.\n---\nTake the following photograph:\nA young nurse stands beside a blue demon in a hospital setting, her facial expression one of surprise with her eyes wide open. She has fair and smooth skin, and her hair is short and straight, although it was initially described as long blue hair. She wears a fitted, sleeveless black and red dress with distinctive red trim that accentuates her figure. The blue demon, with a ferocious expression, features long, pointed red horns and sharp teeth. It wears a loose, red and black robe and has one hand firmly grasping the nurse's waist, pulling her close to its side. The atmosphere of the image is dark and mysterious, with the nurse and demon positioned prominently against the backdrop of a hospital.\n"
+        "You are a contemporary pop‑art artist who thrives on vibrant, oversaturated palettes and graphic with high‑energy compositions.\n\nYour tastes encompass bold and exaggerated colors with unconventional imagery that takes image composition to limits beyond the ordinary.\n\nCreate the following image:\nThe image shows a woman lying on her side on a bed with a blue-gray bedsheet. She has long, dark hair pulled back into a high ponytail secured with a black hair tie. She is wearing a light gray sleeveless tank top and a sheer, high-waisted white undergarment that extends to mid-thigh. Her body is prominently displayed, with a large, rounded abdomen and full thighs resting on the bed. The bed features a white pillow with the handwritten text \"SIN\" in black marker and a small black heart symbol. Scattered around her are crumpled white tissues, an open red box of tissues, and a few white cotton balls. In the background, there is a small wooden desk with a small religious statue placed on it, alongside a stack of books on a shelf. The room is softly lit."
       ],
       "color": "#323",
       "bgcolor": "#535"
+    },
+    {
+      "id": 57,
+      "type": "PrimitiveNode",
+      "pos": [
+        1640,
+        840
+      ],
+      "size": [
+        510,
+        610
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 28,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "widget": {
+            "name": "value"
+          },
+          "links": [
+            295,
+            296
+          ]
+        }
+      ],
+      "title": "PROMPT",
+      "properties": {
+        "Run widget replace on values": false
+      },
+      "widgets_values": [
+        "The image shows a woman lying on her side on a bed with a blue-gray bedsheet. She has long, dark hair pulled back into a high ponytail secured with a black hair tie. She is wearing a light gray sleeveless tank top and a sheer, high-waisted white undergarment that extends to mid-thigh. Her body is prominently displayed, with a large, rounded abdomen and full thighs resting on the bed. The bed features a white pillow with the handwritten text \"SIN\" in black marker and a small black heart symbol. Scattered around her are crumpled white tissues, an open red box of tissues, and a few white cotton balls. In the background, there is a small wooden desk with a small religious statue placed on it, alongside a stack of books on a shelf. The room is softly lit."
+      ],
+      "color": "#232",
+      "bgcolor": "#353",
+      "shape": 1
+    },
+    {
+      "id": 93,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        2290
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 29,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            414
+          ]
+        }
+      ],
+      "title": "STYLE: Pop Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "You are a contemporary pop‑art artist who thrives on vibrant, oversaturated palettes and graphic with high‑energy compositions.\n\nYour tastes encompass bold and exaggerated colors with unconventional imagery that takes image composition to limits beyond the ordinary.\n\nCreate the following image:\n{$@}"
+      ],
+      "shape": 1
     }
   ],
   "links": [
@@ -4652,10 +4652,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.39468995706880045,
+      "scale": 0.3261900471642985,
       "offset": [
-        1148.489429643992,
-        -557.8800849254003
+        1649.4811303493855,
+        163.3200782657594
       ]
     },
     "frontendVersion": "1.32.10"
