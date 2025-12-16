@@ -1,0 +1,23 @@
+IMAGE1 PROMPT:
+Worn-down computer control panels surrounding an adult woman in dirty clothes sitting in a starship, creating a hyperpunk scene.
+
+IMAGE2 PROMPT:
+On the right side of the frame, a female figure is depicted wearing a black hooded robe. Only her face and hands are visible. The robe is cinched at the waist with a tie, causing it to be form-fitting and accentuate her body shape. Her eyes are closed, and her arms are outstretched to her sides, as if she is casting a spell. Her hands emit a bright blue luminescence. In the background, at a distance, armored knights with metal armor are visible, engulfed in bluish flames. One knight is on his knees, flailing his arms, while another is recumbent on the ground, also with flailing arms. The environment is a medieval battlefield.
+
+STYLES
+ * Comic
+ * European Comic
+ * Vintage Comic
+ * Pop-Art
+ * Studio Anime
+ * Anime
+ * Mange
+ * Unsettling
+ * Minimalist Sketchwash
+ * Ink Draw
+ * Hand-Drawn Illustration
+ * Digital Illustration
+ * Simple Vector Illustration
+ * LowRes Pixel Art
+ * CGA Cyan-Magenta Monitor
+
