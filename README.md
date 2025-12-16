@@ -26,11 +26,11 @@ A workflow for [Z-Image-Turbo](https://github.com/Tongyi-MAI/Z-Image) extending 
 5. [License](#license)
 
 ## Features
-- **Style Selector**: Choose from fifteen customizable image styles for experimentation.
+- **Style Selector**: Choose from fifteen customizable image styles.
 - **Alternative Sampler Switch**: Easily test generation with an alternative sampler. 
 - **Landscape Orientation Switch**: Change to horizontal image generation with a single click.
 - Preconfigured workflows for each checkpoint format (GGUF / SAFETENSORS).
-- Custom sigma values fine-tuned to my personal preference (subjectivity 100%)
+- Custom sigma values fine-tuned to personal preference (100% subjective).
 - Generated images are saved in the "ZImage" folder, organized by date.
 - Incorporates a trick to enable automatic CivitAI prompt detection.
 
