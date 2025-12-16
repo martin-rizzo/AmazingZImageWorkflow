@@ -11,55 +11,94 @@
 #_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
 
-# Creates zip archives containing the rela
-#
-# This function takes a version string, creates two zip archives containing
-# z-comic and z-image workflow related files, and places them in the specified
-# output directory. It also handles the README file and license files.
+# Builds a zip file containing specific workflow files and associated images.
 #
 # Usage:
-#   zip_z_comics [VERSION] [OUTPUT_DIR]
+#   build_zip_file <ZIP_FILE> <WORKFLOW>
 #
 # Parameters:
-#   VERSION   : The version string
-#   OUTPUT_DIR: The directory where zip archives will be created
+#   ZIP_FILE: The path to the output zip file.
+#   WORKFLOW: The base name of the workflow (e.g., "amazing-z-image").
+#
+# The function collects the following files:
+#   - "${workflow}_GGUF.json"
+#   - "${workflow}_SAFETENSORS.json"
+#   - "LICENSE"
+#   - The file "files/amazing-z-readme.txt          (renamed to "README.TXT")
+#   - The file "${workflow}_styles.txt"             (renamed to "styles.txt")
+#   - All files matching "${workflow}_styles*.jpg"  (renamed to "styles*.jpg")
 #
 # Example:
-#   zip_z_comics "v1.2.3" "/path/to/output"
+#   build_zip_file workflow.zip amazing-z-image
 #
-zip_z_comics() {
+build_zip_file() {
+    local zip_file="$1"
+    local workflow="$2"
+    local temp_files=() #< to keep track of temporary files
+    local gallery="${workflow}_styles"
+    local gallery_ext=".jpg"
+
+    # add static files to the zip
+    local zip_content=(
+        "${workflow}_GGUF.json"
+        "${workflow}_SAFETENSORS.json"
+        "LICENSE"
+    )
+
+    # copy temporarily "README.TXT" file from /files directory
+    cp "files/amazing-z-readme.txt" "README.TXT"
+    temp_files+=( "README.TXT" )
+
+    # copy "styles.txt" file
+    cp "${gallery}.txt" "styles.txt"
+    temp_files+=( "styles.txt" )
+
+    # collect gallery images renaming them to "styles1.jpg", "styles2.jpg", etc.
+    for file in "${gallery}"*"${gallery_ext}"; do
+        [[ -f "$file" ]] || continue  #< ensure it's a valid file
+
+        # extract the numeric suffix from the filename
+        index=${file#"$gallery"}
+        index=${index%"$gallery_ext"}
+
+        # create temporary image file (e.g., "styles1.jpg")
+        image="styles${index}.jpg"
+        cp "$file" "$image"
+        temp_files+=( "$image" )
+    done
+
+    # create the zip archive with the collected files
+    zip -j "$zip_file" "${zip_content[@]}" "${temp_files[@]}"
+
+    # remove temporary files
+    rm "${temp_files[@]}"
+}
+
+
+# Builds the release package for each workflow
+#
+# Usage:
+#   build_release_packages [VERSION] [OUTPUT_DIR]
+#
+# Parameters:
+#   VERSION    : The version string (e.g., "v1.2.3"). Defaults to "v1.2.3".
+#   OUTPUT_DIR : The directory where the ZIP files will be saved. Defaults to "/tmp/amazing_release".
+#
+# Example:
+#   build_release_packages "v1.2.0" "/tmp/amazing_release"
+#
+build_release_packages() {
     local VERSION=${1:-v1.2.3}
-    local OUTPUT_DIR=$2
+    local OUTPUT_DIR=${2:-/tmp/amazing_release}
     local MAJOR MINOR
     MAJOR=$(echo "${VERSION##v}" | cut -d '.' -f1)
     MINOR=$(echo "${VERSION##v}" | cut -d '.' -f2)
 
-    local ZCOMICS_ZIP="$OUTPUT_DIR/amazingZComics_v${MAJOR}${MINOR}.zip"
-    local ZIMAGE_ZIP="$OUTPUT_DIR/amazingZImage_v${MAJOR}${MINOR}.zip"
-
-    # copy temporarily README file from 'files' directory
-    cp files/amazing-z-readme.txt README.TXT
-
-    # create zip archive for z-comics workflow files
-    # (the zip command with -j flag creates archives without directory paths)
-    zip -j "$ZCOMICS_ZIP" \
-        "amazing-z-comics_GGUF.json" \
-        "amazing-z-comics_SAFETENSORS.json" \
-        "LICENSE" \
-        "README.TXT" \
-        "amazing-z-comics_GGUF.png"
-
-    # create zip archive for z-image workflow files
-    zip -j "$ZIMAGE_ZIP" \
-        "amazing-z-image_GGUF.json" \
-        "amazing-z-image_SAFETENSORS.json" \
-        "LICENSE" \
-        "README.TXT" \
-        "amazing-z-image_GGUF.png"
-
-    # remove the temporary README.TXT file
-    rm README.TXT
+    build_zip_file "$OUTPUT_DIR/amazingZImage_v${MAJOR}${MINOR}.zip"  amazing-z-image
+    build_zip_file "$OUTPUT_DIR/amazingZComics_v${MAJOR}${MINOR}.zip" amazing-z-comics
+    build_zip_file "$OUTPUT_DIR/amazingZPhoto_v${MAJOR}${MINOR}.zip"  amazing-z-photo
 }
+
 
 #===========================================================================#
 #////////////////////////////////// MAIN ///////////////////////////////////#
@@ -71,10 +110,10 @@ zip_z_comics() {
 export RELEASE_DIR="${2:-/tmp}/amazing_release"
 mkdir -p "$RELEASE_DIR"
 
-# calls "zip_z_comics"
+# calls "build_release_packages"
 #  - the first parameter is the version,
 #  - the second parameter is the output directory.
-zip_z_comics "$1" "$RELEASE_DIR"
+build_release_packages "$1" "$RELEASE_DIR"
 
 # prints a message with the location of zip archives
 echo
