@@ -2,7 +2,7 @@
   "id": "95418ce2-5b62-4729-894f-ed7422bb5ec0",
   "revision": 0,
   "last_node_id": 170,
-  "last_link_id": 562,
+  "last_link_id": 565,
   "nodes": [
     {
       "id": 60,
@@ -99,7 +99,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 52,
+      "order": 38,
       "mode": 0,
       "inputs": [
         {
@@ -133,7 +133,7 @@
         "Node name for S&R": "CLIPTextEncode"
       },
       "widgets_values": [
-        "From an exaggeratedly high aerial perspective, Wonder Woman is captured mid-stride as she runs across a steep, dark rooftop at night, her body leaning forward sharply, with her face oriented directly toward the camera. Her posture is dynamic, with her legs extended behind her, lifting off the roof with each quick, deliberate step, and her toes barely touching the surface as she moves forward. Her attire consists of a fitted, sleeveless top that reveals her muscular arms and a short, form-fitting skirt that falls just above her knees, leaving her barefoot. Her long, dark hair is visible in motion, with visible waves and straight bangs falling over her forehead, slightly stirred by the wind. The roof beneath her is composed of evenly spaced, rectangular tiles, but the angle is so steep that it plunges dramatically into the darkness, creating a pronounced sense of depth and verticality.\n\nIn the background, a massive, dark gray creature—Godzilla—but with the head of Kermit the Frog, looms over the cityscape, towering above the buildings. Its segmented body casts a long shadow across the illuminated area, a stark contrast to the night sky. The cityscape is visible in the distance, lit by artificial lights that create a striking contrast with the surrounding darkness. The sloping roofline continues unaltered behind Wonder Woman, disappearing into the abyss of the city, emphasizing the height and the steepness of her position. Her facial expression is sharp, and she appears to be speaking directly to the camera, her mouth open as if to say, \"Bye! I’m out of here!\" The entire scene is rendered with great clarity, emphasizing the dynamic action and the stark contrast between the illuminated foreground and the dark background."
+        "This image is captured using an extreme overhead fisheye perspective, creating a highly exaggerated bird’s-eye view from directly above. The figure is seated inside the cockpit of a mecha suit, with her face and upper torso prominently displayed in the foreground. She has short, straight, white hair neatly cut and evenly distributed around her head, ending just above her shoulders. Her facial expression is pronounced, with a sarcastic, knowing smile revealing her vivid, deep red, full lips. She holds a cigarette between her fingers of her right hand, with visible smoke curling upward.\n\nHer legs are spread apart, revealing a metallic vibrating device positioned between her thighs. With her left hand, she firmly grips a joystick or control stick positioned in front of her, likely used for piloting the mecha. The cockpit interior features angular, metallic surfaces and various control panels. She is wearing a sleek, form-fitting bodysuit with orange and white panels, including a high collar with visible fastening mechanisms, a central chest panel with a small circular emblem, and white accents around the shoulders, chest, and wrists. The suit’s shiny, reflective material and visible seams are clearly visible.\n\nThe cockpit’s transparent viewport behind her shows a blurred, indistinct external environment, likely depicting a futuristic or sci-fi setting. Reinforced metal plates and additional control levers are visible around her, emphasizing the mechanical nature of the mecha suit. The exaggerated angle from the camera highlights her face, upper torso, the joystick, and the metallic device between her legs, creating a detailed and striking composition."
       ]
     },
     {
@@ -224,7 +224,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 80,
+      "order": 78,
       "mode": 0,
       "inputs": [
         {
@@ -409,7 +409,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 81,
+      "order": 79,
       "mode": 0,
       "inputs": [
         {
@@ -684,7 +684,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 82,
+      "order": 80,
       "mode": 0,
       "inputs": [
         {
@@ -766,7 +766,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 38,
+      "order": 40,
       "mode": 0,
       "inputs": [
         {
@@ -804,7 +804,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 37,
+      "order": 41,
       "mode": 0,
       "inputs": [
         {
@@ -842,7 +842,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 39,
+      "order": 42,
       "mode": 0,
       "inputs": [
         {
@@ -880,7 +880,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 40,
+      "order": 43,
       "mode": 0,
       "inputs": [
         {
@@ -918,7 +918,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 41,
+      "order": 44,
       "mode": 0,
       "inputs": [
         {
@@ -956,7 +956,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 42,
+      "order": 39,
       "mode": 0,
       "inputs": [
         {
@@ -994,7 +994,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 43,
+      "order": 46,
       "mode": 0,
       "inputs": [
         {
@@ -1032,7 +1032,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 44,
+      "order": 45,
       "mode": 0,
       "inputs": [
         {
@@ -1070,7 +1070,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 46,
+      "order": 47,
       "mode": 0,
       "inputs": [
         {
@@ -1108,7 +1108,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 45,
+      "order": 48,
       "mode": 0,
       "inputs": [
         {
@@ -1146,7 +1146,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 47,
+      "order": 49,
       "mode": 0,
       "inputs": [
         {
@@ -1184,7 +1184,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 48,
+      "order": 50,
       "mode": 0,
       "inputs": [
         {
@@ -1222,7 +1222,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 50,
+      "order": 51,
       "mode": 0,
       "inputs": [
         {
@@ -1260,7 +1260,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 49,
+      "order": 52,
       "mode": 0,
       "inputs": [
         {
@@ -1382,7 +1382,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 83,
+      "order": 81,
       "mode": 0,
       "inputs": [
         {
@@ -1416,7 +1416,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 76,
+      "order": 74,
       "mode": 0,
       "inputs": [
         {
@@ -1463,7 +1463,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 79,
+      "order": 77,
       "mode": 0,
       "inputs": [
         {
@@ -1559,7 +1559,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 51,
+      "order": 37,
       "mode": 0,
       "inputs": [
         {
@@ -1587,7 +1587,7 @@
         "Node name for S&R": "PrimitiveStringMultiline"
       },
       "widgets_values": [
-        "From an exaggeratedly high aerial perspective, Wonder Woman is captured mid-stride as she runs across a steep, dark rooftop at night, her body leaning forward sharply, with her face oriented directly toward the camera. Her posture is dynamic, with her legs extended behind her, lifting off the roof with each quick, deliberate step, and her toes barely touching the surface as she moves forward. Her attire consists of a fitted, sleeveless top that reveals her muscular arms and a short, form-fitting skirt that falls just above her knees, leaving her barefoot. Her long, dark hair is visible in motion, with visible waves and straight bangs falling over her forehead, slightly stirred by the wind. The roof beneath her is composed of evenly spaced, rectangular tiles, but the angle is so steep that it plunges dramatically into the darkness, creating a pronounced sense of depth and verticality.\n\nIn the background, a massive, dark gray creature—Godzilla—but with the head of Kermit the Frog, looms over the cityscape, towering above the buildings. Its segmented body casts a long shadow across the illuminated area, a stark contrast to the night sky. The cityscape is visible in the distance, lit by artificial lights that create a striking contrast with the surrounding darkness. The sloping roofline continues unaltered behind Wonder Woman, disappearing into the abyss of the city, emphasizing the height and the steepness of her position. Her facial expression is sharp, and she appears to be speaking directly to the camera, her mouth open as if to say, \"Bye! I’m out of here!\" The entire scene is rendered with great clarity, emphasizing the dynamic action and the stark contrast between the illuminated foreground and the dark background."
+        "This image is captured using an extreme overhead fisheye perspective, creating a highly exaggerated bird’s-eye view from directly above. The figure is seated inside the cockpit of a mecha suit, with her face and upper torso prominently displayed in the foreground. She has short, straight, white hair neatly cut and evenly distributed around her head, ending just above her shoulders. Her facial expression is pronounced, with a sarcastic, knowing smile revealing her vivid, deep red, full lips. She holds a cigarette between her fingers of her right hand, with visible smoke curling upward.\n\nHer legs are spread apart, revealing a metallic vibrating device positioned between her thighs. With her left hand, she firmly grips a joystick or control stick positioned in front of her, likely used for piloting the mecha. The cockpit interior features angular, metallic surfaces and various control panels. She is wearing a sleek, form-fitting bodysuit with orange and white panels, including a high collar with visible fastening mechanisms, a central chest panel with a small circular emblem, and white accents around the shoulders, chest, and wrists. The suit’s shiny, reflective material and visible seams are clearly visible.\n\nThe cockpit’s transparent viewport behind her shows a blurred, indistinct external environment, likely depicting a futuristic or sci-fi setting. Reinforced metal plates and additional control levers are visible around her, emphasizing the mechanical nature of the mecha suit. The exaggerated angle from the camera highlights her face, upper torso, the joystick, and the metallic device between her legs, creating a detailed and striking composition."
       ]
     },
     {
@@ -1975,139 +1975,6 @@
       "color": "#432",
       "bgcolor": "#653",
       "shape": 1
-    },
-    {
-      "id": 149,
-      "type": "Reroute",
-      "pos": [
-        140,
-        1330
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 77,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "widget": {
-            "name": "value"
-          },
-          "link": 468
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "STRING",
-          "links": [
-            429
-          ]
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 146,
-      "type": "StringReplace",
-      "pos": [
-        -160,
-        2260
-      ],
-      "size": [
-        310,
-        196
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 69,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "string",
-          "type": "STRING",
-          "widget": {
-            "name": "string"
-          },
-          "link": 431
-        }
-      ],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            426
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.77",
-        "Node name for S&R": "StringReplace"
-      },
-      "widgets_values": [
-        "",
-        "{$erotic}",
-        ""
-      ]
-    },
-    {
-      "id": 147,
-      "type": "StringReplace",
-      "pos": [
-        160,
-        2260
-      ],
-      "size": [
-        310,
-        196
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 71,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "string",
-          "type": "STRING",
-          "widget": {
-            "name": "string"
-          },
-          "link": 426
-        }
-      ],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            435
-          ]
-        }
-      ],
-      "title": "Default: No Adult Content",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.77",
-        "Node name for S&R": "StringReplace"
-      },
-      "widgets_values": [
-        "",
-        "{$with-adult-content}",
-        ""
-      ]
     },
     {
       "id": 58,
@@ -2588,60 +2455,6 @@
       "shape": 1
     },
     {
-      "id": 136,
-      "type": "Node Collector (rgthree)",
-      "pos": [
-        730,
-        1320
-      ],
-      "size": [
-        190.071875,
-        86
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 74,
-      "mode": 0,
-      "inputs": [
-        {
-          "dir": 3,
-          "name": "Alternative Sampler",
-          "type": "*",
-          "link": 448
-        },
-        {
-          "dir": 3,
-          "name": "Landscape Orientation",
-          "type": "*",
-          "link": 450
-        },
-        {
-          "dir": 3,
-          "name": "Adult Content Inducer (experimental)",
-          "type": "*",
-          "link": 562
-        },
-        {
-          "dir": 3,
-          "name": "",
-          "type": "*",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "dir": 4,
-          "name": "Output",
-          "type": "*",
-          "links": [
-            380
-          ]
-        }
-      ],
-      "properties": {}
-    },
-    {
       "id": 161,
       "type": "UnetLoaderGGUF",
       "pos": [
@@ -2757,104 +2570,88 @@
       "shape": 1
     },
     {
-      "id": 144,
+      "id": 164,
+      "type": "Note",
+      "pos": [
+        -1250,
+        120
+      ],
+      "size": [
+        900,
+        530
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 13,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "README",
+      "properties": {},
+      "widgets_values": [
+        "Amazing Z-Image Workflow v2.2\n\n## Workflow Prerequisites ##\n\n This workflow requires the following custom nodes, which can be obtained via ComfyUI-Manager:\n\n  * rgthree      : https://github.com/rgthree/rgthree-comfy\n  * ComfyUI-GGUF : https://github.com/city96/ComfyUI-GGUF\n\n Additionally, ensure you have the following three models downloaded and placed in their respective\n directories within your ComfyUI installation:\n\n  z_image_turbo-Q5_K_S.gguf\n    * Download: https://huggingface.co/jayn7/Z-Image-Turbo-GGUF/blob/main/z_image_turbo-Q5_K_S.gguf\n    * Local Directory: `ComfyUI/models/diffusion_models/`\n\n  Qwen3-4B.i1-Q5_K_S.gguf\n    * Download: https://huggingface.co/mradermacher/Qwen3-4B-i1-GGUF/blob/main/Qwen3-4B.i1-Q5_K_S.gguf\n    * Local Directory: `ComfyUI/models/text_encoders/`\n\n  ae.safetensors\n    * Download: https://huggingface.co/Comfy-Org/z_image_turbo/blob/main/split_files/vae/ae.safetensors\n    * Local Directory: `Comfyui/models/vae/`\n\n## More Info ##\n   - https://github.com/martin-rizzo/AmazingZImageWorkflow\n   - https://civitai.com/models/2181458/amazing-z-image-workflow\n   - https://civitai.com/models/2213075/amazing-z-comics-workflow\n\n\nCreated by Martin Rizzo  \n  GitHub : https://github.com/martin-rizzo\n  CivitAI: https://civitai.com/user/Photographer\n  Reddit : https://www.reddit.com/user/FotografoVirtual\n"
+      ],
+      "color": "#322",
+      "bgcolor": "#533",
+      "shape": 1
+    },
+    {
+      "id": 57,
+      "type": "PrimitiveNode",
+      "pos": [
+        1640,
+        840
+      ],
+      "size": [
+        510,
+        610
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 14,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "widget": {
+            "name": "value"
+          },
+          "links": [
+            295,
+            296
+          ]
+        }
+      ],
+      "title": "PROMPT",
+      "properties": {
+        "Run widget replace on values": false
+      },
+      "widgets_values": [
+        "This image is captured using an extreme overhead fisheye perspective, creating a highly exaggerated bird’s-eye view from directly above. The figure is seated inside the cockpit of a mecha suit, with her face and upper torso prominently displayed in the foreground. She has short, straight, white hair neatly cut and evenly distributed around her head, ending just above her shoulders. Her facial expression is pronounced, with a sarcastic, knowing smile revealing her vivid, deep red, full lips. She holds a cigarette between her fingers of her right hand, with visible smoke curling upward.\n\nHer legs are spread apart, revealing a metallic vibrating device positioned between her thighs. With her left hand, she firmly grips a joystick or control stick positioned in front of her, likely used for piloting the mecha. The cockpit interior features angular, metallic surfaces and various control panels. She is wearing a sleek, form-fitting bodysuit with orange and white panels, including a high collar with visible fastening mechanisms, a central chest panel with a small circular emblem, and white accents around the shoulders, chest, and wrists. The suit’s shiny, reflective material and visible seams are clearly visible.\n\nThe cockpit’s transparent viewport behind her shows a blurred, indistinct external environment, likely depicting a futuristic or sci-fi setting. Reinforced metal plates and additional control levers are visible around her, emphasizing the mechanical nature of the mecha suit. The exaggerated angle from the camera highlights her face, upper torso, the joystick, and the metallic device between her legs, creating a detailed and striking composition."
+      ],
+      "color": "#232",
+      "bgcolor": "#353",
+      "shape": 1
+    },
+    {
+      "id": 146,
       "type": "StringReplace",
       "pos": [
         -160,
-        2020
+        2260
       ],
       "size": [
         310,
-        196.0000000000003
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 68,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "string",
-          "type": "STRING",
-          "widget": {
-            "name": "string"
-          },
-          "link": 430
-        }
-      ],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            425
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.77",
-        "Node name for S&R": "StringReplace"
-      },
-      "widgets_values": [
-        "",
-        "{$erotic}",
-        "erotic"
-      ]
-    },
-    {
-      "id": 156,
-      "type": "Reroute",
-      "pos": [
-        790,
-        2020
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 72,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 453
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "STRING",
-          "links": [
-            562
-          ]
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 166,
-      "type": "StringReplace",
-      "pos": [
-        700,
-        2090
-      ],
-      "size": [
-        210,
         196
       ],
       "flags": {
-        "collapsed": true,
         "pinned": true
       },
-      "order": 75,
+      "order": 69,
       "mode": 0,
       "inputs": [
         {
@@ -2863,7 +2660,7 @@
           "widget": {
             "name": "string"
           },
-          "link": 466
+          "link": 431
         }
       ],
       "outputs": [
@@ -2871,12 +2668,11 @@
           "name": "STRING",
           "type": "STRING",
           "links": [
-            468,
-            469
+            565
           ]
         }
       ],
-      "title": "Fix Double Spaces",
+      "title": "DEFAULT: No Spicy Inpact",
       "properties": {
         "cnr_id": "comfy-core",
         "ver": "0.3.77",
@@ -2884,16 +2680,570 @@
       },
       "widgets_values": [
         "",
-        "  ",
-        " "
+        "{$spicy-content-with}",
+        ""
       ]
+    },
+    {
+      "id": 38,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        970
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 15,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            492
+          ]
+        }
+      ],
+      "title": "STYLE: Classic Film Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "YOUR CONTEXT:\nYou are a professional cinematographer of iconic classic mid‑century cinema, Hollywood años 1960s.\nYour photographs are on 35mm film with grain, displaying {$spicy-content-with} a warm color temperature, and an anamorphic lens that creates an oval bokeh effect and distortions at the edges.\n---\nYOUR PHOTO:\n{$@}\n"
+      ]
+    },
+    {
+      "id": 125,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        -130
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 16,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            381
+          ]
+        }
+      ],
+      "title": "STYLE: Phone Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "YOUR CONTEXT:\nYou're a photographer and you take photos with your android phone camera (low quality, low resolution).\nYour photographs exhibit {$spicy-content-with} surprising unusual compositions including saturated colors and sharp complex backgrounds.\n---\nYOUR PHOTO:\n{$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 101,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        90
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 17,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            472
+          ]
+        }
+      ],
+      "title": "STYLE: Casual Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "YOUR CONTEXT:\nYou are an amateur documentary photographer taking low quality photos.\nYour photographs exhibit {$spicy-content-with} sharp backgrounds, unpolished realism with natural lighting, and candid friendship‑level moments that feel immediate and authentic.  \n---\nYOUR PHOTO:\n{$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 117,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        310
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 18,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            509
+          ]
+        }
+      ],
+      "title": "STYLE: Flash 90s Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "YOUR CONTEXT:\nYou are an amateur photographer, taking photos with point‑and‑shoot cam-quality, in the early 1990s.\nYour photographs exhibit {$spicy-content-with} a rough, low-resolution quality, washed-out colors, including a harsh built-in flash, grainy texture, and overexposed highlights, capturing a casual atmosphere that evokes nostalgia.\n---\nYOUR PHOTO:\n{$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 63,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        530
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 19,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            560
+          ]
+        }
+      ],
+      "title": "STYLE: Intense Spot Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "YOUR CONTEXT:\nYou are a photographer who loves using an intense white light source to generate dramatic light and shadow.\nYour photographs exhibit {$spicy-content-with} high definition, brilliant glowing whites with sharp dark shadows, and vibrant colors.\n---\nYOUR PHOTO:\n{$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 47,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        750
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 20,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            510
+          ]
+        }
+      ],
+      "title": "STYLE: Production Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "YOUR CONTEXT:\nYou are a Hollywood filmmaker making a high-budget film.\nYour photographs exhibit {$spicy-content-with} atmospheric composition that emphasize intense emotions using selective focus, and warm and cold colors with high quality studio lighting.\n---\nYOUR PHOTO:\n{$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 37,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        1410
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 21,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            559
+          ]
+        }
+      ],
+      "title": "STYLE: Vintage Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "YOUR CONTEXT:\nYou are an 80s photographer who enjoys informal shots.\nYour worn vintage photographs exhibit {$spicy-content-with} a minimalist, amateurish composition, warm desaturated tones and a soft focus that creates a cozy atmosphere.\n---\nYOUR PHOTO:\n{$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 92,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        1190
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 22,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            497
+          ]
+        }
+      ],
+      "title": "STYLE: Noir Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "YOUR CONTEXT:\nYou are a cinematographer who works in dark movies.\nYour photographs exhibit {$spicy-content-with} intense side lighting and light gobos patterns that create defined shadows, along with a muted Ektachrome palette with a warm tone that evokes film noir.\n---\nYOUR PHOTO:\n{$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 41,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        1630
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 23,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            538
+          ]
+        }
+      ],
+      "title": "STYLE: Lomography",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "YOUR CONTEXT:\nYou are an adventurous experimental photographer exploring the world through a lomographic lens.\nYour photographs exhibit {$spicy-content-with} film grain, colorful lens flares, soft focus with motion blur, and analog filter effects, trying to capture emotions.\n---\nYOUR PHOTO:\n{$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 122,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        1850
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 24,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            550
+          ]
+        }
+      ],
+      "title": "STYLE: Drone Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "YOUR CONTEXT:\nYou are an aerial photographer who enjoys using wide-angle drone cams.\nYour photographs exhibit {$spicy-content-with} panoramic scenes captured from afar, high up with elevated perspectives and intense colors.\n---\nYOUR PHOTO:\n{$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 43,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        2070
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 25,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            552
+          ]
+        }
+      ],
+      "title": "STYLE: Minimalist Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "YOUR CONTEXT:\nYou are a photographer who prefers serene and tranquil images.\nYour photographs exhibit {$spicy-content-with} high contrast and clean, minimalist compositions that emphasize empty space to highlight negative space.\n---\nYOUR PHOTO:\n{$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 93,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        2290
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 26,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            555
+          ]
+        }
+      ],
+      "title": "STYLE: Pop Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "YOUR CONTEXT:\nYou are a contemporary pop artist known for your vibrant, oversaturated palettes and energetic, graphic compositions.\nYour photographs exhibit {$spicy-content-with} exaggerated colors and solid backgrounds using Ben-Day dots, achieving an unconventional and clearly pop art effect.\n---\nYOUR PHOTO:\n{$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 130,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        2510
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 27,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            557
+          ]
+        }
+      ],
+      "title": "STYLE: Light Painting Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "YOUR CONTEXT:\nYou are an experimental photographer who enjoys creating light painting images with long exposures and LED sources.\nYour photographs exhibit {$spicy-content-with} luminous trails, vibrant colors, and elements that are strikingly illuminated by the long exposure.\n---\nYOUR PHOTO:\n{$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 45,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        2730
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 28,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            556
+          ]
+        }
+      ],
+      "title": "STYLE: Neon City Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "YOUR CONTEXT:\nYou are a photographer who likes dark colorful neon light scenes.\nYour photographs exhibit {$spicy-content-with} dark cinematic environments illuminated only by neon lights that emphasize vibrant reds, greens, and blues, presenting emotional scenes with saturated colors.\n---\nYOUR PHOTO:\n{$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 124,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        2950
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 29,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            513
+          ]
+        }
+      ],
+      "title": "STYLE: Tilt Shift / Toy Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "YOUR CONTEXT:\nYou are a photographer who enjoys using tilt‑shift lenses to turn real‑world scenes into miniature toy models.\nYour photographs exhibit {$spicy-content-with} crisp, high‑resolution details captured in an exaggerated perspective, with a very narrow focus plane, and a dreamy, toy‑like atmosphere that creates the classic “miniature” illusion.\n---\nYOUR PHOTO:\n{$@}"
+      ],
+      "shape": 1
     },
     {
       "id": 151,
       "type": "Any Switch (rgthree)",
       "pos": [
-        500,
-        2130
+        210,
+        2120
       ],
       "size": [
         166.7203125,
@@ -2902,20 +3252,20 @@
       "flags": {
         "pinned": true
       },
-      "order": 73,
+      "order": 71,
       "mode": 0,
       "inputs": [
         {
           "dir": 3,
           "name": "any_01",
           "type": "STRING",
-          "link": 434
+          "link": 563
         },
         {
           "dir": 3,
           "name": "any_02",
           "type": "STRING",
-          "link": 435
+          "link": 565
         },
         {
           "dir": 3,
@@ -2955,15 +3305,136 @@
       "widgets_values": []
     },
     {
+      "id": 166,
+      "type": "StringReplace",
+      "pos": [
+        420,
+        2150
+      ],
+      "size": [
+        210,
+        196
+      ],
+      "flags": {
+        "collapsed": true,
+        "pinned": true
+      },
+      "order": 73,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "string",
+          "type": "STRING",
+          "widget": {
+            "name": "string"
+          },
+          "link": 466
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            468,
+            469
+          ]
+        }
+      ],
+      "title": "Fix Double Spaces",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.77",
+        "Node name for S&R": "StringReplace"
+      },
+      "widgets_values": [
+        "",
+        "  ",
+        " "
+      ]
+    },
+    {
+      "id": 156,
+      "type": "Reroute",
+      "pos": [
+        510,
+        2020
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 70,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 564
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "STRING",
+          "links": [
+            562
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 165,
+      "type": "Display Any (rgthree)",
+      "pos": [
+        620,
+        2120
+      ],
+      "size": [
+        680,
+        540
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 76,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "name": "source",
+          "type": "*",
+          "link": 469
+        }
+      ],
+      "outputs": [],
+      "title": "FINAL TEXT VIEWER",
+      "properties": {
+        "cnr_id": "rgthree-comfy",
+        "ver": "e9d56181883d4e05c4236f09422582f49abdec86",
+        "Node name for S&R": "Display Any (rgthree)"
+      },
+      "widgets_values": [
+        "YOUR CONTEXT:\nYou are a photographer who enjoys using tilt‑shift lenses to turn real‑world scenes into miniature toy models.\nYour photographs exhibit attractive and spicy content, where women are sexy and showing provocative, with crisp, high‑resolution details captured in an exaggerated perspective, with a very narrow focus plane, and a dreamy, toy‑like atmosphere that creates the classic “miniature” illusion.\n---\nYOUR PHOTO:\nThis image is captured using an extreme overhead fisheye perspective, creating a highly exaggerated bird’s-eye view from directly above. The figure is seated inside the cockpit of a mecha suit, with her face and upper torso prominently displayed in the foreground. She has short, straight, white hair neatly cut and evenly distributed around her head, ending just above her shoulders. Her facial expression is pronounced, with a sarcastic, knowing smile revealing her vivid, deep red, full lips. She holds a cigarette between her fingers of her right hand, with visible smoke curling upward.\n\nHer legs are spread apart, revealing a metallic vibrating device positioned between her thighs. With her left hand, she firmly grips a joystick or control stick positioned in front of her, likely used for piloting the mecha. The cockpit interior features angular, metallic surfaces and various control panels. She is wearing a sleek, form-fitting bodysuit with orange and white panels, including a high collar with visible fastening mechanisms, a central chest panel with a small circular emblem, and white accents around the shoulders, chest, and wrists. The suit’s shiny, reflective material and visible seams are clearly visible.\n\nThe cockpit’s transparent viewport behind her shows a blurred, indistinct external environment, likely depicting a futuristic or sci-fi setting. Reinforced metal plates and additional control levers are visible around her, emphasizing the mechanical nature of the mecha suit. The exaggerated angle from the camera highlights her face, upper torso, the joystick, and the metallic device between her legs, creating a detailed and striking composition."
+      ]
+    },
+    {
       "id": 31,
       "type": "StringReplace",
       "pos": [
-        -430,
-        2290
+        -420,
+        2110
       ],
       "size": [
-        230,
-        280
+        210,
+        550
       ],
       "flags": {
         "pinned": true
@@ -3011,680 +3482,21 @@
       ]
     },
     {
-      "id": 164,
-      "type": "Note",
-      "pos": [
-        -1250,
-        120
-      ],
-      "size": [
-        900,
-        530
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 13,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "title": "README",
-      "properties": {},
-      "widgets_values": [
-        "Amazing Z-Image Workflow v2.2\n\n## Workflow Prerequisites ##\n\n This workflow requires the following custom nodes, which can be obtained via ComfyUI-Manager:\n\n  * rgthree      : https://github.com/rgthree/rgthree-comfy\n  * ComfyUI-GGUF : https://github.com/city96/ComfyUI-GGUF\n\n Additionally, ensure you have the following three models downloaded and placed in their respective\n directories within your ComfyUI installation:\n\n  z_image_turbo-Q5_K_S.gguf\n    * Download: https://huggingface.co/jayn7/Z-Image-Turbo-GGUF/blob/main/z_image_turbo-Q5_K_S.gguf\n    * Local Directory: `ComfyUI/models/diffusion_models/`\n\n  Qwen3-4B.i1-Q5_K_S.gguf\n    * Download: https://huggingface.co/mradermacher/Qwen3-4B-i1-GGUF/blob/main/Qwen3-4B.i1-Q5_K_S.gguf\n    * Local Directory: `ComfyUI/models/text_encoders/`\n\n  ae.safetensors\n    * Download: https://huggingface.co/Comfy-Org/z_image_turbo/blob/main/split_files/vae/ae.safetensors\n    * Local Directory: `Comfyui/models/vae/`\n\n## More Info ##\n   - https://github.com/martin-rizzo/AmazingZImageWorkflow\n   - https://civitai.com/models/2181458/amazing-z-image-workflow\n   - https://civitai.com/models/2213075/amazing-z-comics-workflow\n\n\nCreated by Martin Rizzo  \n  GitHub : https://github.com/martin-rizzo\n  CivitAI: https://civitai.com/user/Photographer\n  Reddit : https://www.reddit.com/user/FotografoVirtual\n"
-      ],
-      "color": "#322",
-      "bgcolor": "#533",
-      "shape": 1
-    },
-    {
-      "id": 165,
-      "type": "Display Any (rgthree)",
-      "pos": [
-        930,
-        2060
-      ],
-      "size": [
-        640,
-        410
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 78,
-      "mode": 0,
-      "inputs": [
-        {
-          "dir": 3,
-          "name": "source",
-          "type": "*",
-          "link": 469
-        }
-      ],
-      "outputs": [],
-      "title": "FINAL TEXT VIEWER",
-      "properties": {
-        "cnr_id": "rgthree-comfy",
-        "ver": "e9d56181883d4e05c4236f09422582f49abdec86",
-        "Node name for S&R": "Display Any (rgthree)"
-      },
-      "widgets_values": [
-        "YOUR CONTEXT:\nYou are a photographer who enjoys using tilt‑shift lenses to turn real‑world scenes into miniature toy models.\nYour photographs exhibit crisp, high‑resolution details with exaggerated perspective, with a very narrow focus plane, and a dreamy, toy‑like atmosphere that creates the classic “miniature” illusion.\n---\nYOUR PHOTO:\nFrom an exaggeratedly high aerial perspective, Wonder Woman is captured mid-stride as she runs across a steep, dark rooftop at night, her body leaning forward sharply, with her face oriented directly toward the camera. Her posture is dynamic, with her legs extended behind her, lifting off the roof with each quick, deliberate step, and her toes barely touching the surface as she moves forward. Her attire consists of a fitted, sleeveless top that reveals her muscular arms and a short, form-fitting skirt that falls just above her knees, leaving her barefoot. Her long, dark hair is visible in motion, with visible waves and straight bangs falling over her forehead, slightly stirred by the wind. The roof beneath her is composed of evenly spaced, rectangular tiles, but the angle is so steep that it plunges dramatically into the darkness, creating a pronounced sense of depth and verticality.\n\nIn the background, a massive, dark gray creature—Godzilla—but with the head of Kermit the Frog, looms over the cityscape, towering above the buildings. Its segmented body casts a long shadow across the illuminated area, a stark contrast to the night sky. The cityscape is visible in the distance, lit by artificial lights that create a striking contrast with the surrounding darkness. The sloping roofline continues unaltered behind Wonder Woman, disappearing into the abyss of the city, emphasizing the height and the steepness of her position. Her facial expression is sharp, and she appears to be speaking directly to the camera, her mouth open as if to say, \"Bye! I’m out of here!\" The entire scene is rendered with great clarity, emphasizing the dynamic action and the stark contrast between the illuminated foreground and the dark background."
-      ],
-      "color": "#323",
-      "bgcolor": "#535"
-    },
-    {
-      "id": 101,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1990,
-        90
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 14,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            472
-          ]
-        }
-      ],
-      "title": "STYLE: Casual Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "YOUR CONTEXT:\nYou are an amateur documentary photographer taking low quality photos.\nYour tastes encompass sharp backgrounds with large depth of field, unpolished realism with natural lighting, and candid friendship‑level moments that feel immediate and authentic.  \n---\nYOUR PHOTO:\n{$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 125,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1990,
-        -130
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 15,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            381
-          ]
-        }
-      ],
-      "title": "STYLE: Phone Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "YOUR CONTEXT:\nYou're a photographer and you take photos with your android phone camera (low quality, low resolution).\nYour tastes lean towards surprising and unusual compositions with saturated colors and sharp complex backgrounds.\n---\nYOUR PHOTO:\n{$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 117,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1990,
-        310
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 16,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            509
-          ]
-        }
-      ],
-      "title": "STYLE: Flash 90s Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "YOUR CONTEXT:\nYou are a hobbyist photographer and you take photos with point‑and‑shoot cam-quality, in the early 1990s.\nYour tastes encompass gritty, low‑resolution snapshots with washed‑out colors, harsh built‑in flash, grainy texture and overexposed highlights, capturing an ethereal atmosphere that feels nostalgic.\n---\nYOUR PHOTO:\n{$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 63,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1990,
-        530
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 17,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            560
-          ]
-        }
-      ],
-      "title": "STYLE: Intense Spot Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "YOUR CONTEXT:\nYou are a photographer who loves using an intense white light source to generate dramatic light and shadow.\nYour photographs exhibit high definition, brilliant glowing whites with sharp dark shadows, and vibrant colors.\n---\nYOUR PHOTO:\n{$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 47,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1990,
-        750
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 18,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            510
-          ]
-        }
-      ],
-      "title": "STYLE: Production Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "YOUR CONTEXT:\nYou are a Hollywood filmmaker making a high-budget film.\nYour photographs exhibit atmospheric composition that emphasize intense emotions using selective focus, and warm and cold colors with high quality studio lighting.\n---\nYOUR PHOTO:\n{$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 38,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1990,
-        970
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 19,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            492
-          ]
-        }
-      ],
-      "title": "STYLE: Classic Film Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "YOUR CONTEXT:\nYou are a professional cinematographer of iconic classic mid‑century cinema, Hollywood años 1960s.\nYour photographs are on 35mm film with grain, a warm color temperature, and an anamorphic lens that creates an oval bokeh effect and distortions at the edges.\n---\nYOUR PHOTO:\n{$@}\n"
-      ]
-    },
-    {
-      "id": 92,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1990,
-        1190
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 20,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            497
-          ]
-        }
-      ],
-      "title": "STYLE: Noir Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "YOUR CONTEXT:\nYou are a cinematographer who works in dark movies.\nYour photographs feature intense side lighting and patterns created with gobos that create defined shadows, along with a muted Ektachrome palette with a warm tone that evokes film noir.\n---\nYOUR PHOTO:\n{$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 37,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1990,
-        1410
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 21,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            559
-          ]
-        }
-      ],
-      "title": "STYLE: Vintage Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "YOUR CONTEXT:\nYou are an 80s photographer who enjoys informal shots.\nYour photographs feature a minimalist and amateur composition, with warm and desaturated tones, as well as grain texture and a soft focus that creates a cozy atmosphere.\n---\nYOUR PHOTO:\n{$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 122,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1990,
-        1850
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 22,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            550
-          ]
-        }
-      ],
-      "title": "STYLE: Drone Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "YOUR CONTEXT:\nYou are an aerial photographer who enjoys using wide-angle drone cams.\nYour photographs showcase panoramic scenes captured from afar, high up with elevated perspectives and intense colors.\n---\nYOUR PHOTO:\n{$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 41,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1990,
-        1630
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 23,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            538
-          ]
-        }
-      ],
-      "title": "STYLE: Lomography",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "CONTEXT:\nYou are an adventurous experimental photographer exploring the world through a lomographic lens.\nYour photographs exhibit film grain, colorful lens flares, soft focus with motion blur, and analog filter effects, trying to capture emotions.\n---\nYOUR PHOTO:\n{$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 43,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1990,
-        2070
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 24,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            552
-          ]
-        }
-      ],
-      "title": "STYLE: Minimalist Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "YOUR CONTEXT:\nYou are a photographer who prefers serene and tranquil images.\nYour photographs exhibit high contrast with clean, minimalist compositions that emphasize empty space to highlight negative space.\n---\nYOUR PHOTO:\n{$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 93,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1990,
-        2290
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 25,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            555
-          ]
-        }
-      ],
-      "title": "STYLE: Pop Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "YOUR CONTEXT:\nYou are a contemporary pop artist known for your vibrant, oversaturated palettes and energetic, graphic compositions.\nYour photographs feature exaggerated colors with solid backgrounds using Ben-Day dots, achieving an unconventional and clearly pop art effect.\n---\nYOUR PHOTO:\n{$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 45,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1990,
-        2730
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 26,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            556
-          ]
-        }
-      ],
-      "title": "STYLE: Neon City Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "YOUR CONTEXT:\nYou are a photographer who likes dark and colorful neon scenes.\nYour photographs exhibit film grain, with dark cinematic environments illuminated only by neon lights that emphasize vibrant reds, greens, and blues, presenting emotional scenes with saturated colors.\n---\nYOUR PHOTO:\n{$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 130,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1990,
-        2510
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 27,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            557
-          ]
-        }
-      ],
-      "title": "STYLE: Light Painting Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "YOUR CONTEXT:\nYou are an experimental photographer who enjoys creating light painting images with long exposures and LED sources.\nYour photographs feature luminous trails, vibrant colors, and elements that are strikingly illuminated by the long exposure.\n---\nYOUR PHOTO:\n{$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 57,
-      "type": "PrimitiveNode",
-      "pos": [
-        1640,
-        840
-      ],
-      "size": [
-        510,
-        610
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 28,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "widget": {
-            "name": "value"
-          },
-          "links": [
-            295,
-            296
-          ]
-        }
-      ],
-      "title": "PROMPT",
-      "properties": {
-        "Run widget replace on values": false
-      },
-      "widgets_values": [
-        "From an exaggeratedly high aerial perspective, Wonder Woman is captured mid-stride as she runs across a steep, dark rooftop at night, her body leaning forward sharply, with her face oriented directly toward the camera. Her posture is dynamic, with her legs extended behind her, lifting off the roof with each quick, deliberate step, and her toes barely touching the surface as she moves forward. Her attire consists of a fitted, sleeveless top that reveals her muscular arms and a short, form-fitting skirt that falls just above her knees, leaving her barefoot. Her long, dark hair is visible in motion, with visible waves and straight bangs falling over her forehead, slightly stirred by the wind. The roof beneath her is composed of evenly spaced, rectangular tiles, but the angle is so steep that it plunges dramatically into the darkness, creating a pronounced sense of depth and verticality.\n\nIn the background, a massive, dark gray creature—Godzilla—but with the head of Kermit the Frog, looms over the cityscape, towering above the buildings. Its segmented body casts a long shadow across the illuminated area, a stark contrast to the night sky. The cityscape is visible in the distance, lit by artificial lights that create a striking contrast with the surrounding darkness. The sloping roofline continues unaltered behind Wonder Woman, disappearing into the abyss of the city, emphasizing the height and the steepness of her position. Her facial expression is sharp, and she appears to be speaking directly to the camera, her mouth open as if to say, \"Bye! I’m out of here!\" The entire scene is rendered with great clarity, emphasizing the dynamic action and the stark contrast between the illuminated foreground and the dark background."
-      ],
-      "color": "#232",
-      "bgcolor": "#353",
-      "shape": 1
-    },
-    {
-      "id": 124,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1990,
-        2950
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 29,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            513
-          ]
-        }
-      ],
-      "title": "STYLE: Tilt Shift / Toy Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "YOUR CONTEXT:\nYou are a photographer who enjoys using tilt‑shift lenses to turn real‑world scenes into miniature toy models.\nYour photographs exhibit crisp, high‑resolution details with exaggerated perspective, with a very narrow focus plane, and a dreamy, toy‑like atmosphere that creates the classic “miniature” illusion.\n---\nYOUR PHOTO:\n{$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 145,
+      "id": 144,
       "type": "StringReplace",
       "pos": [
-        160,
+        -160,
         2020
       ],
       "size": [
         310,
-        196.00000000000023
+        196.0000000000003
       ],
       "flags": {
         "pinned": true
       },
-      "order": 70,
-      "mode": 2,
+      "order": 68,
+      "mode": 0,
       "inputs": [
         {
           "name": "string",
@@ -3692,7 +3504,7 @@
           "widget": {
             "name": "string"
           },
-          "link": 425
+          "link": 430
         }
       ],
       "outputs": [
@@ -3700,12 +3512,12 @@
           "name": "STRING",
           "type": "STRING",
           "links": [
-            434,
-            453
+            563,
+            564
           ]
         }
       ],
-      "title": "Adult Content Inducer (experimental)",
+      "title": "Spicy Impact Booster (experimental)",
       "properties": {
         "cnr_id": "comfy-core",
         "ver": "0.3.77",
@@ -3713,9 +3525,103 @@
       },
       "widgets_values": [
         "",
-        "{$with-adult-content}",
-        "with adult content, where women are porn stars sexually provocative"
+        "{$spicy-content-with}",
+        "attractive and spicy content, where women are sexy and showing provocative, with"
       ]
+    },
+    {
+      "id": 136,
+      "type": "Node Collector (rgthree)",
+      "pos": [
+        710,
+        1320
+      ],
+      "size": [
+        280,
+        90
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 72,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "name": "Alternative Sampler",
+          "type": "*",
+          "link": 448
+        },
+        {
+          "dir": 3,
+          "name": "Landscape Orientation",
+          "type": "*",
+          "link": 450
+        },
+        {
+          "dir": 3,
+          "name": "Spicy Impact Booster (experimental)",
+          "type": "*",
+          "link": 562
+        },
+        {
+          "dir": 3,
+          "name": "",
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 4,
+          "name": "Output",
+          "type": "*",
+          "links": [
+            380
+          ]
+        }
+      ],
+      "properties": {}
+    },
+    {
+      "id": 149,
+      "type": "Reroute",
+      "pos": [
+        170,
+        1310
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 75,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "widget": {
+            "name": "value"
+          },
+          "link": 468
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "STRING",
+          "links": [
+            429
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
     }
   ],
   "links": [
@@ -4264,22 +4170,6 @@
       "*"
     ],
     [
-      425,
-      144,
-      0,
-      145,
-      0,
-      "STRING"
-    ],
-    [
-      426,
-      146,
-      0,
-      147,
-      0,
-      "STRING"
-    ],
-    [
       429,
       149,
       0,
@@ -4304,22 +4194,6 @@
       "STRING"
     ],
     [
-      434,
-      145,
-      0,
-      151,
-      0,
-      "*"
-    ],
-    [
-      435,
-      147,
-      0,
-      151,
-      1,
-      "STRING"
-    ],
-    [
       448,
       95,
       0,
@@ -4333,14 +4207,6 @@
       0,
       136,
       1,
-      "*"
-    ],
-    [
-      453,
-      145,
-      0,
-      156,
-      0,
       "*"
     ],
     [
@@ -4542,6 +4408,30 @@
       136,
       2,
       "*"
+    ],
+    [
+      563,
+      144,
+      0,
+      151,
+      0,
+      "STRING"
+    ],
+    [
+      564,
+      144,
+      0,
+      156,
+      0,
+      "*"
+    ],
+    [
+      565,
+      146,
+      0,
+      151,
+      1,
+      "STRING"
     ]
   ],
   "groups": [
@@ -4592,16 +4482,18 @@
     },
     {
       "id": 5,
-      "title": "ADULT CONTENT INDUCER",
+      "title": "SPICY IMPACT BOOSTER",
       "bounding": [
         -170,
         1950,
-        1010,
+        740,
         520
       ],
       "color": "#444",
       "font_size": 24,
-      "flags": {}
+      "flags": {
+        "pinned": true
+      }
     },
     {
       "id": 6,
