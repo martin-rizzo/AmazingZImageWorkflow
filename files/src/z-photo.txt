@@ -1,0 +1,136 @@
+>Phone Photo
+YOUR CONTEXT:
+Your photographs has android phone cam-quality (low-resolution).
+Your photographs exhibit {$spicy-content-with} surprising compositions, sharp complex backgrounds, natural lighting, and candid moments that feel immediate and authentic.
+Your photographs are actual photographic background.
+---
+YOUR PHOTO:
+{$@}
+
+
+>Casual Photo
+YOUR CONTEXT:
+You are an amateur documentary photographer taking low quality photos.
+Your photographs exhibit {$spicy-content-with} sharp backgrounds, unpolished realism with natural lighting, and candid friendship‑level moments that feel immediate and authentic.  
+---
+YOUR PHOTO:
+{$@}
+
+
+>Flash 90s Photo
+YOUR CONTEXT:
+You are an amateur photographer, taking photos with point‑and‑shoot cam-quality, in the early 1990s.
+Your photographs exhibit {$spicy-content-with} a rough, low-resolution quality, washed-out colors, including a harsh built-in flash, grainy texture, and overexposed highlights, capturing a casual atmosphere that evokes nostalgia.
+---
+YOUR PHOTO:
+{$@}
+
+
+>Intense Spot Photo
+YOUR CONTEXT:
+You are a photographer who loves using an intense white light source to generate dramatic light and shadow.
+Your photographs exhibit {$spicy-content-with} high definition, brilliant glowing whites with sharp dark shadows, and vibrant colors.
+---
+YOUR PHOTO:
+{$@}
+
+
+>Production Photo
+YOUR CONTEXT:
+You are a Hollywood filmmaker making a high-budget film.
+Your photographs exhibit {$spicy-content-with} atmospheric composition that emphasize intense emotions using selective focus, and warm and cold colors with high quality studio lighting.
+---
+YOUR PHOTO:
+{$@}
+
+
+>Classic Film Photo
+YOUR CONTEXT:
+You are a professional cinematographer of iconic classic mid‑century cinema, Hollywood años 1960s.
+Your photographs are on 35mm film with grain, displaying {$spicy-content-with} a warm color temperature, and an anamorphic lens that creates an oval bokeh effect and distortions at the edges.
+---
+YOUR PHOTO:
+{$@}
+
+
+>Noir Photo
+YOUR CONTEXT:
+You are a cinematographer who works in dark movies.
+Your photographs exhibit {$spicy-content-with} intense side lighting and light gobos patterns that create defined shadows, along with a muted Ektachrome palette with a warm tone that evokes film noir.
+---
+YOUR PHOTO:
+{$@}
+
+
+>Vintage Photo
+YOUR CONTEXT:
+You are an 80s photographer who enjoys informal shots.
+Your worn vintage photographs exhibit {$spicy-content-with} a minimalist, amateurish composition, warm desaturated tones and a soft focus that creates a cozy atmosphere.
+---
+YOUR PHOTO:
+{$@}
+
+
+>Lomography
+YOUR CONTEXT:
+You are an adventurous experimental photographer exploring the world through a lomographic lens.
+Your photographs exhibit {$spicy-content-with} film grain, colorful lens flares, soft focus with motion blur, and analog filter effects, trying to capture emotions.
+---
+YOUR PHOTO:
+{$@}
+
+
+>Drone Photo
+YOUR CONTEXT:
+You are an aerial photographer who enjoys using wide-angle drone cams.
+Your photographs exhibit {$spicy-content-with} panoramic scenes captured from afar, high up with elevated perspectives and intense colors.
+---
+YOUR PHOTO:
+{$@}
+
+
+>Minimalist Photo
+YOUR CONTEXT:
+You are a photographer who prefers serene and tranquil images.
+Your photographs exhibit {$spicy-content-with} high contrast and clean, minimalist compositions that emphasize empty space to highlight negative space.
+---
+YOUR PHOTO:
+{$@}
+
+
+>Pop Photo
+YOUR CONTEXT:
+You are a contemporary pop artist known for your vibrant, oversaturated palettes and energetic, graphic compositions.
+Your photographs exhibit {$spicy-content-with} exaggerated colors and solid backgrounds using Ben-Day dots, achieving an unconventional and clearly pop art effect.
+---
+YOUR PHOTO:
+{$@}
+
+
+>Light Painting Photo
+YOUR CONTEXT:
+You are an experimental photographer who enjoys creating light painting images with long exposures and LED sources.
+Your photographs exhibit {$spicy-content-with} luminous trails, vibrant colors, and elements that are strikingly illuminated by the long exposure.
+---
+YOUR PHOTO:
+{$@}
+
+
+>Neon City Photo
+YOUR CONTEXT:
+You are a photographer who likes dark colorful neon light scenes.
+Your photographs exhibit {$spicy-content-with} dark cinematic environments illuminated only by neon lights that emphasize vibrant reds, greens, and blues, presenting emotional scenes with saturated colors.
+---
+YOUR PHOTO:
+{$@}
+
+
+>Tilt Shift / Toy Photo
+YOUR CONTEXT:
+You are a photographer who enjoys using tilt‑shift lenses to turn real‑world scenes into miniature toy models.
+Your photographs exhibit {$spicy-content-with} crisp, high‑resolution details captured in an exaggerated perspective, with a very narrow focus plane, and a dreamy, toy‑like atmosphere that creates the classic “miniature” illusion.
+---
+YOUR PHOTO:
+{$@}
+
+
