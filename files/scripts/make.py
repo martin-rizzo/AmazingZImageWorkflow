@@ -68,32 +68,50 @@ def fatal_error(message: str, *info_messages: str, padding: int = 0, file=sys.st
 
 #---------------------------- HELPER FUNCTIONS -----------------------------#
 
-def add_var(vars: dict, action: str, content: str) -> None:
+class ConfigDict(dict):
+    """
+    A dictionary-like class that allows for variable and style management.
+    This class inherits from Python's built-in dict, extending its functionality
+    to include a list of styles under the property `self.styles`.
+    It also handles missing keys by returning the key itself, allowing safe use
+    in string.format_map().
+    """
+    def __init__(self, *args, **kwargs) -> None:
+        super().__init__(*args,**kwargs)
+        self.styles = []
+
+    def __missing__(self,key):
+        return key
+
+
+def add_var(config_dict: ConfigDict,
+            action     : str,
+            content    : str
+            ) -> None:
     """
     Adds a variable or style to the dictionary based on the action line.
     Args:
-        vars    : The dictionary to update with variables and styles.
-        action  : The action line that defines how to handle the content.
-        content : The actual content associated with the action line.
+        config_dict: The configuration dictionary to update with variables and styles.
+        action     : The action line that defines how to handle the content.
+        content    : The actual content associated with the action line.
     Returns:
-        None, this function modifies the 'vars' dictionary in-place.
+        None, this function modifies the 'config_dict' in-place.
     """
-    if not "styles" in vars:
-        vars["styles"] = []
-
     # actions with format "{#VARNAME}" add a variable to the dictionary
     if action.startswith("{#"):
-        varname = action[2:].strip().rstrip('}')
-        vars[varname] = content.strip()
+        varname = action[1:].strip().rstrip('}')
+        config_dict[varname] = content.strip()
 
     # actions with format ">>STYLE NAME" add a style to the dictionary
     elif action.startswith(">>"):
         style_name = action[2:].strip()
         style      = (style_name, content.strip())
-        vars["styles"].append( style )
+        config_dict.styles.append( style )
 
 
-def read_vars_from_file(vars: dict, filepath : str) -> None:
+def read_vars_from_file(config_dict: ConfigDict,
+                        filepath   : str
+                        ) -> None:
     """Reads a configuration file and populates the vars dictionary with its contents.
 
     This function processes a file line by line, identifying actions and their
@@ -101,11 +119,10 @@ def read_vars_from_file(vars: dict, filepath : str) -> None:
     variables or styles to the provided dictionary.
 
     Args:
-        vars    : The dictionary to populate with variables and styles from the file.
-        filepath: The path to the configuration file to read.
+        config_dict: The configuration dictionary to populate with variables and styles from the file.
+        filepath   : The path to the configuration file to read.
     Returns:
-        None, this function modifies the 'vars' dictionary in-place.
-
+        None, this function modifies the 'config_dict' in-place.
     Note:
         - Lines defined as "{#VARNAME}" or ">>STYLE_NAME" are treated as a action.
         - Multi-line content is supported.
@@ -122,7 +139,8 @@ def read_vars_from_file(vars: dict, filepath : str) -> None:
                act_candidate.startswith("{#") or \
                act_candidate.startswith(">>"):
                 if action:
-                    add_var(vars, action, content)
+                    content = content.format_map(config_dict)
+                    add_var(config_dict, action, content)
                 action  = act_candidate
                 content = ""
             else:
@@ -133,9 +151,9 @@ def read_vars_from_file(vars: dict, filepath : str) -> None:
 #////////////////////////////////// MAIN ///////////////////////////////////#
 #===========================================================================#
 
-def make_workflow(template_path     : str,
-                  config_path       : str,
-                  global_config_path: str = None
+def make_workflow(template_filepath     : str,
+                  config_filepath       : str,
+                  global_config_filepath: str = None
                  ) -> None:
     """
     Creates a workflow based on the provided template and configuration.
@@ -144,18 +162,24 @@ def make_workflow(template_path     : str,
     creates a workflow using the given template.
 
     Args:
-        template_path     : The path to the template file used for creating the workflow.
-        config_path       : The path to the specific configuration file.
-        global_config_path: Optional; the path to a global configuration file containing shared settings.
+        template_filepath     : The path to the template file used for creating the workflow.
+        config_filepath       : The path to the specific configuration file.
+        global_config_filepath: Optional; the path to a global configuration file containing shared settings.
     Returns:
         None
     """
-    vars = { }
-    if global_config_path:
-        read_vars_from_file(vars, global_config_path)
-    read_vars_from_file(vars, config_path)
+    config_dict = ConfigDict()
 
-    print(vars)
+    template_name = os.path.basename(template_filepath).split(".")[0]
+    if template_name.startswith("template"):
+        template_name = template_name[9:].rstrip('_')
+
+    config_dict["#TEMPLATE_NAME"] = template_name
+    if global_config_filepath:
+        read_vars_from_file( config_dict, global_config_filepath )
+    read_vars_from_file( config_dict, config_filepath )
+
+    print( config_dict.get("#OUTPUT","") )
 
 
 

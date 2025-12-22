@@ -1,7 +1,7 @@
 #!ZCONFIG
 
 {#OUTPUT}
-amazing-z-comics_{#WFNAME}.json
+amazing-z-comics_{#TEMPLATE_NAME}.json
 
 
 {#PROMPT}

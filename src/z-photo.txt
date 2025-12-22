@@ -1,7 +1,7 @@
 #!ZCONFIG
 
 {#OUTPUT}
-amazing-z-photo_{#WFNAME}.json
+amazing-z-photo_{#TEMPLATE_NAME}.json
 
 
 {#PROMPT}
