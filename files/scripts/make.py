@@ -12,6 +12,7 @@
 """
 import os
 import sys
+import json
 import argparse
 
 # list of files that should be taken as global configuration
@@ -66,7 +67,7 @@ def fatal_error(message: str, *info_messages: str, padding: int = 0, file=sys.st
     sys.exit(1)
 
 
-#---------------------------- HELPER FUNCTIONS -----------------------------#
+#------------------------- CONFIGURATION VARIABLES -------------------------#
 
 class ConfigDict(dict):
     """
@@ -112,14 +113,16 @@ def add_var(config_dict: ConfigDict,
 def read_vars_from_file(config_dict: ConfigDict,
                         filepath   : str
                         ) -> None:
-    """Reads a configuration file and populates the vars dictionary with its contents.
+    """
+    Reads a configuration file and populates the vars dictionary with its contents.
 
     This function processes a file line by line, identifying actions and their
     associated content. It uses the 'add_var' helper function to add either
     variables or styles to the provided dictionary.
 
     Args:
-        config_dict: The configuration dictionary to populate with variables and styles from the file.
+        config_dict: The configuration dictionary to populate with variables
+                     and styles from the file.
         filepath   : The path to the configuration file to read.
     Returns:
         None, this function modifies the 'config_dict' in-place.
@@ -147,14 +150,38 @@ def read_vars_from_file(config_dict: ConfigDict,
                 content += line.rstrip() + "\n"
 
 
+#----------------------------- JSON TEMPLATES ------------------------------#
+
+def resolve_vars_in_json(json_collection,
+                         config_dict: ConfigDict
+                         ) -> None:
+
+    if isinstance(json_collection, dict):
+        for key in json_collection.keys():
+            value = json_collection[key]
+            if isinstance(value, str):
+                json_collection[key] = value.format_map(config_dict)
+            elif isinstance(value, (list, dict)):
+                resolve_vars_in_json(value, config_dict)
+
+    elif isinstance(json_collection, list):
+        for index in range(len(json_collection)):
+            value = json_collection[index]
+            if isinstance(value, str):
+                json_collection[index] = value.format_map(config_dict)
+            elif isinstance(value, (list, dict)):
+                resolve_vars_in_json(value, config_dict)
+
+
 #===========================================================================#
 #////////////////////////////////// MAIN ///////////////////////////////////#
 #===========================================================================#
 
 def make_workflow(template_filepath     : str,
                   config_filepath       : str,
-                  global_config_filepath: str = None
-                 ) -> None:
+                  global_config_filepath: str = None,
+                  overwrite             : bool = False
+                 ) -> bool:
     """
     Creates a workflow based on the provided template and configuration.
 
@@ -166,7 +193,7 @@ def make_workflow(template_filepath     : str,
         config_filepath       : The path to the specific configuration file.
         global_config_filepath: Optional; the path to a global configuration file containing shared settings.
     Returns:
-        None
+        True if the workflow was successfully created.
     """
     config_dict = ConfigDict()
 
@@ -179,7 +206,40 @@ def make_workflow(template_filepath     : str,
         read_vars_from_file( config_dict, global_config_filepath )
     read_vars_from_file( config_dict, config_filepath )
 
-    print( config_dict.get("#OUTPUT","") )
+    # always "{#OUTPUT}" must be defined in the configuration file
+    if not "#OUTPUT" in config_dict:
+        error('The "{#OUTPUT}" variable is missing from the configuration file.')
+        return False
+
+    # get the output file path
+    output_filepath = config_dict["#OUTPUT"]
+
+    # verify if the output path already exists
+    if os.path.exists( output_filepath ) and not overwrite:
+        error(f'The output path "{output_filepath}" already exists.',
+              "Use the '--overwrite' flag to overwrite any existing file.")
+        return False
+
+    # try to read the workflow template by parsing a json
+    template_json = None
+    with open(template_filepath) as file:
+        try:
+            template_json = json.load(file)
+        except json.JSONDecodeError:
+            template_json = None
+    if not template_json:
+        error(f"Error decoding JSON in template.")
+        return False
+
+    # resolve all variables in any strings within the json
+    resolve_vars_in_json(template_json,
+                         config_dict = config_dict)
+
+    # saves modified workflow in output_filepath
+    with open(output_filepath, "w", encoding="utf-8") as file:
+        json.dump(template_json, file, ensure_ascii=False)
+
+    return True
 
 
 
@@ -202,6 +262,8 @@ def main(args=None, parent_script=None):
         )
     parser.add_argument('--no-color'       , action='store_true', help="Disable colored output.")
     parser.add_argument('-s','--source-dir', type=str,            help="The source dir containing templates and config files (default: /src)")
+    parser.add_argument('-w','--overwrite' , action='store_true', help="Overwrite existing output file if exists.")
+
 
     args = parser.parse_args(args=args)
 
@@ -252,7 +314,10 @@ def main(args=None, parent_script=None):
 
     for config_path in text_configs:
         for template_path in json_templates:
-            make_workflow(template_path, config_path, global_config)
+            make_workflow(template_filepath      = template_path,
+                          config_filepath        = config_path,
+                          global_config_filepath = global_config,
+                          overwrite              = args.overwrite)
 
 
 

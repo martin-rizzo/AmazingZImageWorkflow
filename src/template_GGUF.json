@@ -1821,7 +1821,6 @@
           "link": 365
         },
         {
-          "dir": 3,
           "name": "any_17",
           "type": "STRING",
           "link": null
@@ -4095,7 +4094,7 @@
     },
     {
       "id": 3,
-      "title": "EDITING AREA [v2.1]",
+      "title": "EDITING AREA [{#VERSION}]",
       "bounding": [
         1220,
         590,
