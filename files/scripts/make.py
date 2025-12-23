@@ -217,6 +217,26 @@ def get_group_rectangle(json: dict, group_name:str) -> list[int]:
     return None
 
 
+def find_node(json: dict, title:str) -> dict:
+    """
+    Searches for a node in a workflow JSON structure based on its title.
+    Args:
+        json  : The dictionary containing the full comfyui workflow.
+        title : The title of the node to find in the workflow JSON structure.
+    Returns:
+        The node dictionary corresponding to the given title, or None if not found.
+    """
+    if not isinstance(json, dict):
+        return None
+
+    for node in json.get("nodes", []):
+        if not isinstance(node, dict):
+            continue
+        if node.get("title") == title:
+            return node
+    return None
+
+
 def find_nodes_in_rectangle(json: dict, rectangle: list[int]) -> list:
     """
     Identifies all nodes that fall within a given rectangular region from a workflow.
@@ -259,8 +279,15 @@ def find_nodes_in_rectangle(json: dict, rectangle: list[int]) -> list:
 
 
 def apply_style_to_nodes(nodes: list[dict], styles: list[tuple[str,str]]) -> None:
-
-    # iterate over the nodes applying the style
+    """
+    Set the title and content of each node using the provided style list.
+    
+    Args:
+        nodes  : The list of nodes (dict) to be updated.
+        styles : A list of tuples where each tuple contains two strings; 
+                 the first is the style name, and the second is the style template.
+    """
+    # iterate over the nodes, updating the title and content of each one
     for index, node in enumerate(nodes):
         if not isinstance(node, dict):
             continue
@@ -276,13 +303,40 @@ def apply_style_to_nodes(nodes: list[dict], styles: list[tuple[str,str]]) -> Non
         node["widgets_values"] = [template_value]
 
 
+#------------------------------- STYLES.TXT --------------------------------#
+
+def save_styles_txt(filepath: str,
+                    styles  : list[tuple[str,str]],
+                    prompts : list[str]
+                    ) -> None:
+    """
+    Saves the style list (and example prompts) to a text file.
+    Args:
+        filepath : The path where the output text file will be saved.
+        styles   : A list of tuples containing style names and their template values.
+        prompts  : A list of strings representing different example prompts.
+    """
+    with open(filepath, 'w') as file:
+
+        for index, prompt in enumerate(prompts):
+            file.write(f"IMAGE{index+1} PROMPT:\n")
+            file.write(f"{prompt}\n")
+            file.write("\n")
+
+        file.write("STYLES\n")
+        for style in styles:
+            file.write(f" * {style[0]}\n")
+        file.write("\n")
+
+
 #===========================================================================#
 #////////////////////////////////// MAIN ///////////////////////////////////#
 #===========================================================================#
 
 def make_workflow(template_filepath     : str,
                   config_filepath       : str,
-                  global_config_filepath: str = None,
+                  global_config_filepath: str  = None,
+                  create_styles_txt     : bool = False,
                   overwrite             : bool = False
                  ) -> bool:
     """
@@ -309,19 +363,27 @@ def make_workflow(template_filepath     : str,
         read_vars_from_file( config_vars, global_config_filepath )
     read_vars_from_file( config_vars, config_filepath )
 
-    # always "{#OUTPUT}" must be defined in the configuration file
-    if not "#OUTPUT" in config_vars:
-        error('The "{#OUTPUT}" variable is missing from the configuration file.')
+    # always "{#FILEPREFIX}" must be defined in the configuration file
+    if not "#FILEPREFIX" in config_vars:
+        error('The "{#FILEPREFIX}" variable is missing from the configuration file.')
         return False
 
-    # get the output file path
-    output_filepath = config_vars["#OUTPUT"]
+    # generate the name of the output files
+    workflow_filename = config_vars["#FILEPREFIX"] + template_name + ".json"
+    styles_filename   = config_vars["#FILEPREFIX"] + "styles.txt"
+    if not create_styles_txt:
+        styles_filename = None
 
-    # verify if the output path already exists
-    if os.path.exists( output_filepath ) and not overwrite:
-        error(f'The output path "{output_filepath}" already exists.',
-              "Use the '--overwrite' flag to overwrite any existing file.")
-        return False
+    # if overwrite is disabled, check if output files already exist
+    if not overwrite:
+        if workflow_filename and os.path.exists( workflow_filename ):
+            error(f'The output path "{workflow_filename}" already exists.',
+                   "Use the '--overwrite' flag to overwrite any existing file.")
+            return False
+        if styles_filename and os.path.exists( styles_filename ):
+            error(f'The output path "{styles_filename}" already exists.',
+                   "Use the '--overwrite' flag to overwrite any existing file.")
+            return False
 
     # try to read the workflow template by parsing a json
     template_json = None
@@ -334,9 +396,15 @@ def make_workflow(template_filepath     : str,
         error(f"Error decoding JSON in template.")
         return False
 
+
+    #=== WORKFLOW VARIABLES ===#
+
     # resolve all variables in any strings within the json
     resolve_vars_in_json(template_json,
                          config_vars = config_vars)
+
+
+    #=== WORKFLOW STYLES ===#
 
     # finds the coordinates of the "STYLES" group
     style_rectangle = get_group_rectangle(template_json, group_name="STYLES")
@@ -352,8 +420,27 @@ def make_workflow(template_filepath     : str,
     # apply the styles to each node within style_rectangle
     apply_style_to_nodes(nodes, config_vars.styles)
 
+
+    #=== WORKFLOW PROMPT ===#
+
+    if "#PROMPT" in config_vars:
+        prompt_node = find_node(template_json, title="PROMPT")
+        if prompt_node:
+            prompt_node["widgets_values"] = [ config_vars["#PROMPT"] ]
+
+
+    #=== STYLES.TXT ===#
+
+    if styles_filename:
+        prompts = []
+        if "#PROMPT" in config_vars:
+            prompts.append( config_vars["#PROMPT"] )
+        if "#PROMPT2" in config_vars:
+            prompts.append( config_vars["#PROMPT2"] )
+        save_styles_txt( styles_filename, styles=config_vars.styles, prompts=prompts )
+
     # saves modified workflow in output_filepath
-    with open(output_filepath, "w", encoding="utf-8") as file:
+    with open(workflow_filename, "w", encoding="utf-8") as file:
         json.dump(template_json, file, ensure_ascii=False, indent=4)
 
     return True
@@ -434,7 +521,9 @@ def main(args=None, parent_script=None):
             make_workflow(template_filepath      = template_path,
                           config_filepath        = config_path,
                           global_config_filepath = global_config,
-                          overwrite              = args.overwrite)
+                          overwrite              = args.overwrite,
+                          create_styles_txt      = True,
+                          )
 
 
 

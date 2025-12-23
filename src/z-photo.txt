@@ -3,8 +3,8 @@
 {#TITLE}
 Amazing Z-Photo WF
 
-{#OUTPUT}
-amazing-z-photo_{#TEMPLATE_NAME}.json
+{#FILEPREFIX}
+amazing-z-photo_
 
 {#PROMPT}
 Worn-down computer control panels surrounding an adult woman in dirty clothes sitting in a starship, creating a hyperpunk scene.
