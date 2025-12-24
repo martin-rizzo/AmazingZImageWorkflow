@@ -188,9 +188,12 @@ def get_workflow_from_image(image_path: str) -> dict[str, any] | None:
     return workflow if isinstance(workflow, dict) else None
 
 
-def extract_style_list(image_paths: list[str]) -> list[str] | None:
+def extract_style_list(image_paths     : list[str],
+                       include_no_style: bool = False
+                       ) -> list[str] | None:
     """Extracts the style list from the first image with amazing workflow
     """
+    discard_no_style = not include_no_style
     for image_path in image_paths:
         if not os.path.isfile(image_path):
             continue
@@ -213,8 +216,9 @@ def extract_style_list(image_paths: list[str]) -> list[str] | None:
         input_list = node_collector.get('inputs', [])
         if not isinstance(input_list, list): continue
         for input in input_list:
-            name = input.get('name', '')
+            name = input.get('name')
             if not name: continue
+            if name == "none" and discard_no_style: continue
             style_list.append( name )
 
         # return if any styles were found
