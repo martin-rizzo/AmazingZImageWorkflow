@@ -1,4 +1,4 @@
-# Amazing Z-Image Workflow v2.2
+# Amazing Z-Image Workflow v3.0
 
 A workflow for "Z-Image-Turbo" extending the ComfyUI base workflow with additional features, particularly focused on high-quality image styles and ease of use. The package includes pre-configured workflows for GGUF and SAFETENSORS formats.
 
@@ -11,10 +11,13 @@ A workflow for "Z-Image-Turbo" extending the ComfyUI base workflow with addition
 
 ## Features
 - Style Selector: Choose from fifteen customizable image styles.
+- Z-Image Enhancer: Improves final image quality by performing a double pass.
+- Spicy Impact Booster: Adds a subtle spicy condiment to the prompt (fully experimental).
 - Alternative Sampler Switch: Easily test generation with an alternative sampler.
 - Landscape Orientation Switch: Change to horizontal image generation with a single click.
+- Smaller Images Switch: Generate smaller images, faster and consuming less VRAM.
 - Preconfigured workflows for each checkpoint format (GGUF / SAFETENSORS).
-- Custom sigma values fine-tuned to personal preference (100% subjective).
+- Custom sigma values fine-tuned to my personal preference (100% subjective).
 - Generated images are saved in the "ZImage" folder, organized by date.
 - Incorporates a trick to enable automatic CivitAI prompt detection.
 
@@ -40,21 +43,51 @@ These nodes can be installed via ComfyUI-Manager or downloaded from their respec
 
 ### For "amazing-z-###_GGUF.json"
 Workflows with checkpoint in GGUF format. (recommended)
-- [z_image_turbo-Q5_K_S.gguf](https://huggingface.co/jayn7/Z-Image-Turbo-GGUF/blob/main/z_image_turbo-Q5_K_S.gguf) (5.19 GB)
+
+- "z_image_turbo-Q5_K_S.gguf" [5.19 GB]
+  Download: https://huggingface.co/jayn7/Z-Image-Turbo-GGUF/blob/main/z_image_turbo-Q5_K_S.gguf
   Local Directory: `ComfyUI/models/diffusion_models/`
-- [Qwen3-4B.i1-Q5_K_S.gguf](https://huggingface.co/mradermacher/Qwen3-4B-i1-GGUF/blob/main/Qwen3-4B.i1-Q5_K_S.gguf) (2.82 GB)
+  
+- "Qwen3-4B.i1-Q5_K_S.gguf" [2.82 GB]
+  Download: https://huggingface.co/mradermacher/Qwen3-4B-i1-GGUF/blob/main/Qwen3-4B.i1-Q5_K_S.gguf
   Local Directory: `ComfyUI/models/text_encoders/`
-- [ae.safetensors](https://huggingface.co/Comfy-Org/z_image_turbo/blob/main/split_files/vae/ae.safetensors) (335 MB)
+  
+- "ae.safetensors" [335 MB]
+  Download: https://huggingface.co/Comfy-Org/z_image_turbo/blob/main/split_files/vae/ae.safetensors 
   Local Directory: `ComfyUI/models/vae/`
+
+- "4x_Nickelback_70000G.safetensors" (for image enhancer) [66.9 MB]
+  Download: https://huggingface.co/martin-rizzo/ESRGAN-4x/blob/main/4x_Nickelback_70000G.safetensors 
+  Local Directory: `ComfyUI/models/upscale_models/`
+  
+- "4x_foolhardy_Remacri.safetensors" (for image enhancer) [66.9 MB]
+  Download: https://huggingface.co/martin-rizzo/ESRGAN-4x/blob/main/4x_foolhardy_Remacri.safetensors 
+  Local Directory: `ComfyUI/models/upscale_models/`
+
 
 ### For "amazing-z-###_SAFETENSORS.json"
 Based directly on the official ComfyUI example.
-- [z_image_turbo_bf16.safetensors](https://huggingface.co/Comfy-Org/z_image_turbo/blob/main/split_files/diffusion_models/z_image_turbo_bf16.safetensors) (12.3 GB)
+
+- "z_image_turbo_bf16.safetensors" [12.3 GB]
+  Download: https://huggingface.co/Comfy-Org/z_image_turbo/blob/main/split_files/diffusion_models/z_image_turbo_bf16.safetensors 
   Local Directory: `ComfyUI/models/diffusion_models/`
-- [qwen_3_4b.safetensors](https://huggingface.co/Comfy-Org/z_image_turbo/blob/main/split_files/text_encoders/qwen_3_4b.safetensors) (8.04 GB)
+  
+- "qwen_3_4b.safetensors" [8.04 GB]
+  Download: https://huggingface.co/Comfy-Org/z_image_turbo/blob/main/split_files/text_encoders/qwen_3_4b.safetensors
   Local Directory: `ComfyUI/models/text_encoders/`
-- [ae.safetensors](https://huggingface.co/Comfy-Org/z_image_turbo/blob/main/split_files/vae/ae.safetensors) (335 MB)
+  
+- "ae.safetensors" [335 MB]
+  Download: https://huggingface.co/Comfy-Org/z_image_turbo/blob/main/split_files/vae/ae.safetensors
   Local Directory: `ComfyUI/models/vae/`
+  
+- "4x_Nickelback_70000G.safetensors" (for image enhancer) [66.9 MB]
+  Download: https://huggingface.co/martin-rizzo/ESRGAN-4x/blob/main/4x_Nickelback_70000G.safetensors 
+  Local Directory: `ComfyUI/models/upscale_models/`
+  
+- "4x_foolhardy_Remacri.safetensors" (for image enhancer) [66.9 MB]
+  Download: https://huggingface.co/martin-rizzo/ESRGAN-4x/blob/main/4x_foolhardy_Remacri.safetensors 
+  Local Directory: `ComfyUI/models/upscale_models/`
+  
 
 ### For Low-VRAM Systems
 If neither of the two provided versions nor their associated checkpoints perform adequately on your system, you can find links to several alternative checkpoint files below. Feel free to experiment with these options to determine which works best for you.
