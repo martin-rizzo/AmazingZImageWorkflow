@@ -1,8 +1,8 @@
 {
   "id": "66d0abae-2fae-4722-a207-3f31787dab7e",
   "revision": 0,
-  "last_node_id": 273,
-  "last_link_id": 846,
+  "last_node_id": 276,
+  "last_link_id": 849,
   "nodes": [
     {
       "id": 60,
@@ -99,7 +99,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 60,
+      "order": 57,
       "mode": 0,
       "inputs": [
         {
@@ -150,7 +150,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 62,
+      "order": 70,
       "mode": 0,
       "inputs": [
         {
@@ -188,7 +188,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 63,
+      "order": 71,
       "mode": 0,
       "inputs": [
         {
@@ -264,7 +264,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 71,
+      "order": 68,
       "mode": 0,
       "inputs": [
         {
@@ -366,83 +366,6 @@
       ]
     },
     {
-      "id": 161,
-      "type": "UnetLoaderGGUF",
-      "pos": [
-        -450,
-        -310
-      ],
-      "size": [
-        380,
-        100
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 3,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [
-            462
-          ]
-        }
-      ],
-      "properties": {
-        "aux_id": "city96/ComfyUI-GGUF",
-        "ver": "1.1.8",
-        "Node name for S&R": "UnetLoaderGGUF",
-        "cnr_id": "comfyui-gguf"
-      },
-      "widgets_values": [
-        "z_image_turbo-Q5_K_S.gguf"
-      ],
-      "color": "#322",
-      "bgcolor": "#533",
-      "shape": 1
-    },
-    {
-      "id": 162,
-      "type": "VAELoader",
-      "pos": [
-        -450,
-        -170
-      ],
-      "size": [
-        380,
-        90
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 4,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "VAE",
-          "type": "VAE",
-          "links": [
-            463
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "VAELoader"
-      },
-      "widgets_values": [
-        "ae.safetensors"
-      ],
-      "color": "#322",
-      "bgcolor": "#533",
-      "shape": 1
-    },
-    {
       "id": 146,
       "type": "StringReplace",
       "pos": [
@@ -456,7 +379,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 85,
+      "order": 83,
       "mode": 0,
       "inputs": [
         {
@@ -503,7 +426,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 5,
+      "order": 3,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -539,7 +462,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 6,
+      "order": 4,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -576,7 +499,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 7,
+      "order": 5,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -613,7 +536,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 8,
+      "order": 6,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -650,7 +573,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 9,
+      "order": 7,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -687,7 +610,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 10,
+      "order": 8,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -724,7 +647,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 11,
+      "order": 9,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -761,7 +684,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 12,
+      "order": 10,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -798,7 +721,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 13,
+      "order": 11,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -835,7 +758,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 14,
+      "order": 12,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -872,7 +795,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 15,
+      "order": 13,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -909,7 +832,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 16,
+      "order": 14,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -946,7 +869,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 17,
+      "order": 15,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -983,7 +906,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 91,
+      "order": 90,
       "mode": 0,
       "inputs": [
         {
@@ -1020,7 +943,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 76,
+      "order": 74,
       "mode": 0,
       "inputs": [
         {
@@ -1076,7 +999,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 18,
+      "order": 16,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -1113,7 +1036,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 19,
+      "order": 17,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1187,7 +1110,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 87,
+      "order": 88,
       "mode": 0,
       "inputs": [
         {
@@ -1224,7 +1147,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 77,
+      "order": 75,
       "mode": 0,
       "inputs": [
         {
@@ -1261,7 +1184,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 20,
+      "order": 18,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1298,7 +1221,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 21,
+      "order": 19,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1335,7 +1258,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 55,
+      "order": 52,
       "mode": 0,
       "inputs": [
         {
@@ -1404,7 +1327,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 56,
+      "order": 53,
       "mode": 0,
       "inputs": [
         {
@@ -1473,7 +1396,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 68,
+      "order": 65,
       "mode": 0,
       "inputs": [
         {
@@ -1529,7 +1452,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 69,
+      "order": 66,
       "mode": 2,
       "inputs": [
         {
@@ -1586,7 +1509,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 61,
+      "order": 58,
       "mode": 0,
       "inputs": [
         {
@@ -1634,7 +1557,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 22,
+      "order": 20,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -1671,7 +1594,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 53,
+      "order": 51,
       "mode": 0,
       "inputs": [
         {
@@ -1739,7 +1662,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 79,
+      "order": 76,
       "mode": 0,
       "inputs": [
         {
@@ -1794,46 +1717,6 @@
       "widgets_values": []
     },
     {
-      "id": 163,
-      "type": "CLIPLoaderGGUF",
-      "pos": [
-        -450,
-        -40
-      ],
-      "size": [
-        380,
-        110
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 23,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "CLIP",
-          "type": "CLIP",
-          "links": [
-            844
-          ]
-        }
-      ],
-      "properties": {
-        "aux_id": "city96/ComfyUI-GGUF",
-        "ver": "1.1.8",
-        "Node name for S&R": "CLIPLoaderGGUF",
-        "cnr_id": "comfyui-gguf"
-      },
-      "widgets_values": [
-        "Qwen3-4B.i1-Q5_K_S.gguf",
-        "lumina2"
-      ],
-      "color": "#322",
-      "bgcolor": "#533",
-      "shape": 1
-    },
-    {
       "id": 257,
       "type": "Reroute",
       "pos": [
@@ -1847,7 +1730,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 94,
+      "order": 92,
       "mode": 0,
       "inputs": [
         {
@@ -2026,7 +1909,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 92,
+      "order": 91,
       "mode": 0,
       "inputs": [
         {
@@ -2226,7 +2109,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 59,
+      "order": 56,
       "mode": 0,
       "inputs": [
         {
@@ -2308,7 +2191,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 83,
+      "order": 81,
       "mode": 0,
       "inputs": [
         {
@@ -2393,7 +2276,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 24,
+      "order": 21,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2485,7 +2368,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 57,
+      "order": 54,
       "mode": 2,
       "inputs": [
         {
@@ -2644,7 +2527,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 52,
+      "order": 50,
       "mode": 0,
       "inputs": [
         {
@@ -2682,7 +2565,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 51,
+      "order": 49,
       "mode": 0,
       "inputs": [
         {
@@ -2720,7 +2603,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 39,
+      "order": 37,
       "mode": 0,
       "inputs": [
         {
@@ -2758,7 +2641,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 40,
+      "order": 38,
       "mode": 0,
       "inputs": [
         {
@@ -2796,7 +2679,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 41,
+      "order": 39,
       "mode": 0,
       "inputs": [
         {
@@ -2834,7 +2717,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 38,
+      "order": 36,
       "mode": 0,
       "inputs": [
         {
@@ -2872,7 +2755,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 43,
+      "order": 41,
       "mode": 0,
       "inputs": [
         {
@@ -2910,7 +2793,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 42,
+      "order": 40,
       "mode": 0,
       "inputs": [
         {
@@ -2948,7 +2831,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 44,
+      "order": 42,
       "mode": 0,
       "inputs": [
         {
@@ -2986,7 +2869,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 45,
+      "order": 43,
       "mode": 0,
       "inputs": [
         {
@@ -3024,7 +2907,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 46,
+      "order": 44,
       "mode": 0,
       "inputs": [
         {
@@ -3062,7 +2945,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 47,
+      "order": 45,
       "mode": 0,
       "inputs": [
         {
@@ -3100,7 +2983,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 48,
+      "order": 46,
       "mode": 0,
       "inputs": [
         {
@@ -3138,7 +3021,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 49,
+      "order": 47,
       "mode": 0,
       "inputs": [
         {
@@ -3176,7 +3059,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 50,
+      "order": 48,
       "mode": 0,
       "inputs": [
         {
@@ -3214,7 +3097,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 65,
+      "order": 63,
       "mode": 0,
       "inputs": [
         {
@@ -3353,7 +3236,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 64,
+      "order": 62,
       "mode": 0,
       "inputs": [
         {
@@ -3487,7 +3370,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 25,
+      "order": 22,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -3642,7 +3525,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 90,
+      "order": 89,
       "mode": 0,
       "inputs": [
         {
@@ -3688,7 +3571,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 26,
+      "order": 23,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -3726,7 +3609,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 27,
+      "order": 24,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -3764,7 +3647,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 80,
+      "order": 77,
       "mode": 0,
       "inputs": [
         {
@@ -3801,7 +3684,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 70,
+      "order": 67,
       "mode": 0,
       "inputs": [
         {
@@ -3884,7 +3767,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 28,
+      "order": 25,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3926,7 +3809,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 88,
+      "order": 85,
       "mode": 0,
       "inputs": [
         {
@@ -3963,7 +3846,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 75,
+      "order": 73,
       "mode": 0,
       "inputs": [
         {
@@ -4089,7 +3972,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 93,
+      "order": 94,
       "mode": 0,
       "inputs": [
         {
@@ -4127,7 +4010,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 86,
+      "order": 84,
       "mode": 0,
       "inputs": [
         {
@@ -4397,7 +4280,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 58,
+      "order": 55,
       "mode": 0,
       "inputs": [
         {
@@ -4444,7 +4327,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 29,
+      "order": 26,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4693,7 +4576,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 89,
+      "order": 93,
       "mode": 0,
       "inputs": [
         {
@@ -4731,7 +4614,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 82,
+      "order": 87,
       "mode": 0,
       "inputs": [
         {
@@ -4770,7 +4653,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 74,
+      "order": 79,
       "mode": 0,
       "inputs": [
         {
@@ -4864,7 +4747,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 81,
+      "order": 86,
       "mode": 0,
       "inputs": [
         {
@@ -4902,7 +4785,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 73,
+      "order": 78,
       "mode": 0,
       "inputs": [
         {
@@ -5092,7 +4975,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 30,
+      "order": 27,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5217,7 +5100,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 31,
+      "order": 28,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5258,7 +5141,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 32,
+      "order": 29,
       "mode": 0,
       "inputs": [
         {
@@ -5440,7 +5323,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 33,
+      "order": 30,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5482,7 +5365,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 34,
+      "order": 31,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -5591,7 +5474,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 78,
+      "order": 80,
       "mode": 0,
       "inputs": [
         {
@@ -5629,7 +5512,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 66,
+      "order": 64,
       "mode": 0,
       "inputs": [
         {
@@ -5667,7 +5550,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 72,
+      "order": 69,
       "mode": 0,
       "inputs": [
         {
@@ -5726,33 +5609,6 @@
         "showOutputText": false,
         "horizontal": false
       }
-    },
-    {
-      "id": 164,
-      "type": "Note",
-      "pos": [
-        -1370,
-        -360
-      ],
-      "size": [
-        900,
-        640
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 35,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "title": "README",
-      "properties": {},
-      "widgets_values": [
-        "{#TITLE} {#VERSION}\n\n## Workflow Prerequisites ##\n\n{#GGUF_REQUIREMENTS}\n\n## More Info ##\n\n{#MORE_INFO}\n\n{#CREATED_BY_MR}\n"
-      ],
-      "color": "#222",
-      "bgcolor": "#000",
-      "shape": 1
     },
     {
       "id": 6,
@@ -5821,7 +5677,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 67,
+      "order": 72,
       "mode": 0,
       "inputs": [
         {
@@ -5864,13 +5720,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 37,
+      "order": 60,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 463
+          "link": 848
         }
       ],
       "outputs": [
@@ -5901,13 +5757,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 54,
+      "order": 61,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 844
+          "link": 849
         }
       ],
       "outputs": [
@@ -5939,13 +5795,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 36,
+      "order": 59,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 462
+          "link": 847
         }
       ],
       "outputs": [
@@ -5963,6 +5819,150 @@
       }
     },
     {
+      "id": 274,
+      "type": "UNETLoader",
+      "pos": [
+        -450,
+        -310
+      ],
+      "size": [
+        380,
+        100
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 32,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            847
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "UNETLoader"
+      },
+      "widgets_values": [
+        "z_image_turbo_bf16.safetensors",
+        "default"
+      ],
+      "color": "#322",
+      "bgcolor": "#533",
+      "shape": 1
+    },
+    {
+      "id": 275,
+      "type": "VAELoader",
+      "pos": [
+        -450,
+        -170
+      ],
+      "size": [
+        380,
+        90
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 33,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [
+            848
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "VAELoader"
+      },
+      "widgets_values": [
+        "ae.safetensors"
+      ],
+      "color": "#322",
+      "bgcolor": "#533",
+      "shape": 1
+    },
+    {
+      "id": 276,
+      "type": "CLIPLoader",
+      "pos": [
+        -450,
+        -40
+      ],
+      "size": [
+        380,
+        106
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 34,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            849
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "CLIPLoader"
+      },
+      "widgets_values": [
+        "qwen_3_4b.safetensors",
+        "lumina2",
+        "default"
+      ],
+      "color": "#322",
+      "bgcolor": "#533",
+      "shape": 1
+    },
+    {
+      "id": 164,
+      "type": "Note",
+      "pos": [
+        -1370,
+        -360
+      ],
+      "size": [
+        900,
+        640
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 35,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "README",
+      "properties": {},
+      "widgets_values": [
+        "{#TITLE} {#VERSION}\n\n## Workflow Prerequisites ##\n\n{#SAFETENSORS_REQUIREMENTS}\n\n## More Info ##\n\n{#MORE_INFO}\n\n{#CREATED_BY_MR}\n"
+      ],
+      "color": "#222",
+      "bgcolor": "#000",
+      "shape": 1
+    },
+    {
       "id": 144,
       "type": "StringReplace",
       "pos": [
@@ -5976,7 +5976,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 84,
+      "order": 82,
       "mode": 2,
       "inputs": [
         {
@@ -6265,22 +6265,6 @@
       95,
       0,
       136,
-      0,
-      "*"
-    ],
-    [
-      462,
-      161,
-      0,
-      114,
-      0,
-      "*"
-    ],
-    [
-      463,
-      162,
-      0,
-      123,
       0,
       "*"
     ],
@@ -7365,14 +7349,6 @@
       "IMAGE"
     ],
     [
-      844,
-      163,
-      0,
-      273,
-      0,
-      "CLIP"
-    ],
-    [
       845,
       273,
       0,
@@ -7385,6 +7361,30 @@
       273,
       0,
       7,
+      0,
+      "CLIP"
+    ],
+    [
+      847,
+      274,
+      0,
+      114,
+      0,
+      "MODEL"
+    ],
+    [
+      848,
+      275,
+      0,
+      123,
+      0,
+      "VAE"
+    ],
+    [
+      849,
+      276,
+      0,
+      273,
       0,
       "CLIP"
     ]
@@ -7452,7 +7452,7 @@
     },
     {
       "id": 7,
-      "title": "GGUF MODELS",
+      "title": "SAFETENSORS MODELS",
       "bounding": [
         -460,
         -390,
