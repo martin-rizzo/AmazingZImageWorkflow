@@ -69,12 +69,8 @@ Pixel art image in low resolution that includes {$spicy-content-with} 2D pixelat
 
 
 >>CGA Cyan-Magenta Monitor
-On a wooden table sits an old white CRT PC monitor, reflecting light from a window. The monitor displays the following:
-only black, intense cyan, intense magenta, and intense white.
-Everything should be replaced with those 4 colors, for example, skin should be magenta, plants should be cyan.
-The background must always be black.
-Pixel-Art 2D image from 1980 with solid colors and CGA Graphics using only black, cyan and magenta palette. Featuring: {$@}
-
-
-
+The image shows only an old white CRT PC monitor, reflecting light from a window. A screenshot with black, cyan, magenta, and white colors (CGA graphics card) is visible on the monitor.
+Everything in the screenshot is black, cyan, magenta or white, for example, skin should be magenta, plants should be cyan, metal should be cyan, sky should be black.
+---
+The screenshot inside the monitor features a 2D pixel-art image from 1980 with solid satured colors. {$@}
 
