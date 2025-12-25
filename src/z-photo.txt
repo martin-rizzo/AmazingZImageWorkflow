@@ -15,9 +15,9 @@ Elon Musk meets an xenomorph alien in a shopping mall, jocking, funny faces, ver
 
 >>Phone Photo
 YOUR CONTEXT:
-Your photographs has android phone cam-quality (low-resolution).
+Your photographs has android phone cam-quality.
 Your photographs exhibit {$spicy-content-with} surprising compositions, sharp complex backgrounds, natural lighting, and candid moments that feel immediate and authentic.
-Your photographs are actual photographic background.
+Your photographs are actual gritty candid photographic background.
 ---
 YOUR PHOTO:
 {$@}
