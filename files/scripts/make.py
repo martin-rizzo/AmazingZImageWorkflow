@@ -83,7 +83,7 @@ class ConfigVars(dict):
         self.styles = []
 
     def __missing__(self,key):
-        return key
+        return '{' + key + '}'
 
 
 def add_var(config_vars: ConfigVars,
