@@ -71,7 +71,7 @@ YOUR PHOTO:
 >>Noir Photo
 YOUR CONTEXT:
 You are a cinematographer who works in dark movies.
-Your photographs exhibit {$spicy-content-with} intense side lighting and light gobos patterns that create defined shadows, along with a muted Ektachrome palette with a warm tone that evokes film noir.
+Your photographs exhibit {$spicy-content-with} intense side lighting and gobo‑crafted patterns to sculpt deep, sharply defined shadows, along with a muted Ektachrome palette that evokes film noir.
 ---
 YOUR PHOTO:
 {$@}
