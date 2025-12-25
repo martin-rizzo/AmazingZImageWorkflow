@@ -1937,7 +1937,6 @@
           "link": null
         },
         {
-          "dir": 3,
           "name": "any_05",
           "type": "STRING",
           "link": null
@@ -3057,7 +3056,6 @@
           "link": 817
         },
         {
-          "dir": 3,
           "name": "any_17",
           "type": "STRING",
           "link": null
@@ -5406,7 +5404,6 @@
           "link": 878
         },
         {
-          "dir": 3,
           "name": "any_05",
           "type": "IMAGE",
           "link": null
@@ -6286,7 +6283,9 @@
         900,
         640
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 31,
       "mode": 0,
       "inputs": [],
@@ -6311,7 +6310,9 @@
         380,
         100
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 32,
       "mode": 0,
       "inputs": [],
@@ -6348,7 +6349,9 @@
         380,
         90
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 33,
       "mode": 0,
       "inputs": [],
@@ -6384,7 +6387,9 @@
         380,
         106
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 34,
       "mode": 0,
       "inputs": [],
@@ -8043,7 +8048,9 @@
       ],
       "color": "#444",
       "font_size": 24,
-      "flags": {}
+      "flags": {
+        "pinned": true
+      }
     }
   ],
   "config": {},
