@@ -3783,7 +3783,7 @@
         50,
         0,
         "contain",
-        "bilinear"
+        "area"
       ]
     },
     {
@@ -5160,7 +5160,7 @@
           ]
         }
       ],
-      "title": "ENHANCER: Soft",
+      "title": "ENHANCER: Base",
       "properties": {
         "cnr_id": "comfy-core",
         "ver": "0.3.77",
@@ -5206,7 +5206,7 @@
           ]
         }
       ],
-      "title": "ENHANCER: Sharp",
+      "title": "ENHANCER: Natural",
       "properties": {
         "cnr_id": "comfy-core",
         "ver": "0.3.77",
@@ -5486,13 +5486,13 @@
         },
         {
           "dir": 3,
-          "name": "ENHANCER: Soft",
+          "name": "ENHANCER: Base",
           "type": "*",
           "link": 870
         },
         {
           "dir": 3,
-          "name": "ENHANCER: Sharp",
+          "name": "ENHANCER: Natural",
           "type": "*",
           "link": 871
         },
@@ -5796,7 +5796,7 @@
         50,
         0,
         "contain",
-        "nearest-exact"
+        "area"
       ]
     },
     {
@@ -5860,6 +5860,7 @@
           ]
         }
       ],
+      "title": "Load Illustration Upscale Model",
       "properties": {
         "cnr_id": "comfy-core",
         "ver": "0.3.77",
