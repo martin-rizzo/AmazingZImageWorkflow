@@ -1,8 +1,8 @@
 IMAGE1 PROMPT:
-Worn-down computer control panels surrounding an adult woman in dirty clothes sitting in a starship, creating a hyperpunk scene.
+The right side of the image features a young woman, with part of her body extending out of the frame, facing forward and looking directly at the viewer. She is wearing a dark, hooded jacket lined with fur around the hood, and appears to be wearing dark, segmented armor. A sword with a leather-wrapped hilt and a grey, ornate pommel is visible slung across her back, with the blade pointing upwards and to the left. The armor and jacket are covered in visible white specks, suggesting snow or frost. The left side of the image, in the background, shows a snow-covered village. The overall environment is a blurred, pale blue, indicative of a snowy landscape with falling snowflakes. The young woman has light skin, green eyes, and dark hair visible beneath the hood.
 
 IMAGE2 PROMPT:
-On the right side of the frame, a female figure is depicted wearing a black hooded robe. Only her face and hands are visible. The robe is cinched at the waist with a tie, causing it to be form-fitting and accentuate her body shape. Her eyes are closed, and her arms are outstretched to her sides, as if she is casting a spell. Her hands emit a bright blue luminescence. In the background, at a distance, armored knights with metal armor are visible, engulfed in bluish flames. One knight is on his knees, flailing his arms, while another is recumbent on the ground, also with flailing arms. The environment is a medieval battlefield.
+A full shot from behind shows a warrior woman facing a horde of monsters in a hellish landscape. The woman has short brown hair tied back, and is wearing detailed, dark metallic armor with spikes on the shoulders. She holds a large, gleaming sword in her left hand, with the point angled slightly down. The monsters are grotesque, with sharp teeth, claws, and glowing red eyes. They are various sizes and shapes, some standing upright and others crouched or crawling. The ground is a rough, rocky terrain with pools of lava and fire. The background is a fiery red sky with smoke and ash. The overall tone of the image is dark and foreboding.
 
 STYLES
  * Comic
@@ -11,7 +11,7 @@ STYLES
  * Pop-Art
  * Studio Anime
  * Anime
- * Mange
+ * Manga
  * Unsettling
  * Minimalist Sketchwash
  * Ink Draw

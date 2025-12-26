@@ -1,23 +1,23 @@
 IMAGE1 PROMPT:
-Worn-down computer control panels surrounding an adult woman in dirty clothes sitting in a starship, creating a hyperpunk scene.
+A woman with short, spiky blonde hair is depicted from the chest up, aiming a large, dark gray firearm. Her hair is tousled and appears to be catching the light. She has blue eyes and shadow on her cheeks. She is wearing a white tank top with one strap visibly off her right shoulder. The firearm she holds is dark gray and appears to be a heavy weapon. A dark ancient castle is visible in the background on the right side. Her attire includes dark, torn shorts and ripped, dark stockings or tights on her legs.
 
 IMAGE2 PROMPT:
-A young woman in a crowded subway station, next to her is an artificial Christmas tree.
+Three people and a creature stand in front of shelves laden with various items. On the left, a brown-haired woman smiles, wearing a light brown tank top. Next to her is a humanoid figure with a body made of dark, rocky material and pronounced musculature, resembling onyx. This figure has a large head with sharp features. To the right of this figure is a muscular man with a light skin tone, wearing a necklace and with shoulder-length green hair; he wears a white crop top with a pink unicorn painted on it. The last individual, on the far right of the image, is a dark-haired woman wearing a black T-shirt. In the foreground are several plates of food: a white bowl with a creamy dish covered in red seasoning, a rectangular container filled with what appear to be strips of meat, a white bowl with fried and breaded pieces, and a white plate with several round, light brown cookies. Also in the foreground is a light blue object resembling a human head.
 
 STYLES
  * Lo-fi Mobile Photo
  * Casual Mobile Photo
  * Vintage Candid Photo
  * Classic Film Photo
- * B&W Darkroom
- * Noir Shadows
- * Cyberpunk Neon
- * Simple Vector Illustration
- * Vintage Comic Panel
- * Comic Cover
- * Studio Anime
+ * Analog Photo
+ * Vintage Introspection
+ * Wide Angle / Peephole
+ * Low-Poly Render
+ * Comic
+ * Vintage Comic
  * Anime
+ * Oil Painting
  * Minimalist Sketchwash
  * Retro Pixel Art
- * Vintage EGA Monitor
+ * Vintage VGA Monitor
 
