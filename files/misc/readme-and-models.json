@@ -1,91 +1,22 @@
 {
   "id": "f0214f4c-d26c-4351-bed1-4ebb5e732a93",
   "revision": 0,
-  "last_node_id": 24,
+  "last_node_id": 39,
   "last_link_id": 0,
   "nodes": [
     {
-      "id": 17,
-      "type": "UnetLoaderGGUF",
+      "id": 34,
+      "type": "CLIPLoaderGGUF",
       "pos": [
-        -250,
-        -30
+        -280,
+        130
       ],
       "size": [
         380,
-        100
+        110
       ],
       "flags": {},
       "order": 0,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": []
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui-gguf",
-        "ver": "1.1.8",
-        "Node name for S&R": "UnetLoaderGGUF",
-        "aux_id": "city96/ComfyUI-GGUF"
-      },
-      "widgets_values": [
-        "z_image_turbo-Q5_K_S.gguf"
-      ],
-      "color": "#322",
-      "bgcolor": "#533",
-      "shape": 1
-    },
-    {
-      "id": 18,
-      "type": "VAELoader",
-      "pos": [
-        -250,
-        110
-      ],
-      "size": [
-        380,
-        90
-      ],
-      "flags": {},
-      "order": 1,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "VAE",
-          "type": "VAE",
-          "links": []
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "VAELoader"
-      },
-      "widgets_values": [
-        "ae.safetensors"
-      ],
-      "color": "#322",
-      "bgcolor": "#533",
-      "shape": 1
-    },
-    {
-      "id": 19,
-      "type": "CLIPLoaderGGUF",
-      "pos": [
-        -250,
-        240
-      ],
-      "size": [
-        380,
-        110
-      ],
-      "flags": {},
-      "order": 2,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -110,18 +41,53 @@
       "shape": 1
     },
     {
-      "id": 20,
+      "id": 36,
+      "type": "UnetLoaderGGUF",
+      "pos": [
+        -280,
+        -10
+      ],
+      "size": [
+        380,
+        100
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": []
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-gguf",
+        "ver": "1.1.8",
+        "Node name for S&R": "UnetLoaderGGUF",
+        "aux_id": "city96/ComfyUI-GGUF"
+      },
+      "widgets_values": [
+        "z_image_turbo-Q5_K_S.gguf"
+      ],
+      "color": "#322",
+      "bgcolor": "#533",
+      "shape": 1
+    },
+    {
+      "id": 33,
       "type": "Note",
       "pos": [
-        -1170,
-        -80
+        -1200,
+        -190
       ],
       "size": [
         900,
         640
       ],
       "flags": {},
-      "order": 3,
+      "order": 2,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -135,18 +101,77 @@
       "shape": 1
     },
     {
+      "id": 24,
+      "type": "Note",
+      "pos": [
+        -1200,
+        730
+      ],
+      "size": [
+        900,
+        640
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "README",
+      "properties": {},
+      "widgets_values": [
+        "{#TITLE} {#VERSION}\n\n## Workflow Prerequisites ##\n\n{#SAFETENSORS_REQUIREMENTS}\n\n## More Info ##\n\n{#MORE_INFO}\n\n{#CREATED_BY_MR}\n"
+      ],
+      "color": "#222",
+      "bgcolor": "#000",
+      "shape": 1
+    },
+    {
+      "id": 35,
+      "type": "VAELoader",
+      "pos": [
+        -280,
+        -140
+      ],
+      "size": [
+        380,
+        90
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": []
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "VAELoader"
+      },
+      "widgets_values": [
+        "ae.safetensors"
+      ],
+      "color": "#322",
+      "bgcolor": "#533",
+      "shape": 1
+    },
+    {
       "id": 21,
       "type": "UNETLoader",
       "pos": [
-        -250,
-        740
+        -280,
+        910
       ],
       "size": [
         380,
         100
       ],
       "flags": {},
-      "order": 4,
+      "order": 5,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -170,49 +195,15 @@
       "shape": 1
     },
     {
-      "id": 22,
-      "type": "VAELoader",
-      "pos": [
-        -250,
-        880
-      ],
-      "size": [
-        380,
-        90
-      ],
-      "flags": {},
-      "order": 5,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "VAE",
-          "type": "VAE",
-          "links": []
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "VAELoader"
-      },
-      "widgets_values": [
-        "ae.safetensors"
-      ],
-      "color": "#322",
-      "bgcolor": "#533",
-      "shape": 1
-    },
-    {
       "id": 23,
       "type": "CLIPLoader",
       "pos": [
-        -250,
-        1010
+        -280,
+        1050
       ],
       "size": [
         380,
-        106
+        110
       ],
       "flags": {},
       "order": 6,
@@ -240,56 +231,65 @@
       "shape": 1
     },
     {
-      "id": 24,
-      "type": "Note",
+      "id": 22,
+      "type": "VAELoader",
       "pos": [
-        -1170,
-        690
+        -280,
+        780
       ],
       "size": [
-        900,
-        640
+        380,
+        90
       ],
       "flags": {},
       "order": 7,
       "mode": 0,
       "inputs": [],
-      "outputs": [],
-      "title": "README",
-      "properties": {},
-      "widgets_values": [
-        "{#TITLE} {#VERSION}\n\n## Workflow Prerequisites ##\n\n{#SAFETENSORS_REQUIREMENTS}\n\n## More Info ##\n\n{#MORE_INFO}\n\n{#CREATED_BY_MR}\n"
+      "outputs": [
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": []
+        }
       ],
-      "color": "#222",
-      "bgcolor": "#000",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "VAELoader"
+      },
+      "widgets_values": [
+        "ae.safetensors"
+      ],
+      "color": "#322",
+      "bgcolor": "#533",
       "shape": 1
     }
   ],
   "links": [],
   "groups": [
     {
-      "id": 5,
-      "title": "GGUF MODELS",
+      "id": 6,
+      "title": "SAFETENSORS MODELS",
       "bounding": [
-        -260,
-        -110,
+        -290,
+        700,
         400,
         470
       ],
-      "color": "#444",
+      "color": "#A88",
       "font_size": 24,
       "flags": {}
     },
     {
-      "id": 6,
-      "title": "SAFETENSORS MODELS",
+      "id": 7,
+      "title": "GGUF MODELS",
       "bounding": [
-        -260,
-        660,
+        -290,
+        -220,
         400,
         470
       ],
-      "color": "#444",
+      "color": "#A88",
       "font_size": 24,
       "flags": {}
     }
@@ -297,10 +297,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.5644739300537773,
+      "scale": 0.424097618372485,
       "offset": [
-        1966.7523334316968,
-        240.12085622462894
+        2418.406551857805,
+        688.7806696263002
       ]
     },
     "frontendVersion": "1.34.9"
