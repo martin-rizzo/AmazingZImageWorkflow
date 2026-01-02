@@ -16,7 +16,8 @@
         200
       ],
       "flags": {
-        "collapsed": true
+        "collapsed": true,
+        "pinned": true
       },
       "order": 0,
       "mode": 0,
@@ -57,7 +58,8 @@
         106
       ],
       "flags": {
-        "collapsed": true
+        "collapsed": true,
+        "pinned": true
       },
       "order": 1,
       "mode": 0,
@@ -93,7 +95,9 @@
         304.748046875,
         334
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 83,
       "mode": 0,
       "inputs": [
@@ -162,7 +166,9 @@
         450,
         180
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 2,
       "mode": 2,
       "inputs": [],
@@ -196,7 +202,9 @@
         450,
         180
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 3,
       "mode": 2,
       "inputs": [],
@@ -231,7 +239,9 @@
         450,
         180
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 4,
       "mode": 2,
       "inputs": [],
@@ -266,7 +276,9 @@
         450,
         180
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 5,
       "mode": 2,
       "inputs": [],
@@ -301,7 +313,9 @@
         450,
         180
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 6,
       "mode": 2,
       "inputs": [],
@@ -336,7 +350,9 @@
         450,
         180
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 7,
       "mode": 2,
       "inputs": [],
@@ -371,7 +387,9 @@
         450,
         180
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 8,
       "mode": 2,
       "inputs": [],
@@ -406,7 +424,9 @@
         450,
         180
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 9,
       "mode": 2,
       "inputs": [],
@@ -441,7 +461,9 @@
         450,
         180
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 10,
       "mode": 2,
       "inputs": [],
@@ -476,7 +498,9 @@
         450,
         180
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 11,
       "mode": 2,
       "inputs": [],
@@ -511,7 +535,9 @@
         450,
         180
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 12,
       "mode": 2,
       "inputs": [],
@@ -546,7 +572,9 @@
         450,
         180
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 13,
       "mode": 2,
       "inputs": [],
@@ -581,7 +609,9 @@
         450,
         180
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 14,
       "mode": 2,
       "inputs": [],
@@ -616,7 +646,9 @@
         270,
         90
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 15,
       "mode": 0,
       "inputs": [],
@@ -651,7 +683,9 @@
         270,
         90
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 16,
       "mode": 0,
       "inputs": [],
@@ -686,7 +720,9 @@
         210,
         120
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 50,
       "mode": 0,
       "inputs": [
@@ -753,7 +789,9 @@
         210,
         120
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 51,
       "mode": 0,
       "inputs": [
@@ -820,7 +858,9 @@
         240,
         120
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 68,
       "mode": 0,
       "inputs": [
@@ -874,7 +914,9 @@
         240,
         120
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 69,
       "mode": 2,
       "inputs": [
@@ -929,7 +971,9 @@
         175.8189453125,
         106
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 113,
       "mode": 0,
       "inputs": [
@@ -995,7 +1039,9 @@
         247.6578125,
         66
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 52,
       "mode": 2,
       "inputs": [
@@ -1044,7 +1090,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 62,
       "mode": 0,
       "inputs": [
@@ -1080,7 +1128,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 53,
       "mode": 0,
       "inputs": [
@@ -1116,7 +1166,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 38,
       "mode": 0,
       "inputs": [
@@ -1152,7 +1204,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 39,
       "mode": 0,
       "inputs": [
@@ -1188,7 +1242,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 40,
       "mode": 0,
       "inputs": [
@@ -1224,7 +1280,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 37,
       "mode": 0,
       "inputs": [
@@ -1260,7 +1318,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 42,
       "mode": 0,
       "inputs": [
@@ -1296,7 +1356,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 41,
       "mode": 0,
       "inputs": [
@@ -1332,7 +1394,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 43,
       "mode": 0,
       "inputs": [
@@ -1368,7 +1432,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 44,
       "mode": 0,
       "inputs": [
@@ -1404,7 +1470,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 45,
       "mode": 0,
       "inputs": [
@@ -1440,7 +1508,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 46,
       "mode": 0,
       "inputs": [
@@ -1476,7 +1546,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 47,
       "mode": 0,
       "inputs": [
@@ -1512,7 +1584,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 48,
       "mode": 0,
       "inputs": [
@@ -1548,7 +1622,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 49,
       "mode": 0,
       "inputs": [
@@ -1584,7 +1660,9 @@
         380,
         350
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 79,
       "mode": 0,
       "inputs": [
@@ -1721,7 +1799,9 @@
         380,
         350
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 78,
       "mode": 0,
       "inputs": [
@@ -1853,7 +1933,8 @@
         58
       ],
       "flags": {
-        "collapsed": true
+        "collapsed": true,
+        "pinned": true
       },
       "order": 17,
       "mode": 2,
@@ -1889,7 +1970,9 @@
         640,
         1080
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 175,
       "mode": 0,
       "inputs": [
@@ -1921,7 +2004,9 @@
         270,
         90
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 18,
       "mode": 2,
       "inputs": [],
@@ -1957,7 +2042,9 @@
         270,
         90
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 19,
       "mode": 2,
       "inputs": [],
@@ -1993,7 +2080,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 77,
       "mode": 0,
       "inputs": [
@@ -2028,7 +2117,9 @@
         310,
         196.0000000000004
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 104,
       "mode": 2,
       "inputs": [
@@ -2074,7 +2165,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 136,
       "mode": 0,
       "inputs": [
@@ -2109,7 +2202,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 144,
       "mode": 0,
       "inputs": [
@@ -2144,7 +2239,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 147,
       "mode": 0,
       "inputs": [
@@ -2179,7 +2276,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 140,
       "mode": 0,
       "inputs": [
@@ -2215,7 +2314,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 92,
       "mode": 0,
       "inputs": [
@@ -2251,7 +2352,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 137,
       "mode": 0,
       "inputs": [
@@ -2287,7 +2390,9 @@
         250,
         570
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 148,
       "mode": 0,
       "inputs": [
@@ -2369,7 +2474,9 @@
         450,
         180
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 20,
       "mode": 2,
       "inputs": [],
@@ -2394,30 +2501,6 @@
       "shape": 1
     },
     {
-      "id": 111,
-      "type": "Note",
-      "pos": [
-        3010,
-        500
-      ],
-      "size": [
-        340,
-        100
-      ],
-      "flags": {},
-      "order": 21,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "properties": {},
-      "widgets_values": [
-        "Select this group\nand press '.' to automatic zoom-in"
-      ],
-      "color": "#222",
-      "bgcolor": "#000",
-      "shape": 1
-    },
-    {
       "id": 323,
       "type": "SetFirstSigma",
       "pos": [
@@ -2428,7 +2511,9 @@
         220,
         60
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 72,
       "mode": 0,
       "inputs": [
@@ -2468,7 +2553,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 97,
       "mode": 0,
       "inputs": [
@@ -2503,7 +2590,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 106,
       "mode": 0,
       "inputs": [
@@ -2538,7 +2627,9 @@
         277.1353515625,
         130
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 88,
       "mode": 0,
       "inputs": [
@@ -2580,8 +2671,10 @@
         260,
         140
       ],
-      "flags": {},
-      "order": 22,
+      "flags": {
+        "pinned": true
+      },
+      "order": 21,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2617,7 +2710,9 @@
         263.72841796875,
         106
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 89,
       "mode": 0,
       "inputs": [
@@ -2682,8 +2777,10 @@
         270,
         70
       ],
-      "flags": {},
-      "order": 23,
+      "flags": {
+        "pinned": true
+      },
+      "order": 22,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2716,7 +2813,9 @@
         220,
         190
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 60,
       "mode": 0,
       "inputs": [
@@ -2782,7 +2881,9 @@
         210,
         80
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 54,
       "mode": 0,
       "inputs": [
@@ -2829,7 +2930,9 @@
         277.1353515625,
         130
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 90,
       "mode": 2,
       "inputs": [
@@ -2872,7 +2975,9 @@
         220,
         60
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 74,
       "mode": 2,
       "inputs": [
@@ -2913,7 +3018,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 91,
       "mode": 0,
       "inputs": [
@@ -2948,7 +3055,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 99,
       "mode": 0,
       "inputs": [
@@ -2983,7 +3092,9 @@
         210,
         80
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 55,
       "mode": 2,
       "inputs": [
@@ -3031,7 +3142,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 75,
       "mode": 0,
       "inputs": [
@@ -3066,7 +3179,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 56,
       "mode": 0,
       "inputs": [
@@ -3101,7 +3216,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 73,
       "mode": 0,
       "inputs": [
@@ -3136,7 +3253,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 71,
       "mode": 0,
       "inputs": [
@@ -3171,7 +3290,9 @@
         263.72841796875,
         106
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 98,
       "mode": 0,
       "inputs": [
@@ -3236,8 +3357,10 @@
         260,
         140
       ],
-      "flags": {},
-      "order": 24,
+      "flags": {
+        "pinned": true
+      },
+      "order": 23,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -3274,7 +3397,9 @@
         260.0787109375,
         106
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 107,
       "mode": 2,
       "inputs": [
@@ -3335,8 +3460,10 @@
         240,
         140
       ],
-      "flags": {},
-      "order": 25,
+      "flags": {
+        "pinned": true
+      },
+      "order": 24,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3372,7 +3499,9 @@
         270,
         106
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 165,
       "mode": 0,
       "inputs": [
@@ -3398,7 +3527,7 @@
         "Node name for S&R": "ImageAddNoise"
       },
       "widgets_values": [
-        969696,
+        699669,
         "fixed",
         0.04
       ]
@@ -3414,7 +3543,9 @@
         220,
         106
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 163,
       "mode": 0,
       "inputs": [
@@ -3480,7 +3611,9 @@
         228.284765625,
         60
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 168,
       "mode": 2,
       "inputs": [
@@ -3524,7 +3657,9 @@
         210,
         60
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 57,
       "mode": 0,
       "inputs": [
@@ -3565,7 +3700,8 @@
         60
       ],
       "flags": {
-        "collapsed": false
+        "collapsed": false,
+        "pinned": true
       },
       "order": 166,
       "mode": 0,
@@ -3608,7 +3744,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 141,
       "mode": 0,
       "inputs": [
@@ -3643,7 +3781,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 135,
       "mode": 0,
       "inputs": [
@@ -3678,7 +3818,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 146,
       "mode": 0,
       "inputs": [
@@ -3713,7 +3855,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 138,
       "mode": 0,
       "inputs": [
@@ -3748,7 +3892,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 143,
       "mode": 0,
       "inputs": [
@@ -3783,7 +3929,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 76,
       "mode": 0,
       "inputs": [
@@ -3818,7 +3966,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 110,
       "mode": 0,
       "inputs": [
@@ -3854,7 +4004,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 117,
       "mode": 0,
       "inputs": [
@@ -3889,7 +4041,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 58,
       "mode": 0,
       "inputs": [
@@ -3924,7 +4078,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 118,
       "mode": 0,
       "inputs": [
@@ -3959,7 +4115,9 @@
         270,
         454
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 157,
       "mode": 0,
       "inputs": [
@@ -4015,7 +4173,7 @@
       },
       "widgets_values": [
         true,
-        2,
+        696969,
         "fixed",
         1
       ]
@@ -4031,8 +4189,10 @@
         270,
         70
       ],
-      "flags": {},
-      "order": 26,
+      "flags": {
+        "pinned": true
+      },
+      "order": 25,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4065,8 +4225,10 @@
         270,
         70
       ],
-      "flags": {},
-      "order": 27,
+      "flags": {
+        "pinned": true
+      },
+      "order": 26,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4099,7 +4261,9 @@
         270,
         140
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 59,
       "mode": 0,
       "inputs": [
@@ -4143,8 +4307,10 @@
         240,
         140
       ],
-      "flags": {},
-      "order": 28,
+      "flags": {
+        "pinned": true
+      },
+      "order": 27,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4180,7 +4346,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 153,
       "mode": 0,
       "inputs": [
@@ -4215,7 +4383,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 156,
       "mode": 0,
       "inputs": [
@@ -4250,7 +4420,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 155,
       "mode": 0,
       "inputs": [
@@ -4285,7 +4457,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 158,
       "mode": 0,
       "inputs": [
@@ -4320,7 +4494,9 @@
         250,
         60
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 159,
       "mode": 2,
       "inputs": [
@@ -4365,7 +4541,9 @@
         60,
         60
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 162,
       "mode": 0,
       "inputs": [
@@ -4411,7 +4589,9 @@
         60,
         60
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 160,
       "mode": 0,
       "inputs": [
@@ -4457,7 +4637,9 @@
         60,
         60
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 161,
       "mode": 0,
       "inputs": [
@@ -4503,8 +4685,10 @@
         270,
         80
       ],
-      "flags": {},
-      "order": 29,
+      "flags": {
+        "pinned": true
+      },
+      "order": 28,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -4538,7 +4722,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 61,
       "mode": 0,
       "inputs": [
@@ -4573,8 +4759,10 @@
         450,
         180
       ],
-      "flags": {},
-      "order": 30,
+      "flags": {
+        "pinned": true
+      },
+      "order": 29,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4608,7 +4796,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 112,
       "mode": 0,
       "inputs": [
@@ -4633,57 +4823,6 @@
       }
     },
     {
-      "id": 54,
-      "type": "CLIPTextEncode",
-      "pos": [
-        4580,
-        1190
-      ],
-      "size": [
-        410,
-        90
-      ],
-      "flags": {
-        "collapsed": false
-      },
-      "order": 66,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "clip",
-          "type": "CLIP",
-          "link": null
-        },
-        {
-          "name": "text",
-          "type": "STRING",
-          "widget": {
-            "name": "text"
-          },
-          "link": 296
-        }
-      ],
-      "outputs": [
-        {
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
-          "slot_index": 0,
-          "links": [
-            78
-          ]
-        }
-      ],
-      "title": "CLIP Text Encode (Positive Prompt)",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "CLIPTextEncode"
-      },
-      "widgets_values": [
-        "A woman wearing a dress with a sexy cleavage smiling on the dance floor of a dimly lit nightclub, while two Alien Xenomorphs dance in the background."
-      ]
-    },
-    {
       "id": 386,
       "type": "Reroute (rgthree)",
       "pos": [
@@ -4694,7 +4833,9 @@
         60,
         60
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 84,
       "mode": 0,
       "inputs": [
@@ -4744,7 +4885,8 @@
         200
       ],
       "flags": {
-        "collapsed": true
+        "collapsed": true,
+        "pinned": true
       },
       "order": 67,
       "mode": 0,
@@ -4789,7 +4931,9 @@
         240,
         110
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 85,
       "mode": 0,
       "inputs": [
@@ -4855,7 +4999,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 70,
       "mode": 0,
       "inputs": [
@@ -4880,51 +5026,6 @@
       }
     },
     {
-      "id": 332,
-      "type": "Fast Muter (rgthree)",
-      "pos": [
-        3010,
-        1200
-      ],
-      "size": [
-        350,
-        120
-      ],
-      "flags": {},
-      "order": 121,
-      "mode": 0,
-      "inputs": [
-        {
-          "dir": 3,
-          "label": "",
-          "name": "Only 7 Steps",
-          "type": "*",
-          "link": 984
-        },
-        {
-          "dir": 3,
-          "name": "",
-          "type": "*",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "dir": 4,
-          "name": "OPT_CONNECTION",
-          "type": "*",
-          "links": null
-        }
-      ],
-      "title": "ACCELERATION (default = all-no)",
-      "properties": {
-        "toggleRestriction": "default"
-      },
-      "color": "#232",
-      "bgcolor": "#353",
-      "shape": 1
-    },
-    {
       "id": 239,
       "type": "Reroute (rgthree)",
       "pos": [
@@ -4935,7 +5036,9 @@
         40,
         30
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 176,
       "mode": 0,
       "inputs": [
@@ -4981,7 +5084,9 @@
         280,
         106
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 119,
       "mode": 0,
       "inputs": [
@@ -5033,7 +5138,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 87,
       "mode": 0,
       "inputs": [
@@ -5069,7 +5176,8 @@
         196
       ],
       "flags": {
-        "collapsed": true
+        "collapsed": true,
+        "pinned": true
       },
       "order": 120,
       "mode": 0,
@@ -5116,7 +5224,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 127,
       "mode": 0,
       "inputs": [
@@ -5154,7 +5264,9 @@
         610,
         580
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 124,
       "mode": 0,
       "inputs": [
@@ -5188,7 +5300,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 125,
       "mode": 0,
       "inputs": [
@@ -5226,7 +5340,9 @@
         211.125,
         454
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 145,
       "mode": 0,
       "inputs": [
@@ -5306,7 +5422,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 171,
       "mode": 0,
       "inputs": [
@@ -5341,7 +5459,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 130,
       "mode": 0,
       "inputs": [
@@ -5377,7 +5497,9 @@
         270,
         454
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 167,
       "mode": 0,
       "inputs": [
@@ -5433,7 +5555,7 @@
       },
       "widgets_values": [
         true,
-        2,
+        969696,
         "fixed",
         1
       ]
@@ -5449,7 +5571,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 172,
       "mode": 0,
       "inputs": [
@@ -5484,7 +5608,9 @@
         270,
         194
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 164,
       "mode": 0,
       "inputs": [
@@ -5538,7 +5664,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 131,
       "mode": 0,
       "inputs": [
@@ -5573,7 +5701,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 102,
       "mode": 0,
       "inputs": [
@@ -5608,7 +5738,9 @@
         220,
         50
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 154,
       "mode": 0,
       "inputs": [
@@ -5652,7 +5784,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 134,
       "mode": 0,
       "inputs": [
@@ -5689,7 +5823,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 133,
       "mode": 0,
       "inputs": [
@@ -5726,7 +5862,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 128,
       "mode": 0,
       "inputs": [
@@ -5763,7 +5901,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 95,
       "mode": 0,
       "inputs": [
@@ -5799,7 +5939,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 132,
       "mode": 0,
       "inputs": [
@@ -5834,7 +5976,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 139,
       "mode": 0,
       "inputs": [
@@ -5869,7 +6013,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 142,
       "mode": 0,
       "inputs": [
@@ -5904,7 +6050,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 152,
       "mode": 0,
       "inputs": [
@@ -5940,7 +6088,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 111,
       "mode": 0,
       "inputs": [
@@ -5975,7 +6125,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 103,
       "mode": 0,
       "inputs": [
@@ -6011,7 +6163,9 @@
         240,
         126
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 170,
       "mode": 0,
       "inputs": [
@@ -6058,7 +6212,9 @@
         250.08046875000002,
         106
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 169,
       "mode": 0,
       "inputs": [
@@ -6123,7 +6279,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 86,
       "mode": 0,
       "inputs": [
@@ -6158,7 +6316,9 @@
         310,
         196.00000000000023
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 105,
       "mode": 0,
       "inputs": [
@@ -6203,7 +6363,9 @@
         220,
         370.00000000000006
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 96,
       "mode": 0,
       "inputs": [
@@ -6257,8 +6419,10 @@
         900,
         640
       ],
-      "flags": {},
-      "order": 31,
+      "flags": {
+        "pinned": true
+      },
+      "order": 30,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -6282,7 +6446,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 82,
       "mode": 0,
       "inputs": [
@@ -6307,58 +6473,6 @@
       }
     },
     {
-      "id": 6,
-      "type": "CLIPTextEncode",
-      "pos": [
-        -1200,
-        -570
-      ],
-      "size": [
-        470,
-        350
-      ],
-      "flags": {
-        "collapsed": false
-      },
-      "order": 129,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "clip",
-          "type": "CLIP",
-          "link": 1155
-        },
-        {
-          "name": "text",
-          "type": "STRING",
-          "widget": {
-            "name": "text"
-          },
-          "link": 1117
-        }
-      ],
-      "outputs": [
-        {
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
-          "slot_index": 0,
-          "links": [
-            199,
-            985
-          ]
-        }
-      ],
-      "title": "CLIP Text Encode (Positive Prompt)",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "CLIPTextEncode"
-      },
-      "widgets_values": [
-        ""
-      ]
-    },
-    {
       "id": 412,
       "type": "Reroute (rgthree)",
       "pos": [
@@ -6369,7 +6483,9 @@
         80,
         80
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 123,
       "mode": 0,
       "inputs": [
@@ -6415,7 +6531,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 126,
       "mode": 0,
       "inputs": [
@@ -6440,76 +6558,6 @@
       }
     },
     {
-      "id": 413,
-      "type": "Reroute",
-      "pos": [
-        4690,
-        610
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 100,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 1160
-        }
-      ],
-      "outputs": [
-        {
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [
-            1162
-          ]
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 414,
-      "type": "Reroute",
-      "pos": [
-        4650,
-        650
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 101,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 1161
-        }
-      ],
-      "outputs": [
-        {
-          "name": "CLIP",
-          "type": "CLIP",
-          "links": [
-            1163
-          ]
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
       "id": 331,
       "type": "Node Collector (rgthree)",
       "pos": [
@@ -6520,7 +6568,9 @@
         280,
         120
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 114,
       "mode": 0,
       "inputs": [
@@ -6567,7 +6617,9 @@
         280,
         110
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 177,
       "mode": 0,
       "inputs": [
@@ -6613,8 +6665,10 @@
         380,
         110
       ],
-      "flags": {},
-      "order": 32,
+      "flags": {
+        "pinned": true
+      },
+      "order": 31,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -6651,8 +6705,10 @@
         380,
         100
       ],
-      "flags": {},
-      "order": 33,
+      "flags": {
+        "pinned": true
+      },
+      "order": 32,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -6688,7 +6744,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 64,
       "mode": 0,
       "inputs": [
@@ -6713,41 +6771,6 @@
       }
     },
     {
-      "id": 395,
-      "type": "Reroute",
-      "pos": [
-        -730,
-        810
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 80,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 1167
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "CLIP",
-          "links": [
-            1139
-          ]
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
       "id": 416,
       "type": "Reroute",
       "pos": [
@@ -6758,7 +6781,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 63,
       "mode": 0,
       "inputs": [
@@ -6783,41 +6808,6 @@
       }
     },
     {
-      "id": 396,
-      "type": "Reroute",
-      "pos": [
-        -730,
-        780
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 81,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 1166
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "MODEL",
-          "links": [
-            1138
-          ]
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
       "id": 398,
       "type": "Reroute",
       "pos": [
@@ -6828,7 +6818,9 @@
         75,
         26
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 65,
       "mode": 0,
       "inputs": [
@@ -6863,8 +6855,10 @@
         380,
         90
       ],
-      "flags": {},
-      "order": 34,
+      "flags": {
+        "pinned": true
+      },
+      "order": 33,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -6899,8 +6893,10 @@
         270,
         100
       ],
-      "flags": {},
-      "order": 35,
+      "flags": {
+        "pinned": true
+      },
+      "order": 34,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -6924,22 +6920,627 @@
         1,
         "fixed"
       ],
-      "color": "#432",
-      "bgcolor": "#653",
+      "color": "#2a363b",
+      "bgcolor": "#3f5159",
+      "shape": 1
+    },
+    {
+      "id": 57,
+      "type": "PrimitiveNode",
+      "pos": [
+        3370,
+        850
+      ],
+      "size": [
+        530,
+        690
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 35,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "widget": {
+            "name": "text"
+          },
+          "links": [
+            296,
+            1102
+          ]
+        }
+      ],
+      "title": "PROMPT",
+      "properties": {
+        "Run widget replace on values": false
+      },
+      "widgets_values": [
+        "A woman wearing a dress with a sexy cleavage smiling on the dance floor of a dimly lit nightclub, while two Alien Xenomorphs dance in the background."
+      ],
+      "color": "#232",
+      "bgcolor": "#353",
+      "shape": 1
+    },
+    {
+      "id": 411,
+      "type": "Reroute (rgthree)",
+      "pos": [
+        -970,
+        -2500
+      ],
+      "size": [
+        80,
+        80
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 122,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 4,
+          "label": " ",
+          "name": "",
+          "type": "*",
+          "link": 1153
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 2,
+          "label": " ",
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            1156
+          ]
+        }
+      ],
+      "properties": {
+        "resizable": false,
+        "size": [
+          80,
+          80
+        ],
+        "connections_layout": [
+          "Right",
+          "Bottom"
+        ]
+      }
+    },
+    {
+      "id": 278,
+      "type": "Reroute (rgthree)",
+      "pos": [
+        -850,
+        -2440
+      ],
+      "size": [
+        80,
+        80
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 151,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 4,
+          "label": " ",
+          "name": "",
+          "type": "*",
+          "link": 853
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 2,
+          "label": " ",
+          "name": "output",
+          "type": "LATENT",
+          "links": [
+            1085
+          ]
+        }
+      ],
+      "properties": {
+        "resizable": false,
+        "size": [
+          80,
+          80
+        ],
+        "connections_layout": [
+          "Right",
+          "Bottom"
+        ]
+      }
+    },
+    {
+      "id": 410,
+      "type": "Reroute (rgthree)",
+      "pos": [
+        6370,
+        -2560
+      ],
+      "size": [
+        80,
+        80
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 116,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 2,
+          "label": " ",
+          "name": "",
+          "type": "*",
+          "link": 1152
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 3,
+          "label": " ",
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            1154
+          ]
+        }
+      ],
+      "properties": {
+        "resizable": false,
+        "size": [
+          80,
+          80
+        ],
+        "connections_layout": [
+          "Bottom",
+          "Left"
+        ]
+      }
+    },
+    {
+      "id": 409,
+      "type": "Reroute (rgthree)",
+      "pos": [
+        6290,
+        -2500
+      ],
+      "size": [
+        80,
+        80
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 115,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 2,
+          "label": " ",
+          "name": "",
+          "type": "*",
+          "link": 1151
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 3,
+          "label": " ",
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            1153
+          ]
+        }
+      ],
+      "properties": {
+        "resizable": false,
+        "size": [
+          80,
+          80
+        ],
+        "connections_layout": [
+          "Bottom",
+          "Left"
+        ]
+      }
+    },
+    {
+      "id": 276,
+      "type": "Reroute (rgthree)",
+      "pos": [
+        6220,
+        -2440
+      ],
+      "size": [
+        80,
+        80
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 150,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 2,
+          "label": " ",
+          "name": "",
+          "type": "*",
+          "link": 852
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 3,
+          "label": " ",
+          "name": "output",
+          "type": "LATENT",
+          "links": [
+            853
+          ]
+        }
+      ],
+      "properties": {
+        "resizable": false,
+        "size": [
+          80,
+          80
+        ],
+        "connections_layout": [
+          "Bottom",
+          "Left"
+        ]
+      }
+    },
+    {
+      "id": 274,
+      "type": "Reroute (rgthree)",
+      "pos": [
+        6220,
+        210
+      ],
+      "size": [
+        80,
+        80
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 149,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "label": " ",
+          "name": "",
+          "type": "*",
+          "link": 1122
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 1,
+          "label": " ",
+          "name": "output",
+          "type": "LATENT",
+          "links": [
+            852
+          ]
+        }
+      ],
+      "properties": {
+        "resizable": false,
+        "size": [
+          80,
+          80
+        ],
+        "connections_layout": [
+          "Left",
+          "Top"
+        ]
+      }
+    },
+    {
+      "id": 408,
+      "type": "Reroute (rgthree)",
+      "pos": [
+        6370,
+        750
+      ],
+      "size": [
+        80,
+        80
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 109,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "label": " ",
+          "name": "",
+          "type": "*",
+          "link": 1163
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 1,
+          "label": " ",
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            1152
+          ]
+        }
+      ],
+      "properties": {
+        "resizable": false,
+        "size": [
+          80,
+          80
+        ],
+        "connections_layout": [
+          "Left",
+          "Top"
+        ]
+      }
+    },
+    {
+      "id": 413,
+      "type": "Reroute",
+      "pos": [
+        4600,
+        700
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 100,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 1160
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            1162
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 238,
+      "type": "Reroute (rgthree)",
+      "pos": [
+        6020,
+        1690
+      ],
+      "size": [
+        80,
+        80
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 174,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 1,
+          "label": " ",
+          "name": "",
+          "type": "*",
+          "link": 774
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 3,
+          "label": " ",
+          "name": "Output",
+          "type": "*",
+          "links": [
+            717
+          ]
+        }
+      ],
+      "properties": {
+        "resizable": false,
+        "size": [
+          80,
+          80
+        ],
+        "connections_layout": [
+          "Top",
+          "Left"
+        ]
+      }
+    },
+    {
+      "id": 237,
+      "type": "Reroute (rgthree)",
+      "pos": [
+        6110,
+        440
+      ],
+      "size": [
+        80,
+        80
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 173,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 1,
+          "label": " ",
+          "name": "",
+          "type": "*",
+          "link": 772
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 3,
+          "label": " ",
+          "name": "*",
+          "type": "IMAGE",
+          "links": [
+            714
+          ]
+        }
+      ],
+      "properties": {
+        "resizable": false,
+        "size": [
+          80,
+          80
+        ],
+        "connections_layout": [
+          "Top",
+          "Left"
+        ]
+      }
+    },
+    {
+      "id": 88,
+      "type": "Fast Muter (rgthree)",
+      "pos": [
+        2990,
+        710
+      ],
+      "size": [
+        370,
+        450
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 93,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "name": "none",
+          "type": "*",
+          "link": 1112
+        },
+        {
+          "dir": 3,
+          "name": "",
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 4,
+          "name": "OPT_CONNECTION",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "title": "STYLE SELECTOR",
+      "properties": {
+        "toggleRestriction": "always one"
+      },
+      "color": "#232",
+      "bgcolor": "#353",
+      "shape": 1
+    },
+    {
+      "id": 332,
+      "type": "Fast Muter (rgthree)",
+      "pos": [
+        2990,
+        1200
+      ],
+      "size": [
+        370,
+        120
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 121,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "label": "",
+          "name": "Only 7 Steps",
+          "type": "*",
+          "link": 984
+        },
+        {
+          "dir": 3,
+          "name": "",
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 4,
+          "name": "OPT_CONNECTION",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "title": "ACCELERATION (default = all-no)",
+      "properties": {
+        "toggleRestriction": "default"
+      },
+      "color": "#232",
+      "bgcolor": "#353",
       "shape": 1
     },
     {
       "id": 97,
       "type": "Fast Muter (rgthree)",
       "pos": [
-        3010,
+        2990,
         1360
       ],
       "size": [
-        350,
+        370,
         180
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 178,
       "mode": 0,
       "inputs": [
@@ -6973,56 +7574,19 @@
       "shape": 1
     },
     {
-      "id": 57,
-      "type": "PrimitiveNode",
-      "pos": [
-        3370,
-        850
-      ],
-      "size": [
-        530,
-        690
-      ],
-      "flags": {},
-      "order": 36,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "widget": {
-            "name": "text"
-          },
-          "links": [
-            296,
-            1102
-          ]
-        }
-      ],
-      "title": "PROMPT",
-      "properties": {
-        "Run widget replace on values": false
-      },
-      "widgets_values": [
-        "A woman wearing a dress with a sexy cleavage smiling on the dance floor of a dimly lit nightclub, while two Alien Xenomorphs dance in the background."
-      ],
-      "color": "#232",
-      "bgcolor": "#353",
-      "shape": 1
-    },
-    {
       "id": 392,
       "type": "Power Lora Loader (rgthree)",
       "pos": [
-        2440,
-        780
+        2450,
+        770
       ],
       "size": [
         520,
-        370
+        430
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 94,
       "mode": 0,
       "inputs": [
@@ -7072,190 +7636,45 @@
         {},
         ""
       ],
-      "color": "#232",
-      "bgcolor": "#353",
+      "color": "#2a363b",
+      "bgcolor": "#3f5159",
       "shape": 1
     },
     {
-      "id": 88,
-      "type": "Fast Muter (rgthree)",
+      "id": 414,
+      "type": "Reroute",
       "pos": [
-        3010,
-        710
+        4600,
+        770
       ],
       "size": [
-        350,
-        450
+        75,
+        26
       ],
-      "flags": {},
-      "order": 93,
-      "mode": 0,
-      "inputs": [
-        {
-          "dir": 3,
-          "name": "none",
-          "type": "*",
-          "link": 1112
-        },
-        {
-          "dir": 3,
-          "name": "",
-          "type": "*",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "dir": 4,
-          "name": "OPT_CONNECTION",
-          "type": "*",
-          "links": null
-        }
-      ],
-      "title": "STYLE SELECTOR",
-      "properties": {
-        "toggleRestriction": "always one"
+      "flags": {
+        "pinned": true
       },
-      "color": "#232",
-      "bgcolor": "#353",
-      "shape": 1
-    },
-    {
-      "id": 411,
-      "type": "Reroute (rgthree)",
-      "pos": [
-        -970,
-        -2500
-      ],
-      "size": [
-        80,
-        80
-      ],
-      "flags": {},
-      "order": 122,
+      "order": 101,
       "mode": 0,
       "inputs": [
         {
-          "dir": 4,
-          "label": " ",
           "name": "",
           "type": "*",
-          "link": 1153
+          "link": 1161
         }
       ],
       "outputs": [
         {
-          "dir": 2,
-          "label": " ",
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [
-            1156
-          ]
-        }
-      ],
-      "properties": {
-        "resizable": false,
-        "size": [
-          80,
-          80
-        ],
-        "connections_layout": [
-          "Right",
-          "Bottom"
-        ]
-      }
-    },
-    {
-      "id": 278,
-      "type": "Reroute (rgthree)",
-      "pos": [
-        -850,
-        -2440
-      ],
-      "size": [
-        80,
-        80
-      ],
-      "flags": {},
-      "order": 151,
-      "mode": 0,
-      "inputs": [
-        {
-          "dir": 4,
-          "label": " ",
-          "name": "",
-          "type": "*",
-          "link": 853
-        }
-      ],
-      "outputs": [
-        {
-          "dir": 2,
-          "label": " ",
-          "name": "output",
-          "type": "LATENT",
-          "links": [
-            1085
-          ]
-        }
-      ],
-      "properties": {
-        "resizable": false,
-        "size": [
-          80,
-          80
-        ],
-        "connections_layout": [
-          "Right",
-          "Bottom"
-        ]
-      }
-    },
-    {
-      "id": 410,
-      "type": "Reroute (rgthree)",
-      "pos": [
-        6370,
-        -2560
-      ],
-      "size": [
-        80,
-        80
-      ],
-      "flags": {},
-      "order": 116,
-      "mode": 0,
-      "inputs": [
-        {
-          "dir": 2,
-          "label": " ",
-          "name": "",
-          "type": "*",
-          "link": 1152
-        }
-      ],
-      "outputs": [
-        {
-          "dir": 3,
-          "label": " ",
           "name": "CLIP",
           "type": "CLIP",
           "links": [
-            1154
+            1163
           ]
         }
       ],
       "properties": {
-        "resizable": false,
-        "size": [
-          80,
-          80
-        ],
-        "connections_layout": [
-          "Bottom",
-          "Left"
-        ]
+        "showOutputText": false,
+        "horizontal": false
       }
     },
     {
@@ -7263,13 +7682,15 @@
       "type": "Reroute (rgthree)",
       "pos": [
         6290,
-        590
+        670
       ],
       "size": [
         80,
         80
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 108,
       "mode": 0,
       "inputs": [
@@ -7305,280 +7726,210 @@
       }
     },
     {
-      "id": 409,
-      "type": "Reroute (rgthree)",
+      "id": 395,
+      "type": "Reroute",
       "pos": [
-        6290,
-        -2500
+        -710,
+        800
       ],
       "size": [
-        80,
-        80
+        75,
+        26
       ],
-      "flags": {},
-      "order": 115,
+      "flags": {
+        "pinned": true
+      },
+      "order": 80,
       "mode": 0,
       "inputs": [
         {
-          "dir": 2,
-          "label": " ",
           "name": "",
           "type": "*",
-          "link": 1151
+          "link": 1167
         }
       ],
       "outputs": [
         {
-          "dir": 3,
-          "label": " ",
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [
-            1153
-          ]
-        }
-      ],
-      "properties": {
-        "resizable": false,
-        "size": [
-          80,
-          80
-        ],
-        "connections_layout": [
-          "Bottom",
-          "Left"
-        ]
-      }
-    },
-    {
-      "id": 276,
-      "type": "Reroute (rgthree)",
-      "pos": [
-        6220,
-        -2440
-      ],
-      "size": [
-        80,
-        80
-      ],
-      "flags": {},
-      "order": 150,
-      "mode": 0,
-      "inputs": [
-        {
-          "dir": 2,
-          "label": " ",
           "name": "",
-          "type": "*",
-          "link": 852
-        }
-      ],
-      "outputs": [
-        {
-          "dir": 3,
-          "label": " ",
-          "name": "output",
-          "type": "LATENT",
-          "links": [
-            853
-          ]
-        }
-      ],
-      "properties": {
-        "resizable": false,
-        "size": [
-          80,
-          80
-        ],
-        "connections_layout": [
-          "Bottom",
-          "Left"
-        ]
-      }
-    },
-    {
-      "id": 274,
-      "type": "Reroute (rgthree)",
-      "pos": [
-        6220,
-        210
-      ],
-      "size": [
-        80,
-        80
-      ],
-      "flags": {},
-      "order": 149,
-      "mode": 0,
-      "inputs": [
-        {
-          "dir": 3,
-          "label": " ",
-          "name": "",
-          "type": "*",
-          "link": 1122
-        }
-      ],
-      "outputs": [
-        {
-          "dir": 1,
-          "label": " ",
-          "name": "output",
-          "type": "LATENT",
-          "links": [
-            852
-          ]
-        }
-      ],
-      "properties": {
-        "resizable": false,
-        "size": [
-          80,
-          80
-        ],
-        "connections_layout": [
-          "Left",
-          "Top"
-        ]
-      }
-    },
-    {
-      "id": 408,
-      "type": "Reroute (rgthree)",
-      "pos": [
-        6370,
-        680
-      ],
-      "size": [
-        80,
-        80
-      ],
-      "flags": {},
-      "order": 109,
-      "mode": 0,
-      "inputs": [
-        {
-          "dir": 3,
-          "label": " ",
-          "name": "",
-          "type": "*",
-          "link": 1163
-        }
-      ],
-      "outputs": [
-        {
-          "dir": 1,
-          "label": " ",
-          "name": "CLIP",
           "type": "CLIP",
           "links": [
-            1152
+            1139
           ]
         }
       ],
       "properties": {
-        "resizable": false,
-        "size": [
-          80,
-          80
-        ],
-        "connections_layout": [
-          "Left",
-          "Top"
-        ]
+        "showOutputText": false,
+        "horizontal": false
       }
     },
     {
-      "id": 238,
-      "type": "Reroute (rgthree)",
+      "id": 396,
+      "type": "Reroute",
       "pos": [
-        5940,
-        1690
+        -710,
+        770
       ],
       "size": [
-        80,
-        80
+        75,
+        26
       ],
-      "flags": {},
-      "order": 174,
+      "flags": {
+        "pinned": true
+      },
+      "order": 81,
       "mode": 0,
       "inputs": [
         {
-          "dir": 1,
-          "label": " ",
           "name": "",
           "type": "*",
-          "link": 774
+          "link": 1166
         }
       ],
       "outputs": [
         {
-          "dir": 3,
-          "label": " ",
-          "name": "Output",
-          "type": "*",
+          "name": "",
+          "type": "MODEL",
           "links": [
-            717
+            1138
           ]
         }
       ],
       "properties": {
-        "resizable": false,
-        "size": [
-          80,
-          80
-        ],
-        "connections_layout": [
-          "Top",
-          "Left"
-        ]
+        "showOutputText": false,
+        "horizontal": false
       }
     },
     {
-      "id": 237,
-      "type": "Reroute (rgthree)",
+      "id": 111,
+      "type": "Note",
       "pos": [
-        6030,
-        440
+        2540,
+        630
       ],
       "size": [
-        80,
-        80
+        430,
+        88
       ],
-      "flags": {},
-      "order": 173,
+      "flags": {
+        "pinned": true
+      },
+      "order": 36,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "Notes",
+      "properties": {},
+      "widgets_values": [
+        "> Select the yellow group and press '.' to automatically zoom in.\n> LoRAs may affect the selected style.\n> Z-Image is the new sheriff in town."
+      ],
+      "color": "#223",
+      "bgcolor": "#335",
+      "shape": 1
+    },
+    {
+      "id": 6,
+      "type": "CLIPTextEncode",
+      "pos": [
+        -1200,
+        -570
+      ],
+      "size": [
+        470,
+        350
+      ],
+      "flags": {
+        "collapsed": true,
+        "pinned": true
+      },
+      "order": 129,
       "mode": 0,
       "inputs": [
         {
-          "dir": 1,
-          "label": " ",
-          "name": "",
-          "type": "*",
-          "link": 772
+          "name": "clip",
+          "type": "CLIP",
+          "link": 1155
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "widget": {
+            "name": "text"
+          },
+          "link": 1117
         }
       ],
       "outputs": [
         {
-          "dir": 3,
-          "label": " ",
-          "name": "*",
-          "type": "IMAGE",
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "slot_index": 0,
           "links": [
-            714
+            199,
+            985
           ]
         }
       ],
+      "title": "CLIP Text Encode (Positive Prompt)",
       "properties": {
-        "resizable": false,
-        "size": [
-          80,
-          80
-        ],
-        "connections_layout": [
-          "Top",
-          "Left"
-        ]
-      }
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
+      "id": 54,
+      "type": "CLIPTextEncode",
+      "pos": [
+        4580,
+        1190
+      ],
+      "size": [
+        410,
+        90
+      ],
+      "flags": {
+        "collapsed": true,
+        "pinned": true
+      },
+      "order": 66,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": null
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "widget": {
+            "name": "text"
+          },
+          "link": 296
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "slot_index": 0,
+          "links": [
+            78
+          ]
+        }
+      ],
+      "title": "CLIP Text Encode (Positive Prompt)",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        "A woman wearing a dress with a sexy cleavage smiling on the dance floor of a dimly lit nightclub, while two Alien Xenomorphs dance in the background."
+      ]
     }
   ],
   "links": [
@@ -9395,20 +9746,24 @@
       ],
       "color": "#b58b2a",
       "font_size": 24,
-      "flags": {}
+      "flags": {
+        "pinned": true
+      }
     },
     {
       "id": 3,
       "title": "{#TITLE} {#VERSION}",
       "bounding": [
         2980,
-        610,
+        600,
         1300,
         840
       ],
-      "color": "#3f789e",
-      "font_size": 44,
-      "flags": {}
+      "color": "#b58b2a",
+      "font_size": 48,
+      "flags": {
+        "pinned": true
+      }
     },
     {
       "id": 4,
@@ -9421,7 +9776,9 @@
       ],
       "color": "#444",
       "font_size": 24,
-      "flags": {}
+      "flags": {
+        "pinned": true
+      }
     },
     {
       "id": 5,
@@ -9434,7 +9791,9 @@
       ],
       "color": "#444",
       "font_size": 24,
-      "flags": {}
+      "flags": {
+        "pinned": true
+      }
     },
     {
       "id": 8,
@@ -9447,7 +9806,9 @@
       ],
       "color": "#444",
       "font_size": 24,
-      "flags": {}
+      "flags": {
+        "pinned": true
+      }
     },
     {
       "id": 9,
@@ -9460,7 +9821,9 @@
       ],
       "color": "#444",
       "font_size": 24,
-      "flags": {}
+      "flags": {
+        "pinned": true
+      }
     },
     {
       "id": 10,
@@ -9473,7 +9836,9 @@
       ],
       "color": "#444",
       "font_size": 24,
-      "flags": {}
+      "flags": {
+        "pinned": true
+      }
     },
     {
       "id": 11,
@@ -9486,7 +9851,9 @@
       ],
       "color": "#444",
       "font_size": 24,
-      "flags": {}
+      "flags": {
+        "pinned": true
+      }
     },
     {
       "id": 12,
@@ -9499,7 +9866,9 @@
       ],
       "color": "#444",
       "font_size": 24,
-      "flags": {}
+      "flags": {
+        "pinned": true
+      }
     },
     {
       "id": 13,
@@ -9512,16 +9881,18 @@
       ],
       "color": "#A88",
       "font_size": 24,
-      "flags": {}
+      "flags": {
+        "pinned": true
+      }
     }
   ],
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.7962209302325577,
+      "scale": 0.7962209302325579,
       "offset": [
-        -2575.016429353778,
-        -456.66666666666697
+        -2575.0164293537787,
+        -446.6666666666666
       ]
     },
     "frontendVersion": "1.34.9",
