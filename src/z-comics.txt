@@ -14,63 +14,138 @@ A full shot from behind shows a warrior woman facing a horde of monsters in a he
 
 
 >>Comic
-Illustration with comic book style and {$spicy-content-with} intense colors. Action scene featuring: {$@}
+YOUR CONTEXT:
+You are a drawing artist.
+Your illustration is an epic comic book cover featuring {$spicy-content-with} with intense colors and dynamic aesthetic.
+---
+YOUR ILLUSTRATION:
+{$@}
+
 
 >>European Comic
-Hand-drawn Italian comic book including {$spicy-content-with} bold colors and sinuous lines, featuring realistic characters in hypersaturated imagery with high-contrast ballpoint hatching and intricate cross-hatch patterns. A seamless complete full page illustration using red, green and blue. Featuring: {$@}
+YOUR CONTEXT:
+You are an artist of Italian comic strips.
+Your illustration is a hand-drawn European illustration including bold colors and sinuous lines, featuring realistic sexy characters with vibrant, saturated colors and human figures with realistic anatomical proportions.
+---
+YOUR ILLUSTRATION:
+{$@}
 
 
 >>Vintage Comic
-An old sheet of paper with a vintage comic strip from 1950, painted in white, red, blue and black including {$spicy-content-with} freehand outlines. A detailed and dirty image featuring: {$@}
+YOUR CONTEXT:
+You are an artist from 1950.
+Your drawing is a vintage comic-style piece from 1950, created on an old sheet of paper and painted in white, red, blue, and black, includes {$spicy-content-with} freehand outlines.
+---
+YOUR DRAWING:
+{$@}
 
 
 >>Pop-Art
-Image in Pop Art style characterized by {$spicy-content-with} bold, vibrant colors, and thick black outlines defining each form with clarity and contrast. The surface is executed using a pointillist technique, where dots of color come together to create the overall picture. Dazzling patterns and comic style characters {$with-adult-content}. The scene has a flat, two-dimensional appearance typical of pop art aesthetics, featuring {$@}
+YOUR CONTEXT:
+You are a bold artist.
+Your image in Pop Art style is characterized by {$spicy-content-with} bold, vibrant colors, and thick black outlines defining each form with clarity and contrast. The surface is executed using a pointillist technique, where dots of color come together to create the overall picture. Dazzling patterns and comic style characters. The scene has a flat, two-dimensional appearance typical of pop art aesthetics. 
+---
+YOUR IMAGE:
+{$@}
 
 
 >>Studio Anime
-Epic hand-drawn Japanese animation including {$spicy-content-with} warm artwork from Studio Ghibli. This shot features: {$@}
+YOUR CONTEXT:
+You are a Japanese anime artist.
+Your Japanese animation includes {$spicy-content-with} warm artwork inspired by Studio Ghibli, with detailed characters and a whimsical aesthetic, full of emotion.
+---
+YOUR DRAWING:
+{$@}
 
 
 >>Anime
-An image in anime style including {$spicy-content-with} an ominous atmosphere, clean lines, and dramatic facial expressions. The artwork uses cool and dark tones along with dramatic lighting and shadows that emphasize the central figure and create a somber, intense mood. The dynamic shot has a black background and features: {$@}
+YOUR CONTEXT:
+You are a Japanese anime artist.
+Your Japanese animation includes {$spicy-content-with} an ominous atmosphere, clean lines, and dramatic facial expressions. The artwork uses cool and dark tones along with dramatic lighting and shadows that emphasize the central figure and create a somber, intense mood.
+---
+YOUR DRAWING:
+{$@}
 
 
 >>Manga
-Black and white manga-style illustration that includes {$spicy-content-with} a violent atmosphere. The illustration features: {$@}.
+YOUR CONTEXT:
+You are a Japanese manga artist.
+Your drawing is a black and white manga-style illustration that includes {$spicy-content-with} dramatic screentone patterns and high-contrast black and white with a violent and intense atmosphere.
+---
+YOUR DRAWING:
+{$@}
 
 
 >>Unsettling
-An illustration that includes {$spicy-content-with} stippling textures and intense side lighting with deep shadows; dark low key illumination with high contrast and minimal highlights; cinematic chiaroscuro; horror graphic novel with dynamic composition, featuring: {$@}
+YOUR CONTEXT:
+You are an illustrator of dark and disturbing themes.
+Your illustration includes {$spicy-content-with} stippling textures, dramatic raking side lighting, and a dread-filled atmosphere that is oppressive and claustrophobic. High contrast emphasizes form and shadow, employing cinematic chiaroscuro for depth.
+---
+YOUR DRAWING:
+{$@}
 
 
 >>Minimalist Sketchwash
-A minimalist and simple pencil sketch that includes {$spicy-content-with} large empty areas and a white background. Painted in watercolors. Featuring: {$@}.
+YOUR CONTEXT:
+You are a drawing artist.
+Your drawing is a minimalist and simple pencil sketch that includes {$spicy-content-with} large empty areas and a white background, it is colored with watercolor using typical watercolor water stains.
+---
+YOUR DRAWING:
+{$@}
 
 
 >>Ink Draw
-A realistically rendered ink drawing featuring {$spicy-content-with} fine cross-hatching and stippling techniques. These methods create deep shadows and highlights using a monochromatic color scheme. The image includes large areas of white space and high contrast due to varying line densities. Featuring: {$@}
+YOUR CONTEXT:
+You are an ink drawing artist.
+Your drawing is a realistic ink drawing featuring {$spicy-content-with} fine cross-hatching and stippling techniques. These methods create deep shadows and highlights using only black lines. The image includes large areas of white space and high contrast due to varying line densities. 
+---
+YOUR DRAWING:
+{$@}
 
 
 >>Hand-Drawn Illustration
-A realistically rendered concept-art done in ink that includes {$spicy-content-with} large white areas and high contrast thanks to the varying density of the lines. It's like a very sharp photograph, but drawn. This colorful concept-art features: {$@}
+YOUR CONTEXT:
+You are an artist who draws comics.
+Your drawing is a realistically rendered concept-art done in ink that includes {$spicy-content-with} large white areas and high contrast thanks to the varying density of the lines. It's like a very sharp photograph, but drawn. Being a hand-drawn picture, it features clearly defined lines and strokes and very few gradients.
+---
+YOUR DRAWING:
+{$@}
 
 
 >>Digital Illustration
-A detailed illustration in stylized line art featuring {$spicy-content-with} vector graphics aesthetics. With black solid shadows and big negative space creating enigmatic stillness. Saturated highlights with glowing accents, emphasizing contrasts between obscurity and luminous for a vivid impact. Featuring: {$@}
+YOUR CONTEXT:
+You are a digital artist.
+Your illustration is a stylized line art featuring {$spicy-content-with} vector graphics aesthetics. With black solid shadows and big negative space creating enigmatic stillness. Saturated highlights with glowing accents, emphasizing contrasts between obscurity and luminous for a vivid impact.
+---
+YOUR ILLUSTRATION:
+{$@}
 
 
 >>Simple Vector Illustration
-A stylized digital illustration featuring {$spicy-content-with} iconography style. The illustration has a graphic design aesthetic, including flat, solid colors, no defined outlines, and a minimalist approach to composition. Featuring: {$@}
+YOUR CONTEXT:
+You are a digital artist.
+Your image is a stylized digital illustration featuring {$spicy-content-with} iconography style. The illustration has a graphic design aesthetic, including flat, solid colors, no defined outlines, and a minimalist approach to composition.
+---
+YOUR IMAGE:
+{$@}
 
 
 >>LowRes Pixel Art
-Pixel art image in low resolution that includes {$spicy-content-with} 2D pixelated image in 16 colors. 320x200 sharp image featuring: {$@}
-
-
->>CGA Cyan-Magenta Monitor
-The image shows only an old white CRT PC monitor, reflecting light from a window. A screenshot with black, cyan, magenta, and white colors (CGA graphics card) is visible on the monitor.
-Everything in the screenshot is black, cyan, magenta or white, for example, skin should be magenta, plants should be cyan, metal should be cyan, sky should be black.
+YOUR CONTEXT:
+You are a retro video game artist from the 8-bit era.
+Your image is a low-resolution pixel art piece characterized by {$spicy-content-with} visible chunky pixels, a limited color palette, and a grid-based composition. The aesthetic mimics early arcade games, featuring sharp aliased edges, solid intense colors, and a nostalgic, blocky visual style.
 ---
-The screenshot inside the monitor features a 2D pixel-art image from 1980 with solid satured colors. {$@}
+YOUR PIXEL ART:
+{$@}
+
+
+>>Risograph Print
+YOUR CONTEXT:
+You are an underground indie press printer.
+Your illustration is a tactile Risograph-style print including {$spicy-content-with} characterized by vibrant fluorescent ink overlays, deliberate registration errors (misaligned colors), and a heavy grainy texture. It uses a limited but punchy palette of neon pink, sunflower yellow, and deep teal, mimicking the look of a self-published zine.
+---
+YOUR PRINT:
+{$@}
+
+
 
