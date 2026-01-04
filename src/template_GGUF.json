@@ -735,9 +735,9 @@
       ],
       "title": "Chooser",
       "properties": {
-        "cnr_id": "rgthree-comfy",
+        "aux_id": "rgthree/rgthree-comfy",
         "ver": "e9d56181883d4e05c4236f09422582f49abdec86",
-        "aux_id": "rgthree/rgthree-comfy"
+        "cnr_id": "rgthree-comfy"
       },
       "widgets_values": []
     },
@@ -1412,9 +1412,9 @@
         }
       ],
       "properties": {
-        "cnr_id": "rgthree-comfy",
+        "aux_id": "rgthree/rgthree-comfy",
         "ver": "1.0.2511270846",
-        "aux_id": "rgthree/rgthree-comfy"
+        "cnr_id": "rgthree-comfy"
       },
       "widgets_values": []
     },
@@ -2091,8 +2091,9 @@
       ],
       "title": "High Sigmas Switcher",
       "properties": {
-        "cnr_id": "rgthree-comfy",
-        "ver": "8ff50e4521881eca1fe26aec9615fc9362474931"
+        "aux_id": "rgthree/rgthree-comfy",
+        "ver": "8ff50e4521881eca1fe26aec9615fc9362474931",
+        "cnr_id": "rgthree-comfy"
       },
       "widgets_values": []
     },
@@ -3719,9 +3720,10 @@
         }
       ],
       "properties": {
-        "cnr_id": "rgthree-comfy",
+        "aux_id": "rgthree/rgthree-comfy",
         "ver": "8ff50e4521881eca1fe26aec9615fc9362474931",
-        "Show Strengths": "Single Strength"
+        "Show Strengths": "Single Strength",
+        "cnr_id": "rgthree-comfy"
       },
       "widgets_values": [
         {},
@@ -4058,10 +4060,10 @@
         }
       ],
       "properties": {
-        "cnr_id": "comfyui-gguf",
+        "aux_id": "city96/ComfyUI-GGUF",
         "ver": "1.1.8",
         "Node name for S&R": "UnetLoaderGGUF",
-        "aux_id": "city96/ComfyUI-GGUF"
+        "cnr_id": "comfyui-gguf"
       },
       "widgets_values": [
         "z_image_turbo-Q5_K_S.gguf"
@@ -4095,10 +4097,10 @@
         }
       ],
       "properties": {
-        "cnr_id": "comfyui-gguf",
+        "aux_id": "city96/ComfyUI-GGUF",
         "ver": "1.1.8",
         "Node name for S&R": "CLIPLoaderGGUF",
-        "aux_id": "city96/ComfyUI-GGUF"
+        "cnr_id": "comfyui-gguf"
       },
       "widgets_values": [
         "Qwen3-4B.i1-Q5_K_S.gguf",
@@ -4484,9 +4486,10 @@
       ],
       "title": "Resize Image +50%",
       "properties": {
-        "cnr_id": "rgthree-comfy",
+        "aux_id": "rgthree/rgthree-comfy",
         "ver": "8ff50e4521881eca1fe26aec9615fc9362474931",
-        "Node name for S&R": "Image Resize (rgthree)"
+        "Node name for S&R": "Image Resize (rgthree)",
+        "cnr_id": "rgthree-comfy"
       },
       "widgets_values": [
         "percentage",
@@ -4556,9 +4559,9 @@
       ],
       "title": "Input Image Chooser",
       "properties": {
-        "cnr_id": "rgthree-comfy",
+        "aux_id": "rgthree/rgthree-comfy",
         "ver": "e9d56181883d4e05c4236f09422582f49abdec86",
-        "aux_id": "rgthree/rgthree-comfy"
+        "cnr_id": "rgthree-comfy"
       },
       "widgets_values": []
     },
@@ -4793,7 +4796,7 @@
         2760
       ],
       "size": [
-        180,
+        185.573828125,
         60
       ],
       "flags": {},
@@ -4821,7 +4824,7 @@
           ]
         }
       ],
-      "title": "Photo Upscaler +50%",
+      "title": "Photo Upscaler",
       "properties": {
         "cnr_id": "comfy-core",
         "ver": "0.3.77",
@@ -5051,7 +5054,7 @@
           ]
         }
       ],
-      "title": "Photo Enhancer",
+      "title": "Photo Refiner",
       "properties": {
         "cnr_id": "comfy-core",
         "ver": "0.3.77",
@@ -5262,9 +5265,9 @@
       ],
       "title": "Latent Switcher",
       "properties": {
-        "cnr_id": "rgthree-comfy",
+        "aux_id": "rgthree/rgthree-comfy",
         "ver": "e9d56181883d4e05c4236f09422582f49abdec86",
-        "aux_id": "rgthree/rgthree-comfy"
+        "cnr_id": "rgthree-comfy"
       },
       "widgets_values": []
     },
@@ -5681,9 +5684,9 @@
       ],
       "title": "Width Chooser",
       "properties": {
-        "cnr_id": "rgthree-comfy",
+        "aux_id": "rgthree/rgthree-comfy",
         "ver": "e9d56181883d4e05c4236f09422582f49abdec86",
-        "aux_id": "rgthree/rgthree-comfy"
+        "cnr_id": "rgthree-comfy"
       },
       "widgets_values": []
     },
@@ -5748,9 +5751,9 @@
       ],
       "title": "Height Chooser",
       "properties": {
-        "cnr_id": "rgthree-comfy",
+        "aux_id": "rgthree/rgthree-comfy",
         "ver": "e9d56181883d4e05c4236f09422582f49abdec86",
-        "aux_id": "rgthree/rgthree-comfy"
+        "cnr_id": "rgthree-comfy"
       },
       "widgets_values": []
     },
@@ -6741,9 +6744,9 @@
       ],
       "title": "Sampler Chooser",
       "properties": {
-        "cnr_id": "rgthree-comfy",
+        "aux_id": "rgthree/rgthree-comfy",
         "ver": "1.0.2511270846",
-        "aux_id": "rgthree/rgthree-comfy"
+        "cnr_id": "rgthree-comfy"
       },
       "widgets_values": []
     },
@@ -7152,10 +7155,10 @@
       "outputs": [],
       "title": "FINAL TEXT VIEWER",
       "properties": {
-        "cnr_id": "rgthree-comfy",
+        "aux_id": "rgthree/rgthree-comfy",
         "ver": "e9d56181883d4e05c4236f09422582f49abdec86",
         "Node name for S&R": "Display Any (rgthree)",
-        "aux_id": "rgthree/rgthree-comfy"
+        "cnr_id": "rgthree-comfy"
       },
       "widgets_values": [
         "YOUR CONTEXT:\nYour photographs has android phone cam-quality (low-resolution).\nYour photographs exhibit surprising compositions, sharp complex backgrounds, natural lighting, and candid moments that feel immediate and authentic.\nYour photographs are actual photographic background.\n---\nYOUR PHOTO:\nA woman wearing a dress with a sexy cleavage smiling on the dance floor of a dimly lit nightclub, while two Alien Xenomorphs dance in the background."
@@ -7345,8 +7348,9 @@
       ],
       "title": "Low Sigmas Switcher",
       "properties": {
-        "cnr_id": "rgthree-comfy",
-        "ver": "8ff50e4521881eca1fe26aec9615fc9362474931"
+        "aux_id": "rgthree/rgthree-comfy",
+        "ver": "8ff50e4521881eca1fe26aec9615fc9362474931",
+        "cnr_id": "rgthree-comfy"
       },
       "widgets_values": []
     },
@@ -8020,9 +8024,9 @@
         }
       ],
       "properties": {
-        "cnr_id": "rgthree-comfy",
+        "aux_id": "rgthree/rgthree-comfy",
         "ver": "e9d56181883d4e05c4236f09422582f49abdec86",
-        "aux_id": "rgthree/rgthree-comfy"
+        "cnr_id": "rgthree-comfy"
       },
       "widgets_values": []
     },
@@ -8090,13 +8094,13 @@
         {
           "dir": 3,
           "label": "",
-          "name": "Photo Enhancer",
+          "name": "Photo Refiner",
           "type": "*",
           "link": 1223
         },
         {
           "dir": 3,
-          "name": "Photo Upscaler +50%",
+          "name": "Photo Upscaler",
           "type": "*",
           "link": 1214
         },
@@ -8118,31 +8122,6 @@
         }
       ],
       "properties": {}
-    },
-    {
-      "id": 111,
-      "type": "Note",
-      "pos": [
-        4210,
-        660
-      ],
-      "size": [
-        430,
-        88
-      ],
-      "flags": {},
-      "order": 37,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "title": "Notes",
-      "properties": {},
-      "widgets_values": [
-        "> Select the yellow group and press '.' to automatically zoom in.\n> LoRAs can affect the style and the enhancer.\n> Z-Image is the new sheriff in town."
-      ],
-      "color": "#223",
-      "bgcolor": "#335",
-      "shape": 1
     },
     {
       "id": 411,
@@ -8288,7 +8267,7 @@
       "inputs": [
         {
           "dir": 3,
-          "name": "Photo Enhancer",
+          "name": "Photo Refiner",
           "type": "*",
           "link": 1036
         },
@@ -8313,6 +8292,31 @@
       },
       "color": "#232",
       "bgcolor": "#353",
+      "shape": 1
+    },
+    {
+      "id": 111,
+      "type": "Note",
+      "pos": [
+        4210,
+        660
+      ],
+      "size": [
+        430,
+        88
+      ],
+      "flags": {},
+      "order": 37,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "Notes",
+      "properties": {},
+      "widgets_values": [
+        "> Select the yellow group and press '.' to automatically zoom in.\n> LoRAs can affect the style quality and the refiner output.\n> Z-Image is the new sheriff in town."
+      ],
+      "color": "#223",
+      "bgcolor": "#335",
       "shape": 1
     }
   ],
@@ -10364,7 +10368,7 @@
     },
     {
       "id": 9,
-      "title": "PHOTO ENHANCER",
+      "title": "PHOTO REFINER",
       "bounding": [
         -30,
         1950,
@@ -10403,7 +10407,7 @@
     },
     {
       "id": 12,
-      "title": "PHOTO UPSCALER +50%",
+      "title": "PHOTO UPSCALER (SIZE +50%)",
       "bounding": [
         -30,
         2630,
@@ -10437,7 +10441,7 @@
         -486.66666666666663
       ]
     },
-    "frontendVersion": "1.34.9",
+    "frontendVersion": "1.35.9",
     "workflowRendererVersion": "LG"
   },
   "version": 0.4
