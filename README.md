@@ -27,19 +27,19 @@ A workflow for [Z-Image-Turbo](https://github.com/Tongyi-MAI/Z-Image) extending 
 
 ## Features
 - **Style Selector**: Choose from fifteen customizable image styles.
-- **Alternative Sampler Switch**: Easily test generation with an alternative sampler. 
-- **Landscape Orientation Switch**: Change to horizontal image generation with a single click.
-- **Z-Image Enhancer (v3.0+)**: Improves final image quality by performing a double pass.
-- **Spicy Impact Booster (v3.0+)**: Adds a subtle spicy condiment to the prompt (fully experimental).
-- **Smaller Images Switch (v3.0+)**: Generate smaller images, faster and consuming less VRAM.
-     - Default image size: __1600 x 1088 pixels__
-     - Smaller image size: __1216 x 832 pixels__
-     - (previous versions up to v2.2 used a fixed setting of 1408 x 944 pixels)
+- **Photo Refiner**: Improves final photo quality by performing a second pass.
+- **Photo Upscaler**: Increases the resolution of any generated photo by 50%.
+- Acceleration Panel:
+    - **7 Steps Switch**: Uses fewer steps while maintaining the quality.
+    - **Smaller Image Switch**: Generates images at a lower resolution (1216 x 832 pixels).
+- Extra Options:
+    - **Landscape Switch**: Change to horizontal image generation with a single click.
+    - **Alternative Sampler Switch**: Easily test generation with an alternative sampler.
+    - **Spicy Impact Booster Switch**: Adds a subtle spicy condiment to the prompt (fully experimental).
 - Preconfigured workflows for each checkpoint format (GGUF / SAFETENSORS).
-- Custom sigma values fine-tuned to my personal preference (100% subjective).
+- Custom sigma values fine-tuned by hand according to my preference (100% subjective).
 - Generated images are saved in the "ZImage" folder, organized by date.
 - Incorporates a trick to enable automatic CivitAI prompt detection.
-
 
 ### The 15 Predefined Styles in "amazing-z-image"
 <img src="amazing-z-image_styles1.jpg" width="25%"></img>
