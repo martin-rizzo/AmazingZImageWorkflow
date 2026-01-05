@@ -575,7 +575,6 @@
           "link": null
         },
         {
-          "dir": 3,
           "name": "any_05",
           "type": "STRING",
           "link": null
@@ -1117,7 +1116,7 @@
         406
       ],
       "flags": {},
-      "order": 89,
+      "order": 98,
       "mode": 0,
       "inputs": [
         {
@@ -1218,7 +1217,7 @@
         },
         {
           "dir": 3,
-          "name": "STYLE: empty 16",
+          "name": "STYLE: Comic Book Cover",
           "type": "*",
           "link": 1271
         },
@@ -1678,7 +1677,7 @@
         106
       ],
       "flags": {},
-      "order": 111,
+      "order": 110,
       "mode": 0,
       "inputs": [
         {
@@ -1706,7 +1705,6 @@
           "link": null
         },
         {
-          "dir": 3,
           "name": "any_05",
           "type": "SIGMAS",
           "link": null
@@ -1791,7 +1789,7 @@
         130
       ],
       "flags": {},
-      "order": 112,
+      "order": 111,
       "mode": 2,
       "inputs": [
         {
@@ -1834,7 +1832,7 @@
         26
       ],
       "flags": {},
-      "order": 113,
+      "order": 112,
       "mode": 0,
       "inputs": [
         {
@@ -1904,7 +1902,7 @@
         80
       ],
       "flags": {},
-      "order": 69,
+      "order": 68,
       "mode": 2,
       "inputs": [
         {
@@ -1952,7 +1950,7 @@
         26
       ],
       "flags": {},
-      "order": 93,
+      "order": 91,
       "mode": 0,
       "inputs": [
         {
@@ -1987,7 +1985,7 @@
         26
       ],
       "flags": {},
-      "order": 70,
+      "order": 69,
       "mode": 0,
       "inputs": [
         {
@@ -2022,7 +2020,7 @@
         26
       ],
       "flags": {},
-      "order": 91,
+      "order": 89,
       "mode": 0,
       "inputs": [
         {
@@ -2619,7 +2617,7 @@
         "Node name for S&R": "CLIPTextEncode"
       },
       "widgets_values": [
-        "Three people and a creature stand in front of shelves laden with various items. On the left, a brown-haired woman smiles, wearing a light brown tank top. Next to her is a humanoid figure with a body made of dark, rocky material and pronounced musculature, resembling onyx. This figure has a large head with sharp features. To the right of this figure is a muscular man with a light skin tone, wearing a necklace and with shoulder-length green hair; he wears a white crop top with a pink unicorn painted on it. The last individual, on the far right of the image, is a dark-haired woman wearing a black T-shirt. In the foreground are several plates of food: a white bowl with a creamy dish covered in red seasoning, a rectangular container filled with what appear to be strips of meat, a white bowl with fried and breaded pieces, and a white plate with several round, light brown cookies. Also in the foreground is a light blue object resembling a human head."
+        "A young nurse with long blue hair, dressed in a sleeveless black and red dress with red trim, stands beside a blue demon with red horns and sharp teeth. The demon wears a red and black robe. The background is a hospital. The demon's expression is ferocious. The image has a dark and mysterious atmosphere. The woman's skin is fair and smooth. She has short, straight hair. Her dress is fitted and accentuates her figure. The demon's robe is loose. The demon's horns are long, red, and pointed."
       ]
     },
     {
@@ -3487,7 +3485,6 @@
           "link": null
         },
         {
-          "dir": 3,
           "name": "any_05",
           "type": "SAMPLER",
           "link": null
@@ -3889,7 +3886,7 @@
         "aux_id": "rgthree/rgthree-comfy"
       },
       "widgets_values": [
-        "YOUR CONTEXT:\nYour photographs has android phone cam-quality (low-resolution).\nYour photographs exhibit surprising compositions, sharp complex backgrounds, natural lighting, and candid moments that feel immediate and authentic.\nYour photographs are actual photographic background.\n---\nYOUR PHOTO:\nThree people and a creature stand in front of shelves laden with various items. On the left, a brown-haired woman smiles, wearing a light brown tank top. Next to her is a humanoid figure with a body made of dark, rocky material and pronounced musculature, resembling onyx. This figure has a large head with sharp features. To the right of this figure is a muscular man with a light skin tone, wearing a necklace and with shoulder-length green hair; he wears a white crop top with a pink unicorn painted on it. The last individual, on the far right of the image, is a dark-haired woman wearing a black T-shirt. In the foreground are several plates of food: a white bowl with a creamy dish covered in red seasoning, a rectangular container filled with what appear to be strips of meat, a white bowl with fried and breaded pieces, and a white plate with several round, light brown cookies. Also in the foreground is a light blue object resembling a human head."
+        "YOUR CONTEXT:\nYou are a celebrated comic book cover artist, renowned for hyper-realistic action and monumental heroics.\nYour cover art is a Dynamic Heroic Realism illustration, characterized by intricate anatomical accuracy, meticulously rendered textures (fabric, metal, skin), and an explosive sense of motion. The composition often features dramatic foreshortening and a heroic, powerful pose for the central figure, surrounded by dynamic environmental destruction or energy effects. Lighting is grand and directional, sculpting forms with sharp highlights and deep shadows, ensuring every detail contributes to an overwhelming sense of epic scale and immediate impact.\nYOUR ILLUSTRATION:\nA young nurse with long blue hair, dressed in a sleeveless black and red dress with red trim, stands beside a blue demon with red horns and sharp teeth. The demon wears a red and black robe. The background is a hospital. The demon's expression is ferocious. The image has a dark and mysterious atmosphere. The woman's skin is fair and smooth. She has short, straight hair. Her dress is fitted and accentuates her figure. The demon's robe is loose. The demon's horns are long, red, and pointed."
       ]
     },
     {
@@ -4056,7 +4053,6 @@
           "link": null
         },
         {
-          "dir": 3,
           "name": "any_05",
           "type": "SIGMAS",
           "link": null
@@ -4329,31 +4325,6 @@
       }
     },
     {
-      "id": 111,
-      "type": "Note",
-      "pos": [
-        4210,
-        660
-      ],
-      "size": [
-        430,
-        88
-      ],
-      "flags": {},
-      "order": 23,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "title": "Notes",
-      "properties": {},
-      "widgets_values": [
-        "> Select the yellow group and press '.' to automatically zoom in.\n> LoRAs can affect the style quality and the refiner output.\n> Z-Image is the new sheriff in town."
-      ],
-      "color": "#223",
-      "bgcolor": "#335",
-      "shape": 1
-    },
-    {
       "id": 124,
       "type": "PrimitiveStringMultiline",
       "pos": [
@@ -4365,7 +4336,7 @@
         180
       ],
       "flags": {},
-      "order": 24,
+      "order": 23,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -4400,7 +4371,7 @@
         180
       ],
       "flags": {},
-      "order": 25,
+      "order": 24,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -4460,41 +4431,6 @@
       }
     },
     {
-      "id": 459,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -4740,
-        2550
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {},
-      "order": 26,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            1268
-          ]
-        }
-      ],
-      "title": "STYLE: empty 16",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "{$@}"
-      ],
-      "shape": 1
-    },
-    {
       "id": 460,
       "type": "PrimitiveStringMultiline",
       "pos": [
@@ -4506,7 +4442,7 @@
         180
       ],
       "flags": {},
-      "order": 27,
+      "order": 25,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -4541,7 +4477,7 @@
         180
       ],
       "flags": {},
-      "order": 28,
+      "order": 26,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -4576,7 +4512,7 @@
         26
       ],
       "flags": {},
-      "order": 66,
+      "order": 79,
       "mode": 0,
       "inputs": [
         {
@@ -4612,7 +4548,7 @@
         26
       ],
       "flags": {},
-      "order": 67,
+      "order": 66,
       "mode": 0,
       "inputs": [
         {
@@ -4648,7 +4584,7 @@
         26
       ],
       "flags": {},
-      "order": 68,
+      "order": 67,
       "mode": 0,
       "inputs": [
         {
@@ -4684,7 +4620,7 @@
         406
       ],
       "flags": {},
-      "order": 90,
+      "order": 99,
       "mode": 0,
       "inputs": [
         {
@@ -4802,7 +4738,6 @@
           "link": 1276
         },
         {
-          "dir": 3,
           "name": "any_20",
           "type": "STRING",
           "link": null
@@ -4918,7 +4853,7 @@
         "Node name for S&R": "StringTrim"
       },
       "widgets_values": [
-        "Three people and a creature stand in front of shelves laden with various items. On the left, a brown-haired woman smiles, wearing a light brown tank top. Next to her is a humanoid figure with a body made of dark, rocky material and pronounced musculature, resembling onyx. This figure has a large head with sharp features. To the right of this figure is a muscular man with a light skin tone, wearing a necklace and with shoulder-length green hair; he wears a white crop top with a pink unicorn painted on it. The last individual, on the far right of the image, is a dark-haired woman wearing a black T-shirt. In the foreground are several plates of food: a white bowl with a creamy dish covered in red seasoning, a rectangular container filled with what appear to be strips of meat, a white bowl with fried and breaded pieces, and a white plate with several round, light brown cookies. Also in the foreground is a light blue object resembling a human head.",
+        "A young nurse with long blue hair, dressed in a sleeveless black and red dress with red trim, stands beside a blue demon with red horns and sharp teeth. The demon wears a red and black robe. The background is a hospital. The demon's expression is ferocious. The image has a dark and mysterious atmosphere. The woman's skin is fair and smooth. She has short, straight hair. Her dress is fitted and accentuates her figure. The demon's robe is loose. The demon's horns are long, red, and pointed.",
         "Both"
       ]
     },
@@ -4934,7 +4869,7 @@
         100
       ],
       "flags": {},
-      "order": 29,
+      "order": 27,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5173,7 +5108,7 @@
         140
       ],
       "flags": {},
-      "order": 30,
+      "order": 28,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -5211,7 +5146,7 @@
         60
       ],
       "flags": {},
-      "order": 92,
+      "order": 90,
       "mode": 2,
       "inputs": [
         {
@@ -5394,7 +5329,7 @@
         26
       ],
       "flags": {},
-      "order": 71,
+      "order": 70,
       "mode": 0,
       "inputs": [
         {
@@ -5429,7 +5364,7 @@
         70
       ],
       "flags": {},
-      "order": 31,
+      "order": 29,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -6286,7 +6221,6 @@
           "link": null
         },
         {
-          "dir": 3,
           "name": "any_05",
           "type": "IMAGE",
           "link": null
@@ -6420,7 +6354,7 @@
         60
       ],
       "flags": {},
-      "order": 32,
+      "order": 30,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -6588,7 +6522,7 @@
         140
       ],
       "flags": {},
-      "order": 33,
+      "order": 31,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -6767,7 +6701,7 @@
         26
       ],
       "flags": {},
-      "order": 94,
+      "order": 92,
       "mode": 0,
       "inputs": [
         {
@@ -7164,7 +7098,7 @@
       ],
       "flags": {},
       "order": 209,
-      "mode": 0,
+      "mode": 2,
       "inputs": [
         {
           "name": "samples",
@@ -7349,7 +7283,7 @@
         70
       ],
       "flags": {},
-      "order": 34,
+      "order": 32,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -7383,7 +7317,7 @@
         140
       ],
       "flags": {},
-      "order": 72,
+      "order": 71,
       "mode": 0,
       "inputs": [
         {
@@ -7462,7 +7396,7 @@
         140
       ],
       "flags": {},
-      "order": 35,
+      "order": 33,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -7677,7 +7611,7 @@
         26
       ],
       "flags": {},
-      "order": 95,
+      "order": 93,
       "mode": 0,
       "inputs": [
         {
@@ -7747,7 +7681,7 @@
         70
       ],
       "flags": {},
-      "order": 36,
+      "order": 34,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -7781,7 +7715,7 @@
         26
       ],
       "flags": {},
-      "order": 73,
+      "order": 72,
       "mode": 0,
       "inputs": [
         {
@@ -7816,7 +7750,7 @@
         140
       ],
       "flags": {},
-      "order": 37,
+      "order": 35,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -8521,7 +8455,7 @@
         26
       ],
       "flags": {},
-      "order": 114,
+      "order": 113,
       "mode": 0,
       "inputs": [
         {
@@ -8557,7 +8491,7 @@
         120
       ],
       "flags": {},
-      "order": 116,
+      "order": 115,
       "mode": 0,
       "inputs": [
         {
@@ -8618,7 +8552,7 @@
         82
       ],
       "flags": {},
-      "order": 38,
+      "order": 36,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -8653,7 +8587,7 @@
         110
       ],
       "flags": {},
-      "order": 99,
+      "order": 97,
       "mode": 0,
       "inputs": [
         {
@@ -8681,7 +8615,6 @@
           "link": null
         },
         {
-          "dir": 3,
           "name": "any_05",
           "type": "INT",
           "link": null
@@ -8719,7 +8652,7 @@
         110
       ],
       "flags": {},
-      "order": 96,
+      "order": 94,
       "mode": 0,
       "inputs": [
         {
@@ -8747,7 +8680,6 @@
           "link": null
         },
         {
-          "dir": 3,
           "name": "any_05",
           "type": "INT",
           "link": null
@@ -8785,7 +8717,7 @@
         80
       ],
       "flags": {},
-      "order": 98,
+      "order": 96,
       "mode": 2,
       "inputs": [
         {
@@ -8834,7 +8766,7 @@
         70
       ],
       "flags": {},
-      "order": 97,
+      "order": 95,
       "mode": 2,
       "inputs": [
         {
@@ -8883,7 +8815,7 @@
         90
       ],
       "flags": {},
-      "order": 39,
+      "order": 37,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -8919,7 +8851,7 @@
         90
       ],
       "flags": {},
-      "order": 40,
+      "order": 38,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -8956,7 +8888,7 @@
         26
       ],
       "flags": {},
-      "order": 74,
+      "order": 73,
       "mode": 0,
       "inputs": [
         {
@@ -8991,7 +8923,7 @@
         26
       ],
       "flags": {},
-      "order": 78,
+      "order": 77,
       "mode": 0,
       "inputs": [
         {
@@ -9026,7 +8958,7 @@
         90
       ],
       "flags": {},
-      "order": 41,
+      "order": 39,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -9062,7 +8994,7 @@
         90
       ],
       "flags": {},
-      "order": 42,
+      "order": 40,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -9099,7 +9031,7 @@
         26
       ],
       "flags": {},
-      "order": 115,
+      "order": 114,
       "mode": 0,
       "inputs": [
         {
@@ -9135,7 +9067,7 @@
         110
       ],
       "flags": {},
-      "order": 75,
+      "order": 74,
       "mode": 2,
       "inputs": [
         {
@@ -9163,7 +9095,6 @@
           "link": null
         },
         {
-          "dir": 3,
           "name": "any_05",
           "type": "INT",
           "link": null
@@ -9202,7 +9133,7 @@
         110
       ],
       "flags": {},
-      "order": 79,
+      "order": 78,
       "mode": 2,
       "inputs": [
         {
@@ -9230,7 +9161,6 @@
           "link": null
         },
         {
-          "dir": 3,
           "name": "any_05",
           "type": "INT",
           "link": null
@@ -9271,7 +9201,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 77,
+      "order": 76,
       "mode": 0,
       "inputs": [
         {
@@ -9299,7 +9229,6 @@
           "link": null
         },
         {
-          "dir": 3,
           "name": "any_05",
           "type": "INT",
           "link": null
@@ -9337,7 +9266,7 @@
         110
       ],
       "flags": {},
-      "order": 76,
+      "order": 75,
       "mode": 0,
       "inputs": [
         {
@@ -9365,7 +9294,6 @@
           "link": null
         },
         {
-          "dir": 3,
           "name": "any_05",
           "type": "INT",
           "link": null
@@ -9468,7 +9396,6 @@
           "link": null
         },
         {
-          "dir": 3,
           "name": "any_05",
           "type": "IMAGE",
           "link": null
@@ -9533,7 +9460,6 @@
           "link": null
         },
         {
-          "dir": 3,
           "name": "any_05",
           "type": "IMAGE",
           "link": null
@@ -9615,7 +9541,7 @@
       ],
       "flags": {},
       "order": 207,
-      "mode": 0,
+      "mode": 2,
       "inputs": [
         {
           "name": "image",
@@ -9804,7 +9730,8 @@
         "cnr_id": "comfy-core",
         "ver": "0.7.0",
         "Node name for S&R": "VAEDecode"
-      }
+      },
+      "widgets_values": []
     },
     {
       "id": 543,
@@ -9846,7 +9773,8 @@
         "cnr_id": "comfy-core",
         "ver": "0.7.0",
         "Node name for S&R": "VAEDecode"
-      }
+      },
+      "widgets_values": []
     },
     {
       "id": 524,
@@ -9861,7 +9789,7 @@
       ],
       "flags": {},
       "order": 236,
-      "mode": 2,
+      "mode": 0,
       "inputs": [
         {
           "dir": 3,
@@ -9888,7 +9816,6 @@
           "link": null
         },
         {
-          "dir": 3,
           "name": "any_05",
           "type": "IMAGE",
           "link": null
@@ -9927,7 +9854,7 @@
       ],
       "flags": {},
       "order": 215,
-      "mode": 0,
+      "mode": 2,
       "inputs": [
         {
           "dir": 3,
@@ -10021,12 +9948,12 @@
         4070
       ],
       "size": [
-        230,
+        244.5611328125,
         110
       ],
       "flags": {},
       "order": 238,
-      "mode": 0,
+      "mode": 2,
       "inputs": [
         {
           "dir": 3,
@@ -10053,7 +9980,6 @@
           "link": null
         },
         {
-          "dir": 3,
           "name": "any_05",
           "type": "IMAGE",
           "link": null
@@ -10078,50 +10004,6 @@
         "ver": "8ff50e4521881eca1fe26aec9615fc9362474931"
       },
       "widgets_values": []
-    },
-    {
-      "id": 88,
-      "type": "Fast Muter (rgthree)",
-      "pos": [
-        4660,
-        750
-      ],
-      "size": [
-        360,
-        540
-      ],
-      "flags": {},
-      "order": 110,
-      "mode": 0,
-      "inputs": [
-        {
-          "dir": 3,
-          "name": "none",
-          "type": "*",
-          "link": 1112
-        },
-        {
-          "dir": 3,
-          "name": "",
-          "type": "*",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "dir": 4,
-          "name": "OPT_CONNECTION",
-          "type": "*",
-          "links": null
-        }
-      ],
-      "title": "STYLE SELECTOR",
-      "properties": {
-        "toggleRestriction": "always one"
-      },
-      "color": "#232",
-      "bgcolor": "#353",
-      "shape": 1
     },
     {
       "id": 392,
@@ -10187,45 +10069,6 @@
       ],
       "color": "#2a363b",
       "bgcolor": "#3f5159",
-      "shape": 1
-    },
-    {
-      "id": 57,
-      "type": "PrimitiveNode",
-      "pos": [
-        5030,
-        890
-      ],
-      "size": [
-        540,
-        640
-      ],
-      "flags": {},
-      "order": 43,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "widget": {
-            "name": "text"
-          },
-          "links": [
-            296,
-            1102
-          ]
-        }
-      ],
-      "title": "PROMPT",
-      "properties": {
-        "Run widget replace on values": false
-      },
-      "widgets_values": [
-        "Three people and a creature stand in front of shelves laden with various items. On the left, a brown-haired woman smiles, wearing a light brown tank top. Next to her is a humanoid figure with a body made of dark, rocky material and pronounced musculature, resembling onyx. This figure has a large head with sharp features. To the right of this figure is a muscular man with a light skin tone, wearing a necklace and with shoulder-length green hair; he wears a white crop top with a pink unicorn painted on it. The last individual, on the far right of the image, is a dark-haired woman wearing a black T-shirt. In the foreground are several plates of food: a white bowl with a creamy dish covered in red seasoning, a rectangular container filled with what appear to be strips of meat, a white bowl with fried and breaded pieces, and a white plate with several round, light brown cookies. Also in the foreground is a light blue object resembling a human head."
-      ],
-      "color": "#232",
-      "bgcolor": "#353",
       "shape": 1
     },
     {
@@ -10297,7 +10140,7 @@
           "links": null
         }
       ],
-      "title": "ACCELERATION (default = all-no)",
+      "title": "SPEED OPTIONS (default = all-no)",
       "properties": {
         "toggleRestriction": "default"
       },
@@ -10376,48 +10219,61 @@
       }
     },
     {
-      "id": 500,
-      "type": "Fast Muter (rgthree)",
+      "id": 544,
+      "type": "Note",
       "pos": [
-        4280,
-        1240
+        60,
+        3520
       ],
       "size": [
-        360,
-        110
+        430,
+        88
       ],
       "flags": {},
-      "order": 243,
+      "order": 41,
       "mode": 0,
-      "inputs": [
-        {
-          "dir": 3,
-          "label": "",
-          "name": "\"PHOTO\" Mode",
-          "type": "*",
-          "link": 1332
-        },
-        {
-          "dir": 3,
-          "name": "",
-          "type": "*",
-          "link": null
-        }
+      "inputs": [],
+      "outputs": [],
+      "properties": {},
+      "widgets_values": [
+        "Illustration refiner is not yet implemented.\nThis group serves as a placeholder for its future development."
       ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 459,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -4740,
+        2550
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {},
+      "order": 42,
+      "mode": 2,
+      "inputs": [],
       "outputs": [
         {
-          "dir": 4,
-          "name": "OPT_CONNECTION",
-          "type": "*",
-          "links": null
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            1268
+          ]
         }
       ],
-      "title": "REFINER & UPSCALER MODE SELECTOR",
+      "title": "STYLE: Comic Book Cover",
       "properties": {
-        "toggleRestriction": "always one"
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
       },
-      "color": "#232",
-      "bgcolor": "#353",
+      "widgets_values": [
+        "YOUR CONTEXT:\nYou are a celebrated comic book cover artist, renowned for hyper-realistic action and monumental heroics.\nYour cover art is a Dynamic Heroic Realism illustration, characterized by {$spicy-content-with} intricate anatomical accuracy, meticulously rendered textures (fabric, metal, skin), and an explosive sense of motion. The composition often features dramatic foreshortening and a heroic, powerful pose for the central figure, surrounded by dynamic environmental destruction or energy effects. Lighting is grand and directional, sculpting forms with sharp highlights and deep shadows, ensuring every detail contributes to an overwhelming sense of epic scale and immediate impact.\nYOUR ILLUSTRATION:\n{$@}"
+      ],
       "shape": 1
     },
     {
@@ -10465,25 +10321,157 @@
       "shape": 1
     },
     {
-      "id": 544,
-      "type": "Note",
+      "id": 57,
+      "type": "PrimitiveNode",
       "pos": [
-        60,
-        3520
+        5030,
+        890
       ],
       "size": [
-        430,
-        88
+        540,
+        640
+      ],
+      "flags": {},
+      "order": 43,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "widget": {
+            "name": "text"
+          },
+          "links": [
+            296,
+            1102
+          ]
+        }
+      ],
+      "title": "PROMPT",
+      "properties": {
+        "Run widget replace on values": false
+      },
+      "widgets_values": [
+        "A young nurse with long blue hair, dressed in a sleeveless black and red dress with red trim, stands beside a blue demon with red horns and sharp teeth. The demon wears a red and black robe. The background is a hospital. The demon's expression is ferocious. The image has a dark and mysterious atmosphere. The woman's skin is fair and smooth. She has short, straight hair. Her dress is fitted and accentuates her figure. The demon's robe is loose. The demon's horns are long, red, and pointed."
+      ],
+      "color": "#232",
+      "bgcolor": "#353",
+      "shape": 1
+    },
+    {
+      "id": 111,
+      "type": "Note",
+      "pos": [
+        4130,
+        650
+      ],
+      "size": [
+        510,
+        100
       ],
       "flags": {},
       "order": 44,
       "mode": 0,
       "inputs": [],
       "outputs": [],
+      "title": "Notes",
       "properties": {},
       "widgets_values": [
-        "Illustration refiner is not yet implemented.\nThis group serves as a placeholder for its future development."
-      ]
+        "> Select the yellow group and press '.' to automatically zoom in.\n> LoRAs can affect the style quality and the upscaler's output.\n> The refiner and the upscaler can be optimized for photography or illustration using the MODE SELECTOR."
+      ],
+      "color": "#223",
+      "bgcolor": "#335",
+      "shape": 1
+    },
+    {
+      "id": 88,
+      "type": "Fast Muter (rgthree)",
+      "pos": [
+        4660,
+        750
+      ],
+      "size": [
+        360,
+        540
+      ],
+      "flags": {},
+      "order": 116,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "name": "none",
+          "type": "*",
+          "link": 1112
+        },
+        {
+          "dir": 3,
+          "name": "",
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 4,
+          "name": "OPT_CONNECTION",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "title": "STYLE SELECTOR",
+      "properties": {
+        "toggleRestriction": "always one"
+      },
+      "color": "#232",
+      "bgcolor": "#353",
+      "shape": 1
+    },
+    {
+      "id": 500,
+      "type": "Fast Muter (rgthree)",
+      "pos": [
+        4280,
+        1240
+      ],
+      "size": [
+        360,
+        110
+      ],
+      "flags": {},
+      "order": 243,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "label": "",
+          "name": "\"PHOTO\" Mode",
+          "type": "*",
+          "link": 1332
+        },
+        {
+          "dir": 3,
+          "name": "",
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 4,
+          "name": "OPT_CONNECTION",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "title": "REFINER & UPSCALER MODE SELECTOR",
+      "properties": {
+        "toggleRestriction": "always one"
+      },
+      "color": "#232",
+      "bgcolor": "#353",
+      "shape": 1
     }
   ],
   "links": [
@@ -13145,10 +13133,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.7693820224719098,
+      "scale": 0.7693820224719099,
       "offset": [
         -4208.214676889375,
-        -481.66666666666674
+        -481.66666666666663
       ]
     },
     "frontendVersion": "1.35.9",
