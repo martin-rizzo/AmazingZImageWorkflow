@@ -1,15 +1,15 @@
 {
   "id": "b3917a1d-108c-4caa-98d6-ba4f0d16a468",
   "revision": 0,
-  "last_node_id": 464,
-  "last_link_id": 1277,
+  "last_node_id": 491,
+  "last_link_id": 1312,
   "nodes": [
     {
       "id": 60,
       "type": "CLIPTextEncode",
       "pos": [
-        6460,
-        1270
+        6320,
+        1300
       ],
       "size": [
         400,
@@ -49,8 +49,8 @@
       "id": 56,
       "type": "EmptyLatentImage",
       "pos": [
-        6500,
-        1310
+        6360,
+        1340
       ],
       "size": [
         270,
@@ -86,15 +86,15 @@
       "id": 50,
       "type": "KSamplerAdvanced",
       "pos": [
-        6700,
-        1200
+        6560,
+        1230
       ],
       "size": [
         304.748046875,
         334
       ],
       "flags": {},
-      "order": 88,
+      "order": 96,
       "mode": 0,
       "inputs": [
         {
@@ -540,7 +540,7 @@
       "type": "PrimitiveInt",
       "pos": [
         -30,
-        990
+        980
       ],
       "size": [
         270,
@@ -575,7 +575,7 @@
       "type": "PrimitiveInt",
       "pos": [
         -30,
-        1120
+        1110
       ],
       "size": [
         270,
@@ -617,7 +617,7 @@
         106
       ],
       "flags": {},
-      "order": 124,
+      "order": 135,
       "mode": 0,
       "inputs": [
         {
@@ -683,7 +683,7 @@
         26
       ],
       "flags": {},
-      "order": 56,
+      "order": 59,
       "mode": 0,
       "inputs": [
         {
@@ -719,7 +719,7 @@
         26
       ],
       "flags": {},
-      "order": 52,
+      "order": 55,
       "mode": 0,
       "inputs": [
         {
@@ -755,7 +755,7 @@
         26
       ],
       "flags": {},
-      "order": 42,
+      "order": 45,
       "mode": 0,
       "inputs": [
         {
@@ -791,7 +791,7 @@
         26
       ],
       "flags": {},
-      "order": 43,
+      "order": 46,
       "mode": 0,
       "inputs": [
         {
@@ -827,7 +827,7 @@
         26
       ],
       "flags": {},
-      "order": 44,
+      "order": 47,
       "mode": 0,
       "inputs": [
         {
@@ -863,7 +863,7 @@
         26
       ],
       "flags": {},
-      "order": 41,
+      "order": 44,
       "mode": 0,
       "inputs": [
         {
@@ -899,7 +899,7 @@
         26
       ],
       "flags": {},
-      "order": 46,
+      "order": 49,
       "mode": 0,
       "inputs": [
         {
@@ -935,7 +935,7 @@
         26
       ],
       "flags": {},
-      "order": 45,
+      "order": 48,
       "mode": 0,
       "inputs": [
         {
@@ -971,7 +971,7 @@
         26
       ],
       "flags": {},
-      "order": 47,
+      "order": 50,
       "mode": 0,
       "inputs": [
         {
@@ -1007,7 +1007,7 @@
         26
       ],
       "flags": {},
-      "order": 48,
+      "order": 51,
       "mode": 0,
       "inputs": [
         {
@@ -1043,7 +1043,7 @@
         26
       ],
       "flags": {},
-      "order": 49,
+      "order": 52,
       "mode": 0,
       "inputs": [
         {
@@ -1079,7 +1079,7 @@
         26
       ],
       "flags": {},
-      "order": 50,
+      "order": 53,
       "mode": 0,
       "inputs": [
         {
@@ -1115,7 +1115,7 @@
         26
       ],
       "flags": {},
-      "order": 51,
+      "order": 54,
       "mode": 0,
       "inputs": [
         {
@@ -1151,7 +1151,7 @@
         26
       ],
       "flags": {},
-      "order": 66,
+      "order": 69,
       "mode": 0,
       "inputs": [
         {
@@ -1187,7 +1187,7 @@
         406
       ],
       "flags": {},
-      "order": 86,
+      "order": 90,
       "mode": 0,
       "inputs": [
         {
@@ -1373,7 +1373,7 @@
         26
       ],
       "flags": {},
-      "order": 94,
+      "order": 99,
       "mode": 0,
       "inputs": [
         {
@@ -1408,7 +1408,7 @@
         196.0000000000004
       ],
       "flags": {},
-      "order": 113,
+      "order": 123,
       "mode": 2,
       "inputs": [
         {
@@ -1454,7 +1454,7 @@
         26
       ],
       "flags": {},
-      "order": 150,
+      "order": 160,
       "mode": 0,
       "inputs": [
         {
@@ -1489,7 +1489,7 @@
         26
       ],
       "flags": {},
-      "order": 163,
+      "order": 176,
       "mode": 0,
       "inputs": [
         {
@@ -1524,7 +1524,7 @@
         26
       ],
       "flags": {},
-      "order": 166,
+      "order": 180,
       "mode": 0,
       "inputs": [
         {
@@ -1559,7 +1559,7 @@
         26
       ],
       "flags": {},
-      "order": 158,
+      "order": 170,
       "mode": 0,
       "inputs": [
         {
@@ -1594,7 +1594,7 @@
         26
       ],
       "flags": {},
-      "order": 107,
+      "order": 113,
       "mode": 0,
       "inputs": [
         {
@@ -1629,7 +1629,7 @@
         26
       ],
       "flags": {},
-      "order": 155,
+      "order": 166,
       "mode": 0,
       "inputs": [
         {
@@ -1699,7 +1699,7 @@
         60
       ],
       "flags": {},
-      "order": 76,
+      "order": 80,
       "mode": 0,
       "inputs": [
         {
@@ -1739,7 +1739,7 @@
         130
       ],
       "flags": {},
-      "order": 93,
+      "order": 98,
       "mode": 0,
       "inputs": [
         {
@@ -1818,7 +1818,7 @@
         106
       ],
       "flags": {},
-      "order": 104,
+      "order": 109,
       "mode": 0,
       "inputs": [
         {
@@ -1884,7 +1884,7 @@
         80
       ],
       "flags": {},
-      "order": 53,
+      "order": 56,
       "mode": 0,
       "inputs": [
         {
@@ -1931,7 +1931,7 @@
         130
       ],
       "flags": {},
-      "order": 105,
+      "order": 110,
       "mode": 2,
       "inputs": [
         {
@@ -1974,7 +1974,7 @@
         26
       ],
       "flags": {},
-      "order": 106,
+      "order": 111,
       "mode": 0,
       "inputs": [
         {
@@ -2009,7 +2009,7 @@
         26
       ],
       "flags": {},
-      "order": 117,
+      "order": 122,
       "mode": 0,
       "inputs": [
         {
@@ -2044,7 +2044,7 @@
         80
       ],
       "flags": {},
-      "order": 73,
+      "order": 74,
       "mode": 2,
       "inputs": [
         {
@@ -2092,7 +2092,7 @@
         26
       ],
       "flags": {},
-      "order": 92,
+      "order": 94,
       "mode": 0,
       "inputs": [
         {
@@ -2127,7 +2127,7 @@
         26
       ],
       "flags": {},
-      "order": 74,
+      "order": 75,
       "mode": 0,
       "inputs": [
         {
@@ -2162,7 +2162,7 @@
         26
       ],
       "flags": {},
-      "order": 90,
+      "order": 92,
       "mode": 0,
       "inputs": [
         {
@@ -2197,7 +2197,7 @@
         26
       ],
       "flags": {},
-      "order": 75,
+      "order": 79,
       "mode": 0,
       "inputs": [
         {
@@ -2232,7 +2232,7 @@
         106
       ],
       "flags": {},
-      "order": 127,
+      "order": 133,
       "mode": 2,
       "inputs": [
         {
@@ -2293,7 +2293,7 @@
         26
       ],
       "flags": {},
-      "order": 159,
+      "order": 171,
       "mode": 0,
       "inputs": [
         {
@@ -2328,7 +2328,7 @@
         26
       ],
       "flags": {},
-      "order": 165,
+      "order": 179,
       "mode": 0,
       "inputs": [
         {
@@ -2363,7 +2363,7 @@
         26
       ],
       "flags": {},
-      "order": 156,
+      "order": 167,
       "mode": 0,
       "inputs": [
         {
@@ -2398,7 +2398,7 @@
         26
       ],
       "flags": {},
-      "order": 162,
+      "order": 175,
       "mode": 0,
       "inputs": [
         {
@@ -2433,7 +2433,7 @@
         26
       ],
       "flags": {},
-      "order": 77,
+      "order": 81,
       "mode": 0,
       "inputs": [
         {
@@ -2468,7 +2468,7 @@
         26
       ],
       "flags": {},
-      "order": 111,
+      "order": 117,
       "mode": 0,
       "inputs": [
         {
@@ -2504,7 +2504,7 @@
         26
       ],
       "flags": {},
-      "order": 54,
+      "order": 57,
       "mode": 0,
       "inputs": [
         {
@@ -2539,7 +2539,7 @@
         26
       ],
       "flags": {},
-      "order": 110,
+      "order": 116,
       "mode": 0,
       "inputs": [
         {
@@ -2574,7 +2574,7 @@
         454
       ],
       "flags": {},
-      "order": 182,
+      "order": 198,
       "mode": 0,
       "inputs": [
         {
@@ -2714,7 +2714,7 @@
         140
       ],
       "flags": {},
-      "order": 55,
+      "order": 58,
       "mode": 0,
       "inputs": [
         {
@@ -2795,7 +2795,7 @@
         26
       ],
       "flags": {},
-      "order": 177,
+      "order": 192,
       "mode": 0,
       "inputs": [
         {
@@ -2830,7 +2830,7 @@
         26
       ],
       "flags": {},
-      "order": 180,
+      "order": 195,
       "mode": 0,
       "inputs": [
         {
@@ -2865,7 +2865,7 @@
         60
       ],
       "flags": {},
-      "order": 187,
+      "order": 206,
       "mode": 0,
       "inputs": [
         {
@@ -2948,7 +2948,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 133,
+      "order": 143,
       "mode": 0,
       "inputs": [
         {
@@ -2994,7 +2994,7 @@
         26
       ],
       "flags": {},
-      "order": 145,
+      "order": 154,
       "mode": 0,
       "inputs": [
         {
@@ -3018,152 +3018,6 @@
       }
     },
     {
-      "id": 362,
-      "type": "Reroute",
-      "pos": [
-        -40,
-        3210
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 98,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 1204
-        }
-      ],
-      "outputs": [
-        {
-          "name": "VAE",
-          "type": "VAE",
-          "links": [
-            1123
-          ]
-        }
-      ],
-      "properties": {
-        "showOutputText": true,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 74,
-      "type": "Reroute",
-      "pos": [
-        -400,
-        1840
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 154,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 1201
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "CONDITIONING",
-          "links": [
-            909,
-            1069,
-            1127
-          ]
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 73,
-      "type": "Reroute",
-      "pos": [
-        -400,
-        1810
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 153,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 1200
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "CONDITIONING",
-          "links": [
-            907,
-            1068,
-            1128
-          ]
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 71,
-      "type": "Reroute",
-      "pos": [
-        -400,
-        1780
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 142,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 1198
-        }
-      ],
-      "outputs": [
-        {
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [
-            905,
-            1065,
-            1129
-          ]
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
       "id": 186,
       "type": "Reroute",
       "pos": [
@@ -3175,7 +3029,7 @@
         26
       ],
       "flags": {},
-      "order": 160,
+      "order": 172,
       "mode": 0,
       "inputs": [
         {
@@ -3210,7 +3064,7 @@
         26
       ],
       "flags": {},
-      "order": 97,
+      "order": 102,
       "mode": 0,
       "inputs": [
         {
@@ -3245,7 +3099,7 @@
         196.00000000000023
       ],
       "flags": {},
-      "order": 114,
+      "order": 124,
       "mode": 0,
       "inputs": [
         {
@@ -3290,7 +3144,7 @@
         370.0000000000001
       ],
       "flags": {},
-      "order": 103,
+      "order": 112,
       "mode": 0,
       "inputs": [
         {
@@ -3344,7 +3198,7 @@
         26
       ],
       "flags": {},
-      "order": 108,
+      "order": 114,
       "mode": 0,
       "inputs": [
         {
@@ -3379,7 +3233,7 @@
         26
       ],
       "flags": {},
-      "order": 109,
+      "order": 115,
       "mode": 0,
       "inputs": [
         {
@@ -3406,8 +3260,8 @@
       "id": 54,
       "type": "CLIPTextEncode",
       "pos": [
-        6410,
-        1230
+        6270,
+        1260
       ],
       "size": [
         410,
@@ -3416,7 +3270,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 71,
+      "order": 77,
       "mode": 0,
       "inputs": [
         {
@@ -3465,7 +3319,7 @@
         26
       ],
       "flags": {},
-      "order": 123,
+      "order": 134,
       "mode": 0,
       "inputs": [
         {
@@ -3501,7 +3355,7 @@
         26
       ],
       "flags": {},
-      "order": 144,
+      "order": 153,
       "mode": 0,
       "inputs": [
         {
@@ -3528,7 +3382,7 @@
       "id": 68,
       "type": "KSamplerSelect",
       "pos": [
-        -1320,
+        -1400,
         1980
       ],
       "size": [
@@ -3562,7 +3416,7 @@
       "id": 95,
       "type": "KSamplerSelect",
       "pos": [
-        -1320,
+        -1400,
         1860
       ],
       "size": [
@@ -3592,43 +3446,6 @@
       "widgets_values": [
         "euler_ancestral"
       ]
-    },
-    {
-      "id": 391,
-      "type": "Reroute",
-      "pos": [
-        -610,
-        2740
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 82,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 1262
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "VAE",
-          "links": [
-            1125,
-            1126,
-            1204
-          ]
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
     },
     {
       "id": 397,
@@ -3753,7 +3570,7 @@
         26
       ],
       "flags": {},
-      "order": 79,
+      "order": 83,
       "mode": 0,
       "inputs": [
         {
@@ -3777,41 +3594,6 @@
       }
     },
     {
-      "id": 434,
-      "type": "Reroute",
-      "pos": [
-        1400,
-        1750
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 95,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 1206
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "SAMPLER",
-          "links": [
-            1207
-          ]
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
       "id": 185,
       "type": "Reroute",
       "pos": [
@@ -3823,7 +3605,7 @@
         26
       ],
       "flags": {},
-      "order": 157,
+      "order": 168,
       "mode": 0,
       "inputs": [
         {
@@ -3858,7 +3640,7 @@
         26
       ],
       "flags": {},
-      "order": 146,
+      "order": 155,
       "mode": 0,
       "inputs": [
         {
@@ -3893,7 +3675,7 @@
         26
       ],
       "flags": {},
-      "order": 179,
+      "order": 194,
       "mode": 0,
       "inputs": [
         {
@@ -3930,7 +3712,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 193,
+      "order": 217,
       "mode": 0,
       "inputs": [
         {
@@ -3972,7 +3754,7 @@
         106
       ],
       "flags": {},
-      "order": 192,
+      "order": 216,
       "mode": 0,
       "inputs": [
         {
@@ -4051,7 +3833,7 @@
         194
       ],
       "flags": {},
-      "order": 191,
+      "order": 215,
       "mode": 0,
       "inputs": [
         {
@@ -4106,7 +3888,7 @@
         110
       ],
       "flags": {},
-      "order": 190,
+      "order": 212,
       "mode": 0,
       "inputs": [
         {
@@ -4172,7 +3954,7 @@
         60
       ],
       "flags": {},
-      "order": 188,
+      "order": 208,
       "mode": 0,
       "inputs": [
         {
@@ -4218,7 +4000,7 @@
         26
       ],
       "flags": {},
-      "order": 189,
+      "order": 210,
       "mode": 0,
       "inputs": [
         {
@@ -4253,7 +4035,7 @@
         26
       ],
       "flags": {},
-      "order": 181,
+      "order": 196,
       "mode": 0,
       "inputs": [
         {
@@ -4288,7 +4070,7 @@
         470
       ],
       "flags": {},
-      "order": 194,
+      "order": 218,
       "mode": 0,
       "inputs": [
         {
@@ -4360,7 +4142,7 @@
         26
       ],
       "flags": {},
-      "order": 121,
+      "order": 128,
       "mode": 0,
       "inputs": [
         {
@@ -4395,7 +4177,7 @@
         60
       ],
       "flags": {},
-      "order": 195,
+      "order": 219,
       "mode": 2,
       "inputs": [
         {
@@ -4439,7 +4221,7 @@
         26
       ],
       "flags": {},
-      "order": 197,
+      "order": 221,
       "mode": 0,
       "inputs": [
         {
@@ -4474,7 +4256,7 @@
         26
       ],
       "flags": {},
-      "order": 149,
+      "order": 159,
       "mode": 0,
       "inputs": [
         {
@@ -4498,50 +4280,6 @@
       }
     },
     {
-      "id": 358,
-      "type": "VAEDecode",
-      "pos": [
-        -480,
-        2480
-      ],
-      "size": [
-        220,
-        50
-      ],
-      "flags": {},
-      "order": 178,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "samples",
-          "type": "LATENT",
-          "link": 1134
-        },
-        {
-          "name": "vae",
-          "type": "VAE",
-          "link": 1125
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "slot_index": 0,
-          "links": [
-            1057,
-            1211
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "VAEDecode"
-      },
-      "widgets_values": []
-    },
-    {
       "id": 438,
       "type": "Reroute",
       "pos": [
@@ -4553,7 +4291,7 @@
         26
       ],
       "flags": {},
-      "order": 196,
+      "order": 220,
       "mode": 0,
       "inputs": [
         {
@@ -4589,7 +4327,7 @@
         26
       ],
       "flags": {},
-      "order": 185,
+      "order": 203,
       "mode": 0,
       "inputs": [
         {
@@ -4625,7 +4363,7 @@
         60
       ],
       "flags": {},
-      "order": 184,
+      "order": 201,
       "mode": 2,
       "inputs": [
         {
@@ -4669,7 +4407,7 @@
         26
       ],
       "flags": {},
-      "order": 186,
+      "order": 204,
       "mode": 0,
       "inputs": [
         {
@@ -4694,54 +4432,18 @@
       }
     },
     {
-      "id": 376,
-      "type": "Reroute",
-      "pos": [
-        1570,
-        2410
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 183,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 1089
-        }
-      ],
-      "outputs": [
-        {
-          "label": "ORIG",
-          "name": "",
-          "type": "IMAGE",
-          "links": [
-            1090
-          ]
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
       "id": 77,
       "type": "Reroute",
       "pos": [
         1520,
-        1010
+        1000
       ],
       "size": [
         90.4,
         26
       ],
       "flags": {},
-      "order": 112,
+      "order": 119,
       "mode": 0,
       "inputs": [
         {
@@ -4769,14 +4471,14 @@
       "type": "Any Switch (rgthree)",
       "pos": [
         1220,
-        1010
+        1000
       ],
       "size": [
         240,
         110
       ],
       "flags": {},
-      "order": 99,
+      "order": 105,
       "mode": 0,
       "inputs": [
         {
@@ -4835,14 +4537,14 @@
       "type": "EmptySD3LatentImage",
       "pos": [
         890,
-        1030
+        1020
       ],
       "size": [
         280,
         120
       ],
       "flags": {},
-      "order": 83,
+      "order": 87,
       "mode": 0,
       "inputs": [
         {
@@ -4897,14 +4599,14 @@
       "type": "EmptySD3LatentImage",
       "pos": [
         890,
-        1210
+        1200
       ],
       "size": [
         280,
         120
       ],
       "flags": {},
-      "order": 84,
+      "order": 88,
       "mode": 2,
       "inputs": [
         {
@@ -4960,14 +4662,14 @@
       "type": "Mute / Bypass Repeater (rgthree)",
       "pos": [
         890,
-        1390
+        1380
       ],
       "size": [
         280,
         66
       ],
       "flags": {},
-      "order": 85,
+      "order": 89,
       "mode": 2,
       "inputs": [
         {
@@ -5009,7 +4711,7 @@
       "type": "PrimitiveInt",
       "pos": [
         570,
-        1300
+        1290
       ],
       "size": [
         270,
@@ -5045,7 +4747,7 @@
       "type": "PrimitiveInt",
       "pos": [
         -30,
-        1260
+        1250
       ],
       "size": [
         270,
@@ -5081,7 +4783,7 @@
       "type": "PrimitiveInt",
       "pos": [
         -30,
-        1390
+        1380
       ],
       "size": [
         270,
@@ -5117,14 +4819,14 @@
       "type": "Reroute",
       "pos": [
         430,
-        1420
+        1410
       ],
       "size": [
         75,
         26
       ],
       "flags": {},
-      "order": 65,
+      "order": 68,
       "mode": 0,
       "inputs": [
         {
@@ -5152,14 +4854,14 @@
       "type": "Reroute",
       "pos": [
         430,
-        1390
+        1380
       ],
       "size": [
         75,
         26
       ],
       "flags": {},
-      "order": 63,
+      "order": 66,
       "mode": 0,
       "inputs": [
         {
@@ -5187,14 +4889,14 @@
       "type": "Any Switch (rgthree)",
       "pos": [
         340,
-        1050
+        1040
       ],
       "size": [
         210,
         120
       ],
       "flags": {},
-      "order": 62,
+      "order": 65,
       "mode": 0,
       "inputs": [
         {
@@ -5254,14 +4956,14 @@
       "type": "Any Switch (rgthree)",
       "pos": [
         340,
-        1230
+        1220
       ],
       "size": [
         210,
         120
       ],
       "flags": {},
-      "order": 64,
+      "order": 67,
       "mode": 0,
       "inputs": [
         {
@@ -5328,7 +5030,7 @@
         80
       ],
       "flags": {},
-      "order": 120,
+      "order": 127,
       "mode": 0,
       "inputs": [
         {
@@ -5366,15 +5068,15 @@
       "id": 409,
       "type": "Reroute (rgthree)",
       "pos": [
-        8210,
-        3490
+        8220,
+        4150
       ],
       "size": [
         80,
         80
       ],
       "flags": {},
-      "order": 129,
+      "order": 137,
       "mode": 0,
       "inputs": [
         {
@@ -5420,7 +5122,7 @@
         80
       ],
       "flags": {},
-      "order": 119,
+      "order": 126,
       "mode": 0,
       "inputs": [
         {
@@ -5466,7 +5168,7 @@
         80
       ],
       "flags": {},
-      "order": 173,
+      "order": 188,
       "mode": 0,
       "inputs": [
         {
@@ -5501,98 +5203,6 @@
       }
     },
     {
-      "id": 412,
-      "type": "Reroute (rgthree)",
-      "pos": [
-        -1580,
-        3400
-      ],
-      "size": [
-        80,
-        80
-      ],
-      "flags": {},
-      "order": 137,
-      "mode": 0,
-      "inputs": [
-        {
-          "dir": 4,
-          "label": " ",
-          "name": "",
-          "type": "*",
-          "link": 1154
-        }
-      ],
-      "outputs": [
-        {
-          "dir": 1,
-          "label": " ",
-          "name": "CLIP",
-          "type": "CLIP",
-          "links": [
-            1155
-          ]
-        }
-      ],
-      "properties": {
-        "resizable": false,
-        "size": [
-          80,
-          80
-        ],
-        "connections_layout": [
-          "Right",
-          "Top"
-        ]
-      }
-    },
-    {
-      "id": 278,
-      "type": "Reroute (rgthree)",
-      "pos": [
-        -810,
-        3530
-      ],
-      "size": [
-        80,
-        80
-      ],
-      "flags": {},
-      "order": 175,
-      "mode": 0,
-      "inputs": [
-        {
-          "dir": 4,
-          "label": " ",
-          "name": "",
-          "type": "*",
-          "link": 853
-        }
-      ],
-      "outputs": [
-        {
-          "dir": 1,
-          "label": " ",
-          "name": "output",
-          "type": "LATENT",
-          "links": [
-            1085
-          ]
-        }
-      ],
-      "properties": {
-        "resizable": false,
-        "size": [
-          80,
-          80
-        ],
-        "connections_layout": [
-          "Right",
-          "Top"
-        ]
-      }
-    },
-    {
       "id": 420,
       "type": "Reroute",
       "pos": [
@@ -5604,7 +5214,7 @@
         26
       ],
       "flags": {},
-      "order": 161,
+      "order": 174,
       "mode": 0,
       "inputs": [
         {
@@ -5639,7 +5249,7 @@
         26
       ],
       "flags": {},
-      "order": 164,
+      "order": 178,
       "mode": 0,
       "inputs": [
         {
@@ -5674,7 +5284,7 @@
         26
       ],
       "flags": {},
-      "order": 118,
+      "order": 125,
       "mode": 0,
       "inputs": [
         {
@@ -5709,7 +5319,7 @@
         26
       ],
       "flags": {},
-      "order": 167,
+      "order": 182,
       "mode": 0,
       "inputs": [
         {
@@ -5745,7 +5355,7 @@
         26
       ],
       "flags": {},
-      "order": 168,
+      "order": 183,
       "mode": 0,
       "inputs": [
         {
@@ -5781,7 +5391,7 @@
         26
       ],
       "flags": {},
-      "order": 128,
+      "order": 136,
       "mode": 0,
       "inputs": [
         {
@@ -5817,7 +5427,7 @@
         26
       ],
       "flags": {},
-      "order": 125,
+      "order": 131,
       "mode": 0,
       "inputs": [
         {
@@ -5852,7 +5462,7 @@
         26
       ],
       "flags": {},
-      "order": 148,
+      "order": 158,
       "mode": 0,
       "inputs": [
         {
@@ -5876,52 +5486,6 @@
       }
     },
     {
-      "id": 410,
-      "type": "Reroute (rgthree)",
-      "pos": [
-        8130,
-        3410
-      ],
-      "size": [
-        80,
-        80
-      ],
-      "flags": {},
-      "order": 130,
-      "mode": 0,
-      "inputs": [
-        {
-          "dir": 1,
-          "label": " ",
-          "name": "",
-          "type": "*",
-          "link": 1152
-        }
-      ],
-      "outputs": [
-        {
-          "dir": 3,
-          "label": " ",
-          "name": "CLIP",
-          "type": "CLIP",
-          "links": [
-            1154
-          ]
-        }
-      ],
-      "properties": {
-        "resizable": false,
-        "size": [
-          80,
-          80
-        ],
-        "connections_layout": [
-          "Top",
-          "Left"
-        ]
-      }
-    },
-    {
       "id": 237,
       "type": "Reroute (rgthree)",
       "pos": [
@@ -5933,7 +5497,7 @@
         80
       ],
       "flags": {},
-      "order": 203,
+      "order": 227,
       "mode": 0,
       "inputs": [
         {
@@ -5971,7 +5535,7 @@
       "id": 96,
       "type": "Any Switch (rgthree)",
       "pos": [
-        -1000,
+        -1080,
         1860
       ],
       "size": [
@@ -5979,7 +5543,7 @@
         190
       ],
       "flags": {},
-      "order": 57,
+      "order": 60,
       "mode": 0,
       "inputs": [
         {
@@ -6037,7 +5601,7 @@
       "id": 455,
       "type": "Reroute",
       "pos": [
-        -790,
+        -870,
         1860
       ],
       "size": [
@@ -6045,7 +5609,7 @@
         26
       ],
       "flags": {},
-      "order": 78,
+      "order": 82,
       "mode": 0,
       "inputs": [
         {
@@ -6072,7 +5636,7 @@
       "id": 432,
       "type": "Reroute",
       "pos": [
-        -830,
+        -910,
         1790
       ],
       "size": [
@@ -6080,7 +5644,7 @@
         26
       ],
       "flags": {},
-      "order": 151,
+      "order": 162,
       "mode": 0,
       "inputs": [
         {
@@ -6108,7 +5672,7 @@
       "id": 433,
       "type": "Reroute",
       "pos": [
-        -770,
+        -850,
         1750
       ],
       "size": [
@@ -6116,7 +5680,7 @@
         26
       ],
       "flags": {},
-      "order": 58,
+      "order": 61,
       "mode": 0,
       "inputs": [
         {
@@ -6152,7 +5716,7 @@
         26
       ],
       "flags": {},
-      "order": 80,
+      "order": 84,
       "mode": 0,
       "inputs": [
         {
@@ -6187,7 +5751,7 @@
         26
       ],
       "flags": {},
-      "order": 81,
+      "order": 85,
       "mode": 0,
       "inputs": [
         {
@@ -6222,7 +5786,7 @@
         26
       ],
       "flags": {},
-      "order": 59,
+      "order": 62,
       "mode": 0,
       "inputs": [
         {
@@ -6257,7 +5821,7 @@
         26
       ],
       "flags": {},
-      "order": 60,
+      "order": 63,
       "mode": 0,
       "inputs": [
         {
@@ -6292,7 +5856,7 @@
         26
       ],
       "flags": {},
-      "order": 61,
+      "order": 64,
       "mode": 0,
       "inputs": [
         {
@@ -6352,7 +5916,7 @@
         26
       ],
       "flags": {},
-      "order": 140,
+      "order": 149,
       "mode": 0,
       "inputs": [
         {
@@ -6390,7 +5954,7 @@
         600
       ],
       "flags": {},
-      "order": 139,
+      "order": 148,
       "mode": 0,
       "inputs": [
         {
@@ -6416,7 +5980,7 @@
       "id": 6,
       "type": "CLIPTextEncode",
       "pos": [
-        -1340,
+        -1420,
         1820
       ],
       "size": [
@@ -6426,7 +5990,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 147,
+      "order": 157,
       "mode": 0,
       "inputs": [
         {
@@ -6475,7 +6039,7 @@
         26
       ],
       "flags": {},
-      "order": 143,
+      "order": 152,
       "mode": 0,
       "inputs": [
         {
@@ -6513,7 +6077,7 @@
         26
       ],
       "flags": {},
-      "order": 115,
+      "order": 120,
       "mode": 0,
       "inputs": [
         {
@@ -6548,7 +6112,7 @@
         106
       ],
       "flags": {},
-      "order": 116,
+      "order": 121,
       "mode": 0,
       "inputs": [
         {
@@ -6614,7 +6178,7 @@
         26
       ],
       "flags": {},
-      "order": 122,
+      "order": 130,
       "mode": 0,
       "inputs": [
         {
@@ -6649,7 +6213,7 @@
         26
       ],
       "flags": {},
-      "order": 126,
+      "order": 132,
       "mode": 0,
       "inputs": [
         {
@@ -6684,7 +6248,7 @@
         26
       ],
       "flags": {},
-      "order": 134,
+      "order": 140,
       "mode": 0,
       "inputs": [
         {
@@ -6719,7 +6283,7 @@
         26
       ],
       "flags": {},
-      "order": 131,
+      "order": 139,
       "mode": 0,
       "inputs": [
         {
@@ -6754,7 +6318,7 @@
         26
       ],
       "flags": {},
-      "order": 170,
+      "order": 185,
       "mode": 0,
       "inputs": [
         {
@@ -6789,7 +6353,7 @@
         26
       ],
       "flags": {},
-      "order": 171,
+      "order": 186,
       "mode": 0,
       "inputs": [
         {
@@ -6824,7 +6388,7 @@
         26
       ],
       "flags": {},
-      "order": 152,
+      "order": 163,
       "mode": 0,
       "inputs": [
         {
@@ -6852,15 +6416,15 @@
       "id": 276,
       "type": "Reroute (rgthree)",
       "pos": [
-        8290,
-        3570
+        8300,
+        4230
       ],
       "size": [
         80,
         80
       ],
       "flags": {},
-      "order": 174,
+      "order": 189,
       "mode": 0,
       "inputs": [
         {
@@ -6906,7 +6470,7 @@
         110
       ],
       "flags": {},
-      "order": 199,
+      "order": 223,
       "mode": 0,
       "inputs": [
         {
@@ -6925,13 +6489,13 @@
           "dir": 3,
           "name": "any_03",
           "type": "IMAGE",
-          "link": 1090
+          "link": 1306
         },
         {
           "dir": 3,
           "name": "any_04",
           "type": "IMAGE",
-          "link": null
+          "link": 1307
         },
         {
           "dir": 3,
@@ -6971,7 +6535,7 @@
         80
       ],
       "flags": {},
-      "order": 201,
+      "order": 225,
       "mode": 0,
       "inputs": [
         {
@@ -7017,7 +6581,7 @@
         130
       ],
       "flags": {},
-      "order": 198,
+      "order": 222,
       "mode": 0,
       "inputs": [
         {
@@ -7032,6 +6596,12 @@
           "name": "Photo Upscaler",
           "type": "*",
           "link": 1214
+        },
+        {
+          "dir": 3,
+          "name": "Illustration Upscaler",
+          "type": "*",
+          "link": 1308
         },
         {
           "dir": 3,
@@ -7051,88 +6621,6 @@
         }
       ],
       "properties": {}
-    },
-    {
-      "id": 411,
-      "type": "Reroute (rgthree)",
-      "pos": [
-        -890,
-        3460
-      ],
-      "size": [
-        80,
-        80
-      ],
-      "flags": {},
-      "order": 136,
-      "mode": 0,
-      "inputs": [
-        {
-          "dir": 4,
-          "label": " ",
-          "name": "",
-          "type": "*",
-          "link": 1153
-        }
-      ],
-      "outputs": [
-        {
-          "dir": 1,
-          "label": " ",
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [
-            1198
-          ]
-        }
-      ],
-      "properties": {
-        "resizable": false,
-        "size": [
-          80,
-          80
-        ],
-        "connections_layout": [
-          "Right",
-          "Top"
-        ]
-      }
-    },
-    {
-      "id": 374,
-      "type": "Reroute",
-      "pos": [
-        -590,
-        2380
-      ],
-      "size": [
-        90.4,
-        26
-      ],
-      "flags": {},
-      "order": 176,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 1085
-        }
-      ],
-      "outputs": [
-        {
-          "name": "output",
-          "type": "LATENT",
-          "links": [
-            1086,
-            1134
-          ]
-        }
-      ],
-      "properties": {
-        "showOutputText": true,
-        "horizontal": false
-      }
     },
     {
       "id": 111,
@@ -7241,7 +6729,7 @@
         26
       ],
       "flags": {},
-      "order": 67,
+      "order": 70,
       "mode": 0,
       "inputs": [
         {
@@ -7382,7 +6870,7 @@
         26
       ],
       "flags": {},
-      "order": 68,
+      "order": 71,
       "mode": 0,
       "inputs": [
         {
@@ -7418,7 +6906,7 @@
         26
       ],
       "flags": {},
-      "order": 69,
+      "order": 72,
       "mode": 0,
       "inputs": [
         {
@@ -7454,7 +6942,7 @@
         26
       ],
       "flags": {},
-      "order": 70,
+      "order": 73,
       "mode": 0,
       "inputs": [
         {
@@ -7490,7 +6978,7 @@
         406
       ],
       "flags": {},
-      "order": 87,
+      "order": 91,
       "mode": 0,
       "inputs": [
         {
@@ -7634,99 +7122,6 @@
       "widgets_values": []
     },
     {
-      "id": 331,
-      "type": "Node Collector (rgthree)",
-      "pos": [
-        2660,
-        1320
-      ],
-      "size": [
-        280,
-        120
-      ],
-      "flags": {},
-      "order": 135,
-      "mode": 0,
-      "inputs": [
-        {
-          "dir": 3,
-          "label": "",
-          "name": "Only 7 Steps",
-          "type": "*",
-          "link": 982
-        },
-        {
-          "dir": 3,
-          "name": "Generate Smaller Image",
-          "type": "*",
-          "link": 1227
-        },
-        {
-          "dir": 3,
-          "name": "",
-          "type": "*",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "dir": 4,
-          "name": "Output",
-          "type": "*",
-          "links": [
-            984
-          ]
-        }
-      ],
-      "properties": {}
-    },
-    {
-      "id": 355,
-      "type": "Node Collector (rgthree)",
-      "pos": [
-        2660,
-        1480
-      ],
-      "size": [
-        280,
-        110
-      ],
-      "flags": {},
-      "order": 200,
-      "mode": 0,
-      "inputs": [
-        {
-          "dir": 3,
-          "name": "Node Collector (rgthree)",
-          "type": "*",
-          "link": 1225
-        },
-        {
-          "dir": 3,
-          "name": "Node Collector (rgthree)",
-          "type": "*",
-          "link": 1113
-        },
-        {
-          "dir": 3,
-          "name": "",
-          "type": "*",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "dir": 4,
-          "name": "Output",
-          "type": "*",
-          "links": [
-            1036
-          ]
-        }
-      ],
-      "properties": {}
-    },
-    {
       "id": 386,
       "type": "Reroute (rgthree)",
       "pos": [
@@ -7738,7 +7133,7 @@
         60
       ],
       "flags": {},
-      "order": 89,
+      "order": 97,
       "mode": 0,
       "inputs": [
         {
@@ -7789,7 +7184,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 72,
+      "order": 78,
       "mode": 0,
       "inputs": [
         {
@@ -7820,139 +7215,6 @@
         "A woman wearing a dress with a sexy cleavage smiling on the dance floor of a dimly lit nightclub, while two Alien Xenomorphs dance in the background.",
         "Both"
       ]
-    },
-    {
-      "id": 97,
-      "type": "Fast Muter (rgthree)",
-      "pos": [
-        4660,
-        1480
-      ],
-      "size": [
-        360,
-        180
-      ],
-      "flags": {},
-      "order": 202,
-      "mode": 0,
-      "inputs": [
-        {
-          "dir": 3,
-          "name": "Photo Refiner",
-          "type": "*",
-          "link": 1036
-        },
-        {
-          "dir": 3,
-          "name": "",
-          "type": "*",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "dir": 4,
-          "name": "OPT_CONNECTION",
-          "type": "*",
-          "links": null
-        }
-      ],
-      "title": "EXTRA OPTIONS (default = all-no)",
-      "properties": {
-        "toggleRestriction": "default"
-      },
-      "color": "#232",
-      "bgcolor": "#353",
-      "shape": 1
-    },
-    {
-      "id": 332,
-      "type": "Fast Muter (rgthree)",
-      "pos": [
-        4660,
-        1320
-      ],
-      "size": [
-        360,
-        120
-      ],
-      "flags": {},
-      "order": 141,
-      "mode": 0,
-      "inputs": [
-        {
-          "dir": 3,
-          "label": "",
-          "name": "Only 7 Steps",
-          "type": "*",
-          "link": 984
-        },
-        {
-          "dir": 3,
-          "name": "",
-          "type": "*",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "dir": 4,
-          "name": "OPT_CONNECTION",
-          "type": "*",
-          "links": null
-        }
-      ],
-      "title": "ACCELERATION (default = all-no)",
-      "properties": {
-        "toggleRestriction": "default"
-      },
-      "color": "#232",
-      "bgcolor": "#353",
-      "shape": 1
-    },
-    {
-      "id": 88,
-      "type": "Fast Muter (rgthree)",
-      "pos": [
-        4660,
-        750
-      ],
-      "size": [
-        360,
-        530
-      ],
-      "flags": {},
-      "order": 102,
-      "mode": 0,
-      "inputs": [
-        {
-          "dir": 3,
-          "name": "none",
-          "type": "*",
-          "link": 1112
-        },
-        {
-          "dir": 3,
-          "name": "",
-          "type": "*",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "dir": 4,
-          "name": "OPT_CONNECTION",
-          "type": "*",
-          "links": null
-        }
-      ],
-      "title": "STYLE SELECTOR",
-      "properties": {
-        "toggleRestriction": "always one"
-      },
-      "color": "#232",
-      "bgcolor": "#353",
-      "shape": 1
     },
     {
       "id": 307,
@@ -7995,111 +7257,6 @@
       "shape": 1
     },
     {
-      "id": 57,
-      "type": "PrimitiveNode",
-      "pos": [
-        5030,
-        890
-      ],
-      "size": [
-        540,
-        770
-      ],
-      "flags": {},
-      "order": 39,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "widget": {
-            "name": "text"
-          },
-          "links": [
-            296,
-            1102
-          ]
-        }
-      ],
-      "title": "PROMPT",
-      "properties": {
-        "Run widget replace on values": false
-      },
-      "widgets_values": [
-        "A woman wearing a dress with a sexy cleavage smiling on the dance floor of a dimly lit nightclub, while two Alien Xenomorphs dance in the background."
-      ],
-      "color": "#232",
-      "bgcolor": "#353",
-      "shape": 1
-    },
-    {
-      "id": 392,
-      "type": "Power Lora Loader (rgthree)",
-      "pos": [
-        4120,
-        810
-      ],
-      "size": [
-        520,
-        430
-      ],
-      "flags": {},
-      "order": 96,
-      "mode": 0,
-      "inputs": [
-        {
-          "dir": 3,
-          "name": "model",
-          "type": "MODEL",
-          "link": 1138
-        },
-        {
-          "dir": 3,
-          "name": "clip",
-          "type": "CLIP",
-          "link": 1139
-        }
-      ],
-      "outputs": [
-        {
-          "dir": 4,
-          "name": "MODEL",
-          "shape": 3,
-          "type": "MODEL",
-          "links": [
-            1160
-          ]
-        },
-        {
-          "dir": 4,
-          "name": "CLIP",
-          "shape": 3,
-          "type": "CLIP",
-          "links": [
-            1161
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "rgthree-comfy",
-        "ver": "8ff50e4521881eca1fe26aec9615fc9362474931",
-        "Show Strengths": "Single Strength",
-        "aux_id": "rgthree/rgthree-comfy"
-      },
-      "widgets_values": [
-        {},
-        {
-          "type": "PowerLoraLoaderHeaderWidget"
-        },
-        {},
-        ""
-      ],
-      "color": "#2a363b",
-      "bgcolor": "#3f5159",
-      "shape": 1
-    },
-    {
       "id": 286,
       "type": "SamplerCustom",
       "pos": [
@@ -8111,7 +7268,7 @@
         560
       ],
       "flags": {},
-      "order": 172,
+      "order": 187,
       "mode": 0,
       "inputs": [
         {
@@ -8193,7 +7350,7 @@
         570
       ],
       "flags": {},
-      "order": 169,
+      "order": 184,
       "mode": 0,
       "inputs": [
         {
@@ -8264,50 +7421,18 @@
       "bgcolor": "#535"
     },
     {
-      "id": 9,
-      "type": "SaveImage",
-      "pos": [
-        5580,
-        500
-      ],
-      "size": [
-        670,
-        1160
-      ],
-      "flags": {},
-      "order": 204,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "images",
-          "type": "IMAGE",
-          "link": 714
-        }
-      ],
-      "outputs": [],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75"
-      },
-      "widgets_values": [
-        "ZImage/%date:yyyy_MM_dd%/ZI"
-      ],
-      "color": "#323",
-      "bgcolor": "#535"
-    },
-    {
       "id": 431,
       "type": "Reroute",
       "pos": [
         -670,
-        1540
+        1590
       ],
       "size": [
         75,
         26
       ],
       "flags": {},
-      "order": 132,
+      "order": 142,
       "mode": 0,
       "inputs": [
         {
@@ -8331,18 +7456,1526 @@
       }
     },
     {
+      "id": 320,
+      "type": "KarrasScheduler",
+      "pos": [
+        -30,
+        390
+      ],
+      "size": [
+        260,
+        140
+      ],
+      "flags": {},
+      "order": 39,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "SIGMAS",
+          "type": "SIGMAS",
+          "links": [
+            955,
+            996
+          ]
+        }
+      ],
+      "title": "Karras Scheduler 6-Steps",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "KarrasScheduler"
+      },
+      "widgets_values": [
+        6,
+        1,
+        0.08,
+        0.32
+      ]
+    },
+    {
+      "id": 318,
+      "type": "SetFirstSigma",
+      "pos": [
+        480,
+        410
+      ],
+      "size": [
+        220,
+        60
+      ],
+      "flags": {},
+      "order": 93,
+      "mode": 2,
+      "inputs": [
+        {
+          "name": "sigmas",
+          "type": "SIGMAS",
+          "link": 954
+        }
+      ],
+      "outputs": [
+        {
+          "name": "SIGMAS",
+          "type": "SIGMAS",
+          "links": [
+            953,
+            992
+          ]
+        }
+      ],
+      "title": "Set First Sigma",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.5.1",
+        "Node name for S&R": "SetFirstSigma"
+      },
+      "widgets_values": [
+        0.865
+      ]
+    },
+    {
+      "id": 465,
+      "type": "Reroute",
+      "pos": [
+        -50,
+        3420
+      ],
+      "size": [
+        140.8,
+        26
+      ],
+      "flags": {},
+      "order": 173,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 1305
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            1278
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": true,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 466,
+      "type": "Reroute",
+      "pos": [
+        840,
+        3420
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 181,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 1278
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "CONDITIONING",
+          "links": [
+            1284
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 467,
+      "type": "Reroute",
+      "pos": [
+        -50,
+        3390
+      ],
+      "size": [
+        140.8,
+        26
+      ],
+      "flags": {},
+      "order": 169,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 1304
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            1279
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": true,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 468,
+      "type": "Reroute",
+      "pos": [
+        840,
+        3390
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 177,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 1279
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "CONDITIONING",
+          "links": [
+            1283
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 469,
+      "type": "Reroute",
+      "pos": [
+        840,
+        3450
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 95,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 1280
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "SAMPLER",
+          "links": [
+            1285
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 470,
+      "type": "Reroute",
+      "pos": [
+        430,
+        3450
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 76,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 1281
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "SAMPLER",
+          "links": [
+            1280
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 471,
+      "type": "KSamplerSelect",
+      "pos": [
+        90,
+        3480
+      ],
+      "size": [
+        270,
+        70
+      ],
+      "flags": {},
+      "order": 40,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "SAMPLER",
+          "type": "SAMPLER",
+          "links": [
+            1281
+          ]
+        }
+      ],
+      "title": "Default Euler Sampler",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "KSamplerSelect"
+      },
+      "widgets_values": [
+        "euler"
+      ]
+    },
+    {
+      "id": 472,
+      "type": "Reroute",
+      "pos": [
+        -50,
+        3360
+      ],
+      "size": [
+        82,
+        26
+      ],
+      "flags": {},
+      "order": 156,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 1303
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            1290
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": true,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 475,
+      "type": "SamplerCustom",
+      "pos": [
+        1060,
+        3390
+      ],
+      "size": [
+        240,
+        470
+      ],
+      "flags": {},
+      "order": 209,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 1282
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 1283
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 1284
+        },
+        {
+          "name": "sampler",
+          "type": "SAMPLER",
+          "link": 1285
+        },
+        {
+          "name": "sigmas",
+          "type": "SIGMAS",
+          "link": 1286
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 1287
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "LATENT",
+          "links": [
+            1288
+          ]
+        },
+        {
+          "name": "denoised_output",
+          "type": "LATENT",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "SamplerCustom"
+      },
+      "widgets_values": [
+        true,
+        969696,
+        "fixed",
+        1
+      ]
+    },
+    {
+      "id": 476,
+      "type": "VAEDecode",
+      "pos": [
+        1340,
+        3440
+      ],
+      "size": [
+        185.573828125,
+        60
+      ],
+      "flags": {},
+      "order": 211,
+      "mode": 2,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 1288
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 1289
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            1297,
+            1298
+          ]
+        }
+      ],
+      "title": "Illustration Upscaler",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.77",
+        "Node name for S&R": "VAEDecode"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 477,
+      "type": "Reroute",
+      "pos": [
+        840,
+        3360
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 161,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 1290
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            1282
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 478,
+      "type": "VAEEncode",
+      "pos": [
+        880,
+        3710
+      ],
+      "size": [
+        150,
+        60
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 207,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "pixels",
+          "type": "IMAGE",
+          "link": 1291
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 1292
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            1287
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.77",
+        "Node name for S&R": "VAEEncode"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 479,
+      "type": "Reroute",
+      "pos": [
+        1200,
+        3930
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 129,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 1293
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "VAE",
+          "links": [
+            1289
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 480,
+      "type": "Reroute",
+      "pos": [
+        780,
+        3930
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 118,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 1294
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "VAE",
+          "links": [
+            1292,
+            1293
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 481,
+      "type": "Reroute",
+      "pos": [
+        -50,
+        3930
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 104,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 1300
+        }
+      ],
+      "outputs": [
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [
+            1294
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": true,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 482,
+      "type": "ImageUpscaleWithModel",
+      "pos": [
+        350,
+        3710
+      ],
+      "size": [
+        233.5689453125,
+        46
+      ],
+      "flags": {},
+      "order": 202,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "upscale_model",
+          "type": "UPSCALE_MODEL",
+          "link": 1295
+        },
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 1296
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            1299
+          ]
+        }
+      ],
+      "title": "Upscale Image *4",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.7.0",
+        "Node name for S&R": "ImageUpscaleWithModel"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 483,
+      "type": "UpscaleModelLoader",
+      "pos": [
+        -20,
+        3590
+      ],
+      "size": [
+        360,
+        60
+      ],
+      "flags": {},
+      "order": 41,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "UPSCALE_MODEL",
+          "type": "UPSCALE_MODEL",
+          "links": [
+            1295
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.7.0",
+        "Node name for S&R": "UpscaleModelLoader"
+      },
+      "widgets_values": [
+        "4x_foolhardy_Remacri.safetensors"
+      ]
+    },
+    {
+      "id": 486,
+      "type": "Image Resize (rgthree)",
+      "pos": [
+        600,
+        3710
+      ],
+      "size": [
+        250,
+        194
+      ],
+      "flags": {},
+      "order": 205,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 1299
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            1291
+          ]
+        },
+        {
+          "name": "WIDTH",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "HEIGHT",
+          "type": "INT",
+          "links": null
+        }
+      ],
+      "title": "Resize Image 3/4",
+      "properties": {
+        "cnr_id": "rgthree-comfy",
+        "ver": "8ff50e4521881eca1fe26aec9615fc9362474931",
+        "Node name for S&R": "Image Resize (rgthree)",
+        "aux_id": "rgthree/rgthree-comfy"
+      },
+      "widgets_values": [
+        "percentage",
+        75,
+        0,
+        "contain",
+        "area"
+      ]
+    },
+    {
+      "id": 487,
+      "type": "Image Resize (rgthree)",
+      "pos": [
+        60,
+        3730
+      ],
+      "size": [
+        270,
+        194
+      ],
+      "flags": {},
+      "order": 200,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 1301
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            1296
+          ]
+        },
+        {
+          "name": "WIDTH",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "HEIGHT",
+          "type": "INT",
+          "links": null
+        }
+      ],
+      "title": "Resize Image 2/4",
+      "properties": {
+        "cnr_id": "rgthree-comfy",
+        "ver": "8ff50e4521881eca1fe26aec9615fc9362474931",
+        "Node name for S&R": "Image Resize (rgthree)",
+        "aux_id": "rgthree/rgthree-comfy"
+      },
+      "widgets_values": [
+        "percentage",
+        50,
+        0,
+        "contain",
+        "bilinear"
+      ]
+    },
+    {
+      "id": 488,
+      "type": "KarrasScheduler",
+      "pos": [
+        750,
+        3520
+      ],
+      "size": [
+        270,
+        140
+      ],
+      "flags": {},
+      "order": 42,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "SIGMAS",
+          "type": "SIGMAS",
+          "links": [
+            1286
+          ]
+        }
+      ],
+      "title": "Karras Scheduler (sigmas)",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "KarrasScheduler"
+      },
+      "widgets_values": [
+        3,
+        0.22,
+        0.06,
+        0.5
+      ]
+    },
+    {
+      "id": 362,
+      "type": "Reroute",
+      "pos": [
+        -40,
+        3210
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 103,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 1204
+        }
+      ],
+      "outputs": [
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [
+            1123
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": true,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 489,
+      "type": "Reroute",
+      "pos": [
+        -50,
+        3730
+      ],
+      "size": [
+        82,
+        26
+      ],
+      "flags": {},
+      "order": 197,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 1302
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            1301
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": true,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 71,
+      "type": "Reroute",
+      "pos": [
+        -400,
+        1780
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 150,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 1198
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            905,
+            1065,
+            1129,
+            1303
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 73,
+      "type": "Reroute",
+      "pos": [
+        -400,
+        1810
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 164,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 1200
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "CONDITIONING",
+          "links": [
+            907,
+            1068,
+            1128,
+            1304
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 74,
+      "type": "Reroute",
+      "pos": [
+        -400,
+        1840
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 165,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 1201
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "CONDITIONING",
+          "links": [
+            909,
+            1069,
+            1127,
+            1305
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 484,
+      "type": "Reroute",
+      "pos": [
+        1550,
+        3400
+      ],
+      "size": [
+        82,
+        26
+      ],
+      "flags": {},
+      "order": 213,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 1297
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            1306
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": true,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 376,
+      "type": "Reroute",
+      "pos": [
+        1570,
+        2410
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 199,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 1089
+        }
+      ],
+      "outputs": [
+        {
+          "label": "ORIG",
+          "name": "",
+          "type": "IMAGE",
+          "links": [
+            1307
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 485,
+      "type": "Reroute",
+      "pos": [
+        1560,
+        3490
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 214,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "CTRL",
+          "name": "",
+          "type": "*",
+          "link": 1298
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "IMAGE",
+          "links": [
+            1308
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 88,
+      "type": "Fast Muter (rgthree)",
+      "pos": [
+        4660,
+        750
+      ],
+      "size": [
+        360,
+        550
+      ],
+      "flags": {},
+      "order": 108,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "name": "none",
+          "type": "*",
+          "link": 1112
+        },
+        {
+          "dir": 3,
+          "name": "",
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 4,
+          "name": "OPT_CONNECTION",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "title": "STYLE SELECTOR",
+      "properties": {
+        "toggleRestriction": "always one"
+      },
+      "color": "#232",
+      "bgcolor": "#353",
+      "shape": 1
+    },
+    {
+      "id": 57,
+      "type": "PrimitiveNode",
+      "pos": [
+        5030,
+        890
+      ],
+      "size": [
+        540,
+        690
+      ],
+      "flags": {},
+      "order": 43,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "widget": {
+            "name": "text"
+          },
+          "links": [
+            296,
+            1102
+          ]
+        }
+      ],
+      "title": "PROMPT",
+      "properties": {
+        "Run widget replace on values": false
+      },
+      "widgets_values": [
+        "A woman wearing a dress with a sexy cleavage smiling on the dance floor of a dimly lit nightclub, while two Alien Xenomorphs dance in the background."
+      ],
+      "color": "#232",
+      "bgcolor": "#353",
+      "shape": 1
+    },
+    {
+      "id": 9,
+      "type": "SaveImage",
+      "pos": [
+        5580,
+        500
+      ],
+      "size": [
+        670,
+        1080
+      ],
+      "flags": {},
+      "order": 229,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 714
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75"
+      },
+      "widgets_values": [
+        "ZImage/%date:yyyy_MM_dd%/ZI"
+      ],
+      "color": "#323",
+      "bgcolor": "#535"
+    },
+    {
+      "id": 97,
+      "type": "Fast Muter (rgthree)",
+      "pos": [
+        4660,
+        1340
+      ],
+      "size": [
+        360,
+        240
+      ],
+      "flags": {},
+      "order": 228,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "name": "Photo Refiner",
+          "type": "*",
+          "link": 1312
+        },
+        {
+          "dir": 3,
+          "name": "",
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 4,
+          "name": "OPT_CONNECTION",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "title": "EXTRA OPTIONS (default = all-no)",
+      "properties": {
+        "toggleRestriction": "default"
+      },
+      "color": "#232",
+      "bgcolor": "#353",
+      "shape": 1
+    },
+    {
+      "id": 391,
+      "type": "Reroute",
+      "pos": [
+        -700,
+        3060
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 86,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 1262
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "VAE",
+          "links": [
+            1125,
+            1126,
+            1204,
+            1300
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 278,
+      "type": "Reroute (rgthree)",
+      "pos": [
+        -1260,
+        4240
+      ],
+      "size": [
+        80,
+        80
+      ],
+      "flags": {},
+      "order": 190,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 4,
+          "label": " ",
+          "name": "",
+          "type": "*",
+          "link": 853
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 1,
+          "label": " ",
+          "name": "output",
+          "type": "LATENT",
+          "links": [
+            1085
+          ]
+        }
+      ],
+      "properties": {
+        "resizable": false,
+        "size": [
+          80,
+          80
+        ],
+        "connections_layout": [
+          "Right",
+          "Top"
+        ]
+      }
+    },
+    {
+      "id": 412,
+      "type": "Reroute (rgthree)",
+      "pos": [
+        -1790,
+        4060
+      ],
+      "size": [
+        80,
+        80
+      ],
+      "flags": {},
+      "order": 145,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 4,
+          "label": " ",
+          "name": "",
+          "type": "*",
+          "link": 1154
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 1,
+          "label": " ",
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            1155
+          ]
+        }
+      ],
+      "properties": {
+        "resizable": false,
+        "size": [
+          80,
+          80
+        ],
+        "connections_layout": [
+          "Right",
+          "Top"
+        ]
+      }
+    },
+    {
+      "id": 410,
+      "type": "Reroute (rgthree)",
+      "pos": [
+        8140,
+        4070
+      ],
+      "size": [
+        80,
+        80
+      ],
+      "flags": {},
+      "order": 138,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 1,
+          "label": " ",
+          "name": "",
+          "type": "*",
+          "link": 1152
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 3,
+          "label": " ",
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            1154
+          ]
+        }
+      ],
+      "properties": {
+        "resizable": false,
+        "size": [
+          80,
+          80
+        ],
+        "connections_layout": [
+          "Top",
+          "Left"
+        ]
+      }
+    },
+    {
       "id": 136,
       "type": "Node Collector (rgthree)",
       "pos": [
         2150,
-        1500
+        1550
       ],
       "size": [
         289.634765625,
         110
       ],
       "flags": {},
-      "order": 138,
+      "order": 147,
       "mode": 0,
       "inputs": [
         {
@@ -8383,33 +9016,159 @@
       "properties": {}
     },
     {
-      "id": 255,
+      "id": 374,
       "type": "Reroute",
       "pos": [
-        1530,
-        1340
+        -790,
+        2390
+      ],
+      "size": [
+        90.4,
+        26
+      ],
+      "flags": {},
+      "order": 191,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 1085
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "LATENT",
+          "links": [
+            1086,
+            1134
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": true,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 358,
+      "type": "VAEDecode",
+      "pos": [
+        -700,
+        2540
+      ],
+      "size": [
+        220,
+        50
+      ],
+      "flags": {},
+      "order": 193,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 1134
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 1125
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "slot_index": 0,
+          "links": [
+            1057,
+            1211,
+            1302
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "VAEDecode"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 411,
+      "type": "Reroute (rgthree)",
+      "pos": [
+        -1000,
+        4150
+      ],
+      "size": [
+        80,
+        80
+      ],
+      "flags": {},
+      "order": 144,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 4,
+          "label": " ",
+          "name": "",
+          "type": "*",
+          "link": 1153
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 1,
+          "label": " ",
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            1198
+          ]
+        }
+      ],
+      "properties": {
+        "resizable": false,
+        "size": [
+          80,
+          80
+        ],
+        "connections_layout": [
+          "Right",
+          "Top"
+        ]
+      }
+    },
+    {
+      "id": 434,
+      "type": "Reroute",
+      "pos": [
+        1590,
+        1750
       ],
       "size": [
         75,
         26
       ],
       "flags": {},
-      "order": 101,
+      "order": 100,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 751
+          "link": 1206
         }
       ],
       "outputs": [
         {
-          "label": "CTRL",
           "name": "",
-          "type": "*",
+          "type": "SAMPLER",
           "links": [
-            1227
+            1207
           ]
         }
       ],
@@ -8419,18 +9178,181 @@
       }
     },
     {
-      "id": 254,
+      "id": 491,
       "type": "Reroute",
       "pos": [
-        1530,
-        1420
+        2980,
+        1340
       ],
       "size": [
         75,
         26
       ],
       "flags": {},
-      "order": 100,
+      "order": 226,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 1311
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "*",
+          "links": [
+            1312
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 490,
+      "type": "Reroute",
+      "pos": [
+        2980,
+        1310
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 146,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 1309
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "*",
+          "links": [
+            1310
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 331,
+      "type": "Node Collector (rgthree)",
+      "pos": [
+        2540,
+        1370
+      ],
+      "size": [
+        280,
+        120
+      ],
+      "flags": {},
+      "order": 141,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "label": "",
+          "name": "Only 7 Steps",
+          "type": "*",
+          "link": 982
+        },
+        {
+          "dir": 3,
+          "name": "Generate Smaller Image",
+          "type": "*",
+          "link": 1227
+        },
+        {
+          "dir": 3,
+          "name": "",
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 4,
+          "name": "Output",
+          "type": "*",
+          "links": [
+            1309
+          ]
+        }
+      ],
+      "properties": {}
+    },
+    {
+      "id": 355,
+      "type": "Node Collector (rgthree)",
+      "pos": [
+        2540,
+        1530
+      ],
+      "size": [
+        280,
+        120
+      ],
+      "flags": {},
+      "order": 224,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "name": "Node Collector (rgthree)",
+          "type": "*",
+          "link": 1225
+        },
+        {
+          "dir": 3,
+          "name": "Node Collector (rgthree)",
+          "type": "*",
+          "link": 1113
+        },
+        {
+          "dir": 3,
+          "name": "",
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 4,
+          "name": "Output",
+          "type": "*",
+          "links": [
+            1311
+          ]
+        }
+      ],
+      "properties": {}
+    },
+    {
+      "id": 254,
+      "type": "Reroute",
+      "pos": [
+        1530,
+        1460
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 106,
       "mode": 0,
       "inputs": [
         {
@@ -8455,83 +9377,151 @@
       }
     },
     {
-      "id": 320,
-      "type": "KarrasScheduler",
+      "id": 255,
+      "type": "Reroute",
       "pos": [
-        -30,
-        390
+        1530,
+        1380
       ],
       "size": [
-        260,
-        140
+        75,
+        26
       ],
       "flags": {},
-      "order": 40,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "SIGMAS",
-          "type": "SIGMAS",
-          "links": [
-            955,
-            996
-          ]
-        }
-      ],
-      "title": "Karras Scheduler 6-Steps",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "KarrasScheduler"
-      },
-      "widgets_values": [
-        6,
-        1,
-        0.08,
-        0.32
-      ]
-    },
-    {
-      "id": 318,
-      "type": "SetFirstSigma",
-      "pos": [
-        480,
-        410
-      ],
-      "size": [
-        220,
-        60
-      ],
-      "flags": {},
-      "order": 91,
-      "mode": 2,
+      "order": 107,
+      "mode": 0,
       "inputs": [
         {
-          "name": "sigmas",
-          "type": "SIGMAS",
-          "link": 954
+          "name": "",
+          "type": "*",
+          "link": 751
         }
       ],
       "outputs": [
         {
-          "name": "SIGMAS",
-          "type": "SIGMAS",
+          "label": "CTRL",
+          "name": "",
+          "type": "*",
           "links": [
-            953,
-            992
+            1227
           ]
         }
       ],
-      "title": "Set First Sigma",
       "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.5.1",
-        "Node name for S&R": "SetFirstSigma"
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 332,
+      "type": "Fast Muter (rgthree)",
+      "pos": [
+        4300,
+        1310
+      ],
+      "size": [
+        340,
+        170
+      ],
+      "flags": {},
+      "order": 151,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "label": "",
+          "name": "Only 7 Steps",
+          "type": "*",
+          "link": 1310
+        },
+        {
+          "dir": 3,
+          "name": "",
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 4,
+          "name": "OPT_CONNECTION",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "title": "ACCELERATION (default = all-no)",
+      "properties": {
+        "toggleRestriction": "default"
+      },
+      "color": "#232",
+      "bgcolor": "#353",
+      "shape": 1
+    },
+    {
+      "id": 392,
+      "type": "Power Lora Loader (rgthree)",
+      "pos": [
+        4120,
+        810
+      ],
+      "size": [
+        520,
+        460
+      ],
+      "flags": {},
+      "order": 101,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "name": "model",
+          "type": "MODEL",
+          "link": 1138
+        },
+        {
+          "dir": 3,
+          "name": "clip",
+          "type": "CLIP",
+          "link": 1139
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 4,
+          "name": "MODEL",
+          "shape": 3,
+          "type": "MODEL",
+          "links": [
+            1160
+          ]
+        },
+        {
+          "dir": 4,
+          "name": "CLIP",
+          "shape": 3,
+          "type": "CLIP",
+          "links": [
+            1161
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "rgthree-comfy",
+        "ver": "8ff50e4521881eca1fe26aec9615fc9362474931",
+        "Show Strengths": "Single Strength",
+        "aux_id": "rgthree/rgthree-comfy"
       },
       "widgets_values": [
-        0.865
-      ]
+        {},
+        {
+          "type": "PowerLoraLoaderHeaderWidget"
+        },
+        {},
+        ""
+      ],
+      "color": "#2a363b",
+      "bgcolor": "#3f5159",
+      "shape": 1
     }
   ],
   "links": [
@@ -9360,14 +10350,6 @@
       "*"
     ],
     [
-      984,
-      331,
-      0,
-      332,
-      0,
-      "*"
-    ],
-    [
       986,
       322,
       0,
@@ -9478,14 +10460,6 @@
       180,
       0,
       "IMAGE"
-    ],
-    [
-      1036,
-      355,
-      0,
-      97,
-      0,
-      "*"
     ],
     [
       1050,
@@ -9645,14 +10619,6 @@
       0,
       376,
       0,
-      "IMAGE"
-    ],
-    [
-      1090,
-      376,
-      0,
-      207,
-      2,
       "IMAGE"
     ],
     [
@@ -10574,6 +11540,286 @@
       136,
       2,
       "STRING"
+    ],
+    [
+      1278,
+      465,
+      0,
+      466,
+      0,
+      "*"
+    ],
+    [
+      1279,
+      467,
+      0,
+      468,
+      0,
+      "*"
+    ],
+    [
+      1280,
+      470,
+      0,
+      469,
+      0,
+      "*"
+    ],
+    [
+      1281,
+      471,
+      0,
+      470,
+      0,
+      "SAMPLER"
+    ],
+    [
+      1282,
+      477,
+      0,
+      475,
+      0,
+      "MODEL"
+    ],
+    [
+      1283,
+      468,
+      0,
+      475,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      1284,
+      466,
+      0,
+      475,
+      2,
+      "CONDITIONING"
+    ],
+    [
+      1285,
+      469,
+      0,
+      475,
+      3,
+      "SAMPLER"
+    ],
+    [
+      1286,
+      488,
+      0,
+      475,
+      4,
+      "SIGMAS"
+    ],
+    [
+      1287,
+      478,
+      0,
+      475,
+      5,
+      "LATENT"
+    ],
+    [
+      1288,
+      475,
+      0,
+      476,
+      0,
+      "LATENT"
+    ],
+    [
+      1289,
+      479,
+      0,
+      476,
+      1,
+      "VAE"
+    ],
+    [
+      1290,
+      472,
+      0,
+      477,
+      0,
+      "*"
+    ],
+    [
+      1291,
+      486,
+      0,
+      478,
+      0,
+      "IMAGE"
+    ],
+    [
+      1292,
+      480,
+      0,
+      478,
+      1,
+      "VAE"
+    ],
+    [
+      1293,
+      480,
+      0,
+      479,
+      0,
+      "*"
+    ],
+    [
+      1294,
+      481,
+      0,
+      480,
+      0,
+      "*"
+    ],
+    [
+      1295,
+      483,
+      0,
+      482,
+      0,
+      "UPSCALE_MODEL"
+    ],
+    [
+      1296,
+      487,
+      0,
+      482,
+      1,
+      "IMAGE"
+    ],
+    [
+      1297,
+      476,
+      0,
+      484,
+      0,
+      "IMAGE"
+    ],
+    [
+      1298,
+      476,
+      0,
+      485,
+      0,
+      "IMAGE"
+    ],
+    [
+      1299,
+      482,
+      0,
+      486,
+      0,
+      "IMAGE"
+    ],
+    [
+      1300,
+      391,
+      0,
+      481,
+      0,
+      "VAE"
+    ],
+    [
+      1301,
+      489,
+      0,
+      487,
+      0,
+      "IMAGE"
+    ],
+    [
+      1302,
+      358,
+      0,
+      489,
+      0,
+      "IMAGE"
+    ],
+    [
+      1303,
+      71,
+      0,
+      472,
+      0,
+      "MODEL"
+    ],
+    [
+      1304,
+      73,
+      0,
+      467,
+      0,
+      "CONDITIONING"
+    ],
+    [
+      1305,
+      74,
+      0,
+      465,
+      0,
+      "CONDITIONING"
+    ],
+    [
+      1306,
+      484,
+      0,
+      207,
+      2,
+      "IMAGE"
+    ],
+    [
+      1307,
+      376,
+      0,
+      207,
+      3,
+      "IMAGE"
+    ],
+    [
+      1308,
+      485,
+      0,
+      354,
+      2,
+      "IMAGE"
+    ],
+    [
+      1309,
+      331,
+      0,
+      490,
+      0,
+      "*"
+    ],
+    [
+      1310,
+      490,
+      0,
+      332,
+      0,
+      "*"
+    ],
+    [
+      1311,
+      355,
+      0,
+      491,
+      0,
+      "*"
+    ],
+    [
+      1312,
+      491,
+      0,
+      97,
+      0,
+      "*"
     ]
   ],
   "groups": [
@@ -10607,9 +11853,9 @@
       "id": 4,
       "title": "CIVITAI Compatibility",
       "bounding": [
-        6400,
-        1120,
-        630,
+        6260,
+        1150,
+        620,
         430
       ],
       "color": "#444",
@@ -10633,7 +11879,7 @@
       "id": 8,
       "title": "CONDITIONING & SAMPLER",
       "bounding": [
-        -1340,
+        -1420,
         1710,
         640,
         360
@@ -10660,9 +11906,9 @@
       "title": "EMPTY LATENT GENERATOR",
       "bounding": [
         -40,
-        920,
+        910,
         1640,
-        550
+        640
       ],
       "color": "#444",
       "font_size": 24,
@@ -10704,6 +11950,19 @@
         470
       ],
       "color": "#A88",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 14,
+      "title": "ILLUSTRATION UPSCALER (SIZE +50%)",
+      "bounding": [
+        -40,
+        3310,
+        1660,
+        670
+      ],
+      "color": "#444",
       "font_size": 24,
       "flags": {}
     }
