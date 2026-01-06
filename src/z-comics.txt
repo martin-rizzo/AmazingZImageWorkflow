@@ -12,8 +12,13 @@ A woman stands on the right side of the image, on a path leading through the woo
 {#PROMPT2}
 A full shot from behind shows a warrior woman facing a horde of monsters in a hellish landscape. The woman has short brown hair tied back, and is wearing detailed, dark metallic armor with spikes on the shoulders. She holds a large, gleaming sword in her left hand, with the point angled slightly down. The monsters are grotesque, with sharp teeth, claws, and glowing red eyes. They are various sizes and shapes, some standing upright and others crouched or crawling. The ground is a rough, rocky terrain with pools of lava and fire. The background is a fiery red sky with smoke and ash. The overall tone of the image is dark and foreboding.
 
+>>:ENABLE
+"ILLUSTRATION" Artistic Mode
 
->>Comic
+>>:DISABLE
+"PHOTO" Mode
+
+>>>Comic
 YOUR CONTEXT:
 You are an american artist.
 Your illustration is a comic book cover featuring {$spicy-content-with} intense colors and outlined shapes with intense aesthetic.
@@ -21,7 +26,7 @@ YOUR ILLUSTRATION:
 {$@}
 
 
->>European Comic
+>>>European Comic
 YOUR CONTEXT:
 You are an artist of Italian comic strips.
 Your illustration is a hand-drawn European illustration including bold colors and sinuous lines, featuring realistic characters with vibrant, saturated colors and humans with realistic anatomical proportions.
@@ -29,7 +34,7 @@ YOUR ILLUSTRATION:
 {$@}
 
 
->>European Comic 2
+>>>European Comic 2
 YOUR CONTEXT:
 You are a European artist creating science fiction worlds.
 Your illustration is a classic ligne claire futurist draw, featuring {$spicy-content-with} exceptionally clean lines that define each element with the utmost precision. The composition generally highlights an intense atmosphere with complex technology. The color palette is understated yet vibrant, with flat colors or gradients, and intricate lines and design.
@@ -37,7 +42,7 @@ YOUR ILLUSTRATION:
 {$@}
 
 
->>Vintage Comic
+>>>Vintage Comic
 YOUR CONTEXT:
 You are an old vintage artist.
 Your drawing is a vintage comic-style piece from the 1950s, created on an old sheet of paper, it features {$spicy-content-with} black outlines and was painted in white, red, blue, and black.
@@ -45,7 +50,7 @@ YOUR DRAWING:
 {$@}
 
 
->>Vintage Illustration
+>>>Vintage Illustration
 YOUR CONTEXT:
 You are a sci-fi pulp magazine illustrator from the 1940s.
 Your drawing is a lush, painted-style comic cover including {$spicy-content-with} dramatic, heroic lighting and a vivid "Technicolor" palette of saturated oranges, deep teals, and bright yellows. It features soft airbrushed textures, muscular anatomy, and a grainy film-stock finish that evokes a sense of retro-futuristic adventure.
@@ -53,7 +58,7 @@ YOUR DRAWING:
 {$@}
 
 
->>Comic Book Cover
+>>>Comic Book Cover
 YOUR CONTEXT:
 You are a celebrated comic book cover artist, renowned for hyper-realistic action and monumental heroics.
 Your cover art is a Dynamic Heroic Realism illustration, characterized by {$spicy-content-with} intricate anatomical accuracy, meticulously rendered textures (fabric, metal, skin), and an explosive sense of motion. The composition often features dramatic foreshortening and a heroic, powerful pose for the central figure, surrounded by dynamic environmental destruction or energy effects. Lighting is grand and directional, sculpting forms with sharp highlights and deep shadows, ensuring every detail contributes to an overwhelming sense of epic scale and immediate impact.
@@ -61,7 +66,7 @@ YOUR ILLUSTRATION:
 {$@}
 
 
->>Pop-Art
+>>>Pop-Art
 YOUR CONTEXT:
 You are a bold artist.
 Your image in Pop Art style is characterized by {$spicy-content-with} bold, vibrant colors, and thick black outlines defining each form with clarity and contrast. The surface is executed using a pointillist technique, where dots of color come together to create the overall picture. Dazzling patterns and comic style characters. The scene has a flat, two-dimensional appearance typical of pop art aesthetics.
@@ -69,7 +74,7 @@ YOUR IMAGE:
 {$@}
 
 
->>Manga
+>>>Manga
 YOUR CONTEXT:
 You are a Japanese manga artist.
 Your drawing is a black and white manga-style illustration that includes {$spicy-content-with} dramatic screentone patterns and high-contrast black and white with a violent and intense atmosphere.
@@ -78,7 +83,7 @@ YOUR DRAWING:
 {$@}
 
 
->>Anime
+>>>Anime
 YOUR CONTEXT:
 You are a Japanese anime artist.
 Your Japanese animation includes {$spicy-content-with} an ominous atmosphere, clean lines, and dramatic facial expressions. The artwork uses cool and dark tones along with dramatic lighting and shadows that emphasize the central figure and create a somber, intense mood.
@@ -86,7 +91,7 @@ YOUR DRAWING:
 {$@}
 
 
->>Studio Anime
+>>>Studio Anime
 YOUR CONTEXT:
 You are a Japanese anime artist.
 Your Japanese animation includes {$spicy-content-with} warm artwork inspired by Studio Ghibli, with detailed characters and a whimsical aesthetic, full of emotion.
@@ -94,7 +99,7 @@ YOUR DRAWING:
 {$@}
 
 
->>Unsettling
+>>>Unsettling
 YOUR CONTEXT:
 You are an illustrator of dark and disturbing themes.
 Your illustration includes {$spicy-content-with} stippling textures, dramatic raking side lighting, and a dread-filled atmosphere that is oppressive and claustrophobic. High contrast emphasizes form and shadow, employing cinematic chiaroscuro for depth.
@@ -102,7 +107,7 @@ YOUR DRAWING:
 {$@}
 
 
->>Whimsical Watercolor
+>>>Whimsical Watercolor
 YOUR CONTEXT:
 You are an illustrator specializing in gentle, enchanting narratives for children's books.
 Your drawing is a whimsical watercolor image, featuring {$spicy-content-with} loose, fluid watercolor washes, delicate linework, and playful, anthropomorphic elements within a lush natural setting. The style is soft and inviting, with a vibrant yet gentle color palette that captures the magic of innocence.
@@ -110,7 +115,7 @@ YOUR DRAWING:
 {$@}
 
 
->>Epic Greg
+>>>Epic Greg
 YOUR CONTEXT:
 You are a master digital painter of heroic sagas.
 Your illustration is a grand-scale digital oil painting that includes {$spicy-content-with} characterized by masterful, sweeping brushwork and thick impasto textures. It features dramatic, cinematic lighting with intense chiaroscuro, where light sources like embers or magical energy pierce through atmospheric haze, smoke, and swirling clouds. The composition is heroic and classically inspired, using a rich, moody palette of deep earth tones accented by vibrant, glowing highlights for a legendary and immersive feel.
@@ -118,7 +123,7 @@ YOUR PAINTING:
 {$@}
 
 
->>Ink Frenzy
+>>>Ink Frenzy
 YOUR CONTEXT:
 You are an underground street-art comic illustrator.
 Your image is a high-energy, chaotic ink drawing featuring {$spicy-content-with} aggressive brush strokes, intentional ink splatters, and "controlled mess" textures. It combines thick, variable-width outlines with vibrant, clashing spray-paint colors. The style is rebellious, modern, and feels like it’s vibrating with motion and urban grit.
@@ -126,7 +131,7 @@ YOUR IMAGE:
 {$@}
 
 
->>Minimalist Digital Illustration
+>>>Minimalist Digital Illustration
 YOUR CONTEXT:
 You are a cover artist known for powerful, minimalist designs.
 Your cover art is a bold graphic iconography piece, featuring {$spicy-content-with} stark, impactful silhouettes and clean, sharp lines that define forms with absolute clarity. The color palette is vibrant, employing large fields of solid color with subtle gradients. Most importantly, the proportions are exaggerated, and the perspective is extremely distorted, creating a sense of vertigo and action.
@@ -134,7 +139,7 @@ YOUR ILLUSTRATION:
 {$@}
 
 
->>LowRes Pixel Art
+>>>LowRes Pixel Art
 YOUR CONTEXT:
 You are a retro video game artist from the 8-bit era.
 Your image is a low-resolution pixel art piece characterized by {$spicy-content-with} visible chunky pixels, a limited color palette, and a grid-based composition. The aesthetic mimics early arcade games, featuring sharp aliased edges, solid intense colors, and a nostalgic, blocky visual style.
@@ -142,14 +147,14 @@ YOUR PIXEL ART:
 {$@}
 
 
->>Electric Blue Outline
+>>>Electric Blue Outline
 YOUR CONTEXT:
 Your image showcases a digital cyberpunk draw, characterized by vibrant and saturated colors with solid backgrounds and blue outlines.
 YOUR IMAGE:
 {$@}
 
 
->>Modern Ukiyo‑e
+>>>Modern Ukiyo‑e
 YOUR CONTEXT:
 You are a master of traditional Japanese woodblock printing adapted to a modern narrative.
 Your illustration features {$spicy-content-with} bold, flowing outlines and flat areas of color with subtle wood-grain textures. The composition uses dramatic perspective typical of "Ukiyo-e" art, with stylized waves, clouds, or smoke, and a color palette of deep indigo, vermillion, and ochre on an aged washi paper background.
@@ -157,7 +162,7 @@ YOUR DRAWING:
 {$@}
 
 
->>Risograph Print
+>>>Risograph Print
 YOUR CONTEXT:
 You are an underground indie press printer.
 Your illustration is a tactile Risograph-style print including {$spicy-content-with} characterized by vibrant fluorescent ink overlays, deliberate registration errors (misaligned colors), and a heavy grainy texture. It uses a limited but punchy palette of neon pink, sunflower yellow, and deep teal, mimicking the look of a self-published zine.

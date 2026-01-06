@@ -13,7 +13,7 @@ A woman with short, spiky blonde hair is depicted from the chest up, aiming a la
 Three people and a creature stand in front of shelves laden with various items. On the left, a brown-haired woman smiles, wearing a light brown tank top. Next to her is a humanoid figure with a body made of dark, rocky material and pronounced musculature, resembling onyx. This figure has a large head with sharp features. To the right of this figure is a muscular man with a light skin tone, wearing a necklace and with shoulder-length green hair; he wears a white crop top with a pink unicorn painted on it. The last individual, on the far right of the image, is a dark-haired woman wearing a black T-shirt. In the foreground are several plates of food: a white bowl with a creamy dish covered in red seasoning, a rectangular container filled with what appear to be strips of meat, a white bowl with fried and breaded pieces, and a white plate with several round, light brown cookies. Also in the foreground is a light blue object resembling a human head.
 
 
->>Lo-fi Mobile Photo
+>>>Lo-fi Mobile Photo
 YOUR CONTEXT:
 Your photographs has android phone cam-quality.
 Your photographs exhibit {$spicy-content-with} real, documented moments that seem surprisingly authentic.
@@ -22,7 +22,7 @@ YOUR PHOTO:
 {$@}
 
 
->>Casual Mobile Photo
+>>>Casual Mobile Photo
 YOUR CONTEXT:
 Your photographs has android phone cam-quality.
 Your photographs exhibit {$spicy-content-with} a casual and amateur style using soft focus and vibrant colors.
@@ -31,7 +31,7 @@ YOUR PHOTO:
 {$@}
 
 
->>Vintage Candid Photo
+>>>Vintage Candid Photo
 YOUR CONTEXT:
 Your photographs exhibit {$spicy-content-with} a gritty, candid vintage style from a disposable camera, dark shadows and vibrant warm colors
 ---
@@ -39,7 +39,7 @@ YOUR PHOTO:
 {$@}
 
 
->>Classic Film Photo
+>>>Classic Film Photo
 YOUR CONTEXT:
 Your cinematic shot from classic film exhibit {$spicy-content-with} deep black shadows and warm earth tones. The scene's composition is vintage, from the 1950s, and imbued with profound emotion.
 ---
@@ -47,7 +47,7 @@ THE CINEMATIC SHOT FROM CLASSIC FILM:
 {$@}
 
 
->>Analog Photo
+>>>Analog Photo
 YOUR CONTEXT:
 Your analog photographs show {$spicy-content-with} a diagonal shot where the image is grainy and underexposed.
 ---
@@ -55,7 +55,7 @@ YOUR ANALOG PHOTO:
 {$@}
 
 
->>Vintage Introspection
+>>>Vintage Introspection
 YOUR CONTEXT:
 Your analog photographs show {$spicy-content-with} captivating elements and dark backgrounds suggesting an intimate, dimly lit indoor environment. The overall impression is one of introspection and raw authenticity.
 ---
@@ -63,7 +63,7 @@ YOUR ANALOG PHOTO:
 {$@}
 
 
->>Wide Angle / Peephole 
+>>>Wide Angle / Peephole 
 YOUR CONTEXT:
 Your peephole shows {$spicy-content-with} a shot from a high angle, inside a fisheye lens distortion glass circle, highly distorted with a wide angle.
 ---
@@ -71,7 +71,7 @@ YOUR PEEPHOLE:
 {$@}
 
 
->>Low-Poly Render
+>>>Low-Poly Render
 YOUR CONTEXT:
 Your unity engine render shows {$spicy-content-with} a low-poly 3d platformer level made from low-poly meshes and low-quality textures.
 ---
@@ -79,7 +79,7 @@ YOUR UNITY ENGINE RENDER:
 {$@}
 
 
->>Comic
+>>>Comic
 YOUR CONTEXT:
 You are an artist who draws comics.
 Your drawing is a detailed, full-color comic book cover featuring {$spicy-content-with} hatching and hand-drawn curved lines, depicting an intense and violent scene of the highest quality.
@@ -88,7 +88,7 @@ YOUR DRAWING:
 {$@}
 
 
->>Vintage Comic
+>>>Vintage Comic
 YOUR CONTEXT:
 You are a 1950s artist who draws comics.
 Your worn sheet of paper contains {$spicy-content-with} a vintage 1950s comic book illustration made with hand-drawn lines painted in white, red, blue, and black.
@@ -97,7 +97,7 @@ YOUR SHEET OF PAPER CONTAINS:
 {$@}
 
 
->>Anime
+>>>Anime
 YOUR CONTEXT:
 Your illustrations are high-quality anime artwork, exhibiting {$spicy-content-with} dynamic action poses, vibrant colors, and detailed backgrounds. Character designs are expressive and feature sharp lines, intricate shading, and visible energy effects (like speed lines or glowing auras). The style is inspired by modern action anime.
 ---
@@ -105,7 +105,7 @@ YOUR DRAWING:
 {$@}
 
 
->>Oil Painting
+>>>Oil Painting
 YOUR CONTEXT:
 You are a painter.
 Your canvas is painted with impasto; the brushstrokes are thick and visible, and the heavy texture of the impasto is very pronounced. The composition is minimalist with large areas of the same color.
@@ -114,7 +114,7 @@ YOUR IMPASTO PAINTING:
 {$@}
 
 
->>Minimalist Sketchwash
+>>>Minimalist Sketchwash
 YOUR CONTEXT:
 Your illustrations are created in a minimalist style, combining delicate pencil sketches with soft watercolor washes. They exhibit {$spicy-content-with} large areas of untouched white space, creating a sense of airiness and simplicity. The pencil lines are light and expressive, while the watercolor washes are subtle and translucent, often blending into the white space. The overall effect is ethereal and contemplative.
 ---
@@ -122,7 +122,7 @@ YOUR DRAWING:
 {$@}
 
 
->>Retro Pixel Art
+>>>Retro Pixel Art
 YOUR CONTEXT:
 Your artwork is created in a low-resolution pixel art style, reminiscent of 16-bit era video games. It exhibits {$spicy-content-with} bold, vibrant colors and a limited color palette. Details are simplified and blocky, emphasizing shape and form over realism. The overall aesthetic is retro and nostalgic, with a focus on strong visual impact despite the low pixel count.
 ---
@@ -130,7 +130,7 @@ YOUR DRAWING:
 {$@}
 
 
->>Vintage VGA Monitor
+>>>Vintage VGA Monitor
 YOUR CONTEXT:
 You have an old VGA CRT monitor sitting on a wooden desk, and a window is reflected on its screen. The monitor's casing has a raised black inscription in the upper left corner that reads "VGA". The screen has a slight curve and sweep lines typical of CRT displays.
 ---

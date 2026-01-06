@@ -14,6 +14,7 @@ import os
 import sys
 import json
 import argparse
+from collections.abc import Callable
 
 # list of files that should be taken as global configuration
 GLOBAL_CONFIG_FILES = ["global.txt", "globals.txt"]
@@ -67,6 +68,25 @@ def fatal_error(message: str, *info_messages: str, padding: int = 0, file=sys.st
     sys.exit(1)
 
 
+#--------------------------------- HELPERS ---------------------------------#
+
+def is_zconfig_file(file_path: str) -> bool:
+    """
+    Determines if a given file is a ZCONFIG configuration file.
+
+    Args:
+        file_path: The path to the file to be checked.
+    Returns:
+        `True` if the file is a ZCONFIG file, `False` otherwise.
+    """
+    try:
+        with open(file_path, 'r') as f:
+            first_chars = f.read(20)
+            return first_chars.startswith("#!ZCONFIG")
+    except Exception as e:
+        return False
+
+
 #------------------------- CONFIGURATION VARIABLES -------------------------#
 
 class ConfigVars(dict):
@@ -80,35 +100,62 @@ class ConfigVars(dict):
     """
     def __init__(self, *args, **kwargs) -> None:
         super().__init__(*args,**kwargs)
-        self.styles = []
+        self.styles             = []
+        self.node_modifications = []
 
     def __missing__(self,key):
         return '{' + key + '}'
 
 
-def add_var(config_vars: ConfigVars,
-            action     : str,
-            content    : str
-            ) -> None:
+def process_action(config_vars: ConfigVars,
+                   action     : str,
+                   content    : str
+                   ) -> None:
     """
-    Adds a variable or style to the dictionary based on the action line.
+    Processes an action and updates the configuration dictionary accordingly.
+
     Args:
         config_vars: The destination configuration dictionary that will be updated.
         action     : The action line that defines how to handle the content.
         content    : The actual content associated with the action line.
+
+    This function modifies 'config_vars' in-place based on the specified 'action':
+     - Actions with "{#VARNAME}" format, add a variable to the dictionary.
+     - Actions with ">>>STYLE NAME" format, add a style to the dictionary.
+     - Actions with ">>:COMMAND" format are commands to be executed
+       (such as enabling or disabling nodes).
+
     Returns:
-        None, this function modifies the 'config_dict' in-place.
+        None, the function modifies 'config_vars' in-place.
     """
     # actions with format "{#VARNAME}" add a variable to the dictionary
     if action.startswith("{#"):
         varname = action[1:].strip().rstrip('}')
         config_vars[varname] = content.strip()
 
-    # actions with format ">>STYLE NAME" add a style to the dictionary
-    elif action.startswith(">>"):
+    # actions with format ">>>STYLE NAME" add a style to the dictionary
+    elif action.startswith(">>>"):
         style_name = action[2:].strip()
         style      = (style_name, content.strip())
         config_vars.styles.append( style )
+
+    # actions with format ">>:COMMAND" are commands to modify nodes
+    elif action.startswith(">>:"):
+
+        if action == ">>:ENABLE":
+            for line in content.splitlines():
+                node_title = line.strip()
+                if node_title:
+                    config_vars.node_modifications.append( (node_title, {"mode":0}) )
+
+        elif action == ">>:DISABLE":
+            for line in content.splitlines():
+                node_title = line.strip()
+                if node_title:
+                    config_vars.node_modifications.append( (node_title, {"mode":2}) )
+
+        else:
+            warning(f"Unknown command '{action}'")
 
 
 def read_vars_from_file(config_vars: ConfigVars,
@@ -118,8 +165,8 @@ def read_vars_from_file(config_vars: ConfigVars,
     Reads a configuration file and populates the vars dictionary with its contents.
 
     This function processes a file line by line, identifying actions and their
-    associated content. It uses the 'add_var' helper function to add either
-    variables or styles to the provided dictionary.
+    associated content. It uses the 'process_action' helper function to add
+    either variables or styles to the provided dictionary.
 
     Args:
         config_vars: The configuration dictionary to populate with variables
@@ -134,25 +181,30 @@ def read_vars_from_file(config_vars: ConfigVars,
     action  = None
     content = ""
 
-    # necesito leer el archivo linea por linea
     with open(filepath) as f:
-        for line in f.readlines():
 
-            act_candidate = line.strip()
-            if act_candidate.startswith("#!") or \
-               act_candidate.startswith("{#") or \
-               act_candidate.startswith(">>"):
+        is_first_line = True
+        for line in f.readlines():
+            is_shebang_line = is_first_line and line.startswith("#!")
+            is_first_line   = False
+
+            line = line.rstrip() #< trailing whitespaces are lost at the end of each line
+            if ( is_shebang_line        or
+                 line.startswith("{#")  or #< variable definition action
+                 line.startswith(">>:") or #< action to modify node property
+                 line.startswith(">>>")    #< style definition action
+               ):
                 # a new action is detected, so the previous pending one is processed
                 if action:
-                    add_var(config_vars, action, content.format_map(config_vars))
+                    process_action(config_vars, action, content.format_map(config_vars))
                 # the new action is stored as pending
-                action, content  = act_candidate, ""
+                action, content = line, ""
             else:
-                content += line.rstrip() + "\n"
+                content += line + "\n"
 
     # before ending, process any pending action
     if action:
-        add_var(config_vars, action, content.format_map(config_vars))
+        process_action(config_vars, action, content.format_map(config_vars))
 
 
 #----------------------------- JSON TEMPLATES ------------------------------#
@@ -217,7 +269,7 @@ def get_group_rectangle(json: dict, group_name:str) -> list[int]:
     return None
 
 
-def find_node(json: dict, title:str) -> dict:
+def find_node(workflow: dict, title: str) -> dict:
     """
     Searches for a node in a workflow JSON structure based on its title.
     Args:
@@ -226,10 +278,10 @@ def find_node(json: dict, title:str) -> dict:
     Returns:
         The node dictionary corresponding to the given title, or None if not found.
     """
-    if not isinstance(json, dict):
+    if not isinstance(workflow, dict):
         return None
 
-    for node in json.get("nodes", []):
+    for node in workflow.get("nodes", []):
         if not isinstance(node, dict):
             continue
         if node.get("title") == title:
@@ -278,10 +330,54 @@ def find_nodes_in_rectangle(json: dict, rectangle: list[int]) -> list:
     return [node for _, node in in_bounds_nodes]
 
 
+def apply_operation_to_node(workflow : dict,
+                            title    : str,
+                            operation: Callable[[dict], None]
+                            ) -> int:
+    """
+    Applies a given operation to all nodes in the workflow with a matching title.
+    Args:
+        workflow : The dictionary representing the comfyui workflow.
+        title    : The title of the node(s) to which the operation should be applied
+                   Use "*" as a wildcard to apply the operation to all nodes.
+        operation: A callable function that takes a single argument (the node dictionary)
+                   and applies some modification or action to it.
+    Returns:
+        An integer representing the number of nodes on which the operation was performed.
+    """
+    if not isinstance(workflow, dict):
+        return 0
+
+    count = 0
+    for node in workflow.get("nodes", []):
+        if not isinstance(node, dict):
+            continue
+
+        if title=="*" or node.get("title") == title:
+            operation(node)
+            count += 1
+
+    return count
+
+
+def update_node_mode(workflow: dict, title: str, mode: int) -> int:
+    """
+    Modifies the mode of a node with a matching title in the workflow.
+    Args:
+        workflow: The dictionary representing the comfyui workflow.
+        title   : The title of the node(s) to which the operation should be applied
+                  Use "*" as a wildcard to apply the operation to all nodes.
+        mode    : The new mode value to set for the specified node.
+    """
+    def update_mode(node: dict) -> None:
+        node["mode"] = mode
+    apply_operation_to_node(workflow, title, update_mode)
+
+
 def apply_style_to_nodes(nodes: list[dict], styles: list[tuple[str,str]]) -> None:
     """
     Set the title and content of each node using the provided style list.
-    
+
     Args:
         nodes  : The list of nodes (dict) to be updated.
         styles : A list of tuples where each tuple contains two strings; 
@@ -428,7 +524,23 @@ def make_workflow(template_filepath     : str,
         if prompt_node:
             prompt_node["widgets_values"] = [ config_vars["#PROMPT"] ]
 
+    #=== WORKFLOW NODE MODIFICATIONS ===#
 
+    for node_title, modification in config_vars.node_modifications:
+        if not isinstance(node_title, str) or not isinstance(modification, dict):
+            continue
+
+       # try to find the node that is being modified by the configuration
+        node = find_node(template_json, title=node_title)
+        if not node:
+            warning(f"The node with title '{node_title}' was not found.")
+            continue
+
+        # the only modification that is implemented so far is
+        # changing the node's "mode" (enable=0, disable=2, bypass=4)
+        if "mode" in modification:
+            update_node_mode(template_json, title=node_title, mode=modification["mode"])
+ 
     #=== STYLES.TXT ===#
 
     if styles_filename:
@@ -482,7 +594,7 @@ def main(args=None, parent_script=None):
 
     # gather three types of files from the source directory:
     #   1. List of .json files (excluding temporary ~.json files)
-    #   2. List of .txt files with "#!ZCONFIG" flag
+    #   2. List of .txt files with "#!ZCONFIG" flag (zconfig files)
     #   3. Specific global configuration file matching GLOBAL_CONFIG_FILES
     #
     json_templates = []  #< list to store paths of .json template files
@@ -491,7 +603,7 @@ def main(args=None, parent_script=None):
     for filename in os.listdir(source_dir):
         if filename.endswith(".json") and not filename.endswith("~.json"):
             json_templates.append( os.path.join(source_dir, filename) )
-        elif filename.endswith(".txt") and "#!ZCONFIG" in open(os.path.join(source_dir, filename)).read():
+        elif filename.endswith(".txt") and is_zconfig_file(os.path.join(source_dir, filename)):
             if filename in GLOBAL_CONFIG_FILES:
                 global_config = os.path.join(source_dir, filename)
             else:
