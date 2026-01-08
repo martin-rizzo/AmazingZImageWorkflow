@@ -33,7 +33,7 @@ YOUR PHOTO:
 >>>Casual Photo
 YOUR CONTEXT:
 You are an amateur documentary photographer taking low quality photos.
-Your photographs exhibit {$spicy-content-with} sharp backgrounds, unpolished realism with natural lighting, and candid friendship‑level moments that feel immediate and authentic.  
+Your photographs exhibit {$spicy-content-with} sharp backgrounds, unpolished realism with natural lighting, and candid friendship‑level moments that feel immediate and authentic.
 YOUR PHOTO:
 {$@}
 
@@ -42,14 +42,6 @@ YOUR PHOTO:
 YOUR CONTEXT:
 You are an amateur photographer, taking photos with point‑and‑shoot cam-quality, in the early 1990s.
 Your photographs exhibit {$spicy-content-with} a rough, low-resolution quality, washed-out colors, including a harsh built-in flash, grainy texture, and overexposed highlights, capturing a casual atmosphere that evokes nostalgia.
-YOUR PHOTO:
-{$@}
-
-
->>>Intense Spot Photo
-YOUR CONTEXT:
-You are a photographer who loves using an intense white light source to generate dramatic light and shadow.
-Your photographs exhibit {$spicy-content-with} high definition, brilliant glowing whites with sharp dark shadows, and vibrant colors.
 YOUR PHOTO:
 {$@}
 
@@ -118,27 +110,60 @@ YOUR PHOTO:
 {$@}
 
 
->>>Light Painting Photo
-YOUR CONTEXT:
-You are an experimental photographer who enjoys creating light painting images with long exposures and LED sources.
-Your photographs exhibit {$spicy-content-with} luminous trails, vibrant colors, and elements that are strikingly illuminated by the long exposure.
-YOUR PHOTO:
-{$@}
-
-
->>>Neon City Photo
-YOUR CONTEXT:
-You are a photographer who likes dark colorful neon light scenes.
-Your photographs exhibit {$spicy-content-with} dark cinematic environments illuminated only by neon lights that emphasize vibrant reds, greens, and blues, presenting emotional scenes with saturated colors.
-YOUR PHOTO:
-{$@}
-
-
 >>>Tilt Shift / Toy Photo
 YOUR CONTEXT:
 You are a photographer who enjoys using tilt‑shift lenses to turn real‑world scenes into miniature toy models.
 Your photographs exhibit {$spicy-content-with} crisp, high‑resolution details captured in an exaggerated perspective, with a very narrow focus plane, and a dreamy, toy‑like atmosphere that creates the classic “miniature” illusion.
 YOUR PHOTO:
 {$@}
+
+
+>>>High‑Key Fashion Photo
+YOUR CONTEXT:
+You are a fashion photographer who creates ultra-bright photos for luxury productions.
+Your photograph showcases {$spicy-content-with} a high‑key composition shot flooded with soft studio lighting. The exposure is over‑lit with white background, eliminating shadows and delivering a crisp, polished look. Colors are saturated yet controlled (vivid reds, cobalt blues, and crisp whites) while the photo has immaculate details thanks to high‑resolution capture and minimal post‑processing to maintain the airy, glamorous aesthetic.
+YOUR PHOTOGRAPH:
+{$@} 
+
+
+>>>Light and Airy Photo
+YOUR CONTEXT:
+You are a photographer who loves bright, ethereal, and romantic images.
+Your photograph is bathed in soft, diffused light, creating a bright and airy aesthetic. Colors are pastel and delicate, with a focus on whites, creams, and light blues. The image has a shallow depth of field, blurring the background and drawing attention to the subject. Post-processing emphasizes highlights and reduces shadows, resulting in a clean, luminous look.
+YOUR PHOTOGRAPH:
+{$@}
+
+
+>>>Orthochromatic Spirit Photo
+YOUR CONTEXT:
+You are a photographer inspired by the look of early photographic processes, specifically orthochromatic and colorized films.
+Your photograph showcases {$spicy-content-with} a scene with a high-contrast, blue-sensitive aesthetic. Reds appear very dark, while blues and greens are bright. The image is characterized by a stark, graphic quality. Post-processing focuses on enhancing the contrast and emphasizing the tonal separation.
+YOUR PHOTOGRAPH:
+{$@}
+
+
+>>>Portra Film Photo
+YOUR CONTEXT:
+You are a photographer who appreciates the classic aesthetic of Kodak Portra film.
+Your photograph emulates that look, known for its soft colors, fine grain, and natural skin tones. The image features a subtle warmth, with a focus on accurate color rendition and a gentle, diffused glow. Highlights are smooth and creamy, while shadows retain detail. Minimal post-processing is applied to preserve the organic, film-like quality.
+YOUR PHOTOGRAPH:
+{$@}
+
+
+>>>Street Documentary Photo
+YOUR CONTEXT:
+You are a documentary photographer chronicling urban life.
+Your photograph showcases candid moments in natural street environments. The image employs a natural color balance, modest contrast, and a shallow depth of field to isolate subjects within bustling scenes. Emphasis is placed on authentic emotion, body language, and the interplay of ambient city light (neon signs, street lamps). Minimal post‑processing preserves the raw, honest feel—only slight exposure adjustments and noise reduction are applied to maintain the immediacy of the moment.
+YOUR PHOTOGRAPH:
+{$@}
+
+
+>>>Teal and Orange Photo
+YOUR CONTEXT:
+You are a color specialist photographer.
+Your photograph showcases a satured teal and orange colors. The image features cool teal tones in the shadows and highlights, balanced by warm orange tones in the midtones and skin tones, creating a vibrant photography with high contrast and vivid colors.
+YOUR PHOTOGRAPH:
+{$@}
+
 
 
