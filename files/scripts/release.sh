@@ -37,13 +37,26 @@ build_zip_file() {
     local temp_files=() #< to keep track of temporary files
     local gallery="${workflow}_styles"
     local gallery_ext=".jpg"
+    local filename
 
-    # add static files to the zip
+    # file name suffixes regarding the format of the checkpoint file
+    local formats=( "_GGUF" "_SAFETENSORS" )
+
+    # file name suffixes relating to different variants of the same workflow
+    local variations=( "" "-a" "-b" "-c" "-d" "-e" "-f" )
+
+    # in this array, we collect all the files that are part of the release package
     local zip_content=(
-        "${workflow}_GGUF.json"
-        "${workflow}_SAFETENSORS.json"
         "LICENSE"
     )
+
+    # loop through all variations that the workflow can have (adding the available suffixes)
+    for variation in "${variations[@]}"; do
+        for format in "${formats[@]}"; do
+            filename="${workflow}${variation}${format}.json"
+            [[ -f "$filename" ]] && zip_content+=( "${filename}" )
+        done
+    done
 
     # copy temporarily "README.TXT" file from /files directory
     cp "files/amazing-z-readme.txt" "README.TXT"
@@ -53,25 +66,28 @@ build_zip_file() {
     cp "${gallery}.txt" "styles.txt"
     temp_files+=( "styles.txt" )
 
-    # collect gallery images renaming them to "styles1.jpg", "styles2.jpg", etc.
-    for file in "${gallery}"*"${gallery_ext}"; do
-        [[ -f "$file" ]] || continue  #< ensure it's a valid file
+    echo "release.sh is under development."  #< placeholder until the function is implemented properly
+    exit 1
 
-        # extract the numeric suffix from the filename
-        index=${file#"$gallery"}
-        index=${index%"$gallery_ext"}
+    # # collect gallery images renaming them to "styles1.jpg", "styles2.jpg", etc.
+    # for file in "${gallery}"*"${gallery_ext}"; do
+    #     [[ -f "$file" ]] || continue  #< ensure it's a valid file
 
-        # create temporary image file (e.g., "styles1.jpg")
-        image="styles${index}.jpg"
-        cp "$file" "$image"
-        temp_files+=( "$image" )
-    done
+    #     # extract the numeric suffix from the filename
+    #     index=${file#"$gallery"}
+    #     index=${index%"$gallery_ext"}
 
-    # create the zip archive with the collected files
-    zip -j "$zip_file" "${zip_content[@]}" "${temp_files[@]}"
+    #     # create temporary image file (e.g., "styles1.jpg")
+    #     image="styles${index}.jpg"
+    #     cp "$file" "$image"
+    #     temp_files+=( "$image" )
+    # done
 
-    # remove temporary files
-    rm "${temp_files[@]}"
+    # # create the zip archive with the collected files
+    # zip -j "$zip_file" "${zip_content[@]}" "${temp_files[@]}"
+
+    # # remove temporary files
+    # rm "${temp_files[@]}"
 }
 
 
