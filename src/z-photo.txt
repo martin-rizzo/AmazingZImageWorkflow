@@ -38,6 +38,22 @@ YOUR PHOTO:
 {$@}
 
 
+>>>Vintage Photo
+YOUR CONTEXT:
+You are an 80s photographer who enjoys informal shots.
+Your worn vintage photographs exhibit {$spicy-content-with} a minimalist, amateurish composition, warm desaturated tones and a soft focus that creates a cozy atmosphere.
+YOUR PHOTO:
+{$@}
+
+
+>>>Portra Film Photo
+YOUR CONTEXT:
+You are a photographer who appreciates the classic aesthetic of Kodak Portra film.
+Your photograph emulates that look, known for its soft colors, fine grain, and natural skin tones. The image features {$spicy-content-with} a subtle warmth, with a focus on accurate color rendition and a gentle, diffused glow. Highlights are smooth and creamy, while shadows retain detail. Minimal post-processing is applied to preserve the organic, film-like quality.
+YOUR PHOTOGRAPH:
+{$@}
+
+
 >>>Flash 90s Photo
 YOUR CONTEXT:
 You are an amateur photographer, taking photos with point‑and‑shoot cam-quality, in the early 1990s.
@@ -70,14 +86,6 @@ YOUR PHOTO:
 {$@}
 
 
->>>Vintage Photo
-YOUR CONTEXT:
-You are an 80s photographer who enjoys informal shots.
-Your worn vintage photographs exhibit {$spicy-content-with} a minimalist, amateurish composition, warm desaturated tones and a soft focus that creates a cozy atmosphere.
-YOUR PHOTO:
-{$@}
-
-
 >>>Lomography
 YOUR CONTEXT:
 You are an adventurous experimental photographer exploring the world through a lomographic lens.
@@ -102,23 +110,7 @@ YOUR PHOTO:
 {$@}
 
 
->>>Pop Photo
-YOUR CONTEXT:
-You are a contemporary pop artist known for your vibrant, oversaturated palettes and energetic, graphic compositions.
-Your photographs exhibit {$spicy-content-with} exaggerated colors and solid backgrounds using Ben-Day dots, achieving an unconventional and clearly pop art effect.
-YOUR PHOTO:
-{$@}
-
-
->>>Tilt Shift / Toy Photo
-YOUR CONTEXT:
-You are a photographer who enjoys using tilt‑shift lenses to turn real‑world scenes into miniature toy models.
-Your photographs exhibit {$spicy-content-with} crisp, high‑resolution details captured in an exaggerated perspective, with a very narrow focus plane, and a dreamy, toy‑like atmosphere that creates the classic “miniature” illusion.
-YOUR PHOTO:
-{$@}
-
-
->>>High‑Key Fashion Photo
+>>>High-Key Fashion Photo
 YOUR CONTEXT:
 You are a fashion photographer who creates ultra-bright photos for luxury productions.
 Your photograph showcases {$spicy-content-with} a high‑key composition shot flooded with soft studio lighting. The exposure is over‑lit with white background, eliminating shadows and delivering a crisp, polished look. Colors are saturated yet controlled (vivid reds, cobalt blues, and crisp whites) while the photo has immaculate details thanks to high‑resolution capture and minimal post‑processing to maintain the airy, glamorous aesthetic.
@@ -134,18 +126,18 @@ YOUR PHOTOGRAPH:
 {$@}
 
 
->>>Orthochromatic Spirit Photo
+>>>Teal and Orange Photo
 YOUR CONTEXT:
-You are a photographer inspired by the look of early photographic processes, specifically orthochromatic and colorized films.
-Your photograph showcases {$spicy-content-with} a scene with a high-contrast, blue-sensitive aesthetic. Reds appear very dark, while blues and greens are bright. The image is characterized by a stark, graphic quality. Post-processing focuses on enhancing the contrast and emphasizing the tonal separation.
+You are a color specialist photographer.
+Your photograph showcases {$spicy-content-with} a satured teal and orange colors. The image features cool teal tones in the shadows and highlights, balanced by warm orange tones in the midtones and skin tones, creating a vibrant photography with high contrast and vivid colors.
 YOUR PHOTOGRAPH:
 {$@}
 
 
->>>Portra Film Photo
+>>>Orthochromatic Spirit Photo
 YOUR CONTEXT:
-You are a photographer who appreciates the classic aesthetic of Kodak Portra film.
-Your photograph emulates that look, known for its soft colors, fine grain, and natural skin tones. The image features {$spicy-content-with} a subtle warmth, with a focus on accurate color rendition and a gentle, diffused glow. Highlights are smooth and creamy, while shadows retain detail. Minimal post-processing is applied to preserve the organic, film-like quality.
+You are a photographer inspired by the look of early photographic processes, specifically orthochromatic and colorized films.
+Your photograph showcases {$spicy-content-with} a scene with a high-contrast, blue-sensitive aesthetic. Reds appear very dark, while blues and greens are bright. The image is characterized by a stark, graphic quality. Post-processing focuses on enhancing the contrast and emphasizing the tonal separation.
 YOUR PHOTOGRAPH:
 {$@}
 
@@ -158,10 +150,18 @@ YOUR PHOTOGRAPH:
 {$@}
 
 
->>>Teal and Orange Photo
+>>>Tilt Shift / Toy Photo
 YOUR CONTEXT:
-You are a color specialist photographer.
-Your photograph showcases {$spicy-content-with} a satured teal and orange colors. The image features cool teal tones in the shadows and highlights, balanced by warm orange tones in the midtones and skin tones, creating a vibrant photography with high contrast and vivid colors.
-YOUR PHOTOGRAPH:
+You are a photographer who enjoys using tilt‑shift lenses to turn real‑world scenes into miniature toy models.
+Your photographs exhibit {$spicy-content-with} crisp, high‑resolution details captured in an exaggerated perspective, with a very narrow focus plane, and a dreamy, toy‑like atmosphere that creates the classic “miniature” illusion.
+YOUR PHOTO:
+{$@}
+
+
+>>>Pop Photo
+YOUR CONTEXT:
+You are a contemporary pop artist known for your vibrant, oversaturated palettes and energetic, graphic compositions.
+Your photographs exhibit {$spicy-content-with} exaggerated colors and solid backgrounds using Ben-Day dots, achieving an unconventional and clearly pop art effect.
+YOUR PHOTO:
 {$@}
 
