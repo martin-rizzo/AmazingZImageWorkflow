@@ -3,10 +3,10 @@
 globals.txt
 
 {#TITLE}
-Amazing Z-Image (B) WF
+Amazing Z-Image B WF
 
 {#FILEPREFIX}
-amazing-z-image_b_
+amazing-z-image-b_
 
 {#PROMPT}
 A woman with short, spiky blonde hair is depicted from the chest up, aiming a large, dark gray firearm. Her hair is tousled and appears to be catching the light. She has blue eyes and shadow on her cheeks. She is wearing a white tank top with one strap visibly off her right shoulder. The firearm she holds is dark gray and appears to be a heavy weapon. A dark ancient castle is visible in the background on the right side. Her attire includes dark, torn shorts and ripped, dark stockings or tights on her legs.
