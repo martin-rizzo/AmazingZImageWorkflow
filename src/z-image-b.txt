@@ -9,10 +9,10 @@ Amazing Z-Image(b) WF
 amazing-z-image-b_
 
 {#PROMPT}
-A woman with short, spiky blonde hair is depicted from the chest up, aiming a large, dark gray firearm. Her hair is tousled and appears to be catching the light. She has blue eyes and shadow on her cheeks. She is wearing a white tank top with one strap visibly off her right shoulder. The firearm she holds is dark gray and appears to be a heavy weapon. A dark ancient castle is visible in the background on the right side. Her attire includes dark, torn shorts and ripped, dark stockings or tights on her legs.
+In a steampunk workshop, a red-haired inventor, wearing overalls with a white top underneath, works on a mechanical spider. She has a black tattoo on her left arm.
 
 {#PROMPT2}
-Three people and a creature stand in front of shelves laden with various items. On the left, a brown-haired woman smiles, wearing a light brown tank top. Next to her is a humanoid figure with a body made of dark, rocky material and pronounced musculature, resembling onyx. This figure has a large head with sharp features. To the right of this figure is a muscular man with a light skin tone, wearing a necklace and with shoulder-length green hair; he wears a white crop top with a pink unicorn painted on it. The last individual, on the far right of the image, is a dark-haired woman wearing a black T-shirt. In the foreground are several plates of food: a white bowl with a creamy dish covered in red seasoning, a rectangular container filled with what appear to be strips of meat, a white bowl with fried and breaded pieces, and a white plate with several round, light brown cookies. Also in the foreground is a light blue object resembling a human head.
+Elon Musk meets an xenomorph alien in a shopping mall, jocking, funny faces, very happy.
 
 >>:PIN
 *
@@ -130,8 +130,8 @@ YOUR IMAGE:
 >>>Risograph Print
 YOUR CONTEXT:
 You are an underground indie press printer.
-Your illustration is a tactile Risograph-style print including {$spicy-content-with} characterized by vibrant fluorescent ink overlays, deliberate registration errors (misaligned colors), and a heavy grainy texture. It uses a limited but punchy palette of neon pink, sunflower yellow, and deep teal, mimicking the look of a self-published zine.
-YOUR PRINT:
+Your illustration is a tactile Risograph-style print, featuring {$spicy-content-with} vibrant fluorescent ink and a heavy grainy texture. It uses a punchy palette of neon pink, intense yellow, and deep teal.
+YOUR MULTI SUBJECT PRINT:
 {$@}
 
 

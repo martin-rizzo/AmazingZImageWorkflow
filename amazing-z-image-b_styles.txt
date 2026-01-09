@@ -1,0 +1,26 @@
+IMAGE1 PROMPT:
+In a steampunk workshop, a red-haired inventor, wearing overalls with a white top underneath, works on a mechanical spider. She has a black tattoo on her left arm.
+
+IMAGE2 PROMPT:
+Elon Musk meets an xenomorph alien in a shopping mall, jocking, funny faces, very happy.
+
+STYLES
+ * 80s Dark Fantasy Photo
+ * Synthwave Photo
+ * Witchcore Photo
+ * Light Painting Photo
+ * Kawaii Pop Photo
+ * Spotlight Stage Photo
+ * Post‑Processed Artistry
+ * Low-Poly Render
+ * Ink Draw
+ * Shadow Fantasy Illustration
+ * Gothic Engraving
+ * Folk‑Art Mosaic
+ * Paper‑Cut Diorama
+ * Risograph Print
+ * Modern Ukiyo‑e Print
+ * Vintage Polaroid Photo
+ * Glass‑Encased Advertising
+ * Vintage VGA Monitor
+
