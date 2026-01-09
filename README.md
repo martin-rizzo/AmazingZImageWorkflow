@@ -131,6 +131,14 @@ If, for some reason, you need to use the older version 3.x, you will also requir
  - __[4x_Nickelback_70000G.safetensors](https://huggingface.co/martin-rizzo/ESRGAN-4x/blob/main/4x_Nickelback_70000G.safetensors)__ <sub>[66.9 MB]</sub>\
    Local Directory: __`ComfyUI/models/upscale_models/`__
 
+## Acknowledgments
+
+I would like to extend my gratitude to the following developers:
+- **[Tongyi-MAI Team](https://github.com/Tongyi-MAI)**: For creating the exceptional Z-Image-Turbo model, which stands out as the best choice for generating high-quality images on consumer GPUs.
+- **[Regis Gaughan III (rgthree)](https://github.com/rgthree)**: For creating an excellent collection of ComfyUI nodes that enable implementing logic and user interface within workflows, enhancing functionality and usability.
+
+These components have been indispensable in making Amazing Z-Image Workflow possible.
+
 ## License
 
 This project is licensed under the Unlicense license.\
