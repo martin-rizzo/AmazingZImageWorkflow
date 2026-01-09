@@ -1,51 +1,40 @@
 {
   "id": "f0214f4c-d26c-4351-bed1-4ebb5e732a93",
   "revision": 0,
-  "last_node_id": 39,
+  "last_node_id": 43,
   "last_link_id": 0,
   "nodes": [
     {
-      "id": 34,
-      "type": "CLIPLoaderGGUF",
+      "id": 24,
+      "type": "Note",
       "pos": [
-        -280,
-        130
+        -1200,
+        730
       ],
       "size": [
-        380,
-        110
+        900,
+        640
       ],
       "flags": {},
       "order": 0,
       "mode": 0,
       "inputs": [],
-      "outputs": [
-        {
-          "name": "CLIP",
-          "type": "CLIP",
-          "links": []
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui-gguf",
-        "ver": "1.1.8",
-        "Node name for S&R": "CLIPLoaderGGUF",
-        "aux_id": "city96/ComfyUI-GGUF"
-      },
+      "outputs": [],
+      "title": "README",
+      "properties": {},
       "widgets_values": [
-        "Qwen3-4B.i1-Q5_K_S.gguf",
-        "lumina2"
+        "{#TITLE} {#VERSION}\n\n## Workflow Prerequisites ##\n\n{#SAFETENSORS_REQUIREMENTS}\n\n## More Info ##\n\n{#MORE_INFO}\n\n{#CREATED_BY_MR}\n"
       ],
-      "color": "#322",
-      "bgcolor": "#533",
+      "color": "#222",
+      "bgcolor": "#000",
       "shape": 1
     },
     {
-      "id": 36,
+      "id": 41,
       "type": "UnetLoaderGGUF",
       "pos": [
-        -280,
-        -10
+        -270,
+        -180
       ],
       "size": [
         380,
@@ -76,36 +65,47 @@
       "shape": 1
     },
     {
-      "id": 33,
-      "type": "Note",
+      "id": 42,
+      "type": "CLIPLoaderGGUF",
       "pos": [
-        -1200,
-        -190
+        -270,
+        -40
       ],
       "size": [
-        900,
-        640
+        380,
+        110
       ],
       "flags": {},
       "order": 2,
       "mode": 0,
       "inputs": [],
-      "outputs": [],
-      "title": "README",
-      "properties": {},
-      "widgets_values": [
-        "{#TITLE} {#VERSION}\n\n## Workflow Prerequisites ##\n\n{#GGUF_REQUIREMENTS}\n\n## More Info ##\n\n{#MORE_INFO}\n\n{#CREATED_BY_MR}\n"
+      "outputs": [
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": []
+        }
       ],
-      "color": "#222",
-      "bgcolor": "#000",
+      "properties": {
+        "cnr_id": "comfyui-gguf",
+        "ver": "1.1.8",
+        "Node name for S&R": "CLIPLoaderGGUF",
+        "aux_id": "city96/ComfyUI-GGUF"
+      },
+      "widgets_values": [
+        "Qwen3-4B.i1-Q5_K_S.gguf",
+        "lumina2"
+      ],
+      "color": "#322",
+      "bgcolor": "#533",
       "shape": 1
     },
     {
-      "id": 24,
+      "id": 40,
       "type": "Note",
       "pos": [
-        -1200,
-        730
+        -1190,
+        -230
       ],
       "size": [
         900,
@@ -119,18 +119,18 @@
       "title": "README",
       "properties": {},
       "widgets_values": [
-        "{#TITLE} {#VERSION}\n\n## Workflow Prerequisites ##\n\n{#SAFETENSORS_REQUIREMENTS}\n\n## More Info ##\n\n{#MORE_INFO}\n\n{#CREATED_BY_MR}\n"
+        "{#TITLE} {#VERSION}\n\n## Workflow Prerequisites ##\n\n{#GGUF_REQUIREMENTS}\n\n## More Info ##\n\n{#MORE_INFO}\n\n{#CREATED_BY_MR}\n"
       ],
       "color": "#222",
       "bgcolor": "#000",
       "shape": 1
     },
     {
-      "id": 35,
+      "id": 43,
       "type": "VAELoader",
       "pos": [
-        -280,
-        -140
+        -270,
+        110
       ],
       "size": [
         380,
@@ -164,7 +164,7 @@
       "type": "UNETLoader",
       "pos": [
         -280,
-        910
+        780
       ],
       "size": [
         380,
@@ -199,7 +199,7 @@
       "type": "CLIPLoader",
       "pos": [
         -280,
-        1050
+        920
       ],
       "size": [
         380,
@@ -235,7 +235,7 @@
       "type": "VAELoader",
       "pos": [
         -280,
-        780
+        1070
       ],
       "size": [
         380,
@@ -281,11 +281,11 @@
       "flags": {}
     },
     {
-      "id": 7,
+      "id": 8,
       "title": "GGUF MODELS",
       "bounding": [
-        -290,
-        -220,
+        -280,
+        -260,
         400,
         470
       ],
@@ -297,13 +297,13 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.424097618372485,
+      "scale": 0.4665073802097336,
       "offset": [
-        2418.406551857805,
-        688.7806696263002
+        2200.5518414864127,
+        476.30013644601127
       ]
     },
-    "frontendVersion": "1.34.9"
+    "frontendVersion": "1.35.9"
   },
   "version": 0.4
 }
