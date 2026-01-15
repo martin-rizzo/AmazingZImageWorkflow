@@ -1,24 +1,23 @@
-#ZCONFIG
->>:INCLUDE
+#!ZCONFIG
+
+>::INCLUDE
 globals.txt
+mode-photo.txt
+
+>::MAKE
+amazing-z-image-b_GGUF.json        : template_GGUF.json
+amazing-z-image-b_SAFETENSORS.json : template_SAFETENSORS.json
+amazing-z-image-b_gallery.txt      : [[GALLERY.TXT]]
+
 
 {#TITLE}
 Amazing Z-Image(b) WF
-
-{#FILEPREFIX}
-amazing-z-image-b_
 
 {#PROMPT}
 In a steampunk workshop, a red-haired inventor, wearing overalls with a white top underneath, works on a mechanical spider. She has a black tattoo on her left arm.
 
 {#PROMPT2}
 Elon Musk meets an xenomorph alien in a shopping mall, jocking, funny faces, very happy.
-
->>:PIN
-*
-
->>:PIN-GROUP
-*
 
 
 >>>80s Dark Fantasy Photo

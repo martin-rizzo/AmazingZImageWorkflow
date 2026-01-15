@@ -1,0 +1,12 @@
+>::ENABLE
+"PHOTO" Mode
+
+>::DISABLE
+"ILLUSTRATION" Artistic Mode
+
+>::PIN
+*
+
+>::PIN-GROUP
+*
+

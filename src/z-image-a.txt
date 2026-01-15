@@ -1,24 +1,23 @@
-#ZCONFIG
->>:INCLUDE
+#!ZCONFIG
+
+>::INCLUDE
 globals.txt
+mode-photo.txt
+
+>::MAKE
+amazing-z-image-a_GGUF.json        : template_GGUF.json
+amazing-z-image-a_SAFETENSORS.json : template_SAFETENSORS.json
+amazing-z-image-a_gallery.txt      : [[GALLERY.TXT]]
+
 
 {#TITLE}
 Amazing Z-Image WF
-
-{#FILEPREFIX}
-amazing-z-image-a_
 
 {#PROMPT}
 In a steampunk workshop, a red-haired inventor, wearing overalls with a white top underneath, works on a mechanical spider. She has a black tattoo on her left arm.
 
 {#PROMPT2}
 A woman with short, spiky blonde hair is depicted from the chest up, aiming a large, dark gray firearm. Her hair is tousled and appears to be catching the light. She has blue eyes and shadow on her cheeks. She is wearing a white tank top with one strap visibly off her right shoulder. The firearm she holds is dark gray and appears to be a heavy weapon. A dark ancient castle is visible in the background on the right side. Her attire includes dark, torn shorts and ripped, dark stockings or tights on her legs.
-
->>:PIN
-*
-
->>:PIN-GROUP
-*
 
 
 >>>Phone Photo

@@ -2,17 +2,16 @@
 
 >::INCLUDE
 globals.txt
+mode-illustration.txt
 
 >::MAKE
 amazing-z-comics_GGUF.json        : template_GGUF.json
 amazing-z-comics_SAFETENSORS.json : template_SAFETENSORS.json
+amazing-z-comics_gallery.txt      : [[GALLERY.TXT]]
 
 
 {#TITLE}
 Amazing Z-Comics WF
-
-{#FILEPREFIX}
-amazing-z-comics_
 
 {#PROMPT}
 In a steampunk workshop, a red-haired inventor, wearing overalls with a white top underneath, works on a mechanical spider. She has a black tattoo on her left arm.

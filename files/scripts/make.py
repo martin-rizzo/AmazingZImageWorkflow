@@ -98,6 +98,7 @@ class ConfigVars(dict):
     def __init__(self, *args, **kwargs) -> None:
         super().__init__(*args,**kwargs)
         self.styles              = []
+        self.files_to_make       = []
         self.node_modifications  = []
         self.group_modifications = []
 
@@ -189,8 +190,14 @@ def process_action(action     : str,
                     config_vars.group_modifications.append( (node_title, {"pinned":False}) )
 
         elif action == ">::MAKE":
-            # for now the command ">::MAKE" is not implemented
-            pass
+            for output_and_template in content.splitlines():
+                output, _, template = output_and_template.partition(':')
+                output,    template = output.strip(), template.strip()
+                if output and template:
+                    config_vars.files_to_make.append( (output, template) )
+                else:
+                    #TODO: if one of the components is missing, there should be a warning?
+                    pass
 
         else:
             warning(f"Unknown command '{action}'")
@@ -223,7 +230,8 @@ def read_vars_from_file(config_vars: ConfigVars,
     base_dir = os.path.dirname(filepath) #< path to the directory where file was read from
 
     if not os.path.isfile(filepath):
-        warning(f"File '{filepath}' does not exist.")
+        warning(f"File '{os.path.basename(filepath)}' does not exist.")
+        return
 
     with open(filepath) as f:
 
@@ -488,88 +496,42 @@ def apply_style_to_nodes(nodes: list[dict], styles: list[tuple[str,str]]) -> Non
         node["widgets_values"] = [template_value]
 
 
-#------------------------------- GALLERY.TXT -------------------------------#
-
-def save_style_gallery(filepath: str,
-                       styles  : list[tuple[str,str]],
-                       prompts : list[str]
-                       ) -> None:
-    """
-    Saves the style list (and example prompts) to a text file.
-    Args:
-        filepath : The path where the output text file will be saved.
-        styles   : A list of tuples containing style names and their template values.
-        prompts  : A list of strings representing different example prompts.
-    """
-    with open(filepath, 'w') as file:
-
-        for index, prompt in enumerate(prompts):
-            file.write(f"IMAGE{index+1} PROMPT:\n")
-            file.write(f"{prompt}\n")
-            file.write("\n")
-
-        file.write("STYLES\n")
-        for style in styles:
-            file.write(f" * {style[0]}\n")
-        file.write("\n")
 
 
 #===========================================================================#
 #////////////////////////////////// MAIN ///////////////////////////////////#
 #===========================================================================#
 
-def make_workflow(template_filepath     : str,
-                  config_filepath       : str,
-                  create_styles_txt     : bool = False,
-                  overwrite             : bool = False
+
+
+def make_workflow(output_filename  : str,
+                  template_fullpath: str,
+                  config_vars      : ConfigVars,
+                  overwrite        : bool = False
                  ) -> bool:
     """
-    Creates a workflow based on the provided template and configuration.
-
-    This function reads variables from the specified configuration files, and
-    creates a workflow using the given template.
+    Creates a workflow based on the provided template and configuration variables.
 
     Args:
-        template_filepath     : The path to the template file used for creating the workflow.
-        config_filepath       : The path to the specific configuration file.
-        global_config_filepath: Optional; the path to a global configuration file containing shared settings.
+        output_filename     : The filename where the resulting workflow will be saved.
+        template_fullpath   : The full path to the JSON template file.
+        config_vars         : A `ConfigVars` object containing all user-defined variables.
+        overwrite (optional): If True, existing files at output_filename will be overwritten.
+                              Defaults to False.
     Returns:
-        True if the workflow was successfully created.
+        bool: True if the workflow was successfully created, False otherwise.
     """
-    config_vars = ConfigVars()
-
-    template_name = os.path.basename(template_filepath).split(".")[0]
-    if template_name.startswith("template"):
-        template_name = template_name[9:].rstrip('_')
-
-    config_vars["#TEMPLATE_NAME"] = template_name
-    read_vars_from_file( config_vars, config_filepath )
-
-    # always "{#FILEPREFIX}" must be defined in the configuration file
-    if not "#FILEPREFIX" in config_vars:
-        error('The "{#FILEPREFIX}" variable is missing from the configuration file.')
-        return False
-
-    # generate the name of the output files
-    workflow_filename = config_vars["#FILEPREFIX"] + template_name + ".json"
-    gallery_filename  = config_vars["#FILEPREFIX"] + "gallery.txt"
-    if not create_styles_txt:
-        gallery_filename = None
 
     # if overwrite is disabled, check if output files already exist
     if not overwrite:
-        if workflow_filename and os.path.exists( workflow_filename ):
-            error(f'The output path "{workflow_filename}" already exists.',
-                   "Use the '--overwrite' flag to overwrite any existing file.")
-            return False
-        if gallery_filename and os.path.exists( gallery_filename ):
-            error(f'The output path "{gallery_filename}" already exists.',
+        if output_filename and os.path.exists( output_filename ):
+            error(f'The output file "{output_filename}" already exists.',
                    "Use the '--overwrite' flag to overwrite any existing file.")
             return False
 
     # try to read the workflow template by parsing a json
     template_json = None
-    with open(template_filepath) as file:
+    with open(template_fullpath) as file:
         try:
             template_json = json.load(file)
         except json.JSONDecodeError:
@@ -584,7 +546,6 @@ def make_workflow(template_filepath     : str,
     # resolve all variables in any strings within the json
     resolve_vars_in_json(template_json,
                          config_vars = config_vars)
-
 
     #=== WORKFLOW STYLES ===#
 
@@ -634,21 +595,101 @@ def make_workflow(template_filepath     : str,
         elif "pinned" in modification:
             update_pin(template_json, title=title, pinned=modification["pinned"], type="group")
 
-    #=== GALLERY.TXT ===#
-
-    if gallery_filename:
-        prompts = []
-        if "#PROMPT" in config_vars:
-            prompts.append( config_vars["#PROMPT"] )
-        if "#PROMPT2" in config_vars:
-            prompts.append( config_vars["#PROMPT2"] )
-        save_style_gallery( gallery_filename, styles=config_vars.styles, prompts=prompts )
-
     # saves modified workflow in output_filepath
-    with open(workflow_filename, "w", encoding="utf-8") as file:
+    with open(output_filename, "w", encoding="utf-8") as file:
         json.dump(template_json, file, ensure_ascii=False, indent=4)
 
     return True
+
+
+def make_gallery_txt(output_filename  : str,
+                     config_vars      : ConfigVars,
+                     overwrite        : bool = False
+                     ) -> bool:
+    """
+    Creates a gallery text file listing example prompts and styles.
+
+    Args:
+        output_filename     : The filename where the gallery text will be saved.
+        config_vars         : A `ConfigVars` object containing all user-defined variables.
+                              including prompts and styles.
+        overwrite (optional): If True, existing files at output_filename will be overwritten.
+                              Defaults to False.
+    Returns:
+        bool: True if the workflow was successfully created, False otherwise.
+    """
+    # if overwrite is disabled, check if output files already exist
+    if not overwrite:
+        if output_filename and os.path.exists( output_filename ):
+            error(f'The output file "{output_filename}" already exists.',
+                   "Use the '--overwrite' flag to overwrite any existing file.")
+            return False
+
+    # creates the gallery.txt file
+    with open(output_filename, 'w', encoding="utf-8") as file:
+
+        for i in range (1, 9):
+            varname = f"#PROMPT{i}" if i > 1 else "#PROMPT"
+            if not varname in config_vars:
+                continue
+            file.write(f"IMAGE{i} PROMPT:\n")
+            file.write(f"{config_vars[varname]}\n\n")
+
+        file.write("STYLES\n")
+        for style in config_vars.styles:
+            file.write(f" * {style[0]}\n")
+        file.write("\n")
+
+    return True
+
+
+def process_config_file(config_filepath: str,
+                        /,*,
+                        overwrite      : bool = False
+                        ) -> bool:
+    """
+    Processes a configuration file to generate the final workflow files.
+
+    Args:
+        config_filepath     : The path to the user-defined configuration file.
+        overwrite (optional): If True, existing files will be overwritten. Defaults to False.
+    Returns:
+        bool: True if all processes were successful, False otherwise.
+    """
+    config_dir    = os.path.dirname(config_filepath)
+    all_processed = True
+
+    # read the config vars from the file
+    config_vars = ConfigVars()
+    read_vars_from_file( config_vars, config_filepath )
+
+    # process one by one the output files that
+    # the user specified with the command ">::MAKE"
+    for output_filename, template_name in config_vars.files_to_make:
+        template_fullpath = os.path.join(config_dir, template_name)
+
+        # in the special case where the template is [[GALLERY.TXT]],
+        # a txt file with the prompts and style lists is created
+        if template_name == "[[GALLERY.TXT]]":
+            print(f"   - {output_filename} (gallery)")
+            working = make_gallery_txt(output_filename,
+                                       config_vars = config_vars,
+                                       overwrite   = overwrite)
+            if not working:
+                all_processed = False
+            continue
+
+        # by default, create the workflow using a template and the config vars
+        print(f"   - {output_filename}")
+        working = make_workflow(output_filename,
+                                template_fullpath = template_fullpath,
+                                config_vars       = config_vars,
+                                overwrite         = overwrite
+                                )
+        if not working:
+            all_processed = False
+
+    return all_processed
 
 
 
@@ -685,43 +726,23 @@ def main(args=None, parent_script=None):
     source_dir = os.path.join(os.getcwd(), source_dir)
     source_dir = os.path.realpath(source_dir)
 
-    # gather two types of files from the source directory:
-    #   1. List of .json files (excluding temporary ~.json files)
-    #   2. List of .txt files with "#!ZCONFIG" flag (zconfig files)
-    #
-    json_templates = []  #< list to store paths of .json template files
-    text_configs   = []  #< list to store paths of valid text config files
+    # gather .txt files with "#!ZCONFIG" flag (zconfig files)
+    config_files = []
     for filename in os.listdir(source_dir):
-        if filename.endswith(".json") and not filename.endswith("~.json"):
-            json_templates.append( os.path.join(source_dir, filename) )
-        elif filename.endswith(".txt") and is_zconfig_file(os.path.join(source_dir, filename)):
-            text_configs.append( os.path.join(source_dir, filename) )
+        if filename.endswith(".txt") and is_zconfig_file(os.path.join(source_dir, filename)):
+            config_files.append( os.path.join(source_dir, filename) )
 
     # display errors if no required files were found
-    if not json_templates:
-        fatal_error("No JSON template files found in the source directory.")
-    if not text_configs:
+    if not config_files:
         fatal_error("No valid text configuration files found in the source directory.")
 
-    # show a report of the found files
-    print("")
-    print(" Configuration Files:")
-    for fullpath in text_configs:
-        print(f"    - {os.path.basename(fullpath)}")
-    print(" Template Files:")
-    for fullpath in json_templates:
-        print(f"    - {os.path.basename(fullpath)}")
-    print("")
-
-
-    for config_path in text_configs:
-        for template_path in json_templates:
-            make_workflow(template_filepath      = template_path,
-                          config_filepath        = config_path,
-                          overwrite              = args.overwrite,
-                          create_styles_txt      = True,
-                          )
-
+    # process the found configuration files one by one
+    for config_fullpath in config_files:
+        print(f' Building workflows from "{os.path.basename(config_fullpath)}"')
+        process_config_file(config_fullpath,
+                            overwrite = args.overwrite
+                            )
+        print()
 
 
 

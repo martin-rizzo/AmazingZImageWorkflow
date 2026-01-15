@@ -1,24 +1,23 @@
-#ZCONFIG
->>:INCLUDE
+#!ZCONFIG
+
+>::INCLUDE
 globals.txt
+mode-photo.txt
+
+>::MAKE
+amazing-z-photo_GGUF.json        : template_GGUF.json
+amazing-z-photo_SAFETENSORS.json : template_SAFETENSORS.json
+amazing-z-photo_gallery.txt      : [[GALLERY.TXT]]
+
 
 {#TITLE}
 Amazing Z-Photo WF
-
-{#FILEPREFIX}
-amazing-z-photo_
 
 {#PROMPT}
 In a steampunk workshop, a red-haired inventor, wearing overalls with a white top underneath, works on a mechanical spider. She has a black tattoo on her left arm.
 
 {#PROMPT2}
 A fair-skinned young woman is depicted in profile, looking directly at the camera. She has short, wavy blonde hair and wears a form-fitting silver dress with a deep V-neck and long sleeves that begin at her upper arms. A silver necklace with a key-shaped pendant adorns her neck. In the dark, unlit background stands a tall, slender alien figure. This alien figure has pale skin and disturbingly large, dark, and piercing eyes that convey a menacing presence. Its overall shape is sharp and angular, enhancing its terrifying appearance. The setting suggests a laboratory or medical facility, with metal doors and equipment barely visible behind the figures. The lighting is predominantly dark.
-
->>:PIN
-*
-
->>:PIN-GROUP
-*
 
 
 >>>Phone Photo
