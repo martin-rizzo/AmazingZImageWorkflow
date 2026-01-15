@@ -120,12 +120,12 @@ def process_action(action     : str,
         content    : The actual content associated with the action line.
         config_vars: The destination configuration dictionary that will be updated.
         base_dir   : The base directory for relative paths.
-        can_include: Whether or not the ">>:INCLUDE" command is allowed.
+        can_include: Whether or not the ">::INCLUDE" command is allowed.
 
     This function modifies 'config_vars' in-place based on the specified 'action':
      - Actions with "{#VARNAME}" format, add a variable to the dictionary.
      - Actions with ">>>STYLE NAME" format, add a style to the dictionary.
-     - Actions with ">>:COMMAND" format are commands to be executed
+     - Actions with ">::COMMAND" format are commands to be executed
        (such as enabling or disabling nodes).
 
     Returns:
@@ -142,51 +142,55 @@ def process_action(action     : str,
         style      = (style_name, content.strip())
         config_vars.styles.append( style )
 
-    # actions with format ">>:COMMAND" are commands to modify nodes
-    elif action.startswith(">>:"):
+    # actions with format ">::COMMAND" are commands to modify nodes
+    elif action.startswith(">::"):
 
-        if action == ">>:INCLUDE" and can_include:
+        if action == ">::INCLUDE" and can_include:
             for line in content.splitlines():
                 file_to_include = line.strip()
                 if file_to_include:
                     file_to_include = os.path.join(base_dir, file_to_include)
                     read_vars_from_file( config_vars, file_to_include, can_include=False )
 
-        elif action == ">>:ENABLE":
+        elif action == ">::ENABLE":
             for line in content.splitlines():
                 node_title = line.strip()
                 if node_title:
                     config_vars.node_modifications.append( (node_title, {"mode":0}) )
 
-        elif action == ">>:DISABLE":
+        elif action == ">::DISABLE":
             for line in content.splitlines():
                 node_title = line.strip()
                 if node_title:
                     config_vars.node_modifications.append( (node_title, {"mode":2}) )
 
-        elif action == ">>:PIN":
+        elif action == ">::PIN":
             for line in content.splitlines():
                 node_title = line.strip()
                 if node_title:
                     config_vars.node_modifications.append( (node_title, {"pinned":True}) )
 
-        elif action == ">>:UNPIN":
+        elif action == ">::UNPIN":
             for line in content.splitlines():
                 node_title = line.strip()
                 if node_title:
                     config_vars.node_modifications.append( (node_title, {"pinned":False}) )
 
-        elif action == ">>:PIN-GROUP":
+        elif action == ">::PIN-GROUP":
             for line in content.splitlines():
                 node_title = line.strip()
                 if node_title:
                     config_vars.group_modifications.append( (node_title, {"pinned":True}) )
 
-        elif action == ">>:UNPIN-GROUP":
+        elif action == ">::UNPIN-GROUP":
             for line in content.splitlines():
                 node_title = line.strip()
                 if node_title:
                     config_vars.group_modifications.append( (node_title, {"pinned":False}) )
+
+        elif action == ">::MAKE":
+            # for now the command ">::MAKE" is not implemented
+            pass
 
         else:
             warning(f"Unknown command '{action}'")
@@ -207,7 +211,7 @@ def read_vars_from_file(config_vars: ConfigVars,
         config_vars: The configuration dictionary to populate with variables
                      and styles from the file.
         filepath   : The path to the configuration file to read.
-        can_include: Whether or not the ">>:INCLUDE" command is allowed.
+        can_include: Whether or not the ">::INCLUDE" command is allowed.
     Returns:
         None, this function modifies the 'config_dict' in-place.
     Note:
@@ -231,7 +235,7 @@ def read_vars_from_file(config_vars: ConfigVars,
             line = line.rstrip() #< trailing whitespaces are lost at the end of each line
             if ( is_shebang_line        or
                  line.startswith("{#")  or #< variable definition action
-                 line.startswith(">>:") or #< action to modify node property
+                 line.startswith(">::") or #< action to "make" or modify workflow
                  line.startswith(">>>")    #< style definition action
                ):
                 # a new action is detected, so the previous pending one is processed

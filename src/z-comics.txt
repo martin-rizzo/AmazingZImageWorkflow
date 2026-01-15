@@ -1,6 +1,12 @@
 #!ZCONFIG
->>:INCLUDE
+
+>::INCLUDE
 globals.txt
+
+>::MAKE
+amazing-z-comics_GGUF.json        : template_GGUF.json
+amazing-z-comics_SAFETENSORS.json : template_SAFETENSORS.json
+
 
 {#TITLE}
 Amazing Z-Comics WF
@@ -13,19 +19,6 @@ In a steampunk workshop, a red-haired inventor, wearing overalls with a white to
 
 {#PROMPT2}
 A woman stands on the right side of the image, on a path leading through the woods. Her back is to the viewer, and she is in a fighting stance. Yellow balls are lined up along the dirt path. In the distance, through the mist, a yellow monster, resembling Pac-Man, is visible. The monster is spherical, with large black eyes and sharp, metallic teeth. The woman has short, wavy, light brown hair and fair skin. She is barefoot and wears a tight-fitting red hooded robe and a miniskirt. The path is dirt and lined with small plants.
-
-
->>:ENABLE
-"ILLUSTRATION" Artistic Mode
-
->>:DISABLE
-"PHOTO" Mode
-
->>:PIN
-*
-
->>:PIN-GROUP
-*
 
 
 >>>Comic 1
